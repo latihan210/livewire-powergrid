@@ -1,0 +1,154 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+
+class JpbProductTableSeeder extends Seeder
+{
+
+    /**
+     * Auto generated seed file
+     *
+     * @return void
+     */
+    public function run()
+    {
+        
+
+        \DB::table('products')->delete();
+        
+        \DB::table('products')->insert(array (
+            0 => 
+            array (
+                'id' => 1,
+                'sku' => 'PAKETA001',
+                'name' => 'B4 Formats',
+                'slug' => 'b4-formats',
+                'type' => 'perdana',
+                'varian' => NULL,
+                'hu' => 0,
+                'bv' => 2500,
+                'price_hpp' => 330000,
+                'price' => 3300000,
+                'price_member' => 3300000,
+                'price_customer' => 3300000,
+                'sponsor_point' => 0.0,
+                'pairing_point' => 0.0,
+                'reward_point' => 0.0,
+                'stockist_point' => 0.0,
+                'reward_budget' => 0,
+                'weight' => 1.0,
+                'stock' => 0,
+                'description' => '<p>B4 Format adalah sebuah pelatihan</p>',
+                'image' => 'https://jpbuana.s3.us-west-004.backblazeb2.com/products/b4-formats-1753095327.jpeg',
+                's3_upload' => 'https://jpbuana.s3.us-west-004.backblazeb2.com/products/b4-formats-1753095327.jpeg',
+                'show_order' => 1,
+                'status' => 1,
+                'created_by' => 'admin',
+                'modified_by' => 'masteradmin',
+                'datecreated' => '2025-04-10 15:46:42',
+                'datemodified' => '2025-07-21 17:55:27',
+                'dateupdated' => '2025-07-21 17:55:27',
+            ),
+            1 => 
+            array (
+                'id' => 2,
+                'sku' => 'PAKETB001',
+                'name' => 'Paket B',
+                'slug' => 'paket-b',
+                'type' => 'all',
+                'varian' => NULL,
+                'hu' => 0,
+                'bv' => 5000,
+                'price_hpp' => 5000000,
+                'price' => 6500000,
+                'price_member' => 6500000,
+                'price_customer' => 6500000,
+                'sponsor_point' => 0.0,
+                'pairing_point' => 0.0,
+                'reward_point' => 0.0,
+                'stockist_point' => 0.0,
+                'reward_budget' => 0,
+                'weight' => 1000.0,
+                'stock' => 0,
+                'description' => '<p>Paket B</p>',
+                'image' => '',
+                's3_upload' => '',
+                'show_order' => 1,
+                'status' => 0,
+                'created_by' => 'admin',
+                'modified_by' => 'masteradmin',
+                'datecreated' => '2025-04-10 15:47:39',
+                'datemodified' => '2025-04-21 12:50:59',
+                'dateupdated' => '2025-04-10 15:47:39',
+            ),
+            2 => 
+            array (
+                'id' => 3,
+                'sku' => 'M12',
+                'name' => 'Minicon M12',
+                'slug' => 'minicon-m12',
+                'type' => 'perdana',
+                'varian' => NULL,
+                'hu' => 0,
+                'bv' => 2500,
+                'price_hpp' => 300000,
+                'price' => 3300000,
+                'price_member' => 3300000,
+                'price_customer' => 3300000,
+                'sponsor_point' => 0.0,
+                'pairing_point' => 0.0,
+                'reward_point' => 0.0,
+                'stockist_point' => 0.0,
+                'reward_budget' => 0,
+                'weight' => 2000.0,
+                'stock' => 0,
+                'description' => '<p><br></p>',
+                'image' => '',
+                's3_upload' => '',
+                'show_order' => 1,
+                'status' => 1,
+                'created_by' => 'masteradmin',
+                'modified_by' => 'masteradmin',
+                'datecreated' => '2025-06-27 13:56:49',
+                'datemodified' => '2025-06-27 13:59:45',
+                'dateupdated' => '2025-06-27 13:59:45',
+            ),
+            3 => 
+            array (
+                'id' => 4,
+                'sku' => 'M24',
+                'name' => 'Minicon M24',
+                'slug' => 'minicon-m24',
+                'type' => 'perdana',
+                'varian' => NULL,
+                'hu' => 0,
+                'bv' => 2500,
+                'price_hpp' => 300000,
+                'price' => 3300000,
+                'price_member' => 3300000,
+                'price_customer' => 3300000,
+                'sponsor_point' => 0.0,
+                'pairing_point' => 0.0,
+                'reward_point' => 0.0,
+                'stockist_point' => 0.0,
+                'reward_budget' => 0,
+                'weight' => 2000.0,
+                'stock' => 0,
+                'description' => '<p><br></p>',
+                'image' => '',
+                's3_upload' => '',
+                'show_order' => 1,
+                'status' => 1,
+                'created_by' => 'masteradmin',
+                'modified_by' => '',
+                'datecreated' => '2025-06-27 13:59:01',
+                'datemodified' => '2025-06-27 13:59:01',
+                'dateupdated' => '2025-06-27 13:59:01',
+            ),
+        ));
+        
+        
+    }
+}
