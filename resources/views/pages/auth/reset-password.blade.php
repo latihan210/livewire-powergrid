@@ -17,8 +17,7 @@
                 :label="__('Email')"
                 type="email"
                 required
-                autocomplete="email"
-            />
+                autocomplete="email" />
 
             <!-- Password -->
             <flux:input
@@ -28,8 +27,7 @@
                 required
                 autocomplete="new-password"
                 :placeholder="__('Password')"
-                viewable
-            />
+                viewable />
 
             <!-- Confirm Password -->
             <flux:input
@@ -39,8 +37,7 @@
                 required
                 autocomplete="new-password"
                 :placeholder="__('Confirm password')"
-                viewable
-            />
+                viewable />
 
             <div class="flex items-center justify-end">
                 <flux:button type="submit" variant="primary" class="w-full" data-test="reset-password-button">

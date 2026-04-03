@@ -20,7 +20,7 @@ return new class extends Migration
             $table->double('point');
             $table->integer('status')->default(1);
             $table->dateTime('datecreated');
-            $table->dateTime('datemodified')->useCurrentOnUpdate();
+            $table->dateTime('datemodified')->useCurrent()->useCurrentOnUpdate();
         });
     }
 

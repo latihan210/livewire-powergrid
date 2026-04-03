@@ -7,7 +7,6 @@
 
 <body class="min-h-screen bg-white dark:bg-zinc-800">
     @include('partials.home.topbar')
-    @include('partials.home.navbar')
     {{ $slot }}
     @include('partials.home.footer')
     @include('partials.home.script')

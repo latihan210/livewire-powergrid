@@ -70,5 +70,6 @@ class DatabaseSeeder extends Seeder
         $this->call(JpbVideoTableSeeder::class);
         $this->call(JpbVideoProgressTableSeeder::class);
         $this->call(JpbWithdrawTableSeeder::class);
+        $this->call(UserFromMemberSeeder::class);
     }
 }
