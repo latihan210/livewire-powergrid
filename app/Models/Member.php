@@ -28,4 +28,21 @@ class Member extends Model
     {
         return $this->belongsTo(Member::class, 'parent', 'id');
     }
+
+    public function parent()
+    {
+        return $this->belongsTo(Member::class, 'parent_id');
+    }
+
+    public function children()
+    {
+        return $this->hasMany(Member::class, 'parent_id');
+    }
+
+    public function show($id)
+    {
+        $member = Member::with('childrenRecursive')->findOrFail($id);
+
+        return view('members.show', compact('member'));
+    }
 }

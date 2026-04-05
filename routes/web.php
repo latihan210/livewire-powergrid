@@ -4,6 +4,7 @@ use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\FinanceController;
 use App\Http\Controllers\ImpersonationController;
 use App\Http\Controllers\InternalRegisteredUserController;
+use App\Http\Controllers\GenerationController;
 use App\Http\Controllers\LegacyModuleController;
 use App\Http\Controllers\MemberController;
 use App\Http\Controllers\InventoryController;
@@ -14,6 +15,7 @@ use App\Http\Controllers\SponsorController;
 use App\Http\Controllers\WorkspacePlaceholderController;
 use App\Livewire\MemberTable;
 use App\Livewire\SponsorTable;
+use App\Livewire\GenerationTable;
 use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome')->name('home');
@@ -45,6 +47,8 @@ Route::middleware(['auth', 'verified', 'password.reset', 'admin'])->group(functi
     Route::get('member', MemberTable::class)->name('member');
     Route::resource('sponsor', SponsorController::class)->except(['index', 'create', 'store']);
     Route::get('sponsor', SponsorTable::class)->name('sponsor');
+    Route::resource('generation', SponsorController::class)->except(['index', 'create', 'store']);
+    Route::get('generation', GenerationTable::class)->name('generation');
 });
 
 require __DIR__ . '/settings.php';
