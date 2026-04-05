@@ -7,4 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class Sponsor extends Model
 {
     protected $table = 'members';
+
+    protected $casts = [
+        'datecreated' => 'datetime',
+    ];
 }
