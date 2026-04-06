@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbMemberOmzetTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbMemberOmzetTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_member_omzet')->delete();
-        
-        \DB::table('jpb_member_omzet')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_member_omzet')->insert([
+            0 => [
                 'id' => 1,
                 'id_member' => 167,
                 'pack_omzet' => 2500.0,
@@ -33,13 +30,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (queenla)',
+                'desc' => 'New Member (queenla)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 18:06:18',
                 'datemodified' => '2025-04-21 18:06:18',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_member' => 168,
                 'pack_omzet' => 2500.0,
@@ -52,13 +48,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (liuciphin2)',
+                'desc' => 'New Member (liuciphin2)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 19:44:34',
                 'datemodified' => '2025-04-21 19:44:34',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_member' => 169,
                 'pack_omzet' => 2500.0,
@@ -71,13 +66,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (nurlaelaraharjo)',
+                'desc' => 'New Member (nurlaelaraharjo)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 19:45:53',
                 'datemodified' => '2025-04-21 19:45:53',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_member' => 170,
                 'pack_omzet' => 2500.0,
@@ -90,13 +84,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (alibaba1998)',
+                'desc' => 'New Member (alibaba1998)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 19:57:53',
                 'datemodified' => '2025-04-21 19:57:53',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_member' => 171,
                 'pack_omzet' => 2500.0,
@@ -109,13 +102,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (wonderwoman)',
+                'desc' => 'New Member (wonderwoman)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 20:07:24',
                 'datemodified' => '2025-04-21 20:07:24',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_member' => 172,
                 'pack_omzet' => 2500.0,
@@ -128,13 +120,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (lungga14)',
+                'desc' => 'New Member (lungga14)',
                 'date' => '2025-04-21',
                 'datecreated' => '2025-04-21 20:12:53',
                 'datemodified' => '2025-04-21 20:12:53',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_member' => 178,
                 'pack_omzet' => 2500.0,
@@ -147,13 +138,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (risingphoenix)',
+                'desc' => 'New Member (risingphoenix)',
                 'date' => '2025-04-22',
                 'datecreated' => '2025-04-22 20:41:37',
                 'datemodified' => '2025-04-22 20:41:37',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_member' => 179,
                 'pack_omzet' => 2500.0,
@@ -166,13 +156,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (ririnfajarini)',
+                'desc' => 'New Member (ririnfajarini)',
                 'date' => '2025-04-22',
                 'datecreated' => '2025-04-22 20:43:42',
                 'datemodified' => '2025-04-22 20:43:42',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_member' => 180,
                 'pack_omzet' => 2500.0,
@@ -185,13 +174,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (julianlie)',
+                'desc' => 'New Member (julianlie)',
                 'date' => '2025-04-22',
                 'datecreated' => '2025-04-22 20:47:11',
                 'datemodified' => '2025-04-22 20:47:11',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_member' => 181,
                 'pack_omzet' => 2500.0,
@@ -204,13 +192,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (hinro888)',
+                'desc' => 'New Member (hinro888)',
                 'date' => '2025-04-22',
                 'datecreated' => '2025-04-22 20:52:28',
                 'datemodified' => '2025-04-22 20:52:28',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_member' => 182,
                 'pack_omzet' => 2500.0,
@@ -223,13 +210,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (peetamarisa)',
+                'desc' => 'New Member (peetamarisa)',
                 'date' => '2025-04-22',
                 'datecreated' => '2025-04-22 20:55:29',
                 'datemodified' => '2025-04-22 20:55:29',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_member' => 183,
                 'pack_omzet' => 2500.0,
@@ -242,13 +228,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (founderjpbuana)',
+                'desc' => 'New Member (founderjpbuana)',
                 'date' => '2025-04-23',
                 'datecreated' => '2025-04-23 21:00:21',
                 'datemodified' => '2025-04-23 21:00:21',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_member' => 184,
                 'pack_omzet' => 2500.0,
@@ -261,13 +246,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (queenla2)',
+                'desc' => 'New Member (queenla2)',
                 'date' => '2025-04-24',
                 'datecreated' => '2025-04-24 20:41:42',
                 'datemodified' => '2025-04-24 20:41:42',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_member' => 185,
                 'pack_omzet' => 2500.0,
@@ -280,13 +264,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (yayanhebat)',
+                'desc' => 'New Member (yayanhebat)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 15:15:05',
                 'datemodified' => '2025-04-25 15:15:05',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_member' => 205,
                 'pack_omzet' => 2500.0,
@@ -299,13 +282,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (royal888)',
+                'desc' => 'New Member (royal888)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 19:35:38',
                 'datemodified' => '2025-04-25 19:35:38',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_member' => 206,
                 'pack_omzet' => 2500.0,
@@ -318,13 +300,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (alexsusanto)',
+                'desc' => 'New Member (alexsusanto)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 19:44:52',
                 'datemodified' => '2025-04-25 19:44:52',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_member' => 207,
                 'pack_omzet' => 2500.0,
@@ -337,13 +318,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (pollosalim)',
+                'desc' => 'New Member (pollosalim)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 19:46:44',
                 'datemodified' => '2025-04-25 19:46:44',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_member' => 208,
                 'pack_omzet' => 2500.0,
@@ -356,13 +336,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (jamaris)',
+                'desc' => 'New Member (jamaris)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 19:48:10',
                 'datemodified' => '2025-04-25 19:48:10',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_member' => 210,
                 'pack_omzet' => 2500.0,
@@ -375,13 +354,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (ekobudisusanto)',
+                'desc' => 'New Member (ekobudisusanto)',
                 'date' => '2025-04-25',
                 'datecreated' => '2025-04-25 20:19:24',
                 'datemodified' => '2025-04-25 20:19:24',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_member' => 220,
                 'pack_omzet' => 2500.0,
@@ -394,13 +372,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (bisnisnyonyaboss)',
+                'desc' => 'New Member (bisnisnyonyaboss)',
                 'date' => '2025-04-27',
                 'datecreated' => '2025-04-27 12:27:29',
                 'datemodified' => '2025-04-27 12:27:29',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_member' => 221,
                 'pack_omzet' => 2500.0,
@@ -413,13 +390,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (mindexpertise)',
+                'desc' => 'New Member (mindexpertise)',
                 'date' => '2025-04-29',
                 'datecreated' => '2025-04-29 16:58:43',
                 'datemodified' => '2025-04-29 16:58:43',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_member' => 222,
                 'pack_omzet' => 2500.0,
@@ -432,13 +408,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (farahaull)',
+                'desc' => 'New Member (farahaull)',
                 'date' => '2025-04-29',
                 'datecreated' => '2025-04-29 17:08:02',
                 'datemodified' => '2025-04-29 17:08:02',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_member' => 223,
                 'pack_omzet' => 2500.0,
@@ -451,13 +426,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (sonyiesong)',
+                'desc' => 'New Member (sonyiesong)',
                 'date' => '2025-05-01',
                 'datecreated' => '2025-05-01 14:28:55',
                 'datemodified' => '2025-05-01 14:28:55',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_member' => 224,
                 'pack_omzet' => 2500.0,
@@ -470,13 +444,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (wongosing)',
+                'desc' => 'New Member (wongosing)',
                 'date' => '2025-05-01',
                 'datecreated' => '2025-05-01 20:27:05',
                 'datemodified' => '2025-05-01 20:27:05',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_member' => 225,
                 'pack_omzet' => 2500.0,
@@ -489,13 +462,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (blessmore)',
+                'desc' => 'New Member (blessmore)',
                 'date' => '2025-05-01',
                 'datecreated' => '2025-05-01 20:30:37',
                 'datemodified' => '2025-05-01 20:30:37',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_member' => 226,
                 'pack_omzet' => 2500.0,
@@ -508,13 +480,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (blessedpath)',
+                'desc' => 'New Member (blessedpath)',
                 'date' => '2025-05-01',
                 'datecreated' => '2025-05-01 21:40:56',
                 'datemodified' => '2025-05-01 21:40:56',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_member' => 227,
                 'pack_omzet' => 2500.0,
@@ -527,13 +498,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (gieangela)',
+                'desc' => 'New Member (gieangela)',
                 'date' => '2025-05-02',
                 'datecreated' => '2025-05-02 11:48:45',
                 'datemodified' => '2025-05-02 11:48:45',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_member' => 229,
                 'pack_omzet' => 2500.0,
@@ -546,13 +516,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (pandawalima)',
+                'desc' => 'New Member (pandawalima)',
                 'date' => '2025-05-04',
                 'datecreated' => '2025-05-04 20:41:30',
                 'datemodified' => '2025-05-04 20:41:30',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_member' => 234,
                 'pack_omzet' => 2500.0,
@@ -565,13 +534,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (beyondu)',
+                'desc' => 'New Member (beyondu)',
                 'date' => '2025-05-05',
                 'datecreated' => '2025-05-05 17:38:42',
                 'datemodified' => '2025-05-05 17:38:42',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_member' => 235,
                 'pack_omzet' => 2500.0,
@@ -584,13 +552,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (siwfang)',
+                'desc' => 'New Member (siwfang)',
                 'date' => '2025-05-05',
                 'datecreated' => '2025-05-05 18:09:41',
                 'datemodified' => '2025-05-05 18:09:41',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_member' => 236,
                 'pack_omzet' => 2500.0,
@@ -603,13 +570,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (jinbao88)',
+                'desc' => 'New Member (jinbao88)',
                 'date' => '2025-05-06',
                 'datecreated' => '2025-05-06 23:48:16',
                 'datemodified' => '2025-05-06 23:48:16',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_member' => 238,
                 'pack_omzet' => 2500.0,
@@ -622,13 +588,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (rolyta)',
+                'desc' => 'New Member (rolyta)',
                 'date' => '2025-05-07',
                 'datecreated' => '2025-05-07 21:07:57',
                 'datemodified' => '2025-05-07 21:07:57',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_member' => 239,
                 'pack_omzet' => 2500.0,
@@ -641,13 +606,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (hokilay)',
+                'desc' => 'New Member (hokilay)',
                 'date' => '2025-05-15',
                 'datecreated' => '2025-05-15 19:08:41',
                 'datemodified' => '2025-05-15 19:08:41',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_member' => 240,
                 'pack_omzet' => 2500.0,
@@ -660,13 +624,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (swarti80)',
+                'desc' => 'New Member (swarti80)',
                 'date' => '2025-05-16',
                 'datecreated' => '2025-05-16 09:59:48',
                 'datemodified' => '2025-05-16 09:59:48',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_member' => 241,
                 'pack_omzet' => 2500.0,
@@ -679,13 +642,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (kayaraya)',
+                'desc' => 'New Member (kayaraya)',
                 'date' => '2025-05-18',
                 'datecreated' => '2025-05-18 13:27:17',
                 'datemodified' => '2025-05-18 13:27:17',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_member' => 242,
                 'pack_omzet' => 2500.0,
@@ -698,13 +660,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (alib4f)',
+                'desc' => 'New Member (alib4f)',
                 'date' => '2025-05-20',
                 'datecreated' => '2025-05-20 16:03:19',
                 'datemodified' => '2025-05-20 16:03:19',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_member' => 243,
                 'pack_omzet' => 2500.0,
@@ -717,13 +678,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (waluyo)',
+                'desc' => 'New Member (waluyo)',
                 'date' => '2025-05-24',
                 'datecreated' => '2025-05-24 21:20:19',
                 'datemodified' => '2025-05-24 21:20:19',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_member' => 244,
                 'pack_omzet' => 2500.0,
@@ -736,13 +696,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (gitakaya)',
+                'desc' => 'New Member (gitakaya)',
                 'date' => '2025-05-27',
                 'datecreated' => '2025-05-27 22:05:15',
                 'datemodified' => '2025-05-27 22:05:15',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_member' => 245,
                 'pack_omzet' => 2500.0,
@@ -755,13 +714,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (zenacan)',
+                'desc' => 'New Member (zenacan)',
                 'date' => '2025-05-29',
                 'datecreated' => '2025-05-29 12:57:37',
                 'datemodified' => '2025-05-29 12:57:37',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_member' => 246,
                 'pack_omzet' => 2500.0,
@@ -774,13 +732,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (miracle168)',
+                'desc' => 'New Member (miracle168)',
                 'date' => '2025-05-29',
                 'datecreated' => '2025-05-29 19:49:19',
                 'datemodified' => '2025-05-29 19:49:19',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_member' => 247,
                 'pack_omzet' => 2500.0,
@@ -793,13 +750,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (omdey)',
+                'desc' => 'New Member (omdey)',
                 'date' => '2025-05-30',
                 'datecreated' => '2025-05-30 21:59:43',
                 'datemodified' => '2025-05-30 21:59:43',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_member' => 249,
                 'pack_omzet' => 2500.0,
@@ -812,13 +768,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (fransiska)',
+                'desc' => 'New Member (fransiska)',
                 'date' => '2025-06-03',
                 'datecreated' => '2025-06-03 23:12:32',
                 'datemodified' => '2025-06-03 23:12:32',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_member' => 250,
                 'pack_omzet' => 2500.0,
@@ -831,13 +786,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (ningsih1)',
+                'desc' => 'New Member (ningsih1)',
                 'date' => '2025-06-04',
                 'datecreated' => '2025-06-04 12:36:35',
                 'datemodified' => '2025-06-04 12:36:35',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_member' => 251,
                 'pack_omzet' => 2500.0,
@@ -850,13 +804,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (yukeirawati)',
+                'desc' => 'New Member (yukeirawati)',
                 'date' => '2025-06-04',
                 'datecreated' => '2025-06-04 16:55:46',
                 'datemodified' => '2025-06-04 16:55:46',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_member' => 252,
                 'pack_omzet' => 2500.0,
@@ -869,13 +822,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (niayanuarti)',
+                'desc' => 'New Member (niayanuarti)',
                 'date' => '2025-06-04',
                 'datecreated' => '2025-06-04 16:57:58',
                 'datemodified' => '2025-06-04 16:57:58',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_member' => 253,
                 'pack_omzet' => 2500.0,
@@ -888,13 +840,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (idakurniasih)',
+                'desc' => 'New Member (idakurniasih)',
                 'date' => '2025-06-04',
                 'datecreated' => '2025-06-04 17:00:09',
                 'datemodified' => '2025-06-04 17:00:09',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_member' => 254,
                 'pack_omzet' => 2500.0,
@@ -907,13 +858,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (samsularipin)',
+                'desc' => 'New Member (samsularipin)',
                 'date' => '2025-06-04',
                 'datecreated' => '2025-06-04 17:04:05',
                 'datemodified' => '2025-06-04 17:04:05',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_member' => 255,
                 'pack_omzet' => 2500.0,
@@ -926,13 +876,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (suriani)',
+                'desc' => 'New Member (suriani)',
                 'date' => '2025-06-07',
                 'datecreated' => '2025-06-07 11:54:27',
                 'datemodified' => '2025-06-07 11:54:27',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_member' => 256,
                 'pack_omzet' => 2500.0,
@@ -945,13 +894,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (dianad1n)',
+                'desc' => 'New Member (dianad1n)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 14:05:36',
                 'datemodified' => '2025-06-11 14:05:36',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_member' => 257,
                 'pack_omzet' => 2500.0,
@@ -964,13 +912,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (yerikha)',
+                'desc' => 'New Member (yerikha)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 14:44:44',
                 'datemodified' => '2025-06-11 14:44:44',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_member' => 258,
                 'pack_omzet' => 2500.0,
@@ -983,13 +930,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (wiwinkunarti)',
+                'desc' => 'New Member (wiwinkunarti)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 14:48:06',
                 'datemodified' => '2025-06-11 14:48:06',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'id_member' => 259,
                 'pack_omzet' => 2500.0,
@@ -1002,13 +948,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (dwisantoso)',
+                'desc' => 'New Member (dwisantoso)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 14:57:48',
                 'datemodified' => '2025-06-11 14:57:48',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'id_member' => 260,
                 'pack_omzet' => 2500.0,
@@ -1021,13 +966,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (masha)',
+                'desc' => 'New Member (masha)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 16:04:53',
                 'datemodified' => '2025-06-11 16:04:53',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'id_member' => 261,
                 'pack_omzet' => 2500.0,
@@ -1040,13 +984,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (herminindarti)',
+                'desc' => 'New Member (herminindarti)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 16:06:56',
                 'datemodified' => '2025-06-11 16:06:56',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'id_member' => 262,
                 'pack_omzet' => 2500.0,
@@ -1059,13 +1002,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (rizqiekaya369)',
+                'desc' => 'New Member (rizqiekaya369)',
                 'date' => '2025-06-11',
                 'datecreated' => '2025-06-11 19:34:21',
                 'datemodified' => '2025-06-11 19:34:21',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'id_member' => 263,
                 'pack_omzet' => 2500.0,
@@ -1078,13 +1020,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (livelargeatitsbest)',
+                'desc' => 'New Member (livelargeatitsbest)',
                 'date' => '2025-06-12',
                 'datecreated' => '2025-06-12 20:40:12',
                 'datemodified' => '2025-06-12 20:40:12',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'id_member' => 264,
                 'pack_omzet' => 2500.0,
@@ -1097,13 +1038,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (euismulyani)',
+                'desc' => 'New Member (euismulyani)',
                 'date' => '2025-06-13',
                 'datecreated' => '2025-06-13 16:07:35',
                 'datemodified' => '2025-06-13 16:07:35',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'id_member' => 265,
                 'pack_omzet' => 2500.0,
@@ -1116,13 +1056,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (purwanti)',
+                'desc' => 'New Member (purwanti)',
                 'date' => '2025-06-18',
                 'datecreated' => '2025-06-18 23:42:14',
                 'datemodified' => '2025-06-18 23:42:14',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'id_member' => 266,
                 'pack_omzet' => 2500.0,
@@ -1135,13 +1074,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (multyrezeki)',
+                'desc' => 'New Member (multyrezeki)',
                 'date' => '2025-06-20',
                 'datecreated' => '2025-06-20 22:15:29',
                 'datemodified' => '2025-06-20 22:15:29',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'id_member' => 267,
                 'pack_omzet' => 2500.0,
@@ -1154,13 +1092,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (sehatberlimpah)',
+                'desc' => 'New Member (sehatberlimpah)',
                 'date' => '2025-06-22',
                 'datecreated' => '2025-06-22 15:21:07',
                 'datemodified' => '2025-06-22 15:21:07',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'id_member' => 269,
                 'pack_omzet' => 2500.0,
@@ -1173,13 +1110,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (krisnanov)',
+                'desc' => 'New Member (krisnanov)',
                 'date' => '2025-06-26',
                 'datecreated' => '2025-06-26 12:56:22',
                 'datemodified' => '2025-06-26 12:56:22',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'id_member' => 270,
                 'pack_omzet' => 2500.0,
@@ -1192,13 +1128,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (novitsetya)',
+                'desc' => 'New Member (novitsetya)',
                 'date' => '2025-06-26',
                 'datecreated' => '2025-06-26 12:58:02',
                 'datemodified' => '2025-06-26 12:58:02',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'id_member' => 271,
                 'pack_omzet' => 2500.0,
@@ -1211,13 +1146,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (starom1)',
+                'desc' => 'New Member (starom1)',
                 'date' => '2025-06-26',
                 'datecreated' => '2025-06-26 21:01:06',
                 'datemodified' => '2025-06-26 21:01:06',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'id_member' => 272,
                 'pack_omzet' => 2500.0,
@@ -1230,13 +1164,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (monique)',
+                'desc' => 'New Member (monique)',
                 'date' => '2025-07-10',
                 'datecreated' => '2025-07-10 21:04:06',
                 'datemodified' => '2025-07-10 21:04:06',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'id_member' => 273,
                 'pack_omzet' => 2500.0,
@@ -1249,13 +1182,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (diahnurul)',
+                'desc' => 'New Member (diahnurul)',
                 'date' => '2025-07-15',
                 'datecreated' => '2025-07-15 10:26:03',
                 'datemodified' => '2025-07-15 10:26:03',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'id_member' => 275,
                 'pack_omzet' => 2500.0,
@@ -1272,9 +1204,8 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'date' => '2025-07-21',
                 'datecreated' => '2025-07-21 23:25:09',
                 'datemodified' => '2025-07-21 23:25:09',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'id_member' => 276,
                 'pack_omzet' => 2500.0,
@@ -1291,9 +1222,8 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'date' => '2025-07-21',
                 'datecreated' => '2025-07-21 23:25:18',
                 'datemodified' => '2025-07-21 23:25:18',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'id_member' => 277,
                 'pack_omzet' => 2500.0,
@@ -1306,13 +1236,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (ranifathciah)',
+                'desc' => 'New Member (ranifathciah)',
                 'date' => '2025-08-15',
                 'datecreated' => '2025-08-15 11:55:31',
                 'datemodified' => '2025-08-15 11:55:31',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'id_member' => 278,
                 'pack_omzet' => 2500.0,
@@ -1325,13 +1254,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (nikenlarasati)',
+                'desc' => 'New Member (nikenlarasati)',
                 'date' => '2025-08-15',
                 'datecreated' => '2025-08-15 11:58:56',
                 'datemodified' => '2025-08-15 11:58:56',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'id_member' => 279,
                 'pack_omzet' => 2500.0,
@@ -1344,13 +1272,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (jhonkho88)',
+                'desc' => 'New Member (jhonkho88)',
                 'date' => '2025-08-22',
                 'datecreated' => '2025-08-22 14:41:54',
                 'datemodified' => '2025-08-22 14:41:54',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'id_member' => 280,
                 'pack_omzet' => 2500.0,
@@ -1363,13 +1290,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (kaptensar)',
+                'desc' => 'New Member (kaptensar)',
                 'date' => '2025-09-01',
                 'datecreated' => '2025-09-01 14:25:38',
                 'datemodified' => '2025-09-01 14:25:38',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'id_member' => 281,
                 'pack_omzet' => 2500.0,
@@ -1382,13 +1308,12 @@ class JpbMemberOmzetTableSeeder extends Seeder
                 'price' => 3300000.0,
                 'amount' => 3300000.0,
                 'status' => 'perdana',
-            'desc' => 'New Member (brighton)',
+                'desc' => 'New Member (brighton)',
                 'date' => '2025-09-01',
                 'datecreated' => '2025-09-01 14:41:05',
                 'datemodified' => '2025-09-01 14:41:05',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

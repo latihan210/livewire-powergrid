@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbBonusMatchingRefsTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbBonusMatchingRefsTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('bonus_matching_refs')->delete();
-        
-        
-        
+
     }
 }

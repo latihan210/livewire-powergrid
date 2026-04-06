@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbMemberConfirmTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbMemberConfirmTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_member_confirm')->delete();
-        
-        \DB::table('jpb_member_confirm')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_member_confirm')->insert([
+            0 => [
                 'id' => 1,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -46,9 +43,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 16:47:30',
                 'dateconfirmed' => '2025-04-17 16:47:30',
                 'confirm_by' => 'masteradmin',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -74,9 +70,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 16:51:16',
                 'dateconfirmed' => '2025-04-17 16:51:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -102,9 +97,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 16:53:13',
                 'dateconfirmed' => '2025-04-17 16:53:13',
                 'confirm_by' => 'masteradmin',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -130,9 +124,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 16:59:44',
                 'dateconfirmed' => '2025-04-17 16:59:44',
                 'confirm_by' => 'masteradmin',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -158,9 +151,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:01:12',
                 'dateconfirmed' => '2025-04-17 17:01:12',
                 'confirm_by' => 'masteradmin',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -186,9 +178,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:02:54',
                 'dateconfirmed' => '2025-04-17 17:02:54',
                 'confirm_by' => 'masteradmin',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -214,9 +205,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:04:40',
                 'dateconfirmed' => '2025-04-17 17:04:40',
                 'confirm_by' => 'masteradmin',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -242,9 +232,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:30:44',
                 'dateconfirmed' => '2025-04-17 17:30:44',
                 'confirm_by' => 'masteradmin',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -270,9 +259,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:32:27',
                 'dateconfirmed' => '2025-04-17 17:32:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -298,9 +286,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:33:51',
                 'dateconfirmed' => '2025-04-17 17:33:51',
                 'confirm_by' => 'masteradmin',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -326,9 +313,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:39:45',
                 'dateconfirmed' => '2025-04-17 17:39:45',
                 'confirm_by' => 'masteradmin',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -354,9 +340,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:42:05',
                 'dateconfirmed' => '2025-04-17 17:42:05',
                 'confirm_by' => 'masteradmin',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -382,9 +367,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:43:43',
                 'dateconfirmed' => '2025-04-17 17:43:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -410,9 +394,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:44:58',
                 'dateconfirmed' => '2025-04-17 17:44:58',
                 'confirm_by' => 'masteradmin',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -438,9 +421,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:48:53',
                 'dateconfirmed' => '2025-04-17 17:48:53',
                 'confirm_by' => 'masteradmin',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -466,9 +448,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 17:52:11',
                 'dateconfirmed' => '2025-04-17 17:52:11',
                 'confirm_by' => 'masteradmin',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -494,9 +475,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:04:49',
                 'dateconfirmed' => '2025-04-17 18:04:49',
                 'confirm_by' => 'masteradmin',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -522,9 +502,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:06:37',
                 'dateconfirmed' => '2025-04-17 18:06:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -550,9 +529,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:10:15',
                 'dateconfirmed' => '2025-04-17 18:10:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -578,9 +556,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:16:59',
                 'dateconfirmed' => '2025-04-17 18:16:59',
                 'confirm_by' => 'masteradmin',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -606,9 +583,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:20:21',
                 'dateconfirmed' => '2025-04-17 18:20:21',
                 'confirm_by' => 'masteradmin',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -634,9 +610,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:21:57',
                 'dateconfirmed' => '2025-04-17 18:21:57',
                 'confirm_by' => 'masteradmin',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -662,9 +637,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:23:57',
                 'dateconfirmed' => '2025-04-17 18:23:57',
                 'confirm_by' => 'masteradmin',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -690,9 +664,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:25:56',
                 'dateconfirmed' => '2025-04-17 18:25:56',
                 'confirm_by' => 'masteradmin',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -718,9 +691,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:27:54',
                 'dateconfirmed' => '2025-04-17 18:27:54',
                 'confirm_by' => 'masteradmin',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -746,9 +718,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:33:30',
                 'dateconfirmed' => '2025-04-17 18:33:30',
                 'confirm_by' => 'masteradmin',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -774,9 +745,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:35:33',
                 'dateconfirmed' => '2025-04-17 18:35:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -802,9 +772,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:38:07',
                 'dateconfirmed' => '2025-04-17 18:38:07',
                 'confirm_by' => 'masteradmin',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -830,9 +799,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 18:49:33',
                 'dateconfirmed' => '2025-04-17 18:49:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -858,9 +826,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:19:36',
                 'dateconfirmed' => '2025-04-17 20:19:36',
                 'confirm_by' => 'masteradmin',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -886,9 +853,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:21:51',
                 'dateconfirmed' => '2025-04-17 20:21:51',
                 'confirm_by' => 'masteradmin',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -914,9 +880,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:26:26',
                 'dateconfirmed' => '2025-04-17 20:26:26',
                 'confirm_by' => 'masteradmin',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -942,9 +907,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:33:40',
                 'dateconfirmed' => '2025-04-17 20:33:40',
                 'confirm_by' => 'masteradmin',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -970,9 +934,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:36:48',
                 'dateconfirmed' => '2025-04-17 20:36:48',
                 'confirm_by' => 'masteradmin',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -998,9 +961,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:39:22',
                 'dateconfirmed' => '2025-04-17 20:39:22',
                 'confirm_by' => 'masteradmin',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1026,9 +988,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:41:35',
                 'dateconfirmed' => '2025-04-17 20:41:35',
                 'confirm_by' => 'masteradmin',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1054,9 +1015,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:44:04',
                 'dateconfirmed' => '2025-04-17 20:44:04',
                 'confirm_by' => 'masteradmin',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1082,9 +1042,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:46:37',
                 'dateconfirmed' => '2025-04-17 20:46:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1110,9 +1069,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:48:28',
                 'dateconfirmed' => '2025-04-17 20:48:28',
                 'confirm_by' => 'masteradmin',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1138,9 +1096,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:50:38',
                 'dateconfirmed' => '2025-04-17 20:50:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1166,9 +1123,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 20:52:47',
                 'dateconfirmed' => '2025-04-17 20:52:47',
                 'confirm_by' => 'masteradmin',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1194,9 +1150,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:05:22',
                 'dateconfirmed' => '2025-04-17 21:05:22',
                 'confirm_by' => 'masteradmin',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1222,9 +1177,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:37:27',
                 'dateconfirmed' => '2025-04-17 21:37:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1250,9 +1204,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:40:36',
                 'dateconfirmed' => '2025-04-17 21:40:36',
                 'confirm_by' => 'masteradmin',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1278,9 +1231,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:44:42',
                 'dateconfirmed' => '2025-04-17 21:44:42',
                 'confirm_by' => 'masteradmin',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1306,9 +1258,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:46:29',
                 'dateconfirmed' => '2025-04-17 21:46:29',
                 'confirm_by' => 'masteradmin',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1334,9 +1285,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 21:56:52',
                 'dateconfirmed' => '2025-04-17 21:56:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1362,9 +1312,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 22:04:09',
                 'dateconfirmed' => '2025-04-17 22:04:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1390,9 +1339,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 22:09:45',
                 'dateconfirmed' => '2025-04-17 22:09:45',
                 'confirm_by' => 'masteradmin',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1418,9 +1366,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-17 22:12:23',
                 'dateconfirmed' => '2025-04-17 22:12:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1446,9 +1393,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 10:09:11',
                 'dateconfirmed' => '2025-04-18 10:09:11',
                 'confirm_by' => 'masteradmin',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1474,9 +1420,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 10:14:38',
                 'dateconfirmed' => '2025-04-18 10:14:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1502,9 +1447,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 10:22:45',
                 'dateconfirmed' => '2025-04-18 10:22:45',
                 'confirm_by' => 'masteradmin',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1530,9 +1474,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 10:28:55',
                 'dateconfirmed' => '2025-04-18 10:28:55',
                 'confirm_by' => 'masteradmin',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1558,9 +1501,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 12:21:44',
                 'dateconfirmed' => '2025-04-18 12:21:44',
                 'confirm_by' => 'masteradmin',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1586,9 +1528,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 12:24:03',
                 'dateconfirmed' => '2025-04-18 12:24:03',
                 'confirm_by' => 'masteradmin',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1614,9 +1555,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 14:30:55',
                 'dateconfirmed' => '2025-04-18 14:30:55',
                 'confirm_by' => 'masteradmin',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1642,9 +1582,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 14:34:00',
                 'dateconfirmed' => '2025-04-18 14:34:00',
                 'confirm_by' => 'masteradmin',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1670,9 +1609,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 14:39:08',
                 'dateconfirmed' => '2025-04-18 14:39:08',
                 'confirm_by' => 'masteradmin',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1698,9 +1636,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 14:42:09',
                 'dateconfirmed' => '2025-04-18 14:42:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1726,9 +1663,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 16:21:52',
                 'dateconfirmed' => '2025-04-18 16:21:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1754,9 +1690,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 16:47:33',
                 'dateconfirmed' => '2025-04-18 16:47:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1782,9 +1717,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 16:49:30',
                 'dateconfirmed' => '2025-04-18 16:49:30',
                 'confirm_by' => 'masteradmin',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1810,9 +1744,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:15:56',
                 'dateconfirmed' => '2025-04-18 17:15:56',
                 'confirm_by' => 'masteradmin',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1838,9 +1771,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:18:29',
                 'dateconfirmed' => '2025-04-18 17:18:29',
                 'confirm_by' => 'masteradmin',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1866,9 +1798,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:21:16',
                 'dateconfirmed' => '2025-04-18 17:21:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1894,9 +1825,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:22:33',
                 'dateconfirmed' => '2025-04-18 17:22:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1922,9 +1852,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:29:37',
                 'dateconfirmed' => '2025-04-18 17:29:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1950,9 +1879,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:31:43',
                 'dateconfirmed' => '2025-04-18 17:31:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -1978,9 +1906,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:36:43',
                 'dateconfirmed' => '2025-04-18 17:36:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2006,9 +1933,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:46:48',
                 'dateconfirmed' => '2025-04-18 17:46:48',
                 'confirm_by' => 'masteradmin',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2034,9 +1960,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:48:46',
                 'dateconfirmed' => '2025-04-18 17:48:46',
                 'confirm_by' => 'masteradmin',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 73,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2062,9 +1987,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:50:43',
                 'dateconfirmed' => '2025-04-18 17:50:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 74,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2090,9 +2014,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:52:41',
                 'dateconfirmed' => '2025-04-18 17:52:41',
                 'confirm_by' => 'masteradmin',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 75,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2118,9 +2041,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:55:16',
                 'dateconfirmed' => '2025-04-18 17:55:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 76,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2146,9 +2068,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:57:58',
                 'dateconfirmed' => '2025-04-18 17:57:58',
                 'confirm_by' => 'masteradmin',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 77,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2174,9 +2095,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 17:59:36',
                 'dateconfirmed' => '2025-04-18 17:59:36',
                 'confirm_by' => 'masteradmin',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 78,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2202,9 +2122,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 18:03:09',
                 'dateconfirmed' => '2025-04-18 18:03:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 79,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2230,9 +2149,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 18:04:24',
                 'dateconfirmed' => '2025-04-18 18:04:24',
                 'confirm_by' => 'masteradmin',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 80,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2258,9 +2176,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 18:06:42',
                 'dateconfirmed' => '2025-04-18 18:06:42',
                 'confirm_by' => 'masteradmin',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 81,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2286,9 +2203,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:33:16',
                 'dateconfirmed' => '2025-04-18 21:33:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 82,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2314,9 +2230,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:35:23',
                 'dateconfirmed' => '2025-04-18 21:35:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 83,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2342,9 +2257,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:37:33',
                 'dateconfirmed' => '2025-04-18 21:37:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 84,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2370,9 +2284,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:39:15',
                 'dateconfirmed' => '2025-04-18 21:39:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 85,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2398,9 +2311,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:45:29',
                 'dateconfirmed' => '2025-04-18 21:45:29',
                 'confirm_by' => 'masteradmin',
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 86,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2426,9 +2338,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:47:24',
                 'dateconfirmed' => '2025-04-18 21:47:24',
                 'confirm_by' => 'masteradmin',
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 87,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2454,9 +2365,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:49:46',
                 'dateconfirmed' => '2025-04-18 21:49:46',
                 'confirm_by' => 'masteradmin',
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 88,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2482,9 +2392,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-18 21:51:15',
                 'dateconfirmed' => '2025-04-18 21:51:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 89,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2510,9 +2419,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 17:11:13',
                 'dateconfirmed' => '2025-04-19 17:11:13',
                 'confirm_by' => 'masteradmin',
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 90,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2538,9 +2446,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 17:14:22',
                 'dateconfirmed' => '2025-04-19 17:14:22',
                 'confirm_by' => 'masteradmin',
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 91,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2566,9 +2473,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 17:30:34',
                 'dateconfirmed' => '2025-04-19 17:30:34',
                 'confirm_by' => 'masteradmin',
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 92,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2594,9 +2500,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 17:59:35',
                 'dateconfirmed' => '2025-04-19 17:59:35',
                 'confirm_by' => 'masteradmin',
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 93,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2622,9 +2527,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:01:42',
                 'dateconfirmed' => '2025-04-19 18:01:42',
                 'confirm_by' => 'masteradmin',
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 94,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2650,9 +2554,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:04:15',
                 'dateconfirmed' => '2025-04-19 18:04:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 95,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2678,9 +2581,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:08:28',
                 'dateconfirmed' => '2025-04-19 18:08:28',
                 'confirm_by' => 'masteradmin',
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 96,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2706,9 +2608,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:10:13',
                 'dateconfirmed' => '2025-04-19 18:10:13',
                 'confirm_by' => 'masteradmin',
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 97,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2734,9 +2635,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:22:24',
                 'dateconfirmed' => '2025-04-19 18:22:24',
                 'confirm_by' => 'masteradmin',
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 98,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2762,9 +2662,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:24:22',
                 'dateconfirmed' => '2025-04-19 18:24:22',
                 'confirm_by' => 'masteradmin',
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 99,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2790,9 +2689,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:25:55',
                 'dateconfirmed' => '2025-04-19 18:25:55',
                 'confirm_by' => 'masteradmin',
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 100,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2818,9 +2716,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:27:23',
                 'dateconfirmed' => '2025-04-19 18:27:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 101,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2846,9 +2743,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:29:03',
                 'dateconfirmed' => '2025-04-19 18:29:03',
                 'confirm_by' => 'masteradmin',
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 102,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2874,9 +2770,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:31:40',
                 'dateconfirmed' => '2025-04-19 18:31:40',
                 'confirm_by' => 'masteradmin',
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 103,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2902,9 +2797,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:33:00',
                 'dateconfirmed' => '2025-04-19 18:33:00',
                 'confirm_by' => 'masteradmin',
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 104,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2930,9 +2824,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:34:43',
                 'dateconfirmed' => '2025-04-19 18:34:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 105,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2958,9 +2851,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:42:22',
                 'dateconfirmed' => '2025-04-19 18:42:22',
                 'confirm_by' => 'masteradmin',
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 106,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -2986,9 +2878,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:45:52',
                 'dateconfirmed' => '2025-04-19 18:45:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 107,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3014,9 +2905,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:46:47',
                 'dateconfirmed' => '2025-04-19 18:46:47',
                 'confirm_by' => 'masteradmin',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3042,9 +2932,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:49:08',
                 'dateconfirmed' => '2025-04-19 18:49:08',
                 'confirm_by' => 'masteradmin',
-            ),
-            108 => 
-            array (
+            ],
+            108 => [
                 'id' => 109,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3070,9 +2959,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:50:27',
                 'dateconfirmed' => '2025-04-19 18:50:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            109 => 
-            array (
+            ],
+            109 => [
                 'id' => 110,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3098,9 +2986,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:51:38',
                 'dateconfirmed' => '2025-04-19 18:51:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            110 => 
-            array (
+            ],
+            110 => [
                 'id' => 111,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3126,9 +3013,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:53:04',
                 'dateconfirmed' => '2025-04-19 18:53:04',
                 'confirm_by' => 'masteradmin',
-            ),
-            111 => 
-            array (
+            ],
+            111 => [
                 'id' => 112,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3154,9 +3040,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:54:13',
                 'dateconfirmed' => '2025-04-19 18:54:13',
                 'confirm_by' => 'masteradmin',
-            ),
-            112 => 
-            array (
+            ],
+            112 => [
                 'id' => 113,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3182,9 +3067,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:55:17',
                 'dateconfirmed' => '2025-04-19 18:55:17',
                 'confirm_by' => 'masteradmin',
-            ),
-            113 => 
-            array (
+            ],
+            113 => [
                 'id' => 114,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3210,9 +3094,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:57:24',
                 'dateconfirmed' => '2025-04-19 18:57:24',
                 'confirm_by' => 'masteradmin',
-            ),
-            114 => 
-            array (
+            ],
+            114 => [
                 'id' => 115,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3238,9 +3121,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 18:58:37',
                 'dateconfirmed' => '2025-04-19 18:58:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 116,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3266,9 +3148,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:01:18',
                 'dateconfirmed' => '2025-04-19 19:01:18',
                 'confirm_by' => 'masteradmin',
-            ),
-            116 => 
-            array (
+            ],
+            116 => [
                 'id' => 117,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3294,9 +3175,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:03:01',
                 'dateconfirmed' => '2025-04-19 19:03:01',
                 'confirm_by' => 'masteradmin',
-            ),
-            117 => 
-            array (
+            ],
+            117 => [
                 'id' => 118,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3322,9 +3202,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:04:18',
                 'dateconfirmed' => '2025-04-19 19:04:18',
                 'confirm_by' => 'masteradmin',
-            ),
-            118 => 
-            array (
+            ],
+            118 => [
                 'id' => 119,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3350,9 +3229,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:05:15',
                 'dateconfirmed' => '2025-04-19 19:05:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            119 => 
-            array (
+            ],
+            119 => [
                 'id' => 120,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3378,9 +3256,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:08:19',
                 'dateconfirmed' => '2025-04-19 19:08:19',
                 'confirm_by' => 'masteradmin',
-            ),
-            120 => 
-            array (
+            ],
+            120 => [
                 'id' => 121,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3406,9 +3283,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:10:07',
                 'dateconfirmed' => '2025-04-19 19:10:07',
                 'confirm_by' => 'masteradmin',
-            ),
-            121 => 
-            array (
+            ],
+            121 => [
                 'id' => 122,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3434,9 +3310,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:11:12',
                 'dateconfirmed' => '2025-04-19 19:11:12',
                 'confirm_by' => 'masteradmin',
-            ),
-            122 => 
-            array (
+            ],
+            122 => [
                 'id' => 123,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3462,9 +3337,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:12:54',
                 'dateconfirmed' => '2025-04-19 19:12:54',
                 'confirm_by' => 'masteradmin',
-            ),
-            123 => 
-            array (
+            ],
+            123 => [
                 'id' => 124,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3490,9 +3364,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:14:24',
                 'dateconfirmed' => '2025-04-19 19:14:24',
                 'confirm_by' => 'masteradmin',
-            ),
-            124 => 
-            array (
+            ],
+            124 => [
                 'id' => 125,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3518,9 +3391,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:15:37',
                 'dateconfirmed' => '2025-04-19 19:15:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            125 => 
-            array (
+            ],
+            125 => [
                 'id' => 126,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3546,9 +3418,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:17:19',
                 'dateconfirmed' => '2025-04-19 19:17:19',
                 'confirm_by' => 'masteradmin',
-            ),
-            126 => 
-            array (
+            ],
+            126 => [
                 'id' => 127,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3574,9 +3445,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:19:28',
                 'dateconfirmed' => '2025-04-19 19:19:28',
                 'confirm_by' => 'masteradmin',
-            ),
-            127 => 
-            array (
+            ],
+            127 => [
                 'id' => 128,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3602,9 +3472,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:21:23',
                 'dateconfirmed' => '2025-04-19 19:21:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            128 => 
-            array (
+            ],
+            128 => [
                 'id' => 129,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3630,9 +3499,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:23:58',
                 'dateconfirmed' => '2025-04-19 19:23:58',
                 'confirm_by' => 'masteradmin',
-            ),
-            129 => 
-            array (
+            ],
+            129 => [
                 'id' => 130,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3658,9 +3526,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:25:56',
                 'dateconfirmed' => '2025-04-19 19:25:56',
                 'confirm_by' => 'masteradmin',
-            ),
-            130 => 
-            array (
+            ],
+            130 => [
                 'id' => 131,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3686,9 +3553,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:27:41',
                 'dateconfirmed' => '2025-04-19 19:27:41',
                 'confirm_by' => 'masteradmin',
-            ),
-            131 => 
-            array (
+            ],
+            131 => [
                 'id' => 132,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3714,9 +3580,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:28:34',
                 'dateconfirmed' => '2025-04-19 19:28:34',
                 'confirm_by' => 'masteradmin',
-            ),
-            132 => 
-            array (
+            ],
+            132 => [
                 'id' => 133,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3742,9 +3607,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 19:30:09',
                 'dateconfirmed' => '2025-04-19 19:30:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            133 => 
-            array (
+            ],
+            133 => [
                 'id' => 134,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3770,9 +3634,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:29:16',
                 'dateconfirmed' => '2025-04-19 20:29:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            134 => 
-            array (
+            ],
+            134 => [
                 'id' => 135,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3798,9 +3661,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:30:27',
                 'dateconfirmed' => '2025-04-19 20:30:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            135 => 
-            array (
+            ],
+            135 => [
                 'id' => 136,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3826,9 +3688,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:31:26',
                 'dateconfirmed' => '2025-04-19 20:31:26',
                 'confirm_by' => 'masteradmin',
-            ),
-            136 => 
-            array (
+            ],
+            136 => [
                 'id' => 137,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3854,9 +3715,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:32:39',
                 'dateconfirmed' => '2025-04-19 20:32:39',
                 'confirm_by' => 'masteradmin',
-            ),
-            137 => 
-            array (
+            ],
+            137 => [
                 'id' => 138,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3882,9 +3742,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:33:43',
                 'dateconfirmed' => '2025-04-19 20:33:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            138 => 
-            array (
+            ],
+            138 => [
                 'id' => 139,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3910,9 +3769,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:35:06',
                 'dateconfirmed' => '2025-04-19 20:35:06',
                 'confirm_by' => 'masteradmin',
-            ),
-            139 => 
-            array (
+            ],
+            139 => [
                 'id' => 140,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3938,9 +3796,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:36:16',
                 'dateconfirmed' => '2025-04-19 20:36:16',
                 'confirm_by' => 'masteradmin',
-            ),
-            140 => 
-            array (
+            ],
+            140 => [
                 'id' => 141,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3966,9 +3823,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:37:17',
                 'dateconfirmed' => '2025-04-19 20:37:17',
                 'confirm_by' => 'masteradmin',
-            ),
-            141 => 
-            array (
+            ],
+            141 => [
                 'id' => 142,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -3994,9 +3850,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:38:30',
                 'dateconfirmed' => '2025-04-19 20:38:30',
                 'confirm_by' => 'masteradmin',
-            ),
-            142 => 
-            array (
+            ],
+            142 => [
                 'id' => 143,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4022,9 +3877,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:40:05',
                 'dateconfirmed' => '2025-04-19 20:40:05',
                 'confirm_by' => 'masteradmin',
-            ),
-            143 => 
-            array (
+            ],
+            143 => [
                 'id' => 144,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4050,9 +3904,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:42:28',
                 'dateconfirmed' => '2025-04-19 20:42:28',
                 'confirm_by' => 'masteradmin',
-            ),
-            144 => 
-            array (
+            ],
+            144 => [
                 'id' => 145,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4078,9 +3931,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:43:25',
                 'dateconfirmed' => '2025-04-19 20:43:25',
                 'confirm_by' => 'masteradmin',
-            ),
-            145 => 
-            array (
+            ],
+            145 => [
                 'id' => 146,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4106,9 +3958,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:45:04',
                 'dateconfirmed' => '2025-04-19 20:45:04',
                 'confirm_by' => 'masteradmin',
-            ),
-            146 => 
-            array (
+            ],
+            146 => [
                 'id' => 147,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4134,9 +3985,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:46:03',
                 'dateconfirmed' => '2025-04-19 20:46:03',
                 'confirm_by' => 'masteradmin',
-            ),
-            147 => 
-            array (
+            ],
+            147 => [
                 'id' => 148,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4162,9 +4012,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:57:32',
                 'dateconfirmed' => '2025-04-19 20:57:32',
                 'confirm_by' => 'masteradmin',
-            ),
-            148 => 
-            array (
+            ],
+            148 => [
                 'id' => 149,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4190,9 +4039,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:58:33',
                 'dateconfirmed' => '2025-04-19 20:58:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            149 => 
-            array (
+            ],
+            149 => [
                 'id' => 150,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4218,9 +4066,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 20:59:29',
                 'dateconfirmed' => '2025-04-19 20:59:29',
                 'confirm_by' => 'masteradmin',
-            ),
-            150 => 
-            array (
+            ],
+            150 => [
                 'id' => 151,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4246,9 +4093,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:40:04',
                 'dateconfirmed' => '2025-04-19 21:40:04',
                 'confirm_by' => 'masteradmin',
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 152,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4274,9 +4120,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:42:00',
                 'dateconfirmed' => '2025-04-19 21:42:00',
                 'confirm_by' => 'masteradmin',
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 153,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4302,9 +4147,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:45:38',
                 'dateconfirmed' => '2025-04-19 21:45:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 154,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4330,9 +4174,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:46:40',
                 'dateconfirmed' => '2025-04-19 21:46:40',
                 'confirm_by' => 'masteradmin',
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 155,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4358,9 +4201,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:48:27',
                 'dateconfirmed' => '2025-04-19 21:48:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 156,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4386,9 +4228,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:49:52',
                 'dateconfirmed' => '2025-04-19 21:49:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 157,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4414,9 +4255,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:50:37',
                 'dateconfirmed' => '2025-04-19 21:50:37',
                 'confirm_by' => 'masteradmin',
-            ),
-            157 => 
-            array (
+            ],
+            157 => [
                 'id' => 158,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4442,9 +4282,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:52:55',
                 'dateconfirmed' => '2025-04-19 21:52:55',
                 'confirm_by' => 'masteradmin',
-            ),
-            158 => 
-            array (
+            ],
+            158 => [
                 'id' => 159,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4470,9 +4309,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:53:38',
                 'dateconfirmed' => '2025-04-19 21:53:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            159 => 
-            array (
+            ],
+            159 => [
                 'id' => 160,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4498,9 +4336,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:55:23',
                 'dateconfirmed' => '2025-04-19 21:55:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            160 => 
-            array (
+            ],
+            160 => [
                 'id' => 161,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4526,9 +4363,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:56:38',
                 'dateconfirmed' => '2025-04-19 21:56:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            161 => 
-            array (
+            ],
+            161 => [
                 'id' => 162,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4554,9 +4390,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 21:58:00',
                 'dateconfirmed' => '2025-04-19 21:58:00',
                 'confirm_by' => 'masteradmin',
-            ),
-            162 => 
-            array (
+            ],
+            162 => [
                 'id' => 163,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4582,9 +4417,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 22:01:21',
                 'dateconfirmed' => '2025-04-19 22:01:21',
                 'confirm_by' => 'masteradmin',
-            ),
-            163 => 
-            array (
+            ],
+            163 => [
                 'id' => 164,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4610,9 +4444,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-19 22:04:26',
                 'dateconfirmed' => '2025-04-19 22:04:26',
                 'confirm_by' => 'masteradmin',
-            ),
-            164 => 
-            array (
+            ],
+            164 => [
                 'id' => 165,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4638,9 +4471,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-20 14:28:05',
                 'dateconfirmed' => '2025-04-20 14:28:05',
                 'confirm_by' => 'masteradmin',
-            ),
-            165 => 
-            array (
+            ],
+            165 => [
                 'id' => 166,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -4666,9 +4498,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 18:06:18',
                 'dateconfirmed' => '2025-04-21 18:06:18',
                 'confirm_by' => 'eternalglory',
-            ),
-            166 => 
-            array (
+            ],
+            166 => [
                 'id' => 167,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -4694,9 +4525,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 19:44:34',
                 'dateconfirmed' => '2025-04-21 19:44:34',
                 'confirm_by' => 'mostwanted',
-            ),
-            167 => 
-            array (
+            ],
+            167 => [
                 'id' => 168,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -4722,9 +4552,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 19:45:53',
                 'dateconfirmed' => '2025-04-21 19:45:53',
                 'confirm_by' => 'eternalglory',
-            ),
-            168 => 
-            array (
+            ],
+            168 => [
                 'id' => 169,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -4750,9 +4579,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 19:57:53',
                 'dateconfirmed' => '2025-04-21 19:57:53',
                 'confirm_by' => 'mostwanted',
-            ),
-            169 => 
-            array (
+            ],
+            169 => [
                 'id' => 170,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -4778,9 +4606,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 20:07:24',
                 'dateconfirmed' => '2025-04-21 20:07:24',
                 'confirm_by' => 'eternalglory',
-            ),
-            170 => 
-            array (
+            ],
+            170 => [
                 'id' => 171,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -4806,9 +4633,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-21 20:12:53',
                 'dateconfirmed' => '2025-04-21 20:12:53',
                 'confirm_by' => 'mostwanted',
-            ),
-            171 => 
-            array (
+            ],
+            171 => [
                 'id' => 172,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4834,9 +4660,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 10:08:52',
                 'dateconfirmed' => '2025-04-22 10:08:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            172 => 
-            array (
+            ],
+            172 => [
                 'id' => 173,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4862,9 +4687,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 10:10:11',
                 'dateconfirmed' => '2025-04-22 10:10:11',
                 'confirm_by' => 'masteradmin',
-            ),
-            173 => 
-            array (
+            ],
+            173 => [
                 'id' => 174,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4890,9 +4714,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 10:11:32',
                 'dateconfirmed' => '2025-04-22 10:11:32',
                 'confirm_by' => 'masteradmin',
-            ),
-            174 => 
-            array (
+            ],
+            174 => [
                 'id' => 175,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4918,9 +4741,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 10:12:27',
                 'dateconfirmed' => '2025-04-22 10:12:27',
                 'confirm_by' => 'masteradmin',
-            ),
-            175 => 
-            array (
+            ],
+            175 => [
                 'id' => 176,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -4946,9 +4768,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 10:13:25',
                 'dateconfirmed' => '2025-04-22 10:13:25',
                 'confirm_by' => 'masteradmin',
-            ),
-            176 => 
-            array (
+            ],
+            176 => [
                 'id' => 177,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -4974,9 +4795,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 20:41:37',
                 'dateconfirmed' => '2025-04-22 20:41:37',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            177 => 
-            array (
+            ],
+            177 => [
                 'id' => 178,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -5002,9 +4822,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 20:43:42',
                 'dateconfirmed' => '2025-04-22 20:43:42',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            178 => 
-            array (
+            ],
+            178 => [
                 'id' => 179,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -5030,9 +4849,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 20:47:11',
                 'dateconfirmed' => '2025-04-22 20:47:11',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            179 => 
-            array (
+            ],
+            179 => [
                 'id' => 180,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -5058,9 +4876,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 20:52:28',
                 'dateconfirmed' => '2025-04-22 20:52:28',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            180 => 
-            array (
+            ],
+            180 => [
                 'id' => 181,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -5086,9 +4903,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-22 20:55:29',
                 'dateconfirmed' => '2025-04-22 20:55:29',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            181 => 
-            array (
+            ],
+            181 => [
                 'id' => 182,
                 'id_member' => 26,
                 'member' => 'founderjpb',
@@ -5114,9 +4930,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-23 21:00:21',
                 'dateconfirmed' => '2025-04-23 21:00:21',
                 'confirm_by' => 'founderjpb',
-            ),
-            182 => 
-            array (
+            ],
+            182 => [
                 'id' => 183,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -5142,9 +4957,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-24 20:41:42',
                 'dateconfirmed' => '2025-04-24 20:41:42',
                 'confirm_by' => 'eternalglory',
-            ),
-            183 => 
-            array (
+            ],
+            183 => [
                 'id' => 184,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -5170,9 +4984,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 15:15:05',
                 'dateconfirmed' => '2025-04-25 15:15:05',
                 'confirm_by' => 'eternalglory',
-            ),
-            184 => 
-            array (
+            ],
+            184 => [
                 'id' => 185,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5198,9 +5011,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:30:25',
                 'dateconfirmed' => '2025-04-25 17:30:25',
                 'confirm_by' => 'masteradmin',
-            ),
-            185 => 
-            array (
+            ],
+            185 => [
                 'id' => 186,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5226,9 +5038,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:31:43',
                 'dateconfirmed' => '2025-04-25 17:31:43',
                 'confirm_by' => 'masteradmin',
-            ),
-            186 => 
-            array (
+            ],
+            186 => [
                 'id' => 187,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5254,9 +5065,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:33:38',
                 'dateconfirmed' => '2025-04-25 17:33:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            187 => 
-            array (
+            ],
+            187 => [
                 'id' => 188,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5282,9 +5092,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:35:11',
                 'dateconfirmed' => '2025-04-25 17:35:11',
                 'confirm_by' => 'masteradmin',
-            ),
-            188 => 
-            array (
+            ],
+            188 => [
                 'id' => 189,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5310,9 +5119,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:39:00',
                 'dateconfirmed' => '2025-04-25 17:39:00',
                 'confirm_by' => 'masteradmin',
-            ),
-            189 => 
-            array (
+            ],
+            189 => [
                 'id' => 190,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5338,9 +5146,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:40:48',
                 'dateconfirmed' => '2025-04-25 17:40:48',
                 'confirm_by' => 'masteradmin',
-            ),
-            190 => 
-            array (
+            ],
+            190 => [
                 'id' => 191,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5366,9 +5173,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:42:26',
                 'dateconfirmed' => '2025-04-25 17:42:26',
                 'confirm_by' => 'masteradmin',
-            ),
-            191 => 
-            array (
+            ],
+            191 => [
                 'id' => 192,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5394,9 +5200,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:43:51',
                 'dateconfirmed' => '2025-04-25 17:43:51',
                 'confirm_by' => 'masteradmin',
-            ),
-            192 => 
-            array (
+            ],
+            192 => [
                 'id' => 193,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5422,9 +5227,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:46:07',
                 'dateconfirmed' => '2025-04-25 17:46:07',
                 'confirm_by' => 'masteradmin',
-            ),
-            193 => 
-            array (
+            ],
+            193 => [
                 'id' => 194,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5450,9 +5254,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:46:51',
                 'dateconfirmed' => '2025-04-25 17:46:51',
                 'confirm_by' => 'masteradmin',
-            ),
-            194 => 
-            array (
+            ],
+            194 => [
                 'id' => 195,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5478,9 +5281,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:55:01',
                 'dateconfirmed' => '2025-04-25 17:55:01',
                 'confirm_by' => 'masteradmin',
-            ),
-            195 => 
-            array (
+            ],
+            195 => [
                 'id' => 196,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5506,9 +5308,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 17:56:34',
                 'dateconfirmed' => '2025-04-25 17:56:34',
                 'confirm_by' => 'masteradmin',
-            ),
-            196 => 
-            array (
+            ],
+            196 => [
                 'id' => 197,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5534,9 +5335,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:00:09',
                 'dateconfirmed' => '2025-04-25 18:00:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            197 => 
-            array (
+            ],
+            197 => [
                 'id' => 198,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5562,9 +5362,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:01:41',
                 'dateconfirmed' => '2025-04-25 18:01:41',
                 'confirm_by' => 'masteradmin',
-            ),
-            198 => 
-            array (
+            ],
+            198 => [
                 'id' => 199,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5590,9 +5389,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:03:38',
                 'dateconfirmed' => '2025-04-25 18:03:38',
                 'confirm_by' => 'masteradmin',
-            ),
-            199 => 
-            array (
+            ],
+            199 => [
                 'id' => 200,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5618,9 +5416,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:07:33',
                 'dateconfirmed' => '2025-04-25 18:07:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            200 => 
-            array (
+            ],
+            200 => [
                 'id' => 201,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5646,9 +5443,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:08:46',
                 'dateconfirmed' => '2025-04-25 18:08:46',
                 'confirm_by' => 'masteradmin',
-            ),
-            201 => 
-            array (
+            ],
+            201 => [
                 'id' => 202,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5674,9 +5470,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:10:11',
                 'dateconfirmed' => '2025-04-25 18:10:11',
                 'confirm_by' => 'masteradmin',
-            ),
-            202 => 
-            array (
+            ],
+            202 => [
                 'id' => 203,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5702,9 +5497,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 18:11:14',
                 'dateconfirmed' => '2025-04-25 18:11:14',
                 'confirm_by' => 'masteradmin',
-            ),
-            203 => 
-            array (
+            ],
+            203 => [
                 'id' => 204,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -5730,9 +5524,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 19:35:38',
                 'dateconfirmed' => '2025-04-25 19:35:38',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            204 => 
-            array (
+            ],
+            204 => [
                 'id' => 205,
                 'id_member' => 13,
                 'member' => 'jpbasil5',
@@ -5758,9 +5551,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 19:44:52',
                 'dateconfirmed' => '2025-04-25 19:44:52',
                 'confirm_by' => 'jpbasil5',
-            ),
-            205 => 
-            array (
+            ],
+            205 => [
                 'id' => 206,
                 'id_member' => 13,
                 'member' => 'jpbasil5',
@@ -5786,9 +5578,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 19:46:44',
                 'dateconfirmed' => '2025-04-25 19:46:44',
                 'confirm_by' => 'jpbasil5',
-            ),
-            206 => 
-            array (
+            ],
+            206 => [
                 'id' => 207,
                 'id_member' => 13,
                 'member' => 'jpbasil5',
@@ -5814,9 +5605,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 19:48:10',
                 'dateconfirmed' => '2025-04-25 19:48:10',
                 'confirm_by' => 'jpbasil5',
-            ),
-            207 => 
-            array (
+            ],
+            207 => [
                 'id' => 208,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5842,9 +5632,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 20:10:06',
                 'dateconfirmed' => '2025-04-25 20:10:06',
                 'confirm_by' => 'masteradmin',
-            ),
-            208 => 
-            array (
+            ],
+            208 => [
                 'id' => 209,
                 'id_member' => 13,
                 'member' => 'jpbasil5',
@@ -5870,9 +5659,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-25 20:19:24',
                 'dateconfirmed' => '2025-04-25 20:19:24',
                 'confirm_by' => 'jpbasil5',
-            ),
-            209 => 
-            array (
+            ],
+            209 => [
                 'id' => 210,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5898,9 +5686,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 16:53:04',
                 'dateconfirmed' => '2025-04-26 16:53:04',
                 'confirm_by' => 'masteradmin',
-            ),
-            210 => 
-            array (
+            ],
+            210 => [
                 'id' => 211,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5926,9 +5713,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:42:23',
                 'dateconfirmed' => '2025-04-26 18:42:23',
                 'confirm_by' => 'masteradmin',
-            ),
-            211 => 
-            array (
+            ],
+            211 => [
                 'id' => 212,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5954,9 +5740,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:43:19',
                 'dateconfirmed' => '2025-04-26 18:43:19',
                 'confirm_by' => 'masteradmin',
-            ),
-            212 => 
-            array (
+            ],
+            212 => [
                 'id' => 213,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -5982,9 +5767,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:51:36',
                 'dateconfirmed' => '2025-04-26 18:51:36',
                 'confirm_by' => 'masteradmin',
-            ),
-            213 => 
-            array (
+            ],
+            213 => [
                 'id' => 214,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6010,9 +5794,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:53:15',
                 'dateconfirmed' => '2025-04-26 18:53:15',
                 'confirm_by' => 'masteradmin',
-            ),
-            214 => 
-            array (
+            ],
+            214 => [
                 'id' => 215,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6038,9 +5821,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:55:08',
                 'dateconfirmed' => '2025-04-26 18:55:08',
                 'confirm_by' => 'masteradmin',
-            ),
-            215 => 
-            array (
+            ],
+            215 => [
                 'id' => 216,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6066,9 +5848,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:56:52',
                 'dateconfirmed' => '2025-04-26 18:56:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            216 => 
-            array (
+            ],
+            216 => [
                 'id' => 217,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6094,9 +5875,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 18:59:01',
                 'dateconfirmed' => '2025-04-26 18:59:01',
                 'confirm_by' => 'masteradmin',
-            ),
-            217 => 
-            array (
+            ],
+            217 => [
                 'id' => 218,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6122,9 +5902,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-26 19:00:33',
                 'dateconfirmed' => '2025-04-26 19:00:33',
                 'confirm_by' => 'masteradmin',
-            ),
-            218 => 
-            array (
+            ],
+            218 => [
                 'id' => 219,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -6150,9 +5929,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-27 12:27:29',
                 'dateconfirmed' => '2025-04-27 12:27:29',
                 'confirm_by' => 'jpbasil7',
-            ),
-            219 => 
-            array (
+            ],
+            219 => [
                 'id' => 220,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6178,9 +5956,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-29 16:58:43',
                 'dateconfirmed' => '2025-04-29 16:58:43',
                 'confirm_by' => 'moneymagnet',
-            ),
-            220 => 
-            array (
+            ],
+            220 => [
                 'id' => 221,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6206,9 +5983,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-04-29 17:08:02',
                 'dateconfirmed' => '2025-04-29 17:08:02',
                 'confirm_by' => 'moneymagnet',
-            ),
-            221 => 
-            array (
+            ],
+            221 => [
                 'id' => 222,
                 'id_member' => 26,
                 'member' => 'founderjpb',
@@ -6234,9 +6010,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-01 14:28:55',
                 'dateconfirmed' => '2025-05-01 14:28:55',
                 'confirm_by' => 'founderjpb',
-            ),
-            222 => 
-            array (
+            ],
+            222 => [
                 'id' => 223,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6262,9 +6037,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-01 20:27:05',
                 'dateconfirmed' => '2025-05-01 20:27:05',
                 'confirm_by' => 'moneymagnet',
-            ),
-            223 => 
-            array (
+            ],
+            223 => [
                 'id' => 224,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6290,9 +6064,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-01 20:30:37',
                 'dateconfirmed' => '2025-05-01 20:30:37',
                 'confirm_by' => 'moneymagnet',
-            ),
-            224 => 
-            array (
+            ],
+            224 => [
                 'id' => 225,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6318,9 +6091,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-01 21:40:56',
                 'dateconfirmed' => '2025-05-01 21:40:56',
                 'confirm_by' => 'moneymagnet',
-            ),
-            225 => 
-            array (
+            ],
+            225 => [
                 'id' => 226,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6346,9 +6118,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-02 11:48:45',
                 'dateconfirmed' => '2025-05-02 11:48:45',
                 'confirm_by' => 'moneymagnet',
-            ),
-            226 => 
-            array (
+            ],
+            226 => [
                 'id' => 227,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6374,9 +6145,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-04 11:13:57',
                 'dateconfirmed' => '2025-05-04 11:13:57',
                 'confirm_by' => 'masteradmin',
-            ),
-            227 => 
-            array (
+            ],
+            227 => [
                 'id' => 228,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6402,9 +6172,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-04 20:41:30',
                 'dateconfirmed' => '2025-05-04 20:41:30',
                 'confirm_by' => 'eternalglory',
-            ),
-            228 => 
-            array (
+            ],
+            228 => [
                 'id' => 229,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6430,9 +6199,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 17:13:39',
                 'dateconfirmed' => '2025-05-05 17:13:39',
                 'confirm_by' => 'masteradmin',
-            ),
-            229 => 
-            array (
+            ],
+            229 => [
                 'id' => 230,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6458,9 +6226,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 17:14:57',
                 'dateconfirmed' => '2025-05-05 17:14:57',
                 'confirm_by' => 'masteradmin',
-            ),
-            230 => 
-            array (
+            ],
+            230 => [
                 'id' => 231,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6486,9 +6253,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 17:17:20',
                 'dateconfirmed' => '2025-05-05 17:17:20',
                 'confirm_by' => 'masteradmin',
-            ),
-            231 => 
-            array (
+            ],
+            231 => [
                 'id' => 232,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6514,9 +6280,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 17:20:06',
                 'dateconfirmed' => '2025-05-05 17:20:06',
                 'confirm_by' => 'masteradmin',
-            ),
-            232 => 
-            array (
+            ],
+            232 => [
                 'id' => 233,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -6542,9 +6307,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 17:38:42',
                 'dateconfirmed' => '2025-05-05 17:38:42',
                 'confirm_by' => 'jpbasil7',
-            ),
-            233 => 
-            array (
+            ],
+            233 => [
                 'id' => 234,
                 'id_member' => 13,
                 'member' => 'jpbasil5',
@@ -6570,9 +6334,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-05 18:09:41',
                 'dateconfirmed' => '2025-05-05 18:09:41',
                 'confirm_by' => 'jpbasil5',
-            ),
-            234 => 
-            array (
+            ],
+            234 => [
                 'id' => 235,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6598,9 +6361,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-06 23:48:16',
                 'dateconfirmed' => '2025-05-06 23:48:16',
                 'confirm_by' => 'moneymagnet',
-            ),
-            235 => 
-            array (
+            ],
+            235 => [
                 'id' => 236,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -6626,9 +6388,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-07 11:12:25',
                 'dateconfirmed' => '2025-05-07 11:12:25',
                 'confirm_by' => 'masteradmin',
-            ),
-            236 => 
-            array (
+            ],
+            236 => [
                 'id' => 237,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6654,9 +6415,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-07 21:07:57',
                 'dateconfirmed' => '2025-05-07 21:07:57',
                 'confirm_by' => 'eternalglory',
-            ),
-            237 => 
-            array (
+            ],
+            237 => [
                 'id' => 238,
                 'id_member' => 35,
                 'member' => 'nusantara',
@@ -6682,9 +6442,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-15 19:08:41',
                 'dateconfirmed' => '2025-05-15 19:08:41',
                 'confirm_by' => 'nusantara',
-            ),
-            238 => 
-            array (
+            ],
+            238 => [
                 'id' => 239,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6710,9 +6469,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-16 09:59:48',
                 'dateconfirmed' => '2025-05-16 09:59:48',
                 'confirm_by' => 'eternalglory',
-            ),
-            239 => 
-            array (
+            ],
+            239 => [
                 'id' => 240,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6738,9 +6496,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-18 13:27:17',
                 'dateconfirmed' => '2025-05-18 13:27:17',
                 'confirm_by' => 'eternalglory',
-            ),
-            240 => 
-            array (
+            ],
+            240 => [
                 'id' => 241,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6766,9 +6523,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-20 16:03:19',
                 'dateconfirmed' => '2025-05-20 16:03:19',
                 'confirm_by' => 'eternalglory',
-            ),
-            241 => 
-            array (
+            ],
+            241 => [
                 'id' => 242,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6794,9 +6550,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-24 21:20:19',
                 'dateconfirmed' => '2025-05-24 21:20:19',
                 'confirm_by' => 'moneymagnet',
-            ),
-            242 => 
-            array (
+            ],
+            242 => [
                 'id' => 243,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6822,9 +6577,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-27 22:05:15',
                 'dateconfirmed' => '2025-05-27 22:05:15',
                 'confirm_by' => 'eternalglory',
-            ),
-            243 => 
-            array (
+            ],
+            243 => [
                 'id' => 244,
                 'id_member' => 35,
                 'member' => 'nusantara',
@@ -6850,9 +6604,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-29 12:57:37',
                 'dateconfirmed' => '2025-05-29 12:57:37',
                 'confirm_by' => 'nusantara',
-            ),
-            244 => 
-            array (
+            ],
+            244 => [
                 'id' => 245,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6878,9 +6631,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-29 19:49:19',
                 'dateconfirmed' => '2025-05-29 19:49:19',
                 'confirm_by' => 'eternalglory',
-            ),
-            245 => 
-            array (
+            ],
+            245 => [
                 'id' => 246,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -6906,9 +6658,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-05-30 21:59:43',
                 'dateconfirmed' => '2025-05-30 21:59:43',
                 'confirm_by' => 'eternalglory',
-            ),
-            246 => 
-            array (
+            ],
+            246 => [
                 'id' => 248,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -6934,9 +6685,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-03 23:12:32',
                 'dateconfirmed' => '2025-06-03 23:12:32',
                 'confirm_by' => 'moneymagnet',
-            ),
-            247 => 
-            array (
+            ],
+            247 => [
                 'id' => 249,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -6962,9 +6712,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-04 12:36:35',
                 'dateconfirmed' => '2025-06-04 12:36:35',
                 'confirm_by' => 'jpbasil7',
-            ),
-            248 => 
-            array (
+            ],
+            248 => [
                 'id' => 250,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -6990,9 +6739,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-04 16:55:46',
                 'dateconfirmed' => '2025-06-04 16:55:46',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            249 => 
-            array (
+            ],
+            249 => [
                 'id' => 251,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7018,9 +6766,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-04 16:57:58',
                 'dateconfirmed' => '2025-06-04 16:57:58',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            250 => 
-            array (
+            ],
+            250 => [
                 'id' => 252,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7046,9 +6793,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-04 17:00:09',
                 'dateconfirmed' => '2025-06-04 17:00:09',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            251 => 
-            array (
+            ],
+            251 => [
                 'id' => 253,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7074,9 +6820,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-04 17:04:05',
                 'dateconfirmed' => '2025-06-04 17:04:05',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            252 => 
-            array (
+            ],
+            252 => [
                 'id' => 254,
                 'id_member' => 14,
                 'member' => 'jpbasil6',
@@ -7102,9 +6847,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-07 11:54:27',
                 'dateconfirmed' => '2025-06-07 11:54:27',
                 'confirm_by' => 'jpbasil6',
-            ),
-            253 => 
-            array (
+            ],
+            253 => [
                 'id' => 255,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7130,9 +6874,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 14:05:36',
                 'dateconfirmed' => '2025-06-11 14:05:36',
                 'confirm_by' => 'jpbasil7',
-            ),
-            254 => 
-            array (
+            ],
+            254 => [
                 'id' => 256,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7158,9 +6901,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 14:44:44',
                 'dateconfirmed' => '2025-06-11 14:44:44',
                 'confirm_by' => 'jpbasil7',
-            ),
-            255 => 
-            array (
+            ],
+            255 => [
                 'id' => 257,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7186,9 +6928,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 14:48:06',
                 'dateconfirmed' => '2025-06-11 14:48:06',
                 'confirm_by' => 'jpbasil7',
-            ),
-            256 => 
-            array (
+            ],
+            256 => [
                 'id' => 258,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7214,9 +6955,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 14:57:48',
                 'dateconfirmed' => '2025-06-11 14:57:48',
                 'confirm_by' => 'jpbasil7',
-            ),
-            257 => 
-            array (
+            ],
+            257 => [
                 'id' => 259,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7242,9 +6982,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 16:04:53',
                 'dateconfirmed' => '2025-06-11 16:04:53',
                 'confirm_by' => 'jpbasil7',
-            ),
-            258 => 
-            array (
+            ],
+            258 => [
                 'id' => 260,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7270,9 +7009,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 16:06:56',
                 'dateconfirmed' => '2025-06-11 16:06:56',
                 'confirm_by' => 'jpbasil7',
-            ),
-            259 => 
-            array (
+            ],
+            259 => [
                 'id' => 261,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7298,9 +7036,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-11 19:34:21',
                 'dateconfirmed' => '2025-06-11 19:34:21',
                 'confirm_by' => 'eternalglory',
-            ),
-            260 => 
-            array (
+            ],
+            260 => [
                 'id' => 262,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -7326,9 +7063,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-12 20:40:12',
                 'dateconfirmed' => '2025-06-12 20:40:12',
                 'confirm_by' => 'mostwanted',
-            ),
-            261 => 
-            array (
+            ],
+            261 => [
                 'id' => 263,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7354,9 +7090,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-13 16:07:35',
                 'dateconfirmed' => '2025-06-13 16:07:35',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            262 => 
-            array (
+            ],
+            262 => [
                 'id' => 264,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7382,9 +7117,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-18 23:42:14',
                 'dateconfirmed' => '2025-06-18 23:42:14',
                 'confirm_by' => 'eternalglory',
-            ),
-            263 => 
-            array (
+            ],
+            263 => [
                 'id' => 265,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7410,9 +7144,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-20 22:15:29',
                 'dateconfirmed' => '2025-06-20 22:15:29',
                 'confirm_by' => 'eternalglory',
-            ),
-            264 => 
-            array (
+            ],
+            264 => [
                 'id' => 266,
                 'id_member' => 21,
                 'member' => 'moneymagnet',
@@ -7438,9 +7171,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-22 15:21:07',
                 'dateconfirmed' => '2025-06-22 15:21:07',
                 'confirm_by' => 'moneymagnet',
-            ),
-            265 => 
-            array (
+            ],
+            265 => [
                 'id' => 267,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -7466,9 +7198,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-23 14:03:52',
                 'dateconfirmed' => '2025-06-23 14:03:52',
                 'confirm_by' => 'masteradmin',
-            ),
-            266 => 
-            array (
+            ],
+            266 => [
                 'id' => 268,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7494,9 +7225,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-26 12:56:22',
                 'dateconfirmed' => '2025-06-26 12:56:22',
                 'confirm_by' => 'jpbasil7',
-            ),
-            267 => 
-            array (
+            ],
+            267 => [
                 'id' => 269,
                 'id_member' => 15,
                 'member' => 'jpbasil7',
@@ -7522,9 +7252,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-26 12:58:02',
                 'dateconfirmed' => '2025-06-26 12:58:02',
                 'confirm_by' => 'jpbasil7',
-            ),
-            268 => 
-            array (
+            ],
+            268 => [
                 'id' => 270,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7550,9 +7279,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-06-26 21:01:06',
                 'dateconfirmed' => '2025-06-26 21:01:06',
                 'confirm_by' => 'eternalglory',
-            ),
-            269 => 
-            array (
+            ],
+            269 => [
                 'id' => 271,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7578,9 +7306,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-07-10 21:04:06',
                 'dateconfirmed' => '2025-07-10 21:04:06',
                 'confirm_by' => 'eternalglory',
-            ),
-            270 => 
-            array (
+            ],
+            270 => [
                 'id' => 272,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7606,9 +7333,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-07-15 10:26:03',
                 'dateconfirmed' => '2025-07-15 10:26:03',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            271 => 
-            array (
+            ],
+            271 => [
                 'id' => 273,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -7634,9 +7360,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-07-21 23:19:58',
                 'dateconfirmed' => '2025-07-21 23:19:58',
                 'confirm_by' => 'masteradmin',
-            ),
-            272 => 
-            array (
+            ],
+            272 => [
                 'id' => 274,
                 'id_member' => 274,
                 'member' => 'demoaccount',
@@ -7662,9 +7387,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-07-21 23:25:09',
                 'dateconfirmed' => '2025-07-21 23:25:09',
                 'confirm_by' => 'masteradmin',
-            ),
-            273 => 
-            array (
+            ],
+            273 => [
                 'id' => 275,
                 'id_member' => 274,
                 'member' => 'demoaccount',
@@ -7690,9 +7414,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-07-21 23:25:18',
                 'dateconfirmed' => '2025-07-21 23:25:18',
                 'confirm_by' => 'masteradmin',
-            ),
-            274 => 
-            array (
+            ],
+            274 => [
                 'id' => 276,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7718,9 +7441,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-08-15 11:55:31',
                 'dateconfirmed' => '2025-08-15 11:55:31',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            275 => 
-            array (
+            ],
+            275 => [
                 'id' => 277,
                 'id_member' => 17,
                 'member' => 'mastermanifestasi',
@@ -7746,9 +7468,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-08-15 11:58:56',
                 'dateconfirmed' => '2025-08-15 11:58:56',
                 'confirm_by' => 'mastermanifestasi',
-            ),
-            276 => 
-            array (
+            ],
+            276 => [
                 'id' => 278,
                 'id_member' => 23,
                 'member' => 'eternalglory',
@@ -7774,9 +7495,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-08-22 14:41:54',
                 'dateconfirmed' => '2025-08-22 14:41:54',
                 'confirm_by' => 'eternalglory',
-            ),
-            277 => 
-            array (
+            ],
+            277 => [
                 'id' => 279,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -7802,9 +7522,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-09-01 14:25:38',
                 'dateconfirmed' => '2025-09-01 14:25:38',
                 'confirm_by' => 'mostwanted',
-            ),
-            278 => 
-            array (
+            ],
+            278 => [
                 'id' => 280,
                 'id_member' => 22,
                 'member' => 'mostwanted',
@@ -7830,9 +7549,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-09-01 14:41:05',
                 'dateconfirmed' => '2025-09-01 14:41:05',
                 'confirm_by' => 'mostwanted',
-            ),
-            279 => 
-            array (
+            ],
+            279 => [
                 'id' => 281,
                 'id_member' => 1,
                 'member' => 'masteradmin',
@@ -7858,9 +7576,8 @@ class JpbMemberConfirmTableSeeder extends Seeder
                 'datemodified' => '2025-09-09 15:29:13',
                 'dateconfirmed' => '2025-09-09 15:29:13',
                 'confirm_by' => 'masteradmin',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbKeysTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbKeysTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_keys')->delete();
-        
-        \DB::table('jpb_keys')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_keys')->insert([
+            0 => [
                 'id' => 1,
                 'id_member' => 0,
                 'name' => 'mobile-app',
@@ -28,12 +25,11 @@ class JpbKeysTableSeeder extends Seeder
                 'level' => 1,
                 'ignore_limits' => 0,
                 'is_private_key' => 0,
-                'ip_addresses' => NULL,
+                'ip_addresses' => null,
                 'datecreated' => '2025-04-01 00:00:00',
                 'datemodified' => '2025-04-01 00:00:00',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

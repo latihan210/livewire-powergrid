@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbMemberReportTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbMemberReportTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_member_report')->delete();
-        
-        
-        
+
     }
 }

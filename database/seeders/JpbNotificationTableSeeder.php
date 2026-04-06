@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbNotificationTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,17 +13,15 @@ class JpbNotificationTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_notification')->delete();
-        
-        \DB::table('jpb_notification')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_notification')->insert([
+            0 => [
                 'id' => 1,
                 'name' => 'Notification Registration for New Member Non Active',
                 'slug' => 'notification-new-member',
-            'title' => 'Pendaftaran Member Baru (belum aktif--belum membayar paket)',
+                'title' => 'Pendaftaran Member Baru (belum aktif--belum membayar paket)',
                 'content' => '<table border="0" cellspacing="0" style="width:100%">
 	<tbody>
 		<tr>
@@ -136,9 +133,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-14 16:25:03',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'name' => 'Notification Registration for New Member Active',
                 'slug' => 'notification-new-member-active',
@@ -246,9 +242,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-16 20:30:47',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'name' => 'Notification Registration for Sponsor',
                 'slug' => 'notification-sponsor',
@@ -340,9 +335,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-16 20:29:55',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'name' => 'Notification Invoice',
                 'slug' => 'notification-invoice',
@@ -526,9 +520,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:11:04',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'name' => 'Notification Order Confirmation',
                 'slug' => 'notification-order-confirmation',
@@ -689,9 +682,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-14 16:25:51',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'name' => 'Notification Order Cancelled',
                 'slug' => 'notification-order-cancelled',
@@ -855,13 +847,12 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:11:58',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'name' => 'Notification Transfer Product for Sender',
                 'slug' => 'notification-transfer-pin-sender',
-            'title' => 'Product Transfer Information  (Send Product)',
+                'title' => 'Product Transfer Information  (Send Product)',
                 'content' => '<table border="0" cellspacing="0" style="width:100%">
 	<tbody>
 		<tr>
@@ -960,13 +951,12 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:06',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'name' => 'Notification Transfer Product for Receiver',
                 'slug' => 'notification-transfer-pin-receiver',
-            'title' => 'Product Transfer Information (Receive Product)',
+                'title' => 'Product Transfer Information (Receive Product)',
                 'content' => '<table border="0" cellspacing="0" style="width:100%">
 	<tbody>
 		<tr>
@@ -1052,9 +1042,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:07',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'name' => 'Notification Withdraw',
                 'slug' => 'notification-withdraw',
@@ -1179,9 +1168,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:08',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'name' => 'Notification Change Password',
                 'slug' => 'notification-change-password',
@@ -1267,9 +1255,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:10',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'name' => 'Notification Forgot Password',
                 'slug' => 'notification-forget-password',
@@ -1355,9 +1342,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:11',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'name' => 'Notification Reset Password',
                 'slug' => 'notification-reset-password',
@@ -1443,9 +1429,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:13',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'name' => 'Notification OTP Code',
                 'slug' => 'notification-otp-code',
@@ -1534,9 +1519,8 @@ class JpbNotificationTableSeeder extends Seeder
                 'type' => 'email',
                 'datecreated' => '2024-06-01 00:00:00',
                 'datemodified' => '2025-04-06 15:08:15',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 21,
                 'name' => 'Notification Change Password',
                 'slug' => 'notification-change-password',
@@ -1556,9 +1540,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-01 00:00:00',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 22,
                 'name' => 'Notification Reset Password',
                 'slug' => 'notification-reset-password',
@@ -1578,9 +1561,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-01 00:00:00',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 23,
                 'name' => 'Notification Forgot Password',
                 'slug' => 'notification-forget-password',
@@ -1600,13 +1582,12 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-01 00:00:00',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 24,
                 'name' => 'Notification New Member Non Active',
                 'slug' => 'notification-new-member',
-            'title' => 'Pendaftaran Member Baru (belum aktif)',
+                'title' => 'Pendaftaran Member Baru (belum aktif)',
                 'content' => '*Selamat Bergabung...*
 
 Terima kasih Anda sudah mendaftar sebagai anggota baru di {company_name}.
@@ -1626,9 +1607,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-24 21:03:51',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 25,
                 'name' => 'Notification New Member Active',
                 'slug' => 'notification-new-member-active',
@@ -1651,9 +1631,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-24 21:02:30',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 26,
                 'name' => 'Notification Sponsor',
                 'slug' => 'notification-sponsor',
@@ -1674,9 +1653,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-24 21:03:14',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 27,
                 'name' => 'Notification Withdraw',
                 'slug' => 'notification-withdraw',
@@ -1699,9 +1677,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2025-04-06 15:09:32',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 28,
                 'name' => 'Notification Product Order',
                 'slug' => 'notification-shop-order',
@@ -1728,9 +1705,8 @@ Salam Sukses,
                 'type' => 'whatsapp',
                 'datecreated' => '2024-12-01 00:00:00',
                 'datemodified' => '2024-12-01 00:00:00',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

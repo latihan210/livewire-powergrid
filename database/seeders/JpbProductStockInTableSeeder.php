@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductStockInTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbProductStockInTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('product_stock_ins')->delete();
-        
-        \DB::table('product_stock_ins')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('product_stock_ins')->insert([
+            0 => [
                 'id' => 1,
                 'id_supplier' => 1,
                 'id_warehouse' => 0,
@@ -33,10 +30,9 @@ class JpbProductStockInTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Masuk dari Pembelian #INV/PO/00002',
                 'datecreated' => '2025-04-21 12:52:43',
-                'dateexpired' => NULL,
-            ),
-            1 => 
-            array (
+                'dateexpired' => null,
+            ],
+            1 => [
                 'id' => 2,
                 'id_supplier' => 2,
                 'id_warehouse' => 0,
@@ -49,10 +45,9 @@ class JpbProductStockInTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Masuk dari Pembelian #INV/PO/00003',
                 'datecreated' => '2025-06-27 13:57:59',
-                'dateexpired' => NULL,
-            ),
-            2 => 
-            array (
+                'dateexpired' => null,
+            ],
+            2 => [
                 'id' => 3,
                 'id_supplier' => 2,
                 'id_warehouse' => 0,
@@ -65,10 +60,9 @@ class JpbProductStockInTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Masuk dari Pembelian #INV/PO/00004',
                 'datecreated' => '2025-06-27 13:59:25',
-                'dateexpired' => NULL,
-            ),
-        ));
-        
-        
+                'dateexpired' => null,
+            ],
+        ]);
+
     }
 }

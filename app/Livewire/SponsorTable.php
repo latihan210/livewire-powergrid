@@ -43,9 +43,11 @@ final class SponsorTable extends PowerGridComponent
                 's.rank',
                 's.status',
                 's.datecreated',
-                DB::raw('COUNT(m.id) as total_downline')
+                DB::raw('COUNT(m.id) as total_downline'),
+                DB::raw('SUM(CASE WHEN m.status = 1 THEN 1 ELSE 0 END) as total_active'),
+                DB::raw('SUM(CASE WHEN m.status <> 1 THEN 1 ELSE 0 END) as total_nonactive')
             )
-            ->groupBy('s.id', 's.username', 's.name')
+            ->groupBy('s.id', 's.username', 's.name', 's.rank', 's.status', 's.datecreated')
             ->orderByDesc('total_downline')
             ->orderBy('s.id');
 
@@ -87,8 +89,10 @@ final class SponsorTable extends PowerGridComponent
                 };
             })
             ->add('datecreated')
-            ->add('datecreated_formatted', fn(Sponsor $sponsor) => $sponsor->datecreated?->format('d M Y') ?? '-')
-            ->add('total_downline');
+            ->add('datecreated_formatted', fn (Sponsor $sponsor) => $sponsor->datecreated?->format('d M Y') ?? '-')
+            ->add('total_downline')
+            ->add('total_active')
+            ->add('total_nonactive');
     }
 
     public function columns(): array
@@ -101,11 +105,13 @@ final class SponsorTable extends PowerGridComponent
                 ->sortable(),
             Column::make('Rank', 'rank_label', 'rank')
                 ->sortable(),
+            Column::make('Total Sponsored (Active)', 'total_active', 'total_active')
+                ->sortable(),
+            Column::make('Total Sponsored (Non-Active)', 'total_nonactive', 'total_nonactive')
+                ->sortable(),
             Column::make('Status', 'status_label', 'status')
                 ->sortable(),
             Column::make('Tanggal Daftar', 'datecreated_formatted', 'datecreated')
-                ->sortable(),
-            Column::make('Total Downline', 'total_downline')
                 ->sortable(),
             Column::action('Action'),
         ];
@@ -138,27 +144,22 @@ final class SponsorTable extends PowerGridComponent
                 ->optionValue('id')
                 ->optionLabel('name'),
             Filter::datePicker('datecreated'),
-            Filter::inputText('total_downline')
-                ->operators(['contains'])
-                ->builder(function ($query, $value) {
-                    $search = is_array($value) ? ($value['value'] ?? '') : $value;
-
-                    return $query->where('total_downline', 'like', "%{$search}%");
-                }),
+            Filter::number('total_active')->placeholder('Min', 'Max'),
+            Filter::number('total_nonactive')->placeholder('Min', 'Max'),
         ];
     }
 
     #[On('edit')]
     public function edit($rowId): void
     {
-        $this->js('alert(' . $rowId . ')');
+        $this->js('alert('.$rowId.')');
     }
 
     public function actions(Sponsor $row): array
     {
         return [
             Button::add('edit')
-                ->slot('Edit: ' . $row->id)
+                ->slot('Edit: '.$row->id)
                 ->id()
                 ->class('pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700')
                 ->dispatch('edit', ['rowId' => $row->id]),

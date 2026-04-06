@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbCountryTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbCountryTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_country')->delete();
-        
-        \DB::table('jpb_country')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_country')->insert([
+            0 => [
                 'id' => 1,
                 'iso' => 'AF',
                 'name' => 'AFGHANISTAN',
@@ -29,9 +26,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 4,
                 'phonecode' => 93,
                 'status' => 0,
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'iso' => 'AL',
                 'name' => 'ALBANIA',
@@ -40,9 +36,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 8,
                 'phonecode' => 355,
                 'status' => 0,
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'iso' => 'DZ',
                 'name' => 'ALGERIA',
@@ -51,9 +46,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 12,
                 'phonecode' => 213,
                 'status' => 0,
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'iso' => 'AS',
                 'name' => 'AMERICAN SAMOA',
@@ -62,9 +56,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 16,
                 'phonecode' => 1684,
                 'status' => 0,
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'iso' => 'AD',
                 'name' => 'ANDORRA',
@@ -73,9 +66,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 20,
                 'phonecode' => 376,
                 'status' => 0,
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'iso' => 'AO',
                 'name' => 'ANGOLA',
@@ -84,9 +76,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 24,
                 'phonecode' => 244,
                 'status' => 0,
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'iso' => 'AI',
                 'name' => 'ANGUILLA',
@@ -95,20 +86,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 660,
                 'phonecode' => 1264,
                 'status' => 0,
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'iso' => 'AQ',
                 'name' => 'ANTARCTICA',
                 'nicename' => 'Antarctica',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'iso' => 'AG',
                 'name' => 'ANTIGUA AND BARBUDA',
@@ -117,9 +106,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 28,
                 'phonecode' => 1268,
                 'status' => 0,
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'iso' => 'AR',
                 'name' => 'ARGENTINA',
@@ -128,9 +116,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 32,
                 'phonecode' => 54,
                 'status' => 0,
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'iso' => 'AM',
                 'name' => 'ARMENIA',
@@ -139,9 +126,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 51,
                 'phonecode' => 374,
                 'status' => 0,
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'iso' => 'AW',
                 'name' => 'ARUBA',
@@ -150,9 +136,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 533,
                 'phonecode' => 297,
                 'status' => 0,
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'iso' => 'AU',
                 'name' => 'AUSTRALIA',
@@ -161,9 +146,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 36,
                 'phonecode' => 61,
                 'status' => 1,
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'iso' => 'AT',
                 'name' => 'AUSTRIA',
@@ -172,9 +156,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 40,
                 'phonecode' => 43,
                 'status' => 0,
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'iso' => 'AZ',
                 'name' => 'AZERBAIJAN',
@@ -183,9 +166,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 31,
                 'phonecode' => 994,
                 'status' => 0,
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'iso' => 'BS',
                 'name' => 'BAHAMAS',
@@ -194,9 +176,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 44,
                 'phonecode' => 1242,
                 'status' => 0,
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'iso' => 'BH',
                 'name' => 'BAHRAIN',
@@ -205,9 +186,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 48,
                 'phonecode' => 973,
                 'status' => 0,
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'iso' => 'BD',
                 'name' => 'BANGLADESH',
@@ -216,9 +196,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 50,
                 'phonecode' => 880,
                 'status' => 0,
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'iso' => 'BB',
                 'name' => 'BARBADOS',
@@ -227,9 +206,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 52,
                 'phonecode' => 1246,
                 'status' => 0,
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'iso' => 'BY',
                 'name' => 'BELARUS',
@@ -238,9 +216,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 112,
                 'phonecode' => 375,
                 'status' => 0,
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'iso' => 'BE',
                 'name' => 'BELGIUM',
@@ -249,9 +226,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 56,
                 'phonecode' => 32,
                 'status' => 0,
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'iso' => 'BZ',
                 'name' => 'BELIZE',
@@ -260,9 +236,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 84,
                 'phonecode' => 501,
                 'status' => 0,
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'iso' => 'BJ',
                 'name' => 'BENIN',
@@ -271,9 +246,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 204,
                 'phonecode' => 229,
                 'status' => 0,
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'iso' => 'BM',
                 'name' => 'BERMUDA',
@@ -282,9 +256,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 60,
                 'phonecode' => 1441,
                 'status' => 0,
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'iso' => 'BT',
                 'name' => 'BHUTAN',
@@ -293,9 +266,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 64,
                 'phonecode' => 975,
                 'status' => 0,
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'iso' => 'BO',
                 'name' => 'BOLIVIA',
@@ -304,9 +276,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 68,
                 'phonecode' => 591,
                 'status' => 0,
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'iso' => 'BA',
                 'name' => 'BOSNIA AND HERZEGOVINA',
@@ -315,9 +286,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 70,
                 'phonecode' => 387,
                 'status' => 0,
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'iso' => 'BW',
                 'name' => 'BOTSWANA',
@@ -326,20 +296,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 72,
                 'phonecode' => 267,
                 'status' => 0,
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'iso' => 'BV',
                 'name' => 'BOUVET ISLAND',
                 'nicename' => 'Bouvet Island',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'iso' => 'BR',
                 'name' => 'BRAZIL',
@@ -348,20 +316,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 76,
                 'phonecode' => 55,
                 'status' => 0,
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'iso' => 'IO',
                 'name' => 'BRITISH INDIAN OCEAN TERRITORY',
                 'nicename' => 'British Indian Ocean Territory',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 246,
                 'status' => 0,
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'iso' => 'BN',
                 'name' => 'BRUNEI DARUSSALAM',
@@ -370,9 +336,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 96,
                 'phonecode' => 673,
                 'status' => 1,
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'iso' => 'BG',
                 'name' => 'BULGARIA',
@@ -381,9 +346,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 100,
                 'phonecode' => 359,
                 'status' => 0,
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'iso' => 'BF',
                 'name' => 'BURKINA FASO',
@@ -392,9 +356,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 854,
                 'phonecode' => 226,
                 'status' => 0,
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'iso' => 'BI',
                 'name' => 'BURUNDI',
@@ -403,9 +366,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 108,
                 'phonecode' => 257,
                 'status' => 0,
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'iso' => 'KH',
                 'name' => 'CAMBODIA',
@@ -414,9 +376,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 116,
                 'phonecode' => 855,
                 'status' => 1,
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'iso' => 'CM',
                 'name' => 'CAMEROON',
@@ -425,9 +386,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 120,
                 'phonecode' => 237,
                 'status' => 0,
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'iso' => 'CA',
                 'name' => 'CANADA',
@@ -436,9 +396,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 124,
                 'phonecode' => 1,
                 'status' => 0,
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'iso' => 'CV',
                 'name' => 'CAPE VERDE',
@@ -447,9 +406,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 132,
                 'phonecode' => 238,
                 'status' => 0,
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'iso' => 'KY',
                 'name' => 'CAYMAN ISLANDS',
@@ -458,9 +416,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 136,
                 'phonecode' => 1345,
                 'status' => 0,
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'iso' => 'CF',
                 'name' => 'CENTRAL AFRICAN REPUBLIC',
@@ -469,9 +426,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 140,
                 'phonecode' => 236,
                 'status' => 0,
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'iso' => 'TD',
                 'name' => 'CHAD',
@@ -480,9 +436,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 148,
                 'phonecode' => 235,
                 'status' => 0,
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'iso' => 'CL',
                 'name' => 'CHILE',
@@ -491,9 +446,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 152,
                 'phonecode' => 56,
                 'status' => 0,
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'iso' => 'CN',
                 'name' => 'CHINA',
@@ -502,31 +456,28 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 156,
                 'phonecode' => 86,
                 'status' => 1,
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'iso' => 'CX',
                 'name' => 'CHRISTMAS ISLAND',
                 'nicename' => 'Christmas Island',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 61,
                 'status' => 0,
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'iso' => 'CC',
-            'name' => 'COCOS (KEELING) ISLANDS',
-            'nicename' => 'Cocos (Keeling) Islands',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'name' => 'COCOS (KEELING) ISLANDS',
+                'nicename' => 'Cocos (Keeling) Islands',
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 672,
                 'status' => 0,
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'iso' => 'CO',
                 'name' => 'COLOMBIA',
@@ -535,9 +486,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 170,
                 'phonecode' => 57,
                 'status' => 0,
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'iso' => 'KM',
                 'name' => 'COMOROS',
@@ -546,9 +496,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 174,
                 'phonecode' => 269,
                 'status' => 0,
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'iso' => 'CG',
                 'name' => 'CONGO',
@@ -557,9 +506,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 178,
                 'phonecode' => 242,
                 'status' => 0,
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'iso' => 'CD',
                 'name' => 'CONGO, THE DEMOCRATIC REPUBLIC OF THE',
@@ -568,9 +516,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 180,
                 'phonecode' => 242,
                 'status' => 0,
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'iso' => 'CK',
                 'name' => 'COOK ISLANDS',
@@ -579,9 +526,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 184,
                 'phonecode' => 682,
                 'status' => 0,
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'iso' => 'CR',
                 'name' => 'COSTA RICA',
@@ -590,9 +536,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 188,
                 'phonecode' => 506,
                 'status' => 0,
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'iso' => 'CI',
                 'name' => 'COTE DIVOIRE',
@@ -601,9 +546,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 384,
                 'phonecode' => 225,
                 'status' => 0,
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'iso' => 'HR',
                 'name' => 'CROATIA',
@@ -612,9 +556,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 191,
                 'phonecode' => 385,
                 'status' => 0,
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'iso' => 'CU',
                 'name' => 'CUBA',
@@ -623,9 +566,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 192,
                 'phonecode' => 53,
                 'status' => 0,
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'iso' => 'CY',
                 'name' => 'CYPRUS',
@@ -634,9 +576,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 196,
                 'phonecode' => 357,
                 'status' => 0,
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'iso' => 'CZ',
                 'name' => 'CZECH REPUBLIC',
@@ -645,9 +586,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 203,
                 'phonecode' => 420,
                 'status' => 0,
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'iso' => 'DK',
                 'name' => 'DENMARK',
@@ -656,9 +596,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 208,
                 'phonecode' => 45,
                 'status' => 0,
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'iso' => 'DJ',
                 'name' => 'DJIBOUTI',
@@ -667,9 +606,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 262,
                 'phonecode' => 253,
                 'status' => 0,
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'iso' => 'DM',
                 'name' => 'DOMINICA',
@@ -678,9 +616,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 212,
                 'phonecode' => 1767,
                 'status' => 0,
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'iso' => 'DO',
                 'name' => 'DOMINICAN REPUBLIC',
@@ -689,9 +626,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 214,
                 'phonecode' => 1809,
                 'status' => 0,
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'iso' => 'EC',
                 'name' => 'ECUADOR',
@@ -700,9 +636,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 218,
                 'phonecode' => 593,
                 'status' => 0,
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'iso' => 'EG',
                 'name' => 'EGYPT',
@@ -711,9 +646,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 818,
                 'phonecode' => 20,
                 'status' => 0,
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'iso' => 'SV',
                 'name' => 'EL SALVADOR',
@@ -722,9 +656,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 222,
                 'phonecode' => 503,
                 'status' => 0,
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'iso' => 'GQ',
                 'name' => 'EQUATORIAL GUINEA',
@@ -733,9 +666,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 226,
                 'phonecode' => 240,
                 'status' => 0,
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'iso' => 'ER',
                 'name' => 'ERITREA',
@@ -744,9 +676,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 232,
                 'phonecode' => 291,
                 'status' => 0,
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'iso' => 'EE',
                 'name' => 'ESTONIA',
@@ -755,9 +686,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 233,
                 'phonecode' => 372,
                 'status' => 0,
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'iso' => 'ET',
                 'name' => 'ETHIOPIA',
@@ -766,20 +696,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 231,
                 'phonecode' => 251,
                 'status' => 0,
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'iso' => 'FK',
-            'name' => 'FALKLAND ISLANDS (MALVINAS)',
-            'nicename' => 'Falkland Islands (Malvinas)',
+                'name' => 'FALKLAND ISLANDS (MALVINAS)',
+                'nicename' => 'Falkland Islands (Malvinas)',
                 'iso3' => 'FLK',
                 'numcode' => 238,
                 'phonecode' => 500,
                 'status' => 0,
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'iso' => 'FO',
                 'name' => 'FAROE ISLANDS',
@@ -788,9 +716,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 234,
                 'phonecode' => 298,
                 'status' => 0,
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'iso' => 'FJ',
                 'name' => 'FIJI',
@@ -799,9 +726,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 242,
                 'phonecode' => 679,
                 'status' => 0,
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'iso' => 'FI',
                 'name' => 'FINLAND',
@@ -810,9 +736,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 246,
                 'phonecode' => 358,
                 'status' => 0,
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 73,
                 'iso' => 'FR',
                 'name' => 'FRANCE',
@@ -821,9 +746,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 250,
                 'phonecode' => 33,
                 'status' => 0,
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 74,
                 'iso' => 'GF',
                 'name' => 'FRENCH GUIANA',
@@ -832,9 +756,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 254,
                 'phonecode' => 594,
                 'status' => 0,
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 75,
                 'iso' => 'PF',
                 'name' => 'FRENCH POLYNESIA',
@@ -843,20 +766,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 258,
                 'phonecode' => 689,
                 'status' => 0,
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 76,
                 'iso' => 'TF',
                 'name' => 'FRENCH SOUTHERN TERRITORIES',
                 'nicename' => 'French Southern Territories',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 77,
                 'iso' => 'GA',
                 'name' => 'GABON',
@@ -865,9 +786,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 266,
                 'phonecode' => 241,
                 'status' => 0,
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 78,
                 'iso' => 'GM',
                 'name' => 'GAMBIA',
@@ -876,9 +796,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 270,
                 'phonecode' => 220,
                 'status' => 0,
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 79,
                 'iso' => 'GE',
                 'name' => 'GEORGIA',
@@ -887,9 +806,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 268,
                 'phonecode' => 995,
                 'status' => 0,
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 80,
                 'iso' => 'DE',
                 'name' => 'GERMANY',
@@ -898,9 +816,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 276,
                 'phonecode' => 49,
                 'status' => 0,
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 81,
                 'iso' => 'GH',
                 'name' => 'GHANA',
@@ -909,9 +826,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 288,
                 'phonecode' => 233,
                 'status' => 0,
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 82,
                 'iso' => 'GI',
                 'name' => 'GIBRALTAR',
@@ -920,9 +836,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 292,
                 'phonecode' => 350,
                 'status' => 0,
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 83,
                 'iso' => 'GR',
                 'name' => 'GREECE',
@@ -931,9 +846,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 300,
                 'phonecode' => 30,
                 'status' => 0,
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 84,
                 'iso' => 'GL',
                 'name' => 'GREENLAND',
@@ -942,9 +856,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 304,
                 'phonecode' => 299,
                 'status' => 0,
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 85,
                 'iso' => 'GD',
                 'name' => 'GRENADA',
@@ -953,9 +866,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 308,
                 'phonecode' => 1473,
                 'status' => 0,
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 86,
                 'iso' => 'GP',
                 'name' => 'GUADELOUPE',
@@ -964,9 +876,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 312,
                 'phonecode' => 590,
                 'status' => 0,
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 87,
                 'iso' => 'GU',
                 'name' => 'GUAM',
@@ -975,9 +886,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 316,
                 'phonecode' => 1671,
                 'status' => 0,
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 88,
                 'iso' => 'GT',
                 'name' => 'GUATEMALA',
@@ -986,9 +896,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 320,
                 'phonecode' => 502,
                 'status' => 0,
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 89,
                 'iso' => 'GN',
                 'name' => 'GUINEA',
@@ -997,9 +906,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 324,
                 'phonecode' => 224,
                 'status' => 0,
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 90,
                 'iso' => 'GW',
                 'name' => 'GUINEA-BISSAU',
@@ -1008,9 +916,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 624,
                 'phonecode' => 245,
                 'status' => 0,
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 91,
                 'iso' => 'GY',
                 'name' => 'GUYANA',
@@ -1019,9 +926,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 328,
                 'phonecode' => 592,
                 'status' => 0,
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 92,
                 'iso' => 'HT',
                 'name' => 'HAITI',
@@ -1030,31 +936,28 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 332,
                 'phonecode' => 509,
                 'status' => 0,
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 93,
                 'iso' => 'HM',
                 'name' => 'HEARD ISLAND AND MCDONALD ISLANDS',
                 'nicename' => 'Heard Island and Mcdonald Islands',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 94,
                 'iso' => 'VA',
-            'name' => 'HOLY SEE (VATICAN CITY STATE)',
-            'nicename' => 'Holy See (Vatican City State)',
+                'name' => 'HOLY SEE (VATICAN CITY STATE)',
+                'nicename' => 'Holy See (Vatican City State)',
                 'iso3' => 'VAT',
                 'numcode' => 336,
                 'phonecode' => 39,
                 'status' => 0,
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 95,
                 'iso' => 'HN',
                 'name' => 'HONDURAS',
@@ -1063,9 +966,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 340,
                 'phonecode' => 504,
                 'status' => 0,
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 96,
                 'iso' => 'HK',
                 'name' => 'HONG KONG',
@@ -1074,9 +976,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 344,
                 'phonecode' => 852,
                 'status' => 1,
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 97,
                 'iso' => 'HU',
                 'name' => 'HUNGARY',
@@ -1085,9 +986,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 348,
                 'phonecode' => 36,
                 'status' => 0,
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 98,
                 'iso' => 'IS',
                 'name' => 'ICELAND',
@@ -1096,9 +996,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 352,
                 'phonecode' => 354,
                 'status' => 0,
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 99,
                 'iso' => 'IN',
                 'name' => 'INDIA',
@@ -1107,9 +1006,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 356,
                 'phonecode' => 91,
                 'status' => 1,
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 100,
                 'iso' => 'ID',
                 'name' => 'INDONESIA',
@@ -1118,9 +1016,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 360,
                 'phonecode' => 62,
                 'status' => 1,
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 101,
                 'iso' => 'IR',
                 'name' => 'IRAN, ISLAMIC REPUBLIC OF',
@@ -1129,9 +1026,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 364,
                 'phonecode' => 98,
                 'status' => 0,
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 102,
                 'iso' => 'IQ',
                 'name' => 'IRAQ',
@@ -1140,9 +1036,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 368,
                 'phonecode' => 964,
                 'status' => 0,
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 103,
                 'iso' => 'IE',
                 'name' => 'IRELAND',
@@ -1151,9 +1046,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 372,
                 'phonecode' => 353,
                 'status' => 0,
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 104,
                 'iso' => 'IL',
                 'name' => 'ISRAEL',
@@ -1162,9 +1056,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 376,
                 'phonecode' => 972,
                 'status' => 0,
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 105,
                 'iso' => 'IT',
                 'name' => 'ITALY',
@@ -1173,9 +1066,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 380,
                 'phonecode' => 39,
                 'status' => 0,
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 106,
                 'iso' => 'JM',
                 'name' => 'JAMAICA',
@@ -1184,9 +1076,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 388,
                 'phonecode' => 1876,
                 'status' => 0,
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 107,
                 'iso' => 'JP',
                 'name' => 'JAPAN',
@@ -1195,9 +1086,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 392,
                 'phonecode' => 81,
                 'status' => 1,
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'iso' => 'JO',
                 'name' => 'JORDAN',
@@ -1206,9 +1096,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 400,
                 'phonecode' => 962,
                 'status' => 0,
-            ),
-            108 => 
-            array (
+            ],
+            108 => [
                 'id' => 109,
                 'iso' => 'KZ',
                 'name' => 'KAZAKHSTAN',
@@ -1217,9 +1106,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 398,
                 'phonecode' => 7,
                 'status' => 0,
-            ),
-            109 => 
-            array (
+            ],
+            109 => [
                 'id' => 110,
                 'iso' => 'KE',
                 'name' => 'KENYA',
@@ -1228,9 +1116,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 404,
                 'phonecode' => 254,
                 'status' => 0,
-            ),
-            110 => 
-            array (
+            ],
+            110 => [
                 'id' => 111,
                 'iso' => 'KI',
                 'name' => 'KIRIBATI',
@@ -1239,9 +1126,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 296,
                 'phonecode' => 686,
                 'status' => 0,
-            ),
-            111 => 
-            array (
+            ],
+            111 => [
                 'id' => 112,
                 'iso' => 'KP',
                 'name' => 'KOREA, DEMOCRATIC PEOPLES REPUBLIC OF',
@@ -1250,9 +1136,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 408,
                 'phonecode' => 850,
                 'status' => 0,
-            ),
-            112 => 
-            array (
+            ],
+            112 => [
                 'id' => 113,
                 'iso' => 'KR',
                 'name' => 'KOREA, REPUBLIC OF',
@@ -1261,9 +1146,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 410,
                 'phonecode' => 82,
                 'status' => 1,
-            ),
-            113 => 
-            array (
+            ],
+            113 => [
                 'id' => 114,
                 'iso' => 'KW',
                 'name' => 'KUWAIT',
@@ -1272,9 +1156,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 414,
                 'phonecode' => 965,
                 'status' => 0,
-            ),
-            114 => 
-            array (
+            ],
+            114 => [
                 'id' => 115,
                 'iso' => 'KG',
                 'name' => 'KYRGYZSTAN',
@@ -1283,9 +1166,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 417,
                 'phonecode' => 996,
                 'status' => 0,
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 116,
                 'iso' => 'LA',
                 'name' => 'LAO PEOPLES DEMOCRATIC REPUBLIC',
@@ -1294,9 +1176,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 418,
                 'phonecode' => 856,
                 'status' => 0,
-            ),
-            116 => 
-            array (
+            ],
+            116 => [
                 'id' => 117,
                 'iso' => 'LV',
                 'name' => 'LATVIA',
@@ -1305,9 +1186,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 428,
                 'phonecode' => 371,
                 'status' => 0,
-            ),
-            117 => 
-            array (
+            ],
+            117 => [
                 'id' => 118,
                 'iso' => 'LB',
                 'name' => 'LEBANON',
@@ -1316,9 +1196,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 422,
                 'phonecode' => 961,
                 'status' => 0,
-            ),
-            118 => 
-            array (
+            ],
+            118 => [
                 'id' => 119,
                 'iso' => 'LS',
                 'name' => 'LESOTHO',
@@ -1327,9 +1206,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 426,
                 'phonecode' => 266,
                 'status' => 0,
-            ),
-            119 => 
-            array (
+            ],
+            119 => [
                 'id' => 120,
                 'iso' => 'LR',
                 'name' => 'LIBERIA',
@@ -1338,9 +1216,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 430,
                 'phonecode' => 231,
                 'status' => 0,
-            ),
-            120 => 
-            array (
+            ],
+            120 => [
                 'id' => 121,
                 'iso' => 'LY',
                 'name' => 'LIBYAN ARAB JAMAHIRIYA',
@@ -1349,9 +1226,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 434,
                 'phonecode' => 218,
                 'status' => 0,
-            ),
-            121 => 
-            array (
+            ],
+            121 => [
                 'id' => 122,
                 'iso' => 'LI',
                 'name' => 'LIECHTENSTEIN',
@@ -1360,9 +1236,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 438,
                 'phonecode' => 423,
                 'status' => 0,
-            ),
-            122 => 
-            array (
+            ],
+            122 => [
                 'id' => 123,
                 'iso' => 'LT',
                 'name' => 'LITHUANIA',
@@ -1371,9 +1246,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 440,
                 'phonecode' => 370,
                 'status' => 0,
-            ),
-            123 => 
-            array (
+            ],
+            123 => [
                 'id' => 124,
                 'iso' => 'LU',
                 'name' => 'LUXEMBOURG',
@@ -1382,9 +1256,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 442,
                 'phonecode' => 352,
                 'status' => 0,
-            ),
-            124 => 
-            array (
+            ],
+            124 => [
                 'id' => 125,
                 'iso' => 'MO',
                 'name' => 'MACAO',
@@ -1393,9 +1266,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 446,
                 'phonecode' => 853,
                 'status' => 0,
-            ),
-            125 => 
-            array (
+            ],
+            125 => [
                 'id' => 126,
                 'iso' => 'MK',
                 'name' => 'MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF',
@@ -1404,9 +1276,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 807,
                 'phonecode' => 389,
                 'status' => 0,
-            ),
-            126 => 
-            array (
+            ],
+            126 => [
                 'id' => 127,
                 'iso' => 'MG',
                 'name' => 'MADAGASCAR',
@@ -1415,9 +1286,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 450,
                 'phonecode' => 261,
                 'status' => 0,
-            ),
-            127 => 
-            array (
+            ],
+            127 => [
                 'id' => 128,
                 'iso' => 'MW',
                 'name' => 'MALAWI',
@@ -1426,9 +1296,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 454,
                 'phonecode' => 265,
                 'status' => 0,
-            ),
-            128 => 
-            array (
+            ],
+            128 => [
                 'id' => 129,
                 'iso' => 'MY',
                 'name' => 'MALAYSIA',
@@ -1437,9 +1306,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 458,
                 'phonecode' => 60,
                 'status' => 1,
-            ),
-            129 => 
-            array (
+            ],
+            129 => [
                 'id' => 130,
                 'iso' => 'MV',
                 'name' => 'MALDIVES',
@@ -1448,9 +1316,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 462,
                 'phonecode' => 960,
                 'status' => 0,
-            ),
-            130 => 
-            array (
+            ],
+            130 => [
                 'id' => 131,
                 'iso' => 'ML',
                 'name' => 'MALI',
@@ -1459,9 +1326,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 466,
                 'phonecode' => 223,
                 'status' => 0,
-            ),
-            131 => 
-            array (
+            ],
+            131 => [
                 'id' => 132,
                 'iso' => 'MT',
                 'name' => 'MALTA',
@@ -1470,9 +1336,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 470,
                 'phonecode' => 356,
                 'status' => 0,
-            ),
-            132 => 
-            array (
+            ],
+            132 => [
                 'id' => 133,
                 'iso' => 'MH',
                 'name' => 'MARSHALL ISLANDS',
@@ -1481,9 +1346,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 584,
                 'phonecode' => 692,
                 'status' => 0,
-            ),
-            133 => 
-            array (
+            ],
+            133 => [
                 'id' => 134,
                 'iso' => 'MQ',
                 'name' => 'MARTINIQUE',
@@ -1492,9 +1356,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 474,
                 'phonecode' => 596,
                 'status' => 0,
-            ),
-            134 => 
-            array (
+            ],
+            134 => [
                 'id' => 135,
                 'iso' => 'MR',
                 'name' => 'MAURITANIA',
@@ -1503,9 +1366,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 478,
                 'phonecode' => 222,
                 'status' => 0,
-            ),
-            135 => 
-            array (
+            ],
+            135 => [
                 'id' => 136,
                 'iso' => 'MU',
                 'name' => 'MAURITIUS',
@@ -1514,20 +1376,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 480,
                 'phonecode' => 230,
                 'status' => 0,
-            ),
-            136 => 
-            array (
+            ],
+            136 => [
                 'id' => 137,
                 'iso' => 'YT',
                 'name' => 'MAYOTTE',
                 'nicename' => 'Mayotte',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 269,
                 'status' => 0,
-            ),
-            137 => 
-            array (
+            ],
+            137 => [
                 'id' => 138,
                 'iso' => 'MX',
                 'name' => 'MEXICO',
@@ -1536,9 +1396,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 484,
                 'phonecode' => 52,
                 'status' => 0,
-            ),
-            138 => 
-            array (
+            ],
+            138 => [
                 'id' => 139,
                 'iso' => 'FM',
                 'name' => 'MICRONESIA, FEDERATED STATES OF',
@@ -1547,9 +1406,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 583,
                 'phonecode' => 691,
                 'status' => 0,
-            ),
-            139 => 
-            array (
+            ],
+            139 => [
                 'id' => 140,
                 'iso' => 'MD',
                 'name' => 'MOLDOVA, REPUBLIC OF',
@@ -1558,9 +1416,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 498,
                 'phonecode' => 373,
                 'status' => 0,
-            ),
-            140 => 
-            array (
+            ],
+            140 => [
                 'id' => 141,
                 'iso' => 'MC',
                 'name' => 'MONACO',
@@ -1569,9 +1426,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 492,
                 'phonecode' => 377,
                 'status' => 0,
-            ),
-            141 => 
-            array (
+            ],
+            141 => [
                 'id' => 142,
                 'iso' => 'MN',
                 'name' => 'MONGOLIA',
@@ -1580,9 +1436,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 496,
                 'phonecode' => 976,
                 'status' => 0,
-            ),
-            142 => 
-            array (
+            ],
+            142 => [
                 'id' => 143,
                 'iso' => 'MS',
                 'name' => 'MONTSERRAT',
@@ -1591,9 +1446,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 500,
                 'phonecode' => 1664,
                 'status' => 0,
-            ),
-            143 => 
-            array (
+            ],
+            143 => [
                 'id' => 144,
                 'iso' => 'MA',
                 'name' => 'MOROCCO',
@@ -1602,9 +1456,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 504,
                 'phonecode' => 212,
                 'status' => 0,
-            ),
-            144 => 
-            array (
+            ],
+            144 => [
                 'id' => 145,
                 'iso' => 'MZ',
                 'name' => 'MOZAMBIQUE',
@@ -1613,9 +1466,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 508,
                 'phonecode' => 258,
                 'status' => 0,
-            ),
-            145 => 
-            array (
+            ],
+            145 => [
                 'id' => 146,
                 'iso' => 'MM',
                 'name' => 'MYANMAR',
@@ -1624,9 +1476,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 104,
                 'phonecode' => 95,
                 'status' => 1,
-            ),
-            146 => 
-            array (
+            ],
+            146 => [
                 'id' => 147,
                 'iso' => 'NA',
                 'name' => 'NAMIBIA',
@@ -1635,9 +1486,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 516,
                 'phonecode' => 264,
                 'status' => 0,
-            ),
-            147 => 
-            array (
+            ],
+            147 => [
                 'id' => 148,
                 'iso' => 'NR',
                 'name' => 'NAURU',
@@ -1646,9 +1496,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 520,
                 'phonecode' => 674,
                 'status' => 0,
-            ),
-            148 => 
-            array (
+            ],
+            148 => [
                 'id' => 149,
                 'iso' => 'NP',
                 'name' => 'NEPAL',
@@ -1657,9 +1506,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 524,
                 'phonecode' => 977,
                 'status' => 0,
-            ),
-            149 => 
-            array (
+            ],
+            149 => [
                 'id' => 150,
                 'iso' => 'NL',
                 'name' => 'NETHERLANDS',
@@ -1668,9 +1516,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 528,
                 'phonecode' => 31,
                 'status' => 0,
-            ),
-            150 => 
-            array (
+            ],
+            150 => [
                 'id' => 151,
                 'iso' => 'AN',
                 'name' => 'NETHERLANDS ANTILLES',
@@ -1679,9 +1526,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 530,
                 'phonecode' => 599,
                 'status' => 0,
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 152,
                 'iso' => 'NC',
                 'name' => 'NEW CALEDONIA',
@@ -1690,9 +1536,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 540,
                 'phonecode' => 687,
                 'status' => 0,
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 153,
                 'iso' => 'NZ',
                 'name' => 'NEW ZEALAND',
@@ -1701,9 +1546,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 554,
                 'phonecode' => 64,
                 'status' => 1,
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 154,
                 'iso' => 'NI',
                 'name' => 'NICARAGUA',
@@ -1712,9 +1556,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 558,
                 'phonecode' => 505,
                 'status' => 0,
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 155,
                 'iso' => 'NE',
                 'name' => 'NIGER',
@@ -1723,9 +1566,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 562,
                 'phonecode' => 227,
                 'status' => 0,
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 156,
                 'iso' => 'NG',
                 'name' => 'NIGERIA',
@@ -1734,9 +1576,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 566,
                 'phonecode' => 234,
                 'status' => 0,
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 157,
                 'iso' => 'NU',
                 'name' => 'NIUE',
@@ -1745,9 +1586,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 570,
                 'phonecode' => 683,
                 'status' => 0,
-            ),
-            157 => 
-            array (
+            ],
+            157 => [
                 'id' => 158,
                 'iso' => 'NF',
                 'name' => 'NORFOLK ISLAND',
@@ -1756,9 +1596,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 574,
                 'phonecode' => 672,
                 'status' => 0,
-            ),
-            158 => 
-            array (
+            ],
+            158 => [
                 'id' => 159,
                 'iso' => 'MP',
                 'name' => 'NORTHERN MARIANA ISLANDS',
@@ -1767,9 +1606,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 580,
                 'phonecode' => 1670,
                 'status' => 0,
-            ),
-            159 => 
-            array (
+            ],
+            159 => [
                 'id' => 160,
                 'iso' => 'NO',
                 'name' => 'NORWAY',
@@ -1778,9 +1616,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 578,
                 'phonecode' => 47,
                 'status' => 0,
-            ),
-            160 => 
-            array (
+            ],
+            160 => [
                 'id' => 161,
                 'iso' => 'OM',
                 'name' => 'OMAN',
@@ -1789,9 +1626,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 512,
                 'phonecode' => 968,
                 'status' => 0,
-            ),
-            161 => 
-            array (
+            ],
+            161 => [
                 'id' => 162,
                 'iso' => 'PK',
                 'name' => 'PAKISTAN',
@@ -1800,9 +1636,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 586,
                 'phonecode' => 92,
                 'status' => 0,
-            ),
-            162 => 
-            array (
+            ],
+            162 => [
                 'id' => 163,
                 'iso' => 'PW',
                 'name' => 'PALAU',
@@ -1811,20 +1646,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 585,
                 'phonecode' => 680,
                 'status' => 0,
-            ),
-            163 => 
-            array (
+            ],
+            163 => [
                 'id' => 164,
                 'iso' => 'PS',
                 'name' => 'PALESTINIAN TERRITORY, OCCUPIED',
                 'nicename' => 'Palestinian Territory, Occupied',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 970,
                 'status' => 0,
-            ),
-            164 => 
-            array (
+            ],
+            164 => [
                 'id' => 165,
                 'iso' => 'PA',
                 'name' => 'PANAMA',
@@ -1833,9 +1666,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 591,
                 'phonecode' => 507,
                 'status' => 0,
-            ),
-            165 => 
-            array (
+            ],
+            165 => [
                 'id' => 166,
                 'iso' => 'PG',
                 'name' => 'PAPUA NEW GUINEA',
@@ -1844,9 +1676,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 598,
                 'phonecode' => 675,
                 'status' => 0,
-            ),
-            166 => 
-            array (
+            ],
+            166 => [
                 'id' => 167,
                 'iso' => 'PY',
                 'name' => 'PARAGUAY',
@@ -1855,9 +1686,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 600,
                 'phonecode' => 595,
                 'status' => 0,
-            ),
-            167 => 
-            array (
+            ],
+            167 => [
                 'id' => 168,
                 'iso' => 'PE',
                 'name' => 'PERU',
@@ -1866,9 +1696,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 604,
                 'phonecode' => 51,
                 'status' => 0,
-            ),
-            168 => 
-            array (
+            ],
+            168 => [
                 'id' => 169,
                 'iso' => 'PH',
                 'name' => 'PHILIPPINES',
@@ -1877,9 +1706,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 608,
                 'phonecode' => 63,
                 'status' => 1,
-            ),
-            169 => 
-            array (
+            ],
+            169 => [
                 'id' => 170,
                 'iso' => 'PN',
                 'name' => 'PITCAIRN',
@@ -1888,9 +1716,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 612,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            170 => 
-            array (
+            ],
+            170 => [
                 'id' => 171,
                 'iso' => 'PL',
                 'name' => 'POLAND',
@@ -1899,9 +1726,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 616,
                 'phonecode' => 48,
                 'status' => 0,
-            ),
-            171 => 
-            array (
+            ],
+            171 => [
                 'id' => 172,
                 'iso' => 'PT',
                 'name' => 'PORTUGAL',
@@ -1910,9 +1736,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 620,
                 'phonecode' => 351,
                 'status' => 0,
-            ),
-            172 => 
-            array (
+            ],
+            172 => [
                 'id' => 173,
                 'iso' => 'PR',
                 'name' => 'PUERTO RICO',
@@ -1921,9 +1746,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 630,
                 'phonecode' => 1787,
                 'status' => 0,
-            ),
-            173 => 
-            array (
+            ],
+            173 => [
                 'id' => 174,
                 'iso' => 'QA',
                 'name' => 'QATAR',
@@ -1932,9 +1756,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 634,
                 'phonecode' => 974,
                 'status' => 0,
-            ),
-            174 => 
-            array (
+            ],
+            174 => [
                 'id' => 175,
                 'iso' => 'RE',
                 'name' => 'REUNION',
@@ -1943,9 +1766,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 638,
                 'phonecode' => 262,
                 'status' => 0,
-            ),
-            175 => 
-            array (
+            ],
+            175 => [
                 'id' => 176,
                 'iso' => 'RO',
                 'name' => 'ROMANIA',
@@ -1954,9 +1776,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 642,
                 'phonecode' => 40,
                 'status' => 0,
-            ),
-            176 => 
-            array (
+            ],
+            176 => [
                 'id' => 177,
                 'iso' => 'RU',
                 'name' => 'RUSSIAN FEDERATION',
@@ -1965,9 +1786,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 643,
                 'phonecode' => 70,
                 'status' => 0,
-            ),
-            177 => 
-            array (
+            ],
+            177 => [
                 'id' => 178,
                 'iso' => 'RW',
                 'name' => 'RWANDA',
@@ -1976,9 +1796,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 646,
                 'phonecode' => 250,
                 'status' => 0,
-            ),
-            178 => 
-            array (
+            ],
+            178 => [
                 'id' => 179,
                 'iso' => 'SH',
                 'name' => 'SAINT HELENA',
@@ -1987,9 +1806,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 654,
                 'phonecode' => 290,
                 'status' => 0,
-            ),
-            179 => 
-            array (
+            ],
+            179 => [
                 'id' => 180,
                 'iso' => 'KN',
                 'name' => 'SAINT KITTS AND NEVIS',
@@ -1998,9 +1816,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 659,
                 'phonecode' => 1869,
                 'status' => 0,
-            ),
-            180 => 
-            array (
+            ],
+            180 => [
                 'id' => 181,
                 'iso' => 'LC',
                 'name' => 'SAINT LUCIA',
@@ -2009,9 +1826,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 662,
                 'phonecode' => 1758,
                 'status' => 0,
-            ),
-            181 => 
-            array (
+            ],
+            181 => [
                 'id' => 182,
                 'iso' => 'PM',
                 'name' => 'SAINT PIERRE AND MIQUELON',
@@ -2020,9 +1836,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 666,
                 'phonecode' => 508,
                 'status' => 0,
-            ),
-            182 => 
-            array (
+            ],
+            182 => [
                 'id' => 183,
                 'iso' => 'VC',
                 'name' => 'SAINT VINCENT AND THE GRENADINES',
@@ -2031,9 +1846,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 670,
                 'phonecode' => 1784,
                 'status' => 0,
-            ),
-            183 => 
-            array (
+            ],
+            183 => [
                 'id' => 184,
                 'iso' => 'WS',
                 'name' => 'SAMOA',
@@ -2042,9 +1856,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 882,
                 'phonecode' => 684,
                 'status' => 0,
-            ),
-            184 => 
-            array (
+            ],
+            184 => [
                 'id' => 185,
                 'iso' => 'SM',
                 'name' => 'SAN MARINO',
@@ -2053,9 +1866,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 674,
                 'phonecode' => 378,
                 'status' => 0,
-            ),
-            185 => 
-            array (
+            ],
+            185 => [
                 'id' => 186,
                 'iso' => 'ST',
                 'name' => 'SAO TOME AND PRINCIPE',
@@ -2064,9 +1876,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 678,
                 'phonecode' => 239,
                 'status' => 0,
-            ),
-            186 => 
-            array (
+            ],
+            186 => [
                 'id' => 187,
                 'iso' => 'SA',
                 'name' => 'SAUDI ARABIA',
@@ -2075,9 +1886,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 682,
                 'phonecode' => 966,
                 'status' => 0,
-            ),
-            187 => 
-            array (
+            ],
+            187 => [
                 'id' => 188,
                 'iso' => 'SN',
                 'name' => 'SENEGAL',
@@ -2086,20 +1896,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 686,
                 'phonecode' => 221,
                 'status' => 0,
-            ),
-            188 => 
-            array (
+            ],
+            188 => [
                 'id' => 189,
                 'iso' => 'CS',
                 'name' => 'SERBIA AND MONTENEGRO',
                 'nicename' => 'Serbia and Montenegro',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 381,
                 'status' => 0,
-            ),
-            189 => 
-            array (
+            ],
+            189 => [
                 'id' => 190,
                 'iso' => 'SC',
                 'name' => 'SEYCHELLES',
@@ -2108,9 +1916,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 690,
                 'phonecode' => 248,
                 'status' => 0,
-            ),
-            190 => 
-            array (
+            ],
+            190 => [
                 'id' => 191,
                 'iso' => 'SL',
                 'name' => 'SIERRA LEONE',
@@ -2119,9 +1926,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 694,
                 'phonecode' => 232,
                 'status' => 0,
-            ),
-            191 => 
-            array (
+            ],
+            191 => [
                 'id' => 192,
                 'iso' => 'SG',
                 'name' => 'SINGAPORE',
@@ -2130,9 +1936,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 702,
                 'phonecode' => 65,
                 'status' => 1,
-            ),
-            192 => 
-            array (
+            ],
+            192 => [
                 'id' => 193,
                 'iso' => 'SK',
                 'name' => 'SLOVAKIA',
@@ -2141,9 +1946,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 703,
                 'phonecode' => 421,
                 'status' => 0,
-            ),
-            193 => 
-            array (
+            ],
+            193 => [
                 'id' => 194,
                 'iso' => 'SI',
                 'name' => 'SLOVENIA',
@@ -2152,9 +1956,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 705,
                 'phonecode' => 386,
                 'status' => 0,
-            ),
-            194 => 
-            array (
+            ],
+            194 => [
                 'id' => 195,
                 'iso' => 'SB',
                 'name' => 'SOLOMON ISLANDS',
@@ -2163,9 +1966,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 90,
                 'phonecode' => 677,
                 'status' => 0,
-            ),
-            195 => 
-            array (
+            ],
+            195 => [
                 'id' => 196,
                 'iso' => 'SO',
                 'name' => 'SOMALIA',
@@ -2174,9 +1976,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 706,
                 'phonecode' => 252,
                 'status' => 0,
-            ),
-            196 => 
-            array (
+            ],
+            196 => [
                 'id' => 197,
                 'iso' => 'ZA',
                 'name' => 'SOUTH AFRICA',
@@ -2185,20 +1986,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 710,
                 'phonecode' => 27,
                 'status' => 0,
-            ),
-            197 => 
-            array (
+            ],
+            197 => [
                 'id' => 198,
                 'iso' => 'GS',
                 'name' => 'SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS',
                 'nicename' => 'South Georgia and the South Sandwich Islands',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 0,
                 'status' => 0,
-            ),
-            198 => 
-            array (
+            ],
+            198 => [
                 'id' => 199,
                 'iso' => 'ES',
                 'name' => 'SPAIN',
@@ -2207,9 +2006,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 724,
                 'phonecode' => 34,
                 'status' => 0,
-            ),
-            199 => 
-            array (
+            ],
+            199 => [
                 'id' => 200,
                 'iso' => 'LK',
                 'name' => 'SRI LANKA',
@@ -2218,9 +2016,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 144,
                 'phonecode' => 94,
                 'status' => 0,
-            ),
-            200 => 
-            array (
+            ],
+            200 => [
                 'id' => 201,
                 'iso' => 'SD',
                 'name' => 'SUDAN',
@@ -2229,9 +2026,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 736,
                 'phonecode' => 249,
                 'status' => 0,
-            ),
-            201 => 
-            array (
+            ],
+            201 => [
                 'id' => 202,
                 'iso' => 'SR',
                 'name' => 'SURINAME',
@@ -2240,9 +2036,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 740,
                 'phonecode' => 597,
                 'status' => 0,
-            ),
-            202 => 
-            array (
+            ],
+            202 => [
                 'id' => 203,
                 'iso' => 'SJ',
                 'name' => 'SVALBARD AND JAN MAYEN',
@@ -2251,9 +2046,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 744,
                 'phonecode' => 47,
                 'status' => 0,
-            ),
-            203 => 
-            array (
+            ],
+            203 => [
                 'id' => 204,
                 'iso' => 'SZ',
                 'name' => 'SWAZILAND',
@@ -2262,9 +2056,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 748,
                 'phonecode' => 268,
                 'status' => 0,
-            ),
-            204 => 
-            array (
+            ],
+            204 => [
                 'id' => 205,
                 'iso' => 'SE',
                 'name' => 'SWEDEN',
@@ -2273,9 +2066,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 752,
                 'phonecode' => 46,
                 'status' => 0,
-            ),
-            205 => 
-            array (
+            ],
+            205 => [
                 'id' => 206,
                 'iso' => 'CH',
                 'name' => 'SWITZERLAND',
@@ -2284,9 +2076,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 756,
                 'phonecode' => 41,
                 'status' => 0,
-            ),
-            206 => 
-            array (
+            ],
+            206 => [
                 'id' => 207,
                 'iso' => 'SY',
                 'name' => 'SYRIAN ARAB REPUBLIC',
@@ -2295,9 +2086,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 760,
                 'phonecode' => 963,
                 'status' => 0,
-            ),
-            207 => 
-            array (
+            ],
+            207 => [
                 'id' => 208,
                 'iso' => 'TW',
                 'name' => 'TAIWAN, PROVINCE OF CHINA',
@@ -2306,9 +2096,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 158,
                 'phonecode' => 886,
                 'status' => 1,
-            ),
-            208 => 
-            array (
+            ],
+            208 => [
                 'id' => 209,
                 'iso' => 'TJ',
                 'name' => 'TAJIKISTAN',
@@ -2317,9 +2106,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 762,
                 'phonecode' => 992,
                 'status' => 0,
-            ),
-            209 => 
-            array (
+            ],
+            209 => [
                 'id' => 210,
                 'iso' => 'TZ',
                 'name' => 'TANZANIA, UNITED REPUBLIC OF',
@@ -2328,9 +2116,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 834,
                 'phonecode' => 255,
                 'status' => 0,
-            ),
-            210 => 
-            array (
+            ],
+            210 => [
                 'id' => 211,
                 'iso' => 'TH',
                 'name' => 'THAILAND',
@@ -2339,9 +2126,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 764,
                 'phonecode' => 66,
                 'status' => 1,
-            ),
-            211 => 
-            array (
+            ],
+            211 => [
                 'id' => 212,
                 'iso' => 'TL',
                 'name' => 'TIMOR-LESTE',
@@ -2350,9 +2136,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 626,
                 'phonecode' => 670,
                 'status' => 1,
-            ),
-            212 => 
-            array (
+            ],
+            212 => [
                 'id' => 213,
                 'iso' => 'TG',
                 'name' => 'TOGO',
@@ -2361,9 +2146,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 768,
                 'phonecode' => 228,
                 'status' => 0,
-            ),
-            213 => 
-            array (
+            ],
+            213 => [
                 'id' => 214,
                 'iso' => 'TK',
                 'name' => 'TOKELAU',
@@ -2372,9 +2156,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 772,
                 'phonecode' => 690,
                 'status' => 0,
-            ),
-            214 => 
-            array (
+            ],
+            214 => [
                 'id' => 215,
                 'iso' => 'TO',
                 'name' => 'TONGA',
@@ -2383,9 +2166,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 776,
                 'phonecode' => 676,
                 'status' => 0,
-            ),
-            215 => 
-            array (
+            ],
+            215 => [
                 'id' => 216,
                 'iso' => 'TT',
                 'name' => 'TRINIDAD AND TOBAGO',
@@ -2394,9 +2176,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 780,
                 'phonecode' => 1868,
                 'status' => 0,
-            ),
-            216 => 
-            array (
+            ],
+            216 => [
                 'id' => 217,
                 'iso' => 'TN',
                 'name' => 'TUNISIA',
@@ -2405,9 +2186,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 788,
                 'phonecode' => 216,
                 'status' => 0,
-            ),
-            217 => 
-            array (
+            ],
+            217 => [
                 'id' => 218,
                 'iso' => 'TR',
                 'name' => 'TURKEY',
@@ -2416,9 +2196,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 792,
                 'phonecode' => 90,
                 'status' => 0,
-            ),
-            218 => 
-            array (
+            ],
+            218 => [
                 'id' => 219,
                 'iso' => 'TM',
                 'name' => 'TURKMENISTAN',
@@ -2427,9 +2206,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 795,
                 'phonecode' => 7370,
                 'status' => 0,
-            ),
-            219 => 
-            array (
+            ],
+            219 => [
                 'id' => 220,
                 'iso' => 'TC',
                 'name' => 'TURKS AND CAICOS ISLANDS',
@@ -2438,9 +2216,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 796,
                 'phonecode' => 1649,
                 'status' => 0,
-            ),
-            220 => 
-            array (
+            ],
+            220 => [
                 'id' => 221,
                 'iso' => 'TV',
                 'name' => 'TUVALU',
@@ -2449,9 +2226,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 798,
                 'phonecode' => 688,
                 'status' => 0,
-            ),
-            221 => 
-            array (
+            ],
+            221 => [
                 'id' => 222,
                 'iso' => 'UG',
                 'name' => 'UGANDA',
@@ -2460,9 +2236,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 800,
                 'phonecode' => 256,
                 'status' => 0,
-            ),
-            222 => 
-            array (
+            ],
+            222 => [
                 'id' => 223,
                 'iso' => 'UA',
                 'name' => 'UKRAINE',
@@ -2471,9 +2246,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 804,
                 'phonecode' => 380,
                 'status' => 0,
-            ),
-            223 => 
-            array (
+            ],
+            223 => [
                 'id' => 224,
                 'iso' => 'AE',
                 'name' => 'UNITED ARAB EMIRATES',
@@ -2482,9 +2256,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 784,
                 'phonecode' => 971,
                 'status' => 0,
-            ),
-            224 => 
-            array (
+            ],
+            224 => [
                 'id' => 225,
                 'iso' => 'GB',
                 'name' => 'UNITED KINGDOM',
@@ -2493,9 +2266,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 826,
                 'phonecode' => 44,
                 'status' => 0,
-            ),
-            225 => 
-            array (
+            ],
+            225 => [
                 'id' => 226,
                 'iso' => 'US',
                 'name' => 'UNITED STATES',
@@ -2504,20 +2276,18 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 840,
                 'phonecode' => 1,
                 'status' => 0,
-            ),
-            226 => 
-            array (
+            ],
+            226 => [
                 'id' => 227,
                 'iso' => 'UM',
                 'name' => 'UNITED STATES MINOR OUTLYING ISLANDS',
                 'nicename' => 'United States Minor Outlying Islands',
-                'iso3' => NULL,
-                'numcode' => NULL,
+                'iso3' => null,
+                'numcode' => null,
                 'phonecode' => 1,
                 'status' => 0,
-            ),
-            227 => 
-            array (
+            ],
+            227 => [
                 'id' => 228,
                 'iso' => 'UY',
                 'name' => 'URUGUAY',
@@ -2526,9 +2296,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 858,
                 'phonecode' => 598,
                 'status' => 0,
-            ),
-            228 => 
-            array (
+            ],
+            228 => [
                 'id' => 229,
                 'iso' => 'UZ',
                 'name' => 'UZBEKISTAN',
@@ -2537,9 +2306,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 860,
                 'phonecode' => 998,
                 'status' => 0,
-            ),
-            229 => 
-            array (
+            ],
+            229 => [
                 'id' => 230,
                 'iso' => 'VU',
                 'name' => 'VANUATU',
@@ -2548,9 +2316,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 548,
                 'phonecode' => 678,
                 'status' => 0,
-            ),
-            230 => 
-            array (
+            ],
+            230 => [
                 'id' => 231,
                 'iso' => 'VE',
                 'name' => 'VENEZUELA',
@@ -2559,9 +2326,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 862,
                 'phonecode' => 58,
                 'status' => 0,
-            ),
-            231 => 
-            array (
+            ],
+            231 => [
                 'id' => 232,
                 'iso' => 'VN',
                 'name' => 'VIET NAM',
@@ -2570,9 +2336,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 704,
                 'phonecode' => 84,
                 'status' => 1,
-            ),
-            232 => 
-            array (
+            ],
+            232 => [
                 'id' => 233,
                 'iso' => 'VG',
                 'name' => 'VIRGIN ISLANDS, BRITISH',
@@ -2581,9 +2346,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 92,
                 'phonecode' => 1284,
                 'status' => 0,
-            ),
-            233 => 
-            array (
+            ],
+            233 => [
                 'id' => 234,
                 'iso' => 'VI',
                 'name' => 'VIRGIN ISLANDS, U.S.',
@@ -2592,9 +2356,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 850,
                 'phonecode' => 1340,
                 'status' => 0,
-            ),
-            234 => 
-            array (
+            ],
+            234 => [
                 'id' => 235,
                 'iso' => 'WF',
                 'name' => 'WALLIS AND FUTUNA',
@@ -2603,9 +2366,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 876,
                 'phonecode' => 681,
                 'status' => 0,
-            ),
-            235 => 
-            array (
+            ],
+            235 => [
                 'id' => 236,
                 'iso' => 'EH',
                 'name' => 'WESTERN SAHARA',
@@ -2614,9 +2376,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 732,
                 'phonecode' => 212,
                 'status' => 0,
-            ),
-            236 => 
-            array (
+            ],
+            236 => [
                 'id' => 237,
                 'iso' => 'YE',
                 'name' => 'YEMEN',
@@ -2625,9 +2386,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 887,
                 'phonecode' => 967,
                 'status' => 0,
-            ),
-            237 => 
-            array (
+            ],
+            237 => [
                 'id' => 238,
                 'iso' => 'ZM',
                 'name' => 'ZAMBIA',
@@ -2636,9 +2396,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 894,
                 'phonecode' => 260,
                 'status' => 0,
-            ),
-            238 => 
-            array (
+            ],
+            238 => [
                 'id' => 239,
                 'iso' => 'ZW',
                 'name' => 'ZIMBABWE',
@@ -2647,9 +2406,8 @@ class JpbCountryTableSeeder extends Seeder
                 'numcode' => 716,
                 'phonecode' => 263,
                 'status' => 0,
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

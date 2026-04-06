@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbPurchaseOrderDetailTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbPurchaseOrderDetailTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('purchase_order_items')->delete();
-        
-        \DB::table('purchase_order_items')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('purchase_order_items')->insert([
+            0 => [
                 'id' => 1,
                 'id_purchase_order' => 1,
                 'id_supplier' => 1,
@@ -41,12 +38,11 @@ class JpbPurchaseOrderDetailTableSeeder extends Seeder
                 'subtotal_omzet' => 1000000000,
                 'subtotal_weight' => 2000,
                 'description' => 'B4 Format adalah sebuah pelatihan',
-                'dateexpired' => NULL,
+                'dateexpired' => null,
                 'datecreated' => '2025-04-21 12:52:43',
                 'datemodified' => '2025-04-21 12:52:43',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_purchase_order' => 2,
                 'id_supplier' => 2,
@@ -67,12 +63,11 @@ class JpbPurchaseOrderDetailTableSeeder extends Seeder
                 'subtotal_omzet' => 10000000,
                 'subtotal_weight' => 200000,
                 'description' => '',
-                'dateexpired' => NULL,
+                'dateexpired' => null,
                 'datecreated' => '2025-06-27 13:57:59',
                 'datemodified' => '2025-06-27 13:57:59',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_purchase_order' => 3,
                 'id_supplier' => 2,
@@ -93,12 +88,11 @@ class JpbPurchaseOrderDetailTableSeeder extends Seeder
                 'subtotal_omzet' => 30000000,
                 'subtotal_weight' => 200000,
                 'description' => '',
-                'dateexpired' => NULL,
+                'dateexpired' => null,
                 'datecreated' => '2025-06-27 13:59:25',
                 'datemodified' => '2025-06-27 13:59:25',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

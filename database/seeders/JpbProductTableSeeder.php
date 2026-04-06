@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,19 +13,17 @@ class JpbProductTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('products')->delete();
-        
-        \DB::table('products')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('products')->insert([
+            0 => [
                 'id' => 1,
                 'sku' => 'PAKETA001',
                 'name' => 'B4 Formats',
                 'slug' => 'b4-formats',
                 'type' => 'perdana',
-                'varian' => NULL,
+                'varian' => null,
                 'hu' => 0,
                 'bv' => 2500,
                 'price_hpp' => 330000,
@@ -50,15 +47,14 @@ class JpbProductTableSeeder extends Seeder
                 'datecreated' => '2025-04-10 15:46:42',
                 'datemodified' => '2025-07-21 17:55:27',
                 'dateupdated' => '2025-07-21 17:55:27',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'sku' => 'PAKETB001',
                 'name' => 'Paket B',
                 'slug' => 'paket-b',
                 'type' => 'all',
-                'varian' => NULL,
+                'varian' => null,
                 'hu' => 0,
                 'bv' => 5000,
                 'price_hpp' => 5000000,
@@ -82,15 +78,14 @@ class JpbProductTableSeeder extends Seeder
                 'datecreated' => '2025-04-10 15:47:39',
                 'datemodified' => '2025-04-21 12:50:59',
                 'dateupdated' => '2025-04-10 15:47:39',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'sku' => 'M12',
                 'name' => 'Minicon M12',
                 'slug' => 'minicon-m12',
                 'type' => 'perdana',
-                'varian' => NULL,
+                'varian' => null,
                 'hu' => 0,
                 'bv' => 2500,
                 'price_hpp' => 300000,
@@ -114,15 +109,14 @@ class JpbProductTableSeeder extends Seeder
                 'datecreated' => '2025-06-27 13:56:49',
                 'datemodified' => '2025-06-27 13:59:45',
                 'dateupdated' => '2025-06-27 13:59:45',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'sku' => 'M24',
                 'name' => 'Minicon M24',
                 'slug' => 'minicon-m24',
                 'type' => 'perdana',
-                'varian' => NULL,
+                'varian' => null,
                 'hu' => 0,
                 'bv' => 2500,
                 'price_hpp' => 300000,
@@ -146,9 +140,8 @@ class JpbProductTableSeeder extends Seeder
                 'datecreated' => '2025-06-27 13:59:01',
                 'datemodified' => '2025-06-27 13:59:01',
                 'dateupdated' => '2025-06-27 13:59:01',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

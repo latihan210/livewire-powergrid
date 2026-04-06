@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbStaffTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbStaffTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_staff')->delete();
-        
-        \DB::table('jpb_staff')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_staff')->insert([
+            0 => [
                 'id' => 1,
                 'username' => 'dhaeka',
                 'password' => '$2y$05$/s8OKtTUyAg2S6DJzfBP7OBzD8pJ28951BpZF7W1IDuRFOe.4Fq7i',
@@ -33,9 +30,8 @@ class JpbStaffTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2018-12-04 20:45:11',
                 'datemodified' => '2025-01-22 17:57:37',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'username' => 'admincic',
                 'password' => '$2y$05$3dYjuF76HqHI2YQf6hBZVefyNR4wpSq8RTJ01vDx/xsPzNOyRP6Xa',
@@ -48,9 +44,8 @@ class JpbStaffTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2021-11-30 06:55:37',
                 'datemodified' => '2025-01-22 17:57:39',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 5,
                 'username' => 'staff01',
                 'password' => '$2y$05$XQsSMUrkJXKHnlHjhawsouB5VFgTr3aPp0I70yWW6nUa7dPNyOCae',
@@ -63,9 +58,8 @@ class JpbStaffTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-16 14:50:57',
                 'datemodified' => '2025-04-16 14:50:57',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

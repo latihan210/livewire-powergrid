@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductStockistTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbProductStockistTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('stockist_product_stocks')->delete();
-        
-        
-        
+
     }
 }

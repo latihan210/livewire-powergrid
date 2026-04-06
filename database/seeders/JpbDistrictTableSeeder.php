@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbDistrictTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbDistrictTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_district')->delete();
-        
-        \DB::table('jpb_district')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_district')->insert([
+            0 => [
                 'id' => 1,
                 'province_id' => 21,
                 'district_name' => 'Aceh Barat',
@@ -28,10 +25,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '23681',
                 'id_express' => 164,
-                'lion' => NULL,
-            ),
-            1 => 
-            array (
+                'lion' => null,
+            ],
+            1 => [
                 'id' => 2,
                 'province_id' => 21,
                 'district_name' => 'Aceh Barat Daya',
@@ -39,10 +35,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '23764',
                 'id_express' => 165,
-                'lion' => NULL,
-            ),
-            2 => 
-            array (
+                'lion' => null,
+            ],
+            2 => [
                 'id' => 3,
                 'province_id' => 21,
                 'district_name' => 'Aceh Besar',
@@ -50,10 +45,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '23951',
                 'id_express' => 166,
-                'lion' => NULL,
-            ),
-            3 => 
-            array (
+                'lion' => null,
+            ],
+            3 => [
                 'id' => 4,
                 'province_id' => 21,
                 'district_name' => 'Aceh Jaya',
@@ -61,10 +55,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '23654',
                 'id_express' => 167,
-                'lion' => NULL,
-            ),
-            4 => 
-            array (
+                'lion' => null,
+            ],
+            4 => [
                 'id' => 5,
                 'province_id' => 21,
                 'district_name' => 'Aceh Selatan',
@@ -72,10 +65,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '23719',
                 'id_express' => 168,
-                'lion' => NULL,
-            ),
-            5 => 
-            array (
+                'lion' => null,
+            ],
+            5 => [
                 'id' => 6,
                 'province_id' => 21,
                 'district_name' => 'Aceh Singkil',
@@ -83,10 +75,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '24785',
                 'id_express' => 169,
-                'lion' => NULL,
-            ),
-            6 => 
-            array (
+                'lion' => null,
+            ],
+            6 => [
                 'id' => 7,
                 'province_id' => 21,
                 'district_name' => 'Aceh Tamiang',
@@ -94,10 +85,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '24476',
                 'id_express' => 170,
-                'lion' => NULL,
-            ),
-            7 => 
-            array (
+                'lion' => null,
+            ],
+            7 => [
                 'id' => 8,
                 'province_id' => 21,
                 'district_name' => 'Aceh Tengah',
@@ -105,10 +95,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '24511',
                 'id_express' => 171,
-                'lion' => NULL,
-            ),
-            8 => 
-            array (
+                'lion' => null,
+            ],
+            8 => [
                 'id' => 9,
                 'province_id' => 21,
                 'district_name' => 'Aceh Tenggara',
@@ -116,10 +105,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '24611',
                 'id_express' => 172,
-                'lion' => NULL,
-            ),
-            9 => 
-            array (
+                'lion' => null,
+            ],
+            9 => [
                 'id' => 10,
                 'province_id' => 21,
                 'district_name' => 'Aceh Timur',
@@ -127,10 +115,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '24454',
                 'id_express' => 173,
-                'lion' => NULL,
-            ),
-            10 => 
-            array (
+                'lion' => null,
+            ],
+            10 => [
                 'id' => 11,
                 'province_id' => 21,
                 'district_name' => 'Aceh Utara',
@@ -138,10 +125,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '24382',
                 'id_express' => 174,
-                'lion' => NULL,
-            ),
-            11 => 
-            array (
+                'lion' => null,
+            ],
+            11 => [
                 'id' => 12,
                 'province_id' => 32,
                 'district_name' => 'Agam',
@@ -149,10 +135,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '26411',
                 'id_express' => 239,
-                'lion' => NULL,
-            ),
-            12 => 
-            array (
+                'lion' => null,
+            ],
+            12 => [
                 'id' => 13,
                 'province_id' => 23,
                 'district_name' => 'Alor',
@@ -160,10 +145,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '85811',
                 'id_express' => 463,
-                'lion' => NULL,
-            ),
-            13 => 
-            array (
+                'lion' => null,
+            ],
+            13 => [
                 'id' => 14,
                 'province_id' => 19,
                 'district_name' => 'Ambon',
@@ -171,10 +155,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '97222',
                 'id_express' => 484,
-                'lion' => NULL,
-            ),
-            14 => 
-            array (
+                'lion' => null,
+            ],
+            14 => [
                 'id' => 15,
                 'province_id' => 34,
                 'district_name' => 'Asahan',
@@ -182,10 +165,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '21214',
                 'id_express' => 275,
-                'lion' => NULL,
-            ),
-            15 => 
-            array (
+                'lion' => null,
+            ],
+            15 => [
                 'id' => 16,
                 'province_id' => 24,
                 'district_name' => 'Asmat',
@@ -193,10 +175,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '99777',
                 'id_express' => 505,
-                'lion' => NULL,
-            ),
-            16 => 
-            array (
+                'lion' => null,
+            ],
+            16 => [
                 'id' => 17,
                 'province_id' => 1,
                 'district_name' => 'Badung',
@@ -204,10 +185,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '80351',
                 'id_express' => 445,
-                'lion' => NULL,
-            ),
-            17 => 
-            array (
+                'lion' => null,
+            ],
+            17 => [
                 'id' => 18,
                 'province_id' => 13,
                 'district_name' => 'Balangan',
@@ -215,10 +195,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '71611',
                 'id_express' => 322,
-                'lion' => NULL,
-            ),
-            18 => 
-            array (
+                'lion' => null,
+            ],
+            18 => [
                 'id' => 19,
                 'province_id' => 15,
                 'district_name' => 'Balikpapan',
@@ -226,10 +205,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '76111',
                 'id_express' => 349,
-                'lion' => NULL,
-            ),
-            19 => 
-            array (
+                'lion' => null,
+            ],
+            19 => [
                 'id' => 20,
                 'province_id' => 21,
                 'district_name' => 'Banda Aceh',
@@ -237,10 +215,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '23238',
                 'id_express' => 175,
-                'lion' => NULL,
-            ),
-            20 => 
-            array (
+                'lion' => null,
+            ],
+            20 => [
                 'id' => 21,
                 'province_id' => 18,
                 'district_name' => 'Bandar Lampung',
@@ -248,10 +225,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '35139',
                 'id_express' => 212,
-                'lion' => NULL,
-            ),
-            21 => 
-            array (
+                'lion' => null,
+            ],
+            21 => [
                 'id' => 22,
                 'province_id' => 9,
                 'district_name' => 'Bandung',
@@ -260,9 +236,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '40311',
                 'id_express' => 59,
                 'lion' => 'U1RBUkFCMkJCRE8uQVBJIENMMzE1NTc=',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'province_id' => 9,
                 'district_name' => 'Bandung',
@@ -271,9 +246,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '40111',
                 'id_express' => 62,
                 'lion' => 'U1RBUkFCMkJCRE8uQVBJIENMMzE1NTc=',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'province_id' => 9,
                 'district_name' => 'Bandung Barat',
@@ -282,9 +256,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '40721',
                 'id_express' => 60,
                 'lion' => 'U1RBUkFCMkJCRE8uQVBJIENMMzE1NTc=',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'province_id' => 29,
                 'district_name' => 'Banggai',
@@ -292,10 +265,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '94711',
                 'id_express' => 400,
-                'lion' => NULL,
-            ),
-            25 => 
-            array (
+                'lion' => null,
+            ],
+            25 => [
                 'id' => 26,
                 'province_id' => 29,
                 'district_name' => 'Banggai Kepulauan',
@@ -303,10 +275,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '94881',
                 'id_express' => 401,
-                'lion' => NULL,
-            ),
-            26 => 
-            array (
+                'lion' => null,
+            ],
+            26 => [
                 'id' => 27,
                 'province_id' => 2,
                 'district_name' => 'Bangka',
@@ -314,10 +285,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '33212',
                 'id_express' => 198,
-                'lion' => NULL,
-            ),
-            27 => 
-            array (
+                'lion' => null,
+            ],
+            27 => [
                 'id' => 28,
                 'province_id' => 2,
                 'district_name' => 'Bangka Barat',
@@ -325,10 +295,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '33315',
                 'id_express' => 199,
-                'lion' => NULL,
-            ),
-            28 => 
-            array (
+                'lion' => null,
+            ],
+            28 => [
                 'id' => 29,
                 'province_id' => 2,
                 'district_name' => 'Bangka Selatan',
@@ -336,10 +305,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '33719',
                 'id_express' => 200,
-                'lion' => NULL,
-            ),
-            29 => 
-            array (
+                'lion' => null,
+            ],
+            29 => [
                 'id' => 30,
                 'province_id' => 2,
                 'district_name' => 'Bangka Tengah',
@@ -347,10 +315,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '33613',
                 'id_express' => 201,
-                'lion' => NULL,
-            ),
-            30 => 
-            array (
+                'lion' => null,
+            ],
+            30 => [
                 'id' => 31,
                 'province_id' => 11,
                 'district_name' => 'Bangkalan',
@@ -358,10 +325,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '69118',
                 'id_express' => 116,
-                'lion' => NULL,
-            ),
-            31 => 
-            array (
+                'lion' => null,
+            ],
+            31 => [
                 'id' => 32,
                 'province_id' => 1,
                 'district_name' => 'Bangli',
@@ -369,10 +335,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '80619',
                 'id_express' => 447,
-                'lion' => NULL,
-            ),
-            32 => 
-            array (
+                'lion' => null,
+            ],
+            32 => [
                 'id' => 33,
                 'province_id' => 13,
                 'district_name' => 'Banjar',
@@ -380,10 +345,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '70619',
                 'id_express' => 323,
-                'lion' => NULL,
-            ),
-            33 => 
-            array (
+                'lion' => null,
+            ],
+            33 => [
                 'id' => 34,
                 'province_id' => 9,
                 'district_name' => 'Banjar',
@@ -391,10 +355,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '46311',
                 'id_express' => 63,
-                'lion' => NULL,
-            ),
-            34 => 
-            array (
+                'lion' => null,
+            ],
+            34 => [
                 'id' => 35,
                 'province_id' => 13,
                 'district_name' => 'Banjarbaru',
@@ -403,9 +366,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '70712',
                 'id_express' => 324,
                 'lion' => 'U1RBUkFCMkJiSkIuQVBJIGprc2tqc2trc24=',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'province_id' => 13,
                 'district_name' => 'Banjarmasin',
@@ -413,10 +375,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '70117',
                 'id_express' => 325,
-                'lion' => NULL,
-            ),
-            36 => 
-            array (
+                'lion' => null,
+            ],
+            36 => [
                 'id' => 37,
                 'province_id' => 10,
                 'district_name' => 'Banjarnegara',
@@ -424,10 +385,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '53419',
                 'id_express' => 76,
-                'lion' => NULL,
-            ),
-            37 => 
-            array (
+                'lion' => null,
+            ],
+            37 => [
                 'id' => 38,
                 'province_id' => 28,
                 'district_name' => 'Bantaeng',
@@ -435,10 +395,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '92411',
                 'id_express' => 376,
-                'lion' => NULL,
-            ),
-            38 => 
-            array (
+                'lion' => null,
+            ],
+            38 => [
                 'id' => 39,
                 'province_id' => 5,
                 'district_name' => 'Bantul',
@@ -446,10 +405,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '55715',
                 'id_express' => 111,
-                'lion' => NULL,
-            ),
-            39 => 
-            array (
+                'lion' => null,
+            ],
+            39 => [
                 'id' => 40,
                 'province_id' => 33,
                 'district_name' => 'Banyuasin',
@@ -457,10 +415,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '30911',
                 'id_express' => 258,
-                'lion' => NULL,
-            ),
-            40 => 
-            array (
+                'lion' => null,
+            ],
+            40 => [
                 'id' => 41,
                 'province_id' => 10,
                 'district_name' => 'Banyumas',
@@ -468,10 +425,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '53114',
                 'id_express' => 77,
-                'lion' => NULL,
-            ),
-            41 => 
-            array (
+                'lion' => null,
+            ],
+            41 => [
                 'id' => 42,
                 'province_id' => 11,
                 'district_name' => 'Banyuwangi',
@@ -479,10 +435,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '68416',
                 'id_express' => 117,
-                'lion' => NULL,
-            ),
-            42 => 
-            array (
+                'lion' => null,
+            ],
+            42 => [
                 'id' => 43,
                 'province_id' => 13,
                 'district_name' => 'Barito Kuala',
@@ -490,10 +445,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '70511',
                 'id_express' => 326,
-                'lion' => NULL,
-            ),
-            43 => 
-            array (
+                'lion' => null,
+            ],
+            43 => [
                 'id' => 44,
                 'province_id' => 14,
                 'district_name' => 'Barito Selatan',
@@ -501,10 +455,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '73711',
                 'id_express' => 335,
-                'lion' => NULL,
-            ),
-            44 => 
-            array (
+                'lion' => null,
+            ],
+            44 => [
                 'id' => 45,
                 'province_id' => 14,
                 'district_name' => 'Barito Timur',
@@ -512,10 +465,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '73671',
                 'id_express' => 336,
-                'lion' => NULL,
-            ),
-            45 => 
-            array (
+                'lion' => null,
+            ],
+            45 => [
                 'id' => 46,
                 'province_id' => 14,
                 'district_name' => 'Barito Utara',
@@ -523,10 +475,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '73881',
                 'id_express' => 337,
-                'lion' => NULL,
-            ),
-            46 => 
-            array (
+                'lion' => null,
+            ],
+            46 => [
                 'id' => 47,
                 'province_id' => 28,
                 'district_name' => 'Barru',
@@ -534,10 +485,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '90719',
                 'id_express' => 377,
-                'lion' => NULL,
-            ),
-            47 => 
-            array (
+                'lion' => null,
+            ],
+            47 => [
                 'id' => 48,
                 'province_id' => 17,
                 'district_name' => 'Batam',
@@ -545,10 +495,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '29413',
                 'id_express' => 205,
-                'lion' => NULL,
-            ),
-            48 => 
-            array (
+                'lion' => null,
+            ],
+            48 => [
                 'id' => 49,
                 'province_id' => 10,
                 'district_name' => 'Batang',
@@ -556,10 +505,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '51211',
                 'id_express' => 78,
-                'lion' => NULL,
-            ),
-            49 => 
-            array (
+                'lion' => null,
+            ],
+            49 => [
                 'id' => 50,
                 'province_id' => 8,
                 'district_name' => 'Batang Hari',
@@ -567,10 +515,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '36613',
                 'id_express' => 187,
-                'lion' => NULL,
-            ),
-            50 => 
-            array (
+                'lion' => null,
+            ],
+            50 => [
                 'id' => 51,
                 'province_id' => 11,
                 'district_name' => 'Batu',
@@ -578,10 +525,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '65311',
                 'id_express' => 118,
-                'lion' => NULL,
-            ),
-            51 => 
-            array (
+                'lion' => null,
+            ],
+            51 => [
                 'id' => 52,
                 'province_id' => 34,
                 'district_name' => 'Batu Bara',
@@ -589,10 +535,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '21655',
                 'id_express' => 276,
-                'lion' => NULL,
-            ),
-            52 => 
-            array (
+                'lion' => null,
+            ],
+            52 => [
                 'id' => 53,
                 'province_id' => 30,
                 'district_name' => 'Bau-Bau',
@@ -600,10 +545,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '93719',
                 'id_express' => 413,
-                'lion' => NULL,
-            ),
-            53 => 
-            array (
+                'lion' => null,
+            ],
+            53 => [
                 'id' => 54,
                 'province_id' => 9,
                 'district_name' => 'Bekasi',
@@ -612,9 +556,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '17837',
                 'id_express' => 50,
                 'lion' => 'U1RBUkFCMkJCS0EuQVBJIENMMzE1NTc=',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'province_id' => 9,
                 'district_name' => 'Bekasi',
@@ -623,9 +566,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '17121',
                 'id_express' => 51,
                 'lion' => 'U1RBUkFCMkJCS0EuQVBJIENMMzE1NTc=',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'province_id' => 2,
                 'district_name' => 'Belitung',
@@ -633,10 +575,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '33419',
                 'id_express' => 202,
-                'lion' => NULL,
-            ),
-            56 => 
-            array (
+                'lion' => null,
+            ],
+            56 => [
                 'id' => 57,
                 'province_id' => 2,
                 'district_name' => 'Belitung Timur',
@@ -644,10 +585,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '33519',
                 'id_express' => 203,
-                'lion' => NULL,
-            ),
-            57 => 
-            array (
+                'lion' => null,
+            ],
+            57 => [
                 'id' => 58,
                 'province_id' => 23,
                 'district_name' => 'Belu',
@@ -655,10 +595,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '85711',
                 'id_express' => 464,
-                'lion' => NULL,
-            ),
-            58 => 
-            array (
+                'lion' => null,
+            ],
+            58 => [
                 'id' => 59,
                 'province_id' => 21,
                 'district_name' => 'Bener Meriah',
@@ -666,10 +605,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '24581',
                 'id_express' => 176,
-                'lion' => NULL,
-            ),
-            59 => 
-            array (
+                'lion' => null,
+            ],
+            59 => [
                 'id' => 60,
                 'province_id' => 26,
                 'district_name' => 'Bengkalis',
@@ -677,10 +615,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '28719',
                 'id_express' => 227,
-                'lion' => NULL,
-            ),
-            60 => 
-            array (
+                'lion' => null,
+            ],
+            60 => [
                 'id' => 61,
                 'province_id' => 12,
                 'district_name' => 'Bengkayang',
@@ -688,10 +625,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '79213',
                 'id_express' => 308,
-                'lion' => NULL,
-            ),
-            61 => 
-            array (
+                'lion' => null,
+            ],
+            61 => [
                 'id' => 62,
                 'province_id' => 4,
                 'district_name' => 'Bengkulu',
@@ -699,10 +635,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '38229',
                 'id_express' => 154,
-                'lion' => NULL,
-            ),
-            62 => 
-            array (
+                'lion' => null,
+            ],
+            62 => [
                 'id' => 63,
                 'province_id' => 4,
                 'district_name' => 'Bengkulu Selatan',
@@ -710,10 +645,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '38519',
                 'id_express' => 155,
-                'lion' => NULL,
-            ),
-            63 => 
-            array (
+                'lion' => null,
+            ],
+            63 => [
                 'id' => 64,
                 'province_id' => 4,
                 'district_name' => 'Bengkulu Tengah',
@@ -721,10 +655,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '38319',
                 'id_express' => 156,
-                'lion' => NULL,
-            ),
-            64 => 
-            array (
+                'lion' => null,
+            ],
+            64 => [
                 'id' => 65,
                 'province_id' => 4,
                 'district_name' => 'Bengkulu Utara',
@@ -732,10 +665,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '38619',
                 'id_express' => 157,
-                'lion' => NULL,
-            ),
-            65 => 
-            array (
+                'lion' => null,
+            ],
+            65 => [
                 'id' => 66,
                 'province_id' => 15,
                 'district_name' => 'Berau',
@@ -743,10 +675,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '77311',
                 'id_express' => 350,
-                'lion' => NULL,
-            ),
-            66 => 
-            array (
+                'lion' => null,
+            ],
+            66 => [
                 'id' => 67,
                 'province_id' => 24,
                 'district_name' => 'Biak Numfor',
@@ -754,10 +685,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '98119',
                 'id_express' => 506,
-                'lion' => NULL,
-            ),
-            67 => 
-            array (
+                'lion' => null,
+            ],
+            67 => [
                 'id' => 68,
                 'province_id' => 22,
                 'district_name' => 'Bima',
@@ -765,10 +695,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '84171',
                 'id_express' => 454,
-                'lion' => NULL,
-            ),
-            68 => 
-            array (
+                'lion' => null,
+            ],
+            68 => [
                 'id' => 69,
                 'province_id' => 22,
                 'district_name' => 'Bima',
@@ -776,10 +705,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '84139',
                 'id_express' => 454,
-                'lion' => NULL,
-            ),
-            69 => 
-            array (
+                'lion' => null,
+            ],
+            69 => [
                 'id' => 70,
                 'province_id' => 34,
                 'district_name' => 'Binjai',
@@ -787,10 +715,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '20712',
                 'id_express' => 282,
-                'lion' => NULL,
-            ),
-            70 => 
-            array (
+                'lion' => null,
+            ],
+            70 => [
                 'id' => 71,
                 'province_id' => 17,
                 'district_name' => 'Bintan',
@@ -798,10 +725,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '29135',
                 'id_express' => 206,
-                'lion' => NULL,
-            ),
-            71 => 
-            array (
+                'lion' => null,
+            ],
+            71 => [
                 'id' => 72,
                 'province_id' => 21,
                 'district_name' => 'Bireuen',
@@ -809,10 +735,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '24219',
                 'id_express' => 177,
-                'lion' => NULL,
-            ),
-            72 => 
-            array (
+                'lion' => null,
+            ],
+            72 => [
                 'id' => 73,
                 'province_id' => 31,
                 'district_name' => 'Bitung',
@@ -820,10 +745,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '95512',
                 'id_express' => 430,
-                'lion' => NULL,
-            ),
-            73 => 
-            array (
+                'lion' => null,
+            ],
+            73 => [
                 'id' => 74,
                 'province_id' => 11,
                 'district_name' => 'Blitar',
@@ -831,10 +755,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '66171',
                 'id_express' => 119,
-                'lion' => NULL,
-            ),
-            74 => 
-            array (
+                'lion' => null,
+            ],
+            74 => [
                 'id' => 75,
                 'province_id' => 11,
                 'district_name' => 'Blitar',
@@ -842,10 +765,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '66124',
                 'id_express' => 126,
-                'lion' => NULL,
-            ),
-            75 => 
-            array (
+                'lion' => null,
+            ],
+            75 => [
                 'id' => 76,
                 'province_id' => 10,
                 'district_name' => 'Blora',
@@ -853,10 +775,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '58219',
                 'id_express' => 79,
-                'lion' => NULL,
-            ),
-            76 => 
-            array (
+                'lion' => null,
+            ],
+            76 => [
                 'id' => 77,
                 'province_id' => 7,
                 'district_name' => 'Boalemo',
@@ -864,10 +785,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '96319',
                 'id_express' => 364,
-                'lion' => NULL,
-            ),
-            77 => 
-            array (
+                'lion' => null,
+            ],
+            77 => [
                 'id' => 78,
                 'province_id' => 9,
                 'district_name' => 'Bogor',
@@ -875,10 +795,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '16911',
                 'id_express' => 52,
-                'lion' => NULL,
-            ),
-            78 => 
-            array (
+                'lion' => null,
+            ],
+            78 => [
                 'id' => 79,
                 'province_id' => 9,
                 'district_name' => 'Bogor',
@@ -886,10 +805,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '16119',
                 'id_express' => 53,
-                'lion' => NULL,
-            ),
-            79 => 
-            array (
+                'lion' => null,
+            ],
+            79 => [
                 'id' => 80,
                 'province_id' => 11,
                 'district_name' => 'Bojonegoro',
@@ -897,10 +815,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '62119',
                 'id_express' => 120,
-                'lion' => NULL,
-            ),
-            80 => 
-            array (
+                'lion' => null,
+            ],
+            80 => [
                 'id' => 81,
                 'province_id' => 31,
                 'district_name' => 'Bolaang Mongondow',
@@ -908,10 +825,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '95755',
                 'id_express' => 431,
-                'lion' => NULL,
-            ),
-            81 => 
-            array (
+                'lion' => null,
+            ],
+            81 => [
                 'id' => 82,
                 'province_id' => 31,
                 'district_name' => 'Bolaang Mongondow Selatan',
@@ -919,10 +835,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '95774',
                 'id_express' => 432,
-                'lion' => NULL,
-            ),
-            82 => 
-            array (
+                'lion' => null,
+            ],
+            82 => [
                 'id' => 83,
                 'province_id' => 31,
                 'district_name' => 'Bolaang Mongondow Timur',
@@ -930,10 +845,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '95783',
                 'id_express' => 433,
-                'lion' => NULL,
-            ),
-            83 => 
-            array (
+                'lion' => null,
+            ],
+            83 => [
                 'id' => 84,
                 'province_id' => 31,
                 'district_name' => 'Bolaang Mongondow Utara',
@@ -941,10 +855,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '95765',
                 'id_express' => 434,
-                'lion' => NULL,
-            ),
-            84 => 
-            array (
+                'lion' => null,
+            ],
+            84 => [
                 'id' => 85,
                 'province_id' => 30,
                 'district_name' => 'Bombana',
@@ -952,10 +865,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '93771',
                 'id_express' => 414,
-                'lion' => NULL,
-            ),
-            85 => 
-            array (
+                'lion' => null,
+            ],
+            85 => [
                 'id' => 86,
                 'province_id' => 11,
                 'district_name' => 'Bondowoso',
@@ -963,10 +875,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '68219',
                 'id_express' => 121,
-                'lion' => NULL,
-            ),
-            86 => 
-            array (
+                'lion' => null,
+            ],
+            86 => [
                 'id' => 87,
                 'province_id' => 28,
                 'district_name' => 'Bone',
@@ -974,10 +885,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '92713',
                 'id_express' => 378,
-                'lion' => NULL,
-            ),
-            87 => 
-            array (
+                'lion' => null,
+            ],
+            87 => [
                 'id' => 88,
                 'province_id' => 7,
                 'district_name' => 'Bone Bolango',
@@ -985,10 +895,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '96511',
                 'id_express' => 365,
-                'lion' => NULL,
-            ),
-            88 => 
-            array (
+                'lion' => null,
+            ],
+            88 => [
                 'id' => 89,
                 'province_id' => 15,
                 'district_name' => 'Bontang',
@@ -996,10 +905,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '75313',
                 'id_express' => 351,
-                'lion' => NULL,
-            ),
-            89 => 
-            array (
+                'lion' => null,
+            ],
+            89 => [
                 'id' => 90,
                 'province_id' => 24,
                 'district_name' => 'Boven Digoel',
@@ -1007,10 +915,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '99662',
                 'id_express' => 507,
-                'lion' => NULL,
-            ),
-            90 => 
-            array (
+                'lion' => null,
+            ],
+            90 => [
                 'id' => 91,
                 'province_id' => 10,
                 'district_name' => 'Boyolali',
@@ -1018,10 +925,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '57312',
                 'id_express' => 80,
-                'lion' => NULL,
-            ),
-            91 => 
-            array (
+                'lion' => null,
+            ],
+            91 => [
                 'id' => 92,
                 'province_id' => 10,
                 'district_name' => 'Brebes',
@@ -1029,10 +935,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '52212',
                 'id_express' => 81,
-                'lion' => NULL,
-            ),
-            92 => 
-            array (
+                'lion' => null,
+            ],
+            92 => [
                 'id' => 93,
                 'province_id' => 32,
                 'district_name' => 'Bukittinggi',
@@ -1040,10 +945,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '26115',
                 'id_express' => 240,
-                'lion' => NULL,
-            ),
-            93 => 
-            array (
+                'lion' => null,
+            ],
+            93 => [
                 'id' => 94,
                 'province_id' => 1,
                 'district_name' => 'Buleleng',
@@ -1051,10 +955,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '81111',
                 'id_express' => 448,
-                'lion' => NULL,
-            ),
-            94 => 
-            array (
+                'lion' => null,
+            ],
+            94 => [
                 'id' => 95,
                 'province_id' => 28,
                 'district_name' => 'Bulukumba',
@@ -1062,10 +965,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '92511',
                 'id_express' => 379,
-                'lion' => NULL,
-            ),
-            95 => 
-            array (
+                'lion' => null,
+            ],
+            95 => [
                 'id' => 96,
                 'province_id' => 16,
                 'district_name' => 'Bulungan',
@@ -1073,10 +975,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '77211',
                 'id_express' => 359,
-                'lion' => NULL,
-            ),
-            96 => 
-            array (
+                'lion' => null,
+            ],
+            96 => [
                 'id' => 97,
                 'province_id' => 8,
                 'district_name' => 'Bungo',
@@ -1084,10 +985,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '37216',
                 'id_express' => 188,
-                'lion' => NULL,
-            ),
-            97 => 
-            array (
+                'lion' => null,
+            ],
+            97 => [
                 'id' => 98,
                 'province_id' => 29,
                 'district_name' => 'Buol',
@@ -1095,10 +995,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '94564',
                 'id_express' => 403,
-                'lion' => NULL,
-            ),
-            98 => 
-            array (
+                'lion' => null,
+            ],
+            98 => [
                 'id' => 99,
                 'province_id' => 19,
                 'district_name' => 'Buru',
@@ -1106,10 +1005,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '97371',
                 'id_express' => 485,
-                'lion' => NULL,
-            ),
-            99 => 
-            array (
+                'lion' => null,
+            ],
+            99 => [
                 'id' => 100,
                 'province_id' => 19,
                 'district_name' => 'Buru Selatan',
@@ -1117,10 +1015,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '97351',
                 'id_express' => 486,
-                'lion' => NULL,
-            ),
-            100 => 
-            array (
+                'lion' => null,
+            ],
+            100 => [
                 'id' => 101,
                 'province_id' => 30,
                 'district_name' => 'Buton',
@@ -1128,10 +1025,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '93754',
                 'id_express' => 415,
-                'lion' => NULL,
-            ),
-            101 => 
-            array (
+                'lion' => null,
+            ],
+            101 => [
                 'id' => 102,
                 'province_id' => 30,
                 'district_name' => 'Buton Utara',
@@ -1139,10 +1035,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '93745',
                 'id_express' => 418,
-                'lion' => NULL,
-            ),
-            102 => 
-            array (
+                'lion' => null,
+            ],
+            102 => [
                 'id' => 103,
                 'province_id' => 9,
                 'district_name' => 'Ciamis',
@@ -1150,10 +1045,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '46211',
                 'id_express' => 54,
-                'lion' => NULL,
-            ),
-            103 => 
-            array (
+                'lion' => null,
+            ],
+            103 => [
                 'id' => 104,
                 'province_id' => 9,
                 'district_name' => 'Cianjur',
@@ -1161,10 +1055,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '43217',
                 'id_express' => 55,
-                'lion' => NULL,
-            ),
-            104 => 
-            array (
+                'lion' => null,
+            ],
+            104 => [
                 'id' => 105,
                 'province_id' => 10,
                 'district_name' => 'Cilacap',
@@ -1172,10 +1065,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '53211',
                 'id_express' => 82,
-                'lion' => NULL,
-            ),
-            105 => 
-            array (
+                'lion' => null,
+            ],
+            105 => [
                 'id' => 106,
                 'province_id' => 3,
                 'district_name' => 'Cilegon',
@@ -1183,10 +1075,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '42417',
                 'id_express' => 44,
-                'lion' => NULL,
-            ),
-            106 => 
-            array (
+                'lion' => null,
+            ],
+            106 => [
                 'id' => 107,
                 'province_id' => 9,
                 'district_name' => 'Cimahi',
@@ -1195,9 +1086,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '40512',
                 'id_express' => 64,
                 'lion' => 'U1RBUkFCMkJCRE8uQVBJIENMMzE1NTc=',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'province_id' => 9,
                 'district_name' => 'Cirebon',
@@ -1205,10 +1095,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '45611',
                 'id_express' => 56,
-                'lion' => NULL,
-            ),
-            108 => 
-            array (
+                'lion' => null,
+            ],
+            108 => [
                 'id' => 109,
                 'province_id' => 9,
                 'district_name' => 'Cirebon',
@@ -1216,10 +1105,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '45116',
                 'id_express' => 65,
-                'lion' => NULL,
-            ),
-            109 => 
-            array (
+                'lion' => null,
+            ],
+            109 => [
                 'id' => 110,
                 'province_id' => 34,
                 'district_name' => 'Dairi',
@@ -1227,10 +1115,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '22211',
                 'id_express' => 277,
-                'lion' => NULL,
-            ),
-            110 => 
-            array (
+                'lion' => null,
+            ],
+            110 => [
                 'id' => 111,
                 'province_id' => 24,
                 'district_name' => 'Dieyai',
@@ -1238,10 +1125,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '98784',
                 'id_express' => 508,
-                'lion' => NULL,
-            ),
-            111 => 
-            array (
+                'lion' => null,
+            ],
+            111 => [
                 'id' => 112,
                 'province_id' => 34,
                 'district_name' => 'Deli Serdang',
@@ -1249,10 +1135,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '20511',
                 'id_express' => 278,
-                'lion' => NULL,
-            ),
-            112 => 
-            array (
+                'lion' => null,
+            ],
+            112 => [
                 'id' => 113,
                 'province_id' => 10,
                 'district_name' => 'Demak',
@@ -1260,10 +1145,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '59519',
                 'id_express' => 83,
-                'lion' => NULL,
-            ),
-            113 => 
-            array (
+                'lion' => null,
+            ],
+            113 => [
                 'id' => 114,
                 'province_id' => 1,
                 'district_name' => 'Denpasar',
@@ -1271,10 +1155,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '80227',
                 'id_express' => 446,
-                'lion' => NULL,
-            ),
-            114 => 
-            array (
+                'lion' => null,
+            ],
+            114 => [
                 'id' => 115,
                 'province_id' => 9,
                 'district_name' => 'Depok',
@@ -1283,9 +1166,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '16416',
                 'id_express' => 49,
                 'lion' => 'U1RBUkFCMkJERVAuQVBJIENMMzE1NTc=',
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 116,
                 'province_id' => 32,
                 'district_name' => 'Dharmasraya',
@@ -1293,10 +1175,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '27612',
                 'id_express' => 241,
-                'lion' => NULL,
-            ),
-            116 => 
-            array (
+                'lion' => null,
+            ],
+            116 => [
                 'id' => 117,
                 'province_id' => 24,
                 'district_name' => 'Dogiyai',
@@ -1304,10 +1185,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '98866',
                 'id_express' => 509,
-                'lion' => NULL,
-            ),
-            117 => 
-            array (
+                'lion' => null,
+            ],
+            117 => [
                 'id' => 118,
                 'province_id' => 22,
                 'district_name' => 'Dompu',
@@ -1315,10 +1195,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '84217',
                 'id_express' => 455,
-                'lion' => NULL,
-            ),
-            118 => 
-            array (
+                'lion' => null,
+            ],
+            118 => [
                 'id' => 119,
                 'province_id' => 29,
                 'district_name' => 'Donggala',
@@ -1326,10 +1205,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '94341',
                 'id_express' => 404,
-                'lion' => NULL,
-            ),
-            119 => 
-            array (
+                'lion' => null,
+            ],
+            119 => [
                 'id' => 120,
                 'province_id' => 26,
                 'district_name' => 'Dumai',
@@ -1337,10 +1215,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '28811',
                 'id_express' => 228,
-                'lion' => NULL,
-            ),
-            120 => 
-            array (
+                'lion' => null,
+            ],
+            120 => [
                 'id' => 121,
                 'province_id' => 33,
                 'district_name' => 'Empat Lawang',
@@ -1348,10 +1225,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '31811',
                 'id_express' => 259,
-                'lion' => NULL,
-            ),
-            121 => 
-            array (
+                'lion' => null,
+            ],
+            121 => [
                 'id' => 122,
                 'province_id' => 23,
                 'district_name' => 'Ende',
@@ -1359,10 +1235,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '86351',
                 'id_express' => 465,
-                'lion' => NULL,
-            ),
-            122 => 
-            array (
+                'lion' => null,
+            ],
+            122 => [
                 'id' => 123,
                 'province_id' => 28,
                 'district_name' => 'Enrekang',
@@ -1370,10 +1245,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '91719',
                 'id_express' => 380,
-                'lion' => NULL,
-            ),
-            123 => 
-            array (
+                'lion' => null,
+            ],
+            123 => [
                 'id' => 124,
                 'province_id' => 25,
                 'district_name' => 'Fakfak',
@@ -1381,10 +1255,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '98651',
                 'id_express' => 533,
-                'lion' => NULL,
-            ),
-            124 => 
-            array (
+                'lion' => null,
+            ],
+            124 => [
                 'id' => 125,
                 'province_id' => 23,
                 'district_name' => 'Flores Timur',
@@ -1392,10 +1265,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '86213',
                 'id_express' => 466,
-                'lion' => NULL,
-            ),
-            125 => 
-            array (
+                'lion' => null,
+            ],
+            125 => [
                 'id' => 126,
                 'province_id' => 9,
                 'district_name' => 'Garut',
@@ -1403,10 +1275,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '44126',
                 'id_express' => 57,
-                'lion' => NULL,
-            ),
-            126 => 
-            array (
+                'lion' => null,
+            ],
+            126 => [
                 'id' => 127,
                 'province_id' => 21,
                 'district_name' => 'Gayo Lues',
@@ -1414,10 +1285,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '24653',
                 'id_express' => 178,
-                'lion' => NULL,
-            ),
-            127 => 
-            array (
+                'lion' => null,
+            ],
+            127 => [
                 'id' => 128,
                 'province_id' => 1,
                 'district_name' => 'Gianyar',
@@ -1425,10 +1295,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '80519',
                 'id_express' => 449,
-                'lion' => NULL,
-            ),
-            128 => 
-            array (
+                'lion' => null,
+            ],
+            128 => [
                 'id' => 129,
                 'province_id' => 7,
                 'district_name' => 'Gorontalo',
@@ -1436,10 +1305,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '96218',
                 'id_express' => 366,
-                'lion' => NULL,
-            ),
-            129 => 
-            array (
+                'lion' => null,
+            ],
+            129 => [
                 'id' => 130,
                 'province_id' => 7,
                 'district_name' => 'Gorontalo',
@@ -1447,10 +1315,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '96115',
                 'id_express' => 368,
-                'lion' => NULL,
-            ),
-            130 => 
-            array (
+                'lion' => null,
+            ],
+            130 => [
                 'id' => 131,
                 'province_id' => 7,
                 'district_name' => 'Gorontalo Utara',
@@ -1458,10 +1325,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '96611',
                 'id_express' => 367,
-                'lion' => NULL,
-            ),
-            131 => 
-            array (
+                'lion' => null,
+            ],
+            131 => [
                 'id' => 132,
                 'province_id' => 28,
                 'district_name' => 'Gowa',
@@ -1469,10 +1335,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '92111',
                 'id_express' => 381,
-                'lion' => NULL,
-            ),
-            132 => 
-            array (
+                'lion' => null,
+            ],
+            132 => [
                 'id' => 133,
                 'province_id' => 11,
                 'district_name' => 'Gresik',
@@ -1480,10 +1345,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '61115',
                 'id_express' => 122,
-                'lion' => NULL,
-            ),
-            133 => 
-            array (
+                'lion' => null,
+            ],
+            133 => [
                 'id' => 134,
                 'province_id' => 10,
                 'district_name' => 'Grobogan',
@@ -1491,10 +1355,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '58111',
                 'id_express' => 84,
-                'lion' => NULL,
-            ),
-            134 => 
-            array (
+                'lion' => null,
+            ],
+            134 => [
                 'id' => 135,
                 'province_id' => 5,
                 'district_name' => 'Gunung Kidul',
@@ -1502,10 +1365,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '55812',
                 'id_express' => 112,
-                'lion' => NULL,
-            ),
-            135 => 
-            array (
+                'lion' => null,
+            ],
+            135 => [
                 'id' => 136,
                 'province_id' => 14,
                 'district_name' => 'Gunung Mas',
@@ -1513,10 +1375,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '74511',
                 'id_express' => 338,
-                'lion' => NULL,
-            ),
-            136 => 
-            array (
+                'lion' => null,
+            ],
+            136 => [
                 'id' => 137,
                 'province_id' => 34,
                 'district_name' => 'Gunungsitoli',
@@ -1524,10 +1385,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '22813',
                 'id_express' => 279,
-                'lion' => NULL,
-            ),
-            137 => 
-            array (
+                'lion' => null,
+            ],
+            137 => [
                 'id' => 138,
                 'province_id' => 20,
                 'district_name' => 'Halmahera Barat',
@@ -1535,10 +1395,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '97757',
                 'id_express' => 495,
-                'lion' => NULL,
-            ),
-            138 => 
-            array (
+                'lion' => null,
+            ],
+            138 => [
                 'id' => 139,
                 'province_id' => 20,
                 'district_name' => 'Halmahera Selatan',
@@ -1546,10 +1405,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '97911',
                 'id_express' => 496,
-                'lion' => NULL,
-            ),
-            139 => 
-            array (
+                'lion' => null,
+            ],
+            139 => [
                 'id' => 140,
                 'province_id' => 20,
                 'district_name' => 'Halmahera Tengah',
@@ -1557,10 +1415,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '97853',
                 'id_express' => 497,
-                'lion' => NULL,
-            ),
-            140 => 
-            array (
+                'lion' => null,
+            ],
+            140 => [
                 'id' => 141,
                 'province_id' => 20,
                 'district_name' => 'Halmahera Timur',
@@ -1568,10 +1425,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '97862',
                 'id_express' => 498,
-                'lion' => NULL,
-            ),
-            141 => 
-            array (
+                'lion' => null,
+            ],
+            141 => [
                 'id' => 142,
                 'province_id' => 20,
                 'district_name' => 'Halmahera Utara',
@@ -1579,10 +1435,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '97762',
                 'id_express' => 499,
-                'lion' => NULL,
-            ),
-            142 => 
-            array (
+                'lion' => null,
+            ],
+            142 => [
                 'id' => 143,
                 'province_id' => 13,
                 'district_name' => 'Hulu Sungai Selatan',
@@ -1590,10 +1445,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '71212',
                 'id_express' => 327,
-                'lion' => NULL,
-            ),
-            143 => 
-            array (
+                'lion' => null,
+            ],
+            143 => [
                 'id' => 144,
                 'province_id' => 13,
                 'district_name' => 'Hulu Sungai Tengah',
@@ -1601,10 +1455,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '71313',
                 'id_express' => 328,
-                'lion' => NULL,
-            ),
-            144 => 
-            array (
+                'lion' => null,
+            ],
+            144 => [
                 'id' => 145,
                 'province_id' => 13,
                 'district_name' => 'Hulu Sungai Utara',
@@ -1612,10 +1465,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '71419',
                 'id_express' => 329,
-                'lion' => NULL,
-            ),
-            145 => 
-            array (
+                'lion' => null,
+            ],
+            145 => [
                 'id' => 146,
                 'province_id' => 34,
                 'district_name' => 'Humbang Hasundutan',
@@ -1623,10 +1475,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '22457',
                 'id_express' => 280,
-                'lion' => NULL,
-            ),
-            146 => 
-            array (
+                'lion' => null,
+            ],
+            146 => [
                 'id' => 147,
                 'province_id' => 26,
                 'district_name' => 'Indragiri Hilir',
@@ -1634,10 +1485,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '29212',
                 'id_express' => 229,
-                'lion' => NULL,
-            ),
-            147 => 
-            array (
+                'lion' => null,
+            ],
+            147 => [
                 'id' => 148,
                 'province_id' => 26,
                 'district_name' => 'Indragiri Hulu',
@@ -1645,10 +1495,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '29319',
                 'id_express' => 230,
-                'lion' => NULL,
-            ),
-            148 => 
-            array (
+                'lion' => null,
+            ],
+            148 => [
                 'id' => 149,
                 'province_id' => 9,
                 'district_name' => 'Indramayu',
@@ -1656,10 +1505,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '45214',
                 'id_express' => 58,
-                'lion' => NULL,
-            ),
-            149 => 
-            array (
+                'lion' => null,
+            ],
+            149 => [
                 'id' => 150,
                 'province_id' => 24,
                 'district_name' => 'Intan Jaya',
@@ -1667,10 +1515,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '98771',
                 'id_express' => 510,
-                'lion' => NULL,
-            ),
-            150 => 
-            array (
+                'lion' => null,
+            ],
+            150 => [
                 'id' => 151,
                 'province_id' => 6,
                 'district_name' => 'Jakarta Barat',
@@ -1679,9 +1526,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '11220',
                 'id_express' => 37,
                 'lion' => 'U1RBUkFCMkJDR0suQVBJIENMMzE1NTc=',
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 152,
                 'province_id' => 6,
                 'district_name' => 'Jakarta Pusat',
@@ -1690,9 +1536,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '10540',
                 'id_express' => 38,
                 'lion' => 'U1RBUkFCMkJDR0suQVBJIENMMzE1NTc=',
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 153,
                 'province_id' => 6,
                 'district_name' => 'Jakarta Selatan',
@@ -1701,9 +1546,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '12230',
                 'id_express' => 40,
                 'lion' => 'U1RBUkFCMkJDR0suQVBJIENMMzE1NTc=',
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 154,
                 'province_id' => 6,
                 'district_name' => 'Jakarta Timur',
@@ -1712,9 +1556,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '13330',
                 'id_express' => 39,
                 'lion' => 'U1RBUkFCMkJDR0suQVBJIENMMzE1NTc=',
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 155,
                 'province_id' => 6,
                 'district_name' => 'Jakarta Utara',
@@ -1723,9 +1566,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '14140',
                 'id_express' => 36,
                 'lion' => 'U1RBUkFCMkJDR0suQVBJIENMMzE1NTc=',
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 156,
                 'province_id' => 8,
                 'district_name' => 'Jambi',
@@ -1734,9 +1576,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '36111',
                 'id_express' => 189,
                 'lion' => 'U1RBUkFCMkJESkIuQVBJIGprc2tqc2s=',
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 157,
                 'province_id' => 24,
                 'district_name' => 'Jayapura',
@@ -1744,10 +1585,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '99352',
                 'id_express' => 511,
-                'lion' => NULL,
-            ),
-            157 => 
-            array (
+                'lion' => null,
+            ],
+            157 => [
                 'id' => 158,
                 'province_id' => 24,
                 'district_name' => 'Jayapura',
@@ -1755,10 +1595,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '99114',
                 'id_express' => 22132,
-                'lion' => NULL,
-            ),
-            158 => 
-            array (
+                'lion' => null,
+            ],
+            158 => [
                 'id' => 159,
                 'province_id' => 24,
                 'district_name' => 'Jayawijaya',
@@ -1766,10 +1605,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '99511',
                 'id_express' => 512,
-                'lion' => NULL,
-            ),
-            159 => 
-            array (
+                'lion' => null,
+            ],
+            159 => [
                 'id' => 160,
                 'province_id' => 11,
                 'district_name' => 'Jember',
@@ -1777,10 +1615,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '68113',
                 'id_express' => 123,
-                'lion' => NULL,
-            ),
-            160 => 
-            array (
+                'lion' => null,
+            ],
+            160 => [
                 'id' => 161,
                 'province_id' => 1,
                 'district_name' => 'Jembrana',
@@ -1788,10 +1625,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '82251',
                 'id_express' => 450,
-                'lion' => NULL,
-            ),
-            161 => 
-            array (
+                'lion' => null,
+            ],
+            161 => [
                 'id' => 162,
                 'province_id' => 28,
                 'district_name' => 'Jeneponto',
@@ -1799,10 +1635,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '92319',
                 'id_express' => 382,
-                'lion' => NULL,
-            ),
-            162 => 
-            array (
+                'lion' => null,
+            ],
+            162 => [
                 'id' => 163,
                 'province_id' => 10,
                 'district_name' => 'Jepara',
@@ -1810,10 +1645,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '59419',
                 'id_express' => 85,
-                'lion' => NULL,
-            ),
-            163 => 
-            array (
+                'lion' => null,
+            ],
+            163 => [
                 'id' => 164,
                 'province_id' => 11,
                 'district_name' => 'Jombang',
@@ -1821,10 +1655,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '61415',
                 'id_express' => 124,
-                'lion' => NULL,
-            ),
-            164 => 
-            array (
+                'lion' => null,
+            ],
+            164 => [
                 'id' => 165,
                 'province_id' => 25,
                 'district_name' => 'Kaimana',
@@ -1832,10 +1665,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '98671',
                 'id_express' => 534,
-                'lion' => NULL,
-            ),
-            165 => 
-            array (
+                'lion' => null,
+            ],
+            165 => [
                 'id' => 166,
                 'province_id' => 26,
                 'district_name' => 'Kampar',
@@ -1843,10 +1675,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '28411',
                 'id_express' => 231,
-                'lion' => NULL,
-            ),
-            166 => 
-            array (
+                'lion' => null,
+            ],
+            166 => [
                 'id' => 167,
                 'province_id' => 14,
                 'district_name' => 'Kapuas',
@@ -1854,10 +1685,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '73583',
                 'id_express' => 339,
-                'lion' => NULL,
-            ),
-            167 => 
-            array (
+                'lion' => null,
+            ],
+            167 => [
                 'id' => 168,
                 'province_id' => 12,
                 'district_name' => 'Kapuas Hulu',
@@ -1865,10 +1695,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '78719',
                 'id_express' => 309,
-                'lion' => NULL,
-            ),
-            168 => 
-            array (
+                'lion' => null,
+            ],
+            168 => [
                 'id' => 169,
                 'province_id' => 10,
                 'district_name' => 'Karanganyar',
@@ -1876,10 +1705,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '57718',
                 'id_express' => 86,
-                'lion' => NULL,
-            ),
-            169 => 
-            array (
+                'lion' => null,
+            ],
+            169 => [
                 'id' => 170,
                 'province_id' => 1,
                 'district_name' => 'Karangasem',
@@ -1887,10 +1715,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '80819',
                 'id_express' => 451,
-                'lion' => NULL,
-            ),
-            170 => 
-            array (
+                'lion' => null,
+            ],
+            170 => [
                 'id' => 171,
                 'province_id' => 9,
                 'district_name' => 'Karawang',
@@ -1898,10 +1725,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '41311',
                 'id_express' => 61,
-                'lion' => NULL,
-            ),
-            171 => 
-            array (
+                'lion' => null,
+            ],
+            171 => [
                 'id' => 172,
                 'province_id' => 17,
                 'district_name' => 'Karimun',
@@ -1909,10 +1735,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '29611',
                 'id_express' => 207,
-                'lion' => NULL,
-            ),
-            172 => 
-            array (
+                'lion' => null,
+            ],
+            172 => [
                 'id' => 173,
                 'province_id' => 34,
                 'district_name' => 'Karo',
@@ -1920,10 +1745,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '22119',
                 'id_express' => 281,
-                'lion' => NULL,
-            ),
-            173 => 
-            array (
+                'lion' => null,
+            ],
+            173 => [
                 'id' => 174,
                 'province_id' => 14,
                 'district_name' => 'Katingan',
@@ -1931,10 +1755,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '74411',
                 'id_express' => 340,
-                'lion' => NULL,
-            ),
-            174 => 
-            array (
+                'lion' => null,
+            ],
+            174 => [
                 'id' => 175,
                 'province_id' => 4,
                 'district_name' => 'Kaur',
@@ -1942,10 +1765,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '38911',
                 'id_express' => 158,
-                'lion' => NULL,
-            ),
-            175 => 
-            array (
+                'lion' => null,
+            ],
+            175 => [
                 'id' => 176,
                 'province_id' => 12,
                 'district_name' => 'Kayong Utara',
@@ -1953,10 +1775,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '78852',
                 'id_express' => 310,
-                'lion' => NULL,
-            ),
-            176 => 
-            array (
+                'lion' => null,
+            ],
+            176 => [
                 'id' => 177,
                 'province_id' => 10,
                 'district_name' => 'Kebumen',
@@ -1964,10 +1785,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '54319',
                 'id_express' => 87,
-                'lion' => NULL,
-            ),
-            177 => 
-            array (
+                'lion' => null,
+            ],
+            177 => [
                 'id' => 178,
                 'province_id' => 11,
                 'district_name' => 'Kediri',
@@ -1975,10 +1795,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '64184',
                 'id_express' => 125,
-                'lion' => NULL,
-            ),
-            178 => 
-            array (
+                'lion' => null,
+            ],
+            178 => [
                 'id' => 179,
                 'province_id' => 11,
                 'district_name' => 'Kediri',
@@ -1986,10 +1805,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '64125',
                 'id_express' => 127,
-                'lion' => NULL,
-            ),
-            179 => 
-            array (
+                'lion' => null,
+            ],
+            179 => [
                 'id' => 180,
                 'province_id' => 24,
                 'district_name' => 'Keerom',
@@ -1997,10 +1815,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '99461',
                 'id_express' => 513,
-                'lion' => NULL,
-            ),
-            180 => 
-            array (
+                'lion' => null,
+            ],
+            180 => [
                 'id' => 181,
                 'province_id' => 10,
                 'district_name' => 'Kendal',
@@ -2008,10 +1825,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '51314',
                 'id_express' => 88,
-                'lion' => NULL,
-            ),
-            181 => 
-            array (
+                'lion' => null,
+            ],
+            181 => [
                 'id' => 182,
                 'province_id' => 30,
                 'district_name' => 'Kendari',
@@ -2019,10 +1835,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '93126',
                 'id_express' => 419,
-                'lion' => NULL,
-            ),
-            182 => 
-            array (
+                'lion' => null,
+            ],
+            182 => [
                 'id' => 183,
                 'province_id' => 4,
                 'district_name' => 'Kepahiang',
@@ -2030,10 +1845,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '39319',
                 'id_express' => 159,
-                'lion' => NULL,
-            ),
-            183 => 
-            array (
+                'lion' => null,
+            ],
+            183 => [
                 'id' => 184,
                 'province_id' => 17,
                 'district_name' => 'Kepulauan Anambas',
@@ -2041,10 +1855,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '29991',
                 'id_express' => 208,
-                'lion' => NULL,
-            ),
-            184 => 
-            array (
+                'lion' => null,
+            ],
+            184 => [
                 'id' => 185,
                 'province_id' => 19,
                 'district_name' => 'Kepulauan Aru',
@@ -2052,10 +1865,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '97681',
                 'id_express' => 487,
-                'lion' => NULL,
-            ),
-            185 => 
-            array (
+                'lion' => null,
+            ],
+            185 => [
                 'id' => 186,
                 'province_id' => 32,
                 'district_name' => 'Kepulauan Mentawai',
@@ -2063,10 +1875,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '25771',
                 'id_express' => 242,
-                'lion' => NULL,
-            ),
-            186 => 
-            array (
+                'lion' => null,
+            ],
+            186 => [
                 'id' => 187,
                 'province_id' => 26,
                 'district_name' => 'Kepulauan Meranti',
@@ -2074,10 +1885,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '28791',
                 'id_express' => 232,
-                'lion' => NULL,
-            ),
-            187 => 
-            array (
+                'lion' => null,
+            ],
+            187 => [
                 'id' => 188,
                 'province_id' => 31,
                 'district_name' => 'Kepulauan Sangihe',
@@ -2085,10 +1895,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '95819',
                 'id_express' => 435,
-                'lion' => NULL,
-            ),
-            188 => 
-            array (
+                'lion' => null,
+            ],
+            188 => [
                 'id' => 189,
                 'province_id' => 6,
                 'district_name' => 'Kepulauan Seribu',
@@ -2096,10 +1905,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '14550',
                 'id_express' => 35,
-                'lion' => NULL,
-            ),
-            189 => 
-            array (
+                'lion' => null,
+            ],
+            189 => [
                 'id' => 190,
                 'province_id' => 31,
                 'district_name' => 'Siau Tagulandang Biaro',
@@ -2107,10 +1915,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '95862',
                 'id_express' => 443,
-                'lion' => NULL,
-            ),
-            190 => 
-            array (
+                'lion' => null,
+            ],
+            190 => [
                 'id' => 191,
                 'province_id' => 20,
                 'district_name' => 'Kepulauan Sula',
@@ -2118,10 +1925,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '97995',
                 'id_express' => 500,
-                'lion' => NULL,
-            ),
-            191 => 
-            array (
+                'lion' => null,
+            ],
+            191 => [
                 'id' => 192,
                 'province_id' => 31,
                 'district_name' => 'Kepulauan Talaud',
@@ -2129,10 +1935,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '95885',
                 'id_express' => 436,
-                'lion' => NULL,
-            ),
-            192 => 
-            array (
+                'lion' => null,
+            ],
+            192 => [
                 'id' => 193,
                 'province_id' => 24,
                 'district_name' => 'Kepulauan Yapen',
@@ -2140,10 +1945,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '98211',
                 'id_express' => 514,
-                'lion' => NULL,
-            ),
-            193 => 
-            array (
+                'lion' => null,
+            ],
+            193 => [
                 'id' => 194,
                 'province_id' => 8,
                 'district_name' => 'Kerinci',
@@ -2151,10 +1955,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '37167',
                 'id_express' => 190,
-                'lion' => NULL,
-            ),
-            194 => 
-            array (
+                'lion' => null,
+            ],
+            194 => [
                 'id' => 195,
                 'province_id' => 12,
                 'district_name' => 'Ketapang',
@@ -2162,10 +1965,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '78874',
                 'id_express' => 311,
-                'lion' => NULL,
-            ),
-            195 => 
-            array (
+                'lion' => null,
+            ],
+            195 => [
                 'id' => 196,
                 'province_id' => 10,
                 'district_name' => 'Klaten',
@@ -2173,10 +1975,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '57411',
                 'id_express' => 89,
-                'lion' => NULL,
-            ),
-            196 => 
-            array (
+                'lion' => null,
+            ],
+            196 => [
                 'id' => 197,
                 'province_id' => 1,
                 'district_name' => 'Klungkung',
@@ -2184,10 +1985,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '80719',
                 'id_express' => 452,
-                'lion' => NULL,
-            ),
-            197 => 
-            array (
+                'lion' => null,
+            ],
+            197 => [
                 'id' => 198,
                 'province_id' => 30,
                 'district_name' => 'Kolaka',
@@ -2195,10 +1995,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '93511',
                 'id_express' => 420,
-                'lion' => NULL,
-            ),
-            198 => 
-            array (
+                'lion' => null,
+            ],
+            198 => [
                 'id' => 199,
                 'province_id' => 30,
                 'district_name' => 'Kolaka Utara',
@@ -2206,10 +2005,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '93911',
                 'id_express' => 422,
-                'lion' => NULL,
-            ),
-            199 => 
-            array (
+                'lion' => null,
+            ],
+            199 => [
                 'id' => 200,
                 'province_id' => 30,
                 'district_name' => 'Konawe',
@@ -2217,10 +2015,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '93411',
                 'id_express' => 423,
-                'lion' => NULL,
-            ),
-            200 => 
-            array (
+                'lion' => null,
+            ],
+            200 => [
                 'id' => 201,
                 'province_id' => 30,
                 'district_name' => 'Konawe Selatan',
@@ -2228,10 +2025,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '93811',
                 'id_express' => 425,
-                'lion' => NULL,
-            ),
-            201 => 
-            array (
+                'lion' => null,
+            ],
+            201 => [
                 'id' => 202,
                 'province_id' => 30,
                 'district_name' => 'Konawe Utara',
@@ -2239,10 +2035,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '93311',
                 'id_express' => 426,
-                'lion' => NULL,
-            ),
-            202 => 
-            array (
+                'lion' => null,
+            ],
+            202 => [
                 'id' => 203,
                 'province_id' => 13,
                 'district_name' => 'Kotabaru',
@@ -2250,10 +2045,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '72119',
                 'id_express' => 330,
-                'lion' => NULL,
-            ),
-            203 => 
-            array (
+                'lion' => null,
+            ],
+            203 => [
                 'id' => 204,
                 'province_id' => 31,
                 'district_name' => 'Kotamobagu',
@@ -2261,10 +2055,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '95711',
                 'id_express' => 437,
-                'lion' => NULL,
-            ),
-            204 => 
-            array (
+                'lion' => null,
+            ],
+            204 => [
                 'id' => 205,
                 'province_id' => 14,
                 'district_name' => 'Kotawaringin Barat',
@@ -2272,10 +2065,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '74119',
                 'id_express' => 341,
-                'lion' => NULL,
-            ),
-            205 => 
-            array (
+                'lion' => null,
+            ],
+            205 => [
                 'id' => 206,
                 'province_id' => 14,
                 'district_name' => 'Kotawaringin Timur',
@@ -2283,10 +2075,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '74364',
                 'id_express' => 342,
-                'lion' => NULL,
-            ),
-            206 => 
-            array (
+                'lion' => null,
+            ],
+            206 => [
                 'id' => 207,
                 'province_id' => 26,
                 'district_name' => 'Kuantan Singingi',
@@ -2294,10 +2085,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '29519',
                 'id_express' => 233,
-                'lion' => NULL,
-            ),
-            207 => 
-            array (
+                'lion' => null,
+            ],
+            207 => [
                 'id' => 208,
                 'province_id' => 12,
                 'district_name' => 'Kubu Raya',
@@ -2305,10 +2095,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '78311',
                 'id_express' => 313,
-                'lion' => NULL,
-            ),
-            208 => 
-            array (
+                'lion' => null,
+            ],
+            208 => [
                 'id' => 209,
                 'province_id' => 10,
                 'district_name' => 'Kudus',
@@ -2316,10 +2105,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '59311',
                 'id_express' => 94,
-                'lion' => NULL,
-            ),
-            209 => 
-            array (
+                'lion' => null,
+            ],
+            209 => [
                 'id' => 210,
                 'province_id' => 5,
                 'district_name' => 'Kulon Progo',
@@ -2327,10 +2115,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '55611',
                 'id_express' => 114,
-                'lion' => NULL,
-            ),
-            210 => 
-            array (
+                'lion' => null,
+            ],
+            210 => [
                 'id' => 211,
                 'province_id' => 9,
                 'district_name' => 'Kuningan',
@@ -2338,10 +2125,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '45511',
                 'id_express' => 68,
-                'lion' => NULL,
-            ),
-            211 => 
-            array (
+                'lion' => null,
+            ],
+            211 => [
                 'id' => 212,
                 'province_id' => 23,
                 'district_name' => 'Kupang',
@@ -2349,10 +2135,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '85362',
                 'id_express' => 467,
-                'lion' => NULL,
-            ),
-            212 => 
-            array (
+                'lion' => null,
+            ],
+            212 => [
                 'id' => 213,
                 'province_id' => 23,
                 'district_name' => 'Kupang',
@@ -2360,10 +2145,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '85119',
                 'id_express' => 467,
-                'lion' => NULL,
-            ),
-            213 => 
-            array (
+                'lion' => null,
+            ],
+            213 => [
                 'id' => 214,
                 'province_id' => 15,
                 'district_name' => 'Kutai Barat',
@@ -2371,10 +2155,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '75711',
                 'id_express' => 352,
-                'lion' => NULL,
-            ),
-            214 => 
-            array (
+                'lion' => null,
+            ],
+            214 => [
                 'id' => 215,
                 'province_id' => 15,
                 'district_name' => 'Kutai Kartanegara',
@@ -2382,10 +2165,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '75511',
                 'id_express' => 353,
-                'lion' => NULL,
-            ),
-            215 => 
-            array (
+                'lion' => null,
+            ],
+            215 => [
                 'id' => 216,
                 'province_id' => 15,
                 'district_name' => 'Kutai Timur',
@@ -2393,10 +2175,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '75611',
                 'id_express' => 354,
-                'lion' => NULL,
-            ),
-            216 => 
-            array (
+                'lion' => null,
+            ],
+            216 => [
                 'id' => 217,
                 'province_id' => 34,
                 'district_name' => 'Labuhanbatu',
@@ -2404,10 +2185,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '21412',
                 'id_express' => 285,
-                'lion' => NULL,
-            ),
-            217 => 
-            array (
+                'lion' => null,
+            ],
+            217 => [
                 'id' => 218,
                 'province_id' => 34,
                 'district_name' => 'Labuhanbatu Selatan',
@@ -2415,10 +2195,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '21511',
                 'id_express' => 286,
-                'lion' => NULL,
-            ),
-            218 => 
-            array (
+                'lion' => null,
+            ],
+            218 => [
                 'id' => 219,
                 'province_id' => 34,
                 'district_name' => 'Labuhanbatu Utara',
@@ -2426,10 +2205,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '21711',
                 'id_express' => 287,
-                'lion' => NULL,
-            ),
-            219 => 
-            array (
+                'lion' => null,
+            ],
+            219 => [
                 'id' => 220,
                 'province_id' => 33,
                 'district_name' => 'Lahat',
@@ -2437,10 +2215,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '31419',
                 'id_express' => 260,
-                'lion' => NULL,
-            ),
-            220 => 
-            array (
+                'lion' => null,
+            ],
+            220 => [
                 'id' => 221,
                 'province_id' => 14,
                 'district_name' => 'Lamandau',
@@ -2448,10 +2225,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '74611',
                 'id_express' => 343,
-                'lion' => NULL,
-            ),
-            221 => 
-            array (
+                'lion' => null,
+            ],
+            221 => [
                 'id' => 222,
                 'province_id' => 11,
                 'district_name' => 'Lamongan',
@@ -2459,10 +2235,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '64125',
                 'id_express' => 133,
-                'lion' => NULL,
-            ),
-            222 => 
-            array (
+                'lion' => null,
+            ],
+            222 => [
                 'id' => 223,
                 'province_id' => 18,
                 'district_name' => 'Lampung Barat',
@@ -2470,10 +2245,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '34814',
                 'id_express' => 213,
-                'lion' => NULL,
-            ),
-            223 => 
-            array (
+                'lion' => null,
+            ],
+            223 => [
                 'id' => 224,
                 'province_id' => 18,
                 'district_name' => 'Lampung Selatan',
@@ -2481,10 +2255,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '35511',
                 'id_express' => 214,
-                'lion' => NULL,
-            ),
-            224 => 
-            array (
+                'lion' => null,
+            ],
+            224 => [
                 'id' => 225,
                 'province_id' => 18,
                 'district_name' => 'Lampung Tengah',
@@ -2492,10 +2265,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '34212',
                 'id_express' => 215,
-                'lion' => NULL,
-            ),
-            225 => 
-            array (
+                'lion' => null,
+            ],
+            225 => [
                 'id' => 226,
                 'province_id' => 18,
                 'district_name' => 'Lampung Timur',
@@ -2503,10 +2275,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '34319',
                 'id_express' => 216,
-                'lion' => NULL,
-            ),
-            226 => 
-            array (
+                'lion' => null,
+            ],
+            226 => [
                 'id' => 227,
                 'province_id' => 18,
                 'district_name' => 'Lampung Utara',
@@ -2514,10 +2285,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '34516',
                 'id_express' => 217,
-                'lion' => NULL,
-            ),
-            227 => 
-            array (
+                'lion' => null,
+            ],
+            227 => [
                 'id' => 228,
                 'province_id' => 12,
                 'district_name' => 'Landak',
@@ -2525,10 +2295,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '78319',
                 'id_express' => 314,
-                'lion' => NULL,
-            ),
-            228 => 
-            array (
+                'lion' => null,
+            ],
+            228 => [
                 'id' => 229,
                 'province_id' => 34,
                 'district_name' => 'Langkat',
@@ -2536,10 +2305,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '20811',
                 'id_express' => 288,
-                'lion' => NULL,
-            ),
-            229 => 
-            array (
+                'lion' => null,
+            ],
+            229 => [
                 'id' => 230,
                 'province_id' => 21,
                 'district_name' => 'Langsa',
@@ -2547,10 +2315,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '24412',
                 'id_express' => 179,
-                'lion' => NULL,
-            ),
-            230 => 
-            array (
+                'lion' => null,
+            ],
+            230 => [
                 'id' => 231,
                 'province_id' => 24,
                 'district_name' => 'Lanny Jaya',
@@ -2558,10 +2325,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '99531',
                 'id_express' => 515,
-                'lion' => NULL,
-            ),
-            231 => 
-            array (
+                'lion' => null,
+            ],
+            231 => [
                 'id' => 232,
                 'province_id' => 3,
                 'district_name' => 'Lebak',
@@ -2569,10 +2335,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '42319',
                 'id_express' => 46,
-                'lion' => NULL,
-            ),
-            232 => 
-            array (
+                'lion' => null,
+            ],
+            232 => [
                 'id' => 233,
                 'province_id' => 4,
                 'district_name' => 'Lebong',
@@ -2580,10 +2345,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '39264',
                 'id_express' => 160,
-                'lion' => NULL,
-            ),
-            233 => 
-            array (
+                'lion' => null,
+            ],
+            233 => [
                 'id' => 234,
                 'province_id' => 23,
                 'district_name' => 'Lembata',
@@ -2591,10 +2355,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '86611',
                 'id_express' => 468,
-                'lion' => NULL,
-            ),
-            234 => 
-            array (
+                'lion' => null,
+            ],
+            234 => [
                 'id' => 235,
                 'province_id' => 21,
                 'district_name' => 'Lhokseumawe',
@@ -2602,10 +2365,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '24352',
                 'id_express' => 180,
-                'lion' => NULL,
-            ),
-            235 => 
-            array (
+                'lion' => null,
+            ],
+            235 => [
                 'id' => 236,
                 'province_id' => 32,
                 'district_name' => 'Lima Puluh Kota',
@@ -2613,10 +2375,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '26671',
                 'id_express' => 244,
-                'lion' => NULL,
-            ),
-            236 => 
-            array (
+                'lion' => null,
+            ],
+            236 => [
                 'id' => 237,
                 'province_id' => 17,
                 'district_name' => 'Lingga',
@@ -2624,10 +2385,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '29811',
                 'id_express' => 209,
-                'lion' => NULL,
-            ),
-            237 => 
-            array (
+                'lion' => null,
+            ],
+            237 => [
                 'id' => 238,
                 'province_id' => 22,
                 'district_name' => 'Lombok Barat',
@@ -2635,10 +2395,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '83311',
                 'id_express' => 456,
-                'lion' => NULL,
-            ),
-            238 => 
-            array (
+                'lion' => null,
+            ],
+            238 => [
                 'id' => 239,
                 'province_id' => 22,
                 'district_name' => 'Lombok Tengah',
@@ -2646,10 +2405,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '83511',
                 'id_express' => 457,
-                'lion' => NULL,
-            ),
-            239 => 
-            array (
+                'lion' => null,
+            ],
+            239 => [
                 'id' => 240,
                 'province_id' => 22,
                 'district_name' => 'Lombok Timur',
@@ -2657,10 +2415,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '83612',
                 'id_express' => 458,
-                'lion' => NULL,
-            ),
-            240 => 
-            array (
+                'lion' => null,
+            ],
+            240 => [
                 'id' => 241,
                 'province_id' => 22,
                 'district_name' => 'Lombok Utara',
@@ -2668,10 +2425,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '83711',
                 'id_express' => 459,
-                'lion' => NULL,
-            ),
-            241 => 
-            array (
+                'lion' => null,
+            ],
+            241 => [
                 'id' => 242,
                 'province_id' => 33,
                 'district_name' => 'Lubuklinggau',
@@ -2679,10 +2435,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '31614',
                 'id_express' => 261,
-                'lion' => NULL,
-            ),
-            242 => 
-            array (
+                'lion' => null,
+            ],
+            242 => [
                 'id' => 243,
                 'province_id' => 11,
                 'district_name' => 'Lumajang',
@@ -2690,10 +2445,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '67319',
                 'id_express' => 134,
-                'lion' => NULL,
-            ),
-            243 => 
-            array (
+                'lion' => null,
+            ],
+            243 => [
                 'id' => 244,
                 'province_id' => 28,
                 'district_name' => 'Luwu',
@@ -2701,10 +2455,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '91994',
                 'id_express' => 384,
-                'lion' => NULL,
-            ),
-            244 => 
-            array (
+                'lion' => null,
+            ],
+            244 => [
                 'id' => 245,
                 'province_id' => 28,
                 'district_name' => 'Luwu Timur',
@@ -2712,10 +2465,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '92981',
                 'id_express' => 385,
-                'lion' => NULL,
-            ),
-            245 => 
-            array (
+                'lion' => null,
+            ],
+            245 => [
                 'id' => 246,
                 'province_id' => 28,
                 'district_name' => 'Luwu Utara',
@@ -2723,10 +2475,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '92911',
                 'id_express' => 386,
-                'lion' => NULL,
-            ),
-            246 => 
-            array (
+                'lion' => null,
+            ],
+            246 => [
                 'id' => 247,
                 'province_id' => 11,
                 'district_name' => 'Madiun',
@@ -2734,10 +2485,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '63153',
                 'id_express' => 135,
-                'lion' => NULL,
-            ),
-            247 => 
-            array (
+                'lion' => null,
+            ],
+            247 => [
                 'id' => 248,
                 'province_id' => 11,
                 'district_name' => 'Madiun',
@@ -2745,10 +2495,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '63122',
                 'id_express' => 128,
-                'lion' => NULL,
-            ),
-            248 => 
-            array (
+                'lion' => null,
+            ],
+            248 => [
                 'id' => 249,
                 'province_id' => 10,
                 'district_name' => 'Magelang',
@@ -2757,9 +2506,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '56519',
                 'id_express' => 95,
                 'lion' => 'U1RBUkFCMkJNR0wuQVBJIENMMzE1NTcga3Nrcw==',
-            ),
-            249 => 
-            array (
+            ],
+            249 => [
                 'id' => 250,
                 'province_id' => 10,
                 'district_name' => 'Magelang',
@@ -2768,9 +2516,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '56133',
                 'id_express' => 90,
                 'lion' => 'U1RBUkFCMkJNR0wuQVBJIENMMzE1NTcga3Nrcw==',
-            ),
-            250 => 
-            array (
+            ],
+            250 => [
                 'id' => 251,
                 'province_id' => 11,
                 'district_name' => 'Magetan',
@@ -2778,10 +2525,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '63314',
                 'id_express' => 136,
-                'lion' => NULL,
-            ),
-            251 => 
-            array (
+                'lion' => null,
+            ],
+            251 => [
                 'id' => 252,
                 'province_id' => 9,
                 'district_name' => 'Majalengka',
@@ -2789,10 +2535,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '45412',
                 'id_express' => 69,
-                'lion' => NULL,
-            ),
-            252 => 
-            array (
+                'lion' => null,
+            ],
+            252 => [
                 'id' => 253,
                 'province_id' => 27,
                 'district_name' => 'Majene',
@@ -2800,10 +2545,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A0',
                 'postal_code' => '91411',
                 'id_express' => 370,
-                'lion' => NULL,
-            ),
-            253 => 
-            array (
+                'lion' => null,
+            ],
+            253 => [
                 'id' => 254,
                 'province_id' => 28,
                 'district_name' => 'Makassar',
@@ -2812,9 +2556,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '90111',
                 'id_express' => 387,
                 'lion' => 'U1RBUkFCMkJVUEcuQVBJIENMMzE1NTc=',
-            ),
-            254 => 
-            array (
+            ],
+            254 => [
                 'id' => 255,
                 'province_id' => 11,
                 'district_name' => 'Malang',
@@ -2822,10 +2565,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '65163',
                 'id_express' => 137,
-                'lion' => NULL,
-            ),
-            255 => 
-            array (
+                'lion' => null,
+            ],
+            255 => [
                 'id' => 256,
                 'province_id' => 11,
                 'district_name' => 'Malang',
@@ -2833,10 +2575,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '65112',
                 'id_express' => 129,
-                'lion' => NULL,
-            ),
-            256 => 
-            array (
+                'lion' => null,
+            ],
+            256 => [
                 'id' => 257,
                 'province_id' => 16,
                 'district_name' => 'Malinau',
@@ -2844,10 +2585,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '77511',
                 'id_express' => 360,
-                'lion' => NULL,
-            ),
-            257 => 
-            array (
+                'lion' => null,
+            ],
+            257 => [
                 'id' => 258,
                 'province_id' => 19,
                 'district_name' => 'Maluku Barat Daya',
@@ -2855,10 +2595,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '97451',
                 'id_express' => 488,
-                'lion' => NULL,
-            ),
-            258 => 
-            array (
+                'lion' => null,
+            ],
+            258 => [
                 'id' => 259,
                 'province_id' => 19,
                 'district_name' => 'Maluku Tengah',
@@ -2866,10 +2605,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '97513',
                 'id_express' => 489,
-                'lion' => NULL,
-            ),
-            259 => 
-            array (
+                'lion' => null,
+            ],
+            259 => [
                 'id' => 260,
                 'province_id' => 19,
                 'district_name' => 'Maluku Tenggara',
@@ -2877,10 +2615,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '97651',
                 'id_express' => 490,
-                'lion' => NULL,
-            ),
-            260 => 
-            array (
+                'lion' => null,
+            ],
+            260 => [
                 'id' => 261,
                 'province_id' => 19,
                 'district_name' => 'Maluku Tenggara Barat',
@@ -2888,10 +2625,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '97465',
                 'id_express' => 491,
-                'lion' => NULL,
-            ),
-            261 => 
-            array (
+                'lion' => null,
+            ],
+            261 => [
                 'id' => 262,
                 'province_id' => 27,
                 'district_name' => 'Mamasa',
@@ -2899,10 +2635,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A1',
                 'postal_code' => '91362',
                 'id_express' => 371,
-                'lion' => NULL,
-            ),
-            262 => 
-            array (
+                'lion' => null,
+            ],
+            262 => [
                 'id' => 263,
                 'province_id' => 24,
                 'district_name' => 'Mamberamo Raya',
@@ -2910,10 +2645,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '99381',
                 'id_express' => 516,
-                'lion' => NULL,
-            ),
-            263 => 
-            array (
+                'lion' => null,
+            ],
+            263 => [
                 'id' => 264,
                 'province_id' => 24,
                 'district_name' => 'Mamberamo Tengah',
@@ -2921,10 +2655,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '99553',
                 'id_express' => 517,
-                'lion' => NULL,
-            ),
-            264 => 
-            array (
+                'lion' => null,
+            ],
+            264 => [
                 'id' => 265,
                 'province_id' => 27,
                 'district_name' => 'Mamuju',
@@ -2932,10 +2665,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '91519',
                 'id_express' => 372,
-                'lion' => NULL,
-            ),
-            265 => 
-            array (
+                'lion' => null,
+            ],
+            265 => [
                 'id' => 266,
                 'province_id' => 27,
                 'district_name' => 'Pasangkayu',
@@ -2943,10 +2675,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '91571',
                 'id_express' => 374,
-                'lion' => NULL,
-            ),
-            266 => 
-            array (
+                'lion' => null,
+            ],
+            266 => [
                 'id' => 267,
                 'province_id' => 31,
                 'district_name' => 'Manado',
@@ -2954,10 +2685,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '95247',
                 'id_express' => 438,
-                'lion' => NULL,
-            ),
-            267 => 
-            array (
+                'lion' => null,
+            ],
+            267 => [
                 'id' => 268,
                 'province_id' => 34,
                 'district_name' => 'Mandailing Natal',
@@ -2965,10 +2695,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '22916',
                 'id_express' => 289,
-                'lion' => NULL,
-            ),
-            268 => 
-            array (
+                'lion' => null,
+            ],
+            268 => [
                 'id' => 269,
                 'province_id' => 23,
                 'district_name' => 'Manggarai',
@@ -2976,10 +2705,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '86551',
                 'id_express' => 470,
-                'lion' => NULL,
-            ),
-            269 => 
-            array (
+                'lion' => null,
+            ],
+            269 => [
                 'id' => 270,
                 'province_id' => 23,
                 'district_name' => 'Manggarai Barat',
@@ -2987,10 +2715,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '86711',
                 'id_express' => 471,
-                'lion' => NULL,
-            ),
-            270 => 
-            array (
+                'lion' => null,
+            ],
+            270 => [
                 'id' => 271,
                 'province_id' => 23,
                 'district_name' => 'Manggarai Timur',
@@ -2998,10 +2725,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '86811',
                 'id_express' => 472,
-                'lion' => NULL,
-            ),
-            271 => 
-            array (
+                'lion' => null,
+            ],
+            271 => [
                 'id' => 272,
                 'province_id' => 25,
                 'district_name' => 'Manokwari',
@@ -3009,10 +2735,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '98311',
                 'id_express' => 536,
-                'lion' => NULL,
-            ),
-            272 => 
-            array (
+                'lion' => null,
+            ],
+            272 => [
                 'id' => 273,
                 'province_id' => 25,
                 'district_name' => 'Manokwari Selatan',
@@ -3020,10 +2745,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '98355',
                 'id_express' => 537,
-                'lion' => NULL,
-            ),
-            273 => 
-            array (
+                'lion' => null,
+            ],
+            273 => [
                 'id' => 274,
                 'province_id' => 24,
                 'district_name' => 'Mappi',
@@ -3031,10 +2755,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '99853',
                 'id_express' => 518,
-                'lion' => NULL,
-            ),
-            274 => 
-            array (
+                'lion' => null,
+            ],
+            274 => [
                 'id' => 275,
                 'province_id' => 28,
                 'district_name' => 'Maros',
@@ -3042,10 +2765,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '90511',
                 'id_express' => 388,
-                'lion' => NULL,
-            ),
-            275 => 
-            array (
+                'lion' => null,
+            ],
+            275 => [
                 'id' => 276,
                 'province_id' => 22,
                 'district_name' => 'Mataram',
@@ -3053,10 +2775,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '83131',
                 'id_express' => 460,
-                'lion' => NULL,
-            ),
-            276 => 
-            array (
+                'lion' => null,
+            ],
+            276 => [
                 'id' => 277,
                 'province_id' => 25,
                 'district_name' => 'Maybrat',
@@ -3064,10 +2785,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '98051',
                 'id_express' => 538,
-                'lion' => NULL,
-            ),
-            277 => 
-            array (
+                'lion' => null,
+            ],
+            277 => [
                 'id' => 278,
                 'province_id' => 34,
                 'district_name' => 'Medan',
@@ -3075,10 +2795,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '20228',
                 'id_express' => 283,
-                'lion' => NULL,
-            ),
-            278 => 
-            array (
+                'lion' => null,
+            ],
+            278 => [
                 'id' => 279,
                 'province_id' => 12,
                 'district_name' => 'Melawi',
@@ -3086,10 +2805,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '78619',
                 'id_express' => 315,
-                'lion' => NULL,
-            ),
-            279 => 
-            array (
+                'lion' => null,
+            ],
+            279 => [
                 'id' => 280,
                 'province_id' => 8,
                 'district_name' => 'Merangin',
@@ -3097,10 +2815,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '37319',
                 'id_express' => 191,
-                'lion' => NULL,
-            ),
-            280 => 
-            array (
+                'lion' => null,
+            ],
+            280 => [
                 'id' => 281,
                 'province_id' => 24,
                 'district_name' => 'Merauke',
@@ -3108,10 +2825,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '99613',
                 'id_express' => 519,
-                'lion' => NULL,
-            ),
-            281 => 
-            array (
+                'lion' => null,
+            ],
+            281 => [
                 'id' => 282,
                 'province_id' => 18,
                 'district_name' => 'Mesuji',
@@ -3119,10 +2835,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '34911',
                 'id_express' => 218,
-                'lion' => NULL,
-            ),
-            282 => 
-            array (
+                'lion' => null,
+            ],
+            282 => [
                 'id' => 283,
                 'province_id' => 18,
                 'district_name' => 'Metro',
@@ -3130,10 +2845,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '34111',
                 'id_express' => 219,
-                'lion' => NULL,
-            ),
-            283 => 
-            array (
+                'lion' => null,
+            ],
+            283 => [
                 'id' => 284,
                 'province_id' => 24,
                 'district_name' => 'Mimika',
@@ -3141,10 +2855,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '99962',
                 'id_express' => 520,
-                'lion' => NULL,
-            ),
-            284 => 
-            array (
+                'lion' => null,
+            ],
+            284 => [
                 'id' => 285,
                 'province_id' => 31,
                 'district_name' => 'Minahasa',
@@ -3152,10 +2865,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '95614',
                 'id_express' => 439,
-                'lion' => NULL,
-            ),
-            285 => 
-            array (
+                'lion' => null,
+            ],
+            285 => [
                 'id' => 286,
                 'province_id' => 31,
                 'district_name' => 'Minahasa Selatan',
@@ -3163,10 +2875,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '95914',
                 'id_express' => 440,
-                'lion' => NULL,
-            ),
-            286 => 
-            array (
+                'lion' => null,
+            ],
+            286 => [
                 'id' => 287,
                 'province_id' => 31,
                 'district_name' => 'Minahasa Tenggara',
@@ -3174,10 +2885,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '95995',
                 'id_express' => 441,
-                'lion' => NULL,
-            ),
-            287 => 
-            array (
+                'lion' => null,
+            ],
+            287 => [
                 'id' => 288,
                 'province_id' => 31,
                 'district_name' => 'Minahasa Utara',
@@ -3185,10 +2895,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '95316',
                 'id_express' => 442,
-                'lion' => NULL,
-            ),
-            288 => 
-            array (
+                'lion' => null,
+            ],
+            288 => [
                 'id' => 289,
                 'province_id' => 11,
                 'district_name' => 'Mojokerto',
@@ -3196,10 +2905,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '61382',
                 'id_express' => 138,
-                'lion' => NULL,
-            ),
-            289 => 
-            array (
+                'lion' => null,
+            ],
+            289 => [
                 'id' => 290,
                 'province_id' => 11,
                 'district_name' => 'Mojokerto',
@@ -3207,10 +2915,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '61316',
                 'id_express' => 130,
-                'lion' => NULL,
-            ),
-            290 => 
-            array (
+                'lion' => null,
+            ],
+            290 => [
                 'id' => 291,
                 'province_id' => 29,
                 'district_name' => 'Morowali',
@@ -3218,10 +2925,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '94911',
                 'id_express' => 405,
-                'lion' => NULL,
-            ),
-            291 => 
-            array (
+                'lion' => null,
+            ],
+            291 => [
                 'id' => 292,
                 'province_id' => 33,
                 'district_name' => 'Muara Enim',
@@ -3229,10 +2935,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '31315',
                 'id_express' => 262,
-                'lion' => NULL,
-            ),
-            292 => 
-            array (
+                'lion' => null,
+            ],
+            292 => [
                 'id' => 293,
                 'province_id' => 8,
                 'district_name' => 'Muaro Jambi',
@@ -3240,10 +2945,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '36311',
                 'id_express' => 192,
-                'lion' => NULL,
-            ),
-            293 => 
-            array (
+                'lion' => null,
+            ],
+            293 => [
                 'id' => 294,
                 'province_id' => 4,
                 'district_name' => 'MukoMuko',
@@ -3251,10 +2955,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '38715',
                 'id_express' => 161,
-                'lion' => NULL,
-            ),
-            294 => 
-            array (
+                'lion' => null,
+            ],
+            294 => [
                 'id' => 295,
                 'province_id' => 30,
                 'district_name' => 'Muna',
@@ -3262,10 +2965,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '93611',
                 'id_express' => 427,
-                'lion' => NULL,
-            ),
-            295 => 
-            array (
+                'lion' => null,
+            ],
+            295 => [
                 'id' => 296,
                 'province_id' => 14,
                 'district_name' => 'Murung Raya',
@@ -3273,10 +2975,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '73911',
                 'id_express' => 344,
-                'lion' => NULL,
-            ),
-            296 => 
-            array (
+                'lion' => null,
+            ],
+            296 => [
                 'id' => 297,
                 'province_id' => 33,
                 'district_name' => 'Musi Banyuasin',
@@ -3284,10 +2985,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '30719',
                 'id_express' => 263,
-                'lion' => NULL,
-            ),
-            297 => 
-            array (
+                'lion' => null,
+            ],
+            297 => [
                 'id' => 298,
                 'province_id' => 33,
                 'district_name' => 'Musi Rawas',
@@ -3295,10 +2995,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '31661',
                 'id_express' => 264,
-                'lion' => NULL,
-            ),
-            298 => 
-            array (
+                'lion' => null,
+            ],
+            298 => [
                 'id' => 299,
                 'province_id' => 24,
                 'district_name' => 'Nabire',
@@ -3306,10 +3005,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '98816',
                 'id_express' => 521,
-                'lion' => NULL,
-            ),
-            299 => 
-            array (
+                'lion' => null,
+            ],
+            299 => [
                 'id' => 300,
                 'province_id' => 21,
                 'district_name' => 'Nagan Raya',
@@ -3317,10 +3015,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '23674',
                 'id_express' => 181,
-                'lion' => NULL,
-            ),
-            300 => 
-            array (
+                'lion' => null,
+            ],
+            300 => [
                 'id' => 301,
                 'province_id' => 23,
                 'district_name' => 'Nagekeo',
@@ -3328,10 +3025,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '86911',
                 'id_express' => 473,
-                'lion' => NULL,
-            ),
-            301 => 
-            array (
+                'lion' => null,
+            ],
+            301 => [
                 'id' => 302,
                 'province_id' => 17,
                 'district_name' => 'Natuna',
@@ -3339,10 +3035,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '29711',
                 'id_express' => 210,
-                'lion' => NULL,
-            ),
-            302 => 
-            array (
+                'lion' => null,
+            ],
+            302 => [
                 'id' => 303,
                 'province_id' => 24,
                 'district_name' => 'Nduga',
@@ -3350,10 +3045,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '99541',
                 'id_express' => 522,
-                'lion' => NULL,
-            ),
-            303 => 
-            array (
+                'lion' => null,
+            ],
+            303 => [
                 'id' => 304,
                 'province_id' => 23,
                 'district_name' => 'Ngada',
@@ -3361,10 +3055,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '86413',
                 'id_express' => 474,
-                'lion' => NULL,
-            ),
-            304 => 
-            array (
+                'lion' => null,
+            ],
+            304 => [
                 'id' => 305,
                 'province_id' => 11,
                 'district_name' => 'Nganjuk',
@@ -3372,10 +3065,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '64414',
                 'id_express' => 139,
-                'lion' => NULL,
-            ),
-            305 => 
-            array (
+                'lion' => null,
+            ],
+            305 => [
                 'id' => 306,
                 'province_id' => 11,
                 'district_name' => 'Ngawi',
@@ -3383,10 +3075,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '63219',
                 'id_express' => 140,
-                'lion' => NULL,
-            ),
-            306 => 
-            array (
+                'lion' => null,
+            ],
+            306 => [
                 'id' => 307,
                 'province_id' => 34,
                 'district_name' => 'Nias',
@@ -3394,10 +3085,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '22876',
                 'id_express' => 290,
-                'lion' => NULL,
-            ),
-            307 => 
-            array (
+                'lion' => null,
+            ],
+            307 => [
                 'id' => 308,
                 'province_id' => 34,
                 'district_name' => 'Nias Barat',
@@ -3405,10 +3095,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '22895',
                 'id_express' => 291,
-                'lion' => NULL,
-            ),
-            308 => 
-            array (
+                'lion' => null,
+            ],
+            308 => [
                 'id' => 309,
                 'province_id' => 34,
                 'district_name' => 'Nias Selatan',
@@ -3416,10 +3105,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '22865',
                 'id_express' => 292,
-                'lion' => NULL,
-            ),
-            309 => 
-            array (
+                'lion' => null,
+            ],
+            309 => [
                 'id' => 310,
                 'province_id' => 34,
                 'district_name' => 'Nias Utara',
@@ -3427,10 +3115,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '22856',
                 'id_express' => 293,
-                'lion' => NULL,
-            ),
-            310 => 
-            array (
+                'lion' => null,
+            ],
+            310 => [
                 'id' => 311,
                 'province_id' => 16,
                 'district_name' => 'Nunukan',
@@ -3438,10 +3125,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '77421',
                 'id_express' => 361,
-                'lion' => NULL,
-            ),
-            311 => 
-            array (
+                'lion' => null,
+            ],
+            311 => [
                 'id' => 312,
                 'province_id' => 33,
                 'district_name' => 'Ogan Ilir',
@@ -3449,10 +3135,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '30811',
                 'id_express' => 266,
-                'lion' => NULL,
-            ),
-            312 => 
-            array (
+                'lion' => null,
+            ],
+            312 => [
                 'id' => 313,
                 'province_id' => 33,
                 'district_name' => 'Ogan Komering Ilir',
@@ -3460,10 +3145,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '30618',
                 'id_express' => 267,
-                'lion' => NULL,
-            ),
-            313 => 
-            array (
+                'lion' => null,
+            ],
+            313 => [
                 'id' => 314,
                 'province_id' => 33,
                 'district_name' => 'Ogan Komering Ulu',
@@ -3471,10 +3155,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '32112',
                 'id_express' => 268,
-                'lion' => NULL,
-            ),
-            314 => 
-            array (
+                'lion' => null,
+            ],
+            314 => [
                 'id' => 315,
                 'province_id' => 33,
                 'district_name' => 'Ogan Komering Ulu Selatan',
@@ -3482,10 +3165,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '32211',
                 'id_express' => 269,
-                'lion' => NULL,
-            ),
-            315 => 
-            array (
+                'lion' => null,
+            ],
+            315 => [
                 'id' => 316,
                 'province_id' => 33,
                 'district_name' => 'Ogan Komering Ulu Timur',
@@ -3493,10 +3175,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '32312',
                 'id_express' => 270,
-                'lion' => NULL,
-            ),
-            316 => 
-            array (
+                'lion' => null,
+            ],
+            316 => [
                 'id' => 317,
                 'province_id' => 11,
                 'district_name' => 'Pacitan',
@@ -3504,10 +3185,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '63512',
                 'id_express' => 141,
-                'lion' => NULL,
-            ),
-            317 => 
-            array (
+                'lion' => null,
+            ],
+            317 => [
                 'id' => 318,
                 'province_id' => 32,
                 'district_name' => 'Padang',
@@ -3515,10 +3195,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '25112',
                 'id_express' => 245,
-                'lion' => NULL,
-            ),
-            318 => 
-            array (
+                'lion' => null,
+            ],
+            318 => [
                 'id' => 319,
                 'province_id' => 34,
                 'district_name' => 'Padang Lawas',
@@ -3526,10 +3205,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '22763',
                 'id_express' => 294,
-                'lion' => NULL,
-            ),
-            319 => 
-            array (
+                'lion' => null,
+            ],
+            319 => [
                 'id' => 320,
                 'province_id' => 34,
                 'district_name' => 'Padang Lawas Utara',
@@ -3537,10 +3215,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '22753',
                 'id_express' => 295,
-                'lion' => NULL,
-            ),
-            320 => 
-            array (
+                'lion' => null,
+            ],
+            320 => [
                 'id' => 321,
                 'province_id' => 32,
                 'district_name' => 'Padang Panjang',
@@ -3548,10 +3225,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '27122',
                 'id_express' => 246,
-                'lion' => NULL,
-            ),
-            321 => 
-            array (
+                'lion' => null,
+            ],
+            321 => [
                 'id' => 322,
                 'province_id' => 32,
                 'district_name' => 'Padang Pariaman',
@@ -3559,10 +3235,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '25583',
                 'id_express' => 247,
-                'lion' => NULL,
-            ),
-            322 => 
-            array (
+                'lion' => null,
+            ],
+            322 => [
                 'id' => 323,
                 'province_id' => 34,
                 'district_name' => 'Padang Sidempuan',
@@ -3570,10 +3245,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '22727',
                 'id_express' => 296,
-                'lion' => NULL,
-            ),
-            323 => 
-            array (
+                'lion' => null,
+            ],
+            323 => [
                 'id' => 324,
                 'province_id' => 33,
                 'district_name' => 'Pagar Alam',
@@ -3581,10 +3255,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '31512',
                 'id_express' => 271,
-                'lion' => NULL,
-            ),
-            324 => 
-            array (
+                'lion' => null,
+            ],
+            324 => [
                 'id' => 325,
                 'province_id' => 34,
                 'district_name' => 'Pakpak Barat',
@@ -3592,10 +3265,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '22272',
                 'id_express' => 297,
-                'lion' => NULL,
-            ),
-            325 => 
-            array (
+                'lion' => null,
+            ],
+            325 => [
                 'id' => 326,
                 'province_id' => 14,
                 'district_name' => 'Palangka Raya',
@@ -3603,10 +3275,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '73112',
                 'id_express' => 345,
-                'lion' => NULL,
-            ),
-            326 => 
-            array (
+                'lion' => null,
+            ],
+            326 => [
                 'id' => 327,
                 'province_id' => 33,
                 'district_name' => 'Palembang',
@@ -3614,10 +3285,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '30111',
                 'id_express' => 272,
-                'lion' => NULL,
-            ),
-            327 => 
-            array (
+                'lion' => null,
+            ],
+            327 => [
                 'id' => 328,
                 'province_id' => 28,
                 'district_name' => 'Palopo',
@@ -3625,10 +3295,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '91911',
                 'id_express' => 389,
-                'lion' => NULL,
-            ),
-            328 => 
-            array (
+                'lion' => null,
+            ],
+            328 => [
                 'id' => 329,
                 'province_id' => 29,
                 'district_name' => 'Palu',
@@ -3636,10 +3305,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '94111',
                 'id_express' => 407,
-                'lion' => NULL,
-            ),
-            329 => 
-            array (
+                'lion' => null,
+            ],
+            329 => [
                 'id' => 330,
                 'province_id' => 11,
                 'district_name' => 'Pamekasan',
@@ -3647,10 +3315,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C4',
                 'postal_code' => '69319',
                 'id_express' => 142,
-                'lion' => NULL,
-            ),
-            330 => 
-            array (
+                'lion' => null,
+            ],
+            330 => [
                 'id' => 331,
                 'province_id' => 3,
                 'district_name' => 'Pandeglang',
@@ -3658,10 +3325,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A2',
                 'postal_code' => '42212',
                 'id_express' => 47,
-                'lion' => NULL,
-            ),
-            331 => 
-            array (
+                'lion' => null,
+            ],
+            331 => [
                 'id' => 332,
                 'province_id' => 9,
                 'district_name' => 'Pangandaran',
@@ -3669,10 +3335,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '46511',
                 'id_express' => 70,
-                'lion' => NULL,
-            ),
-            332 => 
-            array (
+                'lion' => null,
+            ],
+            332 => [
                 'id' => 333,
                 'province_id' => 28,
                 'district_name' => 'Pangkajene Dan Kepulauan',
@@ -3680,10 +3345,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '90611',
                 'id_express' => 390,
-                'lion' => NULL,
-            ),
-            333 => 
-            array (
+                'lion' => null,
+            ],
+            333 => [
                 'id' => 334,
                 'province_id' => 2,
                 'district_name' => 'Pangkalpinang',
@@ -3691,10 +3355,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '33115',
                 'id_express' => 204,
-                'lion' => NULL,
-            ),
-            334 => 
-            array (
+                'lion' => null,
+            ],
+            334 => [
                 'id' => 335,
                 'province_id' => 24,
                 'district_name' => 'Paniai',
@@ -3702,10 +3365,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '98765',
                 'id_express' => 523,
-                'lion' => NULL,
-            ),
-            335 => 
-            array (
+                'lion' => null,
+            ],
+            335 => [
                 'id' => 336,
                 'province_id' => 28,
                 'district_name' => 'Parepare',
@@ -3713,10 +3375,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '91123',
                 'id_express' => 391,
-                'lion' => NULL,
-            ),
-            336 => 
-            array (
+                'lion' => null,
+            ],
+            336 => [
                 'id' => 337,
                 'province_id' => 32,
                 'district_name' => 'Pariaman',
@@ -3724,10 +3385,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '25511',
                 'id_express' => 248,
-                'lion' => NULL,
-            ),
-            337 => 
-            array (
+                'lion' => null,
+            ],
+            337 => [
                 'id' => 338,
                 'province_id' => 29,
                 'district_name' => 'Parigi Moutong',
@@ -3735,10 +3395,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '94411',
                 'id_express' => 408,
-                'lion' => NULL,
-            ),
-            338 => 
-            array (
+                'lion' => null,
+            ],
+            338 => [
                 'id' => 339,
                 'province_id' => 32,
                 'district_name' => 'Pasaman',
@@ -3746,10 +3405,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '26318',
                 'id_express' => 249,
-                'lion' => NULL,
-            ),
-            339 => 
-            array (
+                'lion' => null,
+            ],
+            339 => [
                 'id' => 340,
                 'province_id' => 32,
                 'district_name' => 'Pasaman Barat',
@@ -3757,10 +3415,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '26511',
                 'id_express' => 250,
-                'lion' => NULL,
-            ),
-            340 => 
-            array (
+                'lion' => null,
+            ],
+            340 => [
                 'id' => 341,
                 'province_id' => 15,
                 'district_name' => 'Paser',
@@ -3768,10 +3425,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '76211',
                 'id_express' => 356,
-                'lion' => NULL,
-            ),
-            341 => 
-            array (
+                'lion' => null,
+            ],
+            341 => [
                 'id' => 342,
                 'province_id' => 11,
                 'district_name' => 'Pasuruan',
@@ -3779,10 +3435,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C5',
                 'postal_code' => '67153',
                 'id_express' => 143,
-                'lion' => NULL,
-            ),
-            342 => 
-            array (
+                'lion' => null,
+            ],
+            342 => [
                 'id' => 343,
                 'province_id' => 11,
                 'district_name' => 'Pasuruan',
@@ -3790,10 +3445,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C6',
                 'postal_code' => '67118',
                 'id_express' => 131,
-                'lion' => NULL,
-            ),
-            343 => 
-            array (
+                'lion' => null,
+            ],
+            343 => [
                 'id' => 344,
                 'province_id' => 10,
                 'district_name' => 'Pati',
@@ -3801,10 +3455,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '59114',
                 'id_express' => 96,
-                'lion' => NULL,
-            ),
-            344 => 
-            array (
+                'lion' => null,
+            ],
+            344 => [
                 'id' => 345,
                 'province_id' => 32,
                 'district_name' => 'Payakumbuh',
@@ -3812,10 +3465,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '26213',
                 'id_express' => 251,
-                'lion' => NULL,
-            ),
-            345 => 
-            array (
+                'lion' => null,
+            ],
+            345 => [
                 'id' => 346,
                 'province_id' => 25,
                 'district_name' => 'Pegunungan Arfak',
@@ -3823,10 +3475,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '98354',
                 'id_express' => 539,
-                'lion' => NULL,
-            ),
-            346 => 
-            array (
+                'lion' => null,
+            ],
+            346 => [
                 'id' => 347,
                 'province_id' => 24,
                 'district_name' => 'Pegunungan Bintang',
@@ -3834,10 +3485,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '99573',
                 'id_express' => 524,
-                'lion' => NULL,
-            ),
-            347 => 
-            array (
+                'lion' => null,
+            ],
+            347 => [
                 'id' => 348,
                 'province_id' => 10,
                 'district_name' => 'Pekalongan',
@@ -3845,10 +3495,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '51161',
                 'id_express' => 97,
-                'lion' => NULL,
-            ),
-            348 => 
-            array (
+                'lion' => null,
+            ],
+            348 => [
                 'id' => 349,
                 'province_id' => 10,
                 'district_name' => 'Pekalongan',
@@ -3856,10 +3505,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '51122',
                 'id_express' => 91,
-                'lion' => NULL,
-            ),
-            349 => 
-            array (
+                'lion' => null,
+            ],
+            349 => [
                 'id' => 350,
                 'province_id' => 26,
                 'district_name' => 'Pekanbaru',
@@ -3867,10 +3515,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '28112',
                 'id_express' => 234,
-                'lion' => NULL,
-            ),
-            350 => 
-            array (
+                'lion' => null,
+            ],
+            350 => [
                 'id' => 351,
                 'province_id' => 26,
                 'district_name' => 'Pelalawan',
@@ -3878,10 +3525,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '28311',
                 'id_express' => 235,
-                'lion' => NULL,
-            ),
-            351 => 
-            array (
+                'lion' => null,
+            ],
+            351 => [
                 'id' => 352,
                 'province_id' => 10,
                 'district_name' => 'Pemalang',
@@ -3889,10 +3535,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '52319',
                 'id_express' => 98,
-                'lion' => NULL,
-            ),
-            352 => 
-            array (
+                'lion' => null,
+            ],
+            352 => [
                 'id' => 353,
                 'province_id' => 34,
                 'district_name' => 'Pematang Siantar',
@@ -3900,10 +3545,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '21126',
                 'id_express' => 298,
-                'lion' => NULL,
-            ),
-            353 => 
-            array (
+                'lion' => null,
+            ],
+            353 => [
                 'id' => 354,
                 'province_id' => 15,
                 'district_name' => 'Penajam Paser Utara',
@@ -3911,10 +3555,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '76311',
                 'id_express' => 357,
-                'lion' => NULL,
-            ),
-            354 => 
-            array (
+                'lion' => null,
+            ],
+            354 => [
                 'id' => 355,
                 'province_id' => 18,
                 'district_name' => 'Pesawaran',
@@ -3922,10 +3565,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '35312',
                 'id_express' => 220,
-                'lion' => NULL,
-            ),
-            355 => 
-            array (
+                'lion' => null,
+            ],
+            355 => [
                 'id' => 356,
                 'province_id' => 18,
                 'district_name' => 'Pesisir Barat',
@@ -3933,10 +3575,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '35974',
                 'id_express' => 221,
-                'lion' => NULL,
-            ),
-            356 => 
-            array (
+                'lion' => null,
+            ],
+            356 => [
                 'id' => 357,
                 'province_id' => 32,
                 'district_name' => 'Pesisir Selatan',
@@ -3944,10 +3585,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '25611',
                 'id_express' => 252,
-                'lion' => NULL,
-            ),
-            357 => 
-            array (
+                'lion' => null,
+            ],
+            357 => [
                 'id' => 358,
                 'province_id' => 21,
                 'district_name' => 'Pidie',
@@ -3955,10 +3595,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '24116',
                 'id_express' => 182,
-                'lion' => NULL,
-            ),
-            358 => 
-            array (
+                'lion' => null,
+            ],
+            358 => [
                 'id' => 359,
                 'province_id' => 21,
                 'district_name' => 'Pidie Jaya',
@@ -3966,10 +3605,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '24186',
                 'id_express' => 183,
-                'lion' => NULL,
-            ),
-            359 => 
-            array (
+                'lion' => null,
+            ],
+            359 => [
                 'id' => 360,
                 'province_id' => 28,
                 'district_name' => 'Pinrang',
@@ -3977,10 +3615,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '91251',
                 'id_express' => 392,
-                'lion' => NULL,
-            ),
-            360 => 
-            array (
+                'lion' => null,
+            ],
+            360 => [
                 'id' => 361,
                 'province_id' => 7,
                 'district_name' => 'Pohuwato',
@@ -3988,10 +3625,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A5',
                 'postal_code' => '96419',
                 'id_express' => 369,
-                'lion' => NULL,
-            ),
-            361 => 
-            array (
+                'lion' => null,
+            ],
+            361 => [
                 'id' => 362,
                 'province_id' => 27,
                 'district_name' => 'Polewali Mandar',
@@ -3999,10 +3635,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '91311',
                 'id_express' => 375,
-                'lion' => NULL,
-            ),
-            362 => 
-            array (
+                'lion' => null,
+            ],
+            362 => [
                 'id' => 363,
                 'province_id' => 11,
                 'district_name' => 'Ponorogo',
@@ -4010,21 +3645,19 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C7',
                 'postal_code' => '63411',
                 'id_express' => 144,
-                'lion' => NULL,
-            ),
-            363 => 
-            array (
+                'lion' => null,
+            ],
+            363 => [
                 'id' => 364,
                 'province_id' => 12,
-            'district_name' => 'Mempawah (Pontianak)',
+                'district_name' => 'Mempawah (Pontianak)',
                 'district_type' => 'Kabupaten',
                 'district_code' => 'A7',
                 'postal_code' => '78971',
                 'id_express' => 316,
                 'lion' => 'U1RBUkFCMkJQTksuQVBJIENMMzE1NTc=',
-            ),
-            364 => 
-            array (
+            ],
+            364 => [
                 'id' => 365,
                 'province_id' => 12,
                 'district_name' => 'Pontianak',
@@ -4033,9 +3666,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '78112',
                 'id_express' => 312,
                 'lion' => 'U1RBUkFCMkJQTksuQVBJIENMMzE1NTc=',
-            ),
-            365 => 
-            array (
+            ],
+            365 => [
                 'id' => 366,
                 'province_id' => 29,
                 'district_name' => 'Poso',
@@ -4043,10 +3675,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '94615',
                 'id_express' => 409,
-                'lion' => NULL,
-            ),
-            366 => 
-            array (
+                'lion' => null,
+            ],
+            366 => [
                 'id' => 367,
                 'province_id' => 33,
                 'district_name' => 'Prabumulih',
@@ -4054,10 +3685,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '31121',
                 'id_express' => 274,
-                'lion' => NULL,
-            ),
-            367 => 
-            array (
+                'lion' => null,
+            ],
+            367 => [
                 'id' => 368,
                 'province_id' => 18,
                 'district_name' => 'Pringsewu',
@@ -4065,10 +3695,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '35719',
                 'id_express' => 222,
-                'lion' => NULL,
-            ),
-            368 => 
-            array (
+                'lion' => null,
+            ],
+            368 => [
                 'id' => 369,
                 'province_id' => 11,
                 'district_name' => 'Probolinggo',
@@ -4076,10 +3705,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C8',
                 'postal_code' => '67282',
                 'id_express' => 145,
-                'lion' => NULL,
-            ),
-            369 => 
-            array (
+                'lion' => null,
+            ],
+            369 => [
                 'id' => 370,
                 'province_id' => 11,
                 'district_name' => 'Probolinggo',
@@ -4087,10 +3715,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C9',
                 'postal_code' => '67215',
                 'id_express' => 132,
-                'lion' => NULL,
-            ),
-            370 => 
-            array (
+                'lion' => null,
+            ],
+            370 => [
                 'id' => 371,
                 'province_id' => 14,
                 'district_name' => 'Pulang Pisau',
@@ -4098,10 +3725,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '74811',
                 'id_express' => 346,
-                'lion' => NULL,
-            ),
-            371 => 
-            array (
+                'lion' => null,
+            ],
+            371 => [
                 'id' => 372,
                 'province_id' => 20,
                 'district_name' => 'Pulau Morotai',
@@ -4109,10 +3735,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '97771',
                 'id_express' => 501,
-                'lion' => NULL,
-            ),
-            372 => 
-            array (
+                'lion' => null,
+            ],
+            372 => [
                 'id' => 373,
                 'province_id' => 24,
                 'district_name' => 'Puncak',
@@ -4120,10 +3745,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '98981',
                 'id_express' => 525,
-                'lion' => NULL,
-            ),
-            373 => 
-            array (
+                'lion' => null,
+            ],
+            373 => [
                 'id' => 374,
                 'province_id' => 24,
                 'district_name' => 'Puncak Jaya',
@@ -4131,10 +3755,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '98979',
                 'id_express' => 526,
-                'lion' => NULL,
-            ),
-            374 => 
-            array (
+                'lion' => null,
+            ],
+            374 => [
                 'id' => 375,
                 'province_id' => 10,
                 'district_name' => 'Purbalingga',
@@ -4142,10 +3765,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '53312',
                 'id_express' => 99,
-                'lion' => NULL,
-            ),
-            375 => 
-            array (
+                'lion' => null,
+            ],
+            375 => [
                 'id' => 376,
                 'province_id' => 9,
                 'district_name' => 'Purwakarta',
@@ -4153,10 +3775,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '41119',
                 'id_express' => 71,
-                'lion' => NULL,
-            ),
-            376 => 
-            array (
+                'lion' => null,
+            ],
+            376 => [
                 'id' => 377,
                 'province_id' => 10,
                 'district_name' => 'Purworejo',
@@ -4164,10 +3785,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '54111',
                 'id_express' => 100,
-                'lion' => NULL,
-            ),
-            377 => 
-            array (
+                'lion' => null,
+            ],
+            377 => [
                 'id' => 378,
                 'province_id' => 25,
                 'district_name' => 'Raja Ampat',
@@ -4175,10 +3795,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '98489',
                 'id_express' => 540,
-                'lion' => NULL,
-            ),
-            378 => 
-            array (
+                'lion' => null,
+            ],
+            378 => [
                 'id' => 379,
                 'province_id' => 4,
                 'district_name' => 'Rejang Lebong',
@@ -4186,10 +3805,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '39112',
                 'id_express' => 162,
-                'lion' => NULL,
-            ),
-            379 => 
-            array (
+                'lion' => null,
+            ],
+            379 => [
                 'id' => 380,
                 'province_id' => 10,
                 'district_name' => 'Rembang',
@@ -4197,10 +3815,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '59219',
                 'id_express' => 101,
-                'lion' => NULL,
-            ),
-            380 => 
-            array (
+                'lion' => null,
+            ],
+            380 => [
                 'id' => 381,
                 'province_id' => 26,
                 'district_name' => 'Rokan Hilir',
@@ -4208,10 +3825,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '28992',
                 'id_express' => 236,
-                'lion' => NULL,
-            ),
-            381 => 
-            array (
+                'lion' => null,
+            ],
+            381 => [
                 'id' => 382,
                 'province_id' => 26,
                 'district_name' => 'Rokan Hulu',
@@ -4219,10 +3835,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '28511',
                 'id_express' => 237,
-                'lion' => NULL,
-            ),
-            382 => 
-            array (
+                'lion' => null,
+            ],
+            382 => [
                 'id' => 383,
                 'province_id' => 23,
                 'district_name' => 'Rote Ndao',
@@ -4230,10 +3845,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '85982',
                 'id_express' => 475,
-                'lion' => NULL,
-            ),
-            383 => 
-            array (
+                'lion' => null,
+            ],
+            383 => [
                 'id' => 384,
                 'province_id' => 21,
                 'district_name' => 'Sabang',
@@ -4241,10 +3855,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '23512',
                 'id_express' => 184,
-                'lion' => NULL,
-            ),
-            384 => 
-            array (
+                'lion' => null,
+            ],
+            384 => [
                 'id' => 385,
                 'province_id' => 23,
                 'district_name' => 'Sabu Raijua',
@@ -4252,10 +3865,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '85391',
                 'id_express' => 476,
-                'lion' => NULL,
-            ),
-            385 => 
-            array (
+                'lion' => null,
+            ],
+            385 => [
                 'id' => 386,
                 'province_id' => 10,
                 'district_name' => 'Salatiga',
@@ -4263,10 +3875,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C4',
                 'postal_code' => '50711',
                 'id_express' => 102,
-                'lion' => NULL,
-            ),
-            386 => 
-            array (
+                'lion' => null,
+            ],
+            386 => [
                 'id' => 387,
                 'province_id' => 15,
                 'district_name' => 'Samarinda',
@@ -4274,10 +3885,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '75133',
                 'id_express' => 358,
-                'lion' => NULL,
-            ),
-            387 => 
-            array (
+                'lion' => null,
+            ],
+            387 => [
                 'id' => 388,
                 'province_id' => 12,
                 'district_name' => 'Sambas',
@@ -4285,10 +3895,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '79453',
                 'id_express' => 317,
-                'lion' => NULL,
-            ),
-            388 => 
-            array (
+                'lion' => null,
+            ],
+            388 => [
                 'id' => 389,
                 'province_id' => 34,
                 'district_name' => 'Samosir',
@@ -4296,10 +3905,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '22392',
                 'id_express' => 299,
-                'lion' => NULL,
-            ),
-            389 => 
-            array (
+                'lion' => null,
+            ],
+            389 => [
                 'id' => 390,
                 'province_id' => 11,
                 'district_name' => 'Sampang',
@@ -4307,10 +3915,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D0',
                 'postal_code' => '69219',
                 'id_express' => 146,
-                'lion' => NULL,
-            ),
-            390 => 
-            array (
+                'lion' => null,
+            ],
+            390 => [
                 'id' => 391,
                 'province_id' => 12,
                 'district_name' => 'Sanggau',
@@ -4318,10 +3925,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '78557',
                 'id_express' => 318,
-                'lion' => NULL,
-            ),
-            391 => 
-            array (
+                'lion' => null,
+            ],
+            391 => [
                 'id' => 392,
                 'province_id' => 24,
                 'district_name' => 'Sarmi',
@@ -4329,10 +3935,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '99373',
                 'id_express' => 527,
-                'lion' => NULL,
-            ),
-            392 => 
-            array (
+                'lion' => null,
+            ],
+            392 => [
                 'id' => 393,
                 'province_id' => 8,
                 'district_name' => 'Sarolangun',
@@ -4340,10 +3945,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '37419',
                 'id_express' => 193,
-                'lion' => NULL,
-            ),
-            393 => 
-            array (
+                'lion' => null,
+            ],
+            393 => [
                 'id' => 394,
                 'province_id' => 32,
                 'district_name' => 'Sawahlunto',
@@ -4351,10 +3955,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '27416',
                 'id_express' => 253,
-                'lion' => NULL,
-            ),
-            394 => 
-            array (
+                'lion' => null,
+            ],
+            394 => [
                 'id' => 395,
                 'province_id' => 12,
                 'district_name' => 'Sekadau',
@@ -4362,10 +3965,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '79583',
                 'id_express' => 319,
-                'lion' => NULL,
-            ),
-            395 => 
-            array (
+                'lion' => null,
+            ],
+            395 => [
                 'id' => 396,
                 'province_id' => 28,
                 'district_name' => 'Kepulauan Selayar',
@@ -4373,10 +3975,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '92812',
                 'id_express' => 383,
-                'lion' => NULL,
-            ),
-            396 => 
-            array (
+                'lion' => null,
+            ],
+            396 => [
                 'id' => 397,
                 'province_id' => 4,
                 'district_name' => 'Seluma',
@@ -4384,10 +3985,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '38811',
                 'id_express' => 163,
-                'lion' => NULL,
-            ),
-            397 => 
-            array (
+                'lion' => null,
+            ],
+            397 => [
                 'id' => 398,
                 'province_id' => 10,
                 'district_name' => 'Semarang',
@@ -4395,10 +3995,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C5',
                 'postal_code' => '50511',
                 'id_express' => 103,
-                'lion' => NULL,
-            ),
-            398 => 
-            array (
+                'lion' => null,
+            ],
+            398 => [
                 'id' => 399,
                 'province_id' => 10,
                 'district_name' => 'Semarang',
@@ -4406,10 +4005,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C6',
                 'postal_code' => '50135',
                 'id_express' => 92,
-                'lion' => NULL,
-            ),
-            399 => 
-            array (
+                'lion' => null,
+            ],
+            399 => [
                 'id' => 400,
                 'province_id' => 19,
                 'district_name' => 'Seram Bagian Barat',
@@ -4417,10 +4015,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '97561',
                 'id_express' => 492,
-                'lion' => NULL,
-            ),
-            400 => 
-            array (
+                'lion' => null,
+            ],
+            400 => [
                 'id' => 401,
                 'province_id' => 19,
                 'district_name' => 'Seram Bagian Timur',
@@ -4428,10 +4025,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '97581',
                 'id_express' => 493,
-                'lion' => NULL,
-            ),
-            401 => 
-            array (
+                'lion' => null,
+            ],
+            401 => [
                 'id' => 402,
                 'province_id' => 3,
                 'district_name' => 'Serang',
@@ -4439,10 +4035,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '42182',
                 'id_express' => 48,
-                'lion' => NULL,
-            ),
-            402 => 
-            array (
+                'lion' => null,
+            ],
+            402 => [
                 'id' => 403,
                 'province_id' => 3,
                 'district_name' => 'Serang',
@@ -4450,10 +4045,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '42111',
                 'id_express' => 45,
-                'lion' => NULL,
-            ),
-            403 => 
-            array (
+                'lion' => null,
+            ],
+            403 => [
                 'id' => 404,
                 'province_id' => 34,
                 'district_name' => 'Serdang Bedagai',
@@ -4461,10 +4055,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C4',
                 'postal_code' => '20915',
                 'id_express' => 300,
-                'lion' => NULL,
-            ),
-            404 => 
-            array (
+                'lion' => null,
+            ],
+            404 => [
                 'id' => 405,
                 'province_id' => 14,
                 'district_name' => 'Seruyan',
@@ -4472,10 +4065,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '74211',
                 'id_express' => 347,
-                'lion' => NULL,
-            ),
-            405 => 
-            array (
+                'lion' => null,
+            ],
+            405 => [
                 'id' => 406,
                 'province_id' => 26,
                 'district_name' => 'Siak',
@@ -4483,10 +4075,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '28623',
                 'id_express' => 238,
-                'lion' => NULL,
-            ),
-            406 => 
-            array (
+                'lion' => null,
+            ],
+            406 => [
                 'id' => 407,
                 'province_id' => 34,
                 'district_name' => 'Sibolga',
@@ -4494,10 +4085,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C5',
                 'postal_code' => '22522',
                 'id_express' => 301,
-                'lion' => NULL,
-            ),
-            407 => 
-            array (
+                'lion' => null,
+            ],
+            407 => [
                 'id' => 408,
                 'province_id' => 28,
                 'district_name' => 'Sidenreng Rappang',
@@ -4505,10 +4095,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '91613',
                 'id_express' => 393,
-                'lion' => NULL,
-            ),
-            408 => 
-            array (
+                'lion' => null,
+            ],
+            408 => [
                 'id' => 409,
                 'province_id' => 11,
                 'district_name' => 'Sidoarjo',
@@ -4516,10 +4105,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D1',
                 'postal_code' => '61219',
                 'id_express' => 147,
-                'lion' => NULL,
-            ),
-            409 => 
-            array (
+                'lion' => null,
+            ],
+            409 => [
                 'id' => 410,
                 'province_id' => 29,
                 'district_name' => 'Sigi',
@@ -4527,10 +4115,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '94364',
                 'id_express' => 410,
-                'lion' => NULL,
-            ),
-            410 => 
-            array (
+                'lion' => null,
+            ],
+            410 => [
                 'id' => 411,
                 'province_id' => 32,
                 'district_name' => 'Sijunjung',
@@ -4538,10 +4125,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '27511',
                 'id_express' => 254,
-                'lion' => NULL,
-            ),
-            411 => 
-            array (
+                'lion' => null,
+            ],
+            411 => [
                 'id' => 412,
                 'province_id' => 23,
                 'district_name' => 'Sikka',
@@ -4549,10 +4135,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '86121',
                 'id_express' => 477,
-                'lion' => NULL,
-            ),
-            412 => 
-            array (
+                'lion' => null,
+            ],
+            412 => [
                 'id' => 413,
                 'province_id' => 34,
                 'district_name' => 'Simalungun',
@@ -4560,10 +4145,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C6',
                 'postal_code' => '21162',
                 'id_express' => 302,
-                'lion' => NULL,
-            ),
-            413 => 
-            array (
+                'lion' => null,
+            ],
+            413 => [
                 'id' => 414,
                 'province_id' => 21,
                 'district_name' => 'Simeulue',
@@ -4571,10 +4155,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '23891',
                 'id_express' => 185,
-                'lion' => NULL,
-            ),
-            414 => 
-            array (
+                'lion' => null,
+            ],
+            414 => [
                 'id' => 415,
                 'province_id' => 12,
                 'district_name' => 'Singkawang',
@@ -4582,10 +4165,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '79117',
                 'id_express' => 320,
-                'lion' => NULL,
-            ),
-            415 => 
-            array (
+                'lion' => null,
+            ],
+            415 => [
                 'id' => 416,
                 'province_id' => 28,
                 'district_name' => 'Sinjai',
@@ -4593,10 +4175,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '92615',
                 'id_express' => 394,
-                'lion' => NULL,
-            ),
-            416 => 
-            array (
+                'lion' => null,
+            ],
+            416 => [
                 'id' => 417,
                 'province_id' => 12,
                 'district_name' => 'Sintang',
@@ -4604,10 +4185,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '78619',
                 'id_express' => 321,
-                'lion' => NULL,
-            ),
-            417 => 
-            array (
+                'lion' => null,
+            ],
+            417 => [
                 'id' => 418,
                 'province_id' => 11,
                 'district_name' => 'Situbondo',
@@ -4615,10 +4195,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D2',
                 'postal_code' => '68316',
                 'id_express' => 148,
-                'lion' => NULL,
-            ),
-            418 => 
-            array (
+                'lion' => null,
+            ],
+            418 => [
                 'id' => 419,
                 'province_id' => 5,
                 'district_name' => 'Sleman',
@@ -4626,10 +4205,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '55513',
                 'id_express' => 115,
-                'lion' => NULL,
-            ),
-            419 => 
-            array (
+                'lion' => null,
+            ],
+            419 => [
                 'id' => 420,
                 'province_id' => 32,
                 'district_name' => 'Solok',
@@ -4637,10 +4215,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '27365',
                 'id_express' => 255,
-                'lion' => NULL,
-            ),
-            420 => 
-            array (
+                'lion' => null,
+            ],
+            420 => [
                 'id' => 421,
                 'province_id' => 32,
                 'district_name' => 'Solok',
@@ -4648,10 +4225,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '27315',
                 'id_express' => 243,
-                'lion' => NULL,
-            ),
-            421 => 
-            array (
+                'lion' => null,
+            ],
+            421 => [
                 'id' => 422,
                 'province_id' => 32,
                 'district_name' => 'Solok Selatan',
@@ -4659,10 +4235,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '27779',
                 'id_express' => 256,
-                'lion' => NULL,
-            ),
-            422 => 
-            array (
+                'lion' => null,
+            ],
+            422 => [
                 'id' => 423,
                 'province_id' => 28,
                 'district_name' => 'Soppeng',
@@ -4670,10 +4245,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '90812',
                 'id_express' => 395,
-                'lion' => NULL,
-            ),
-            423 => 
-            array (
+                'lion' => null,
+            ],
+            423 => [
                 'id' => 424,
                 'province_id' => 25,
                 'district_name' => 'Sorong',
@@ -4681,10 +4255,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '98431',
                 'id_express' => 541,
-                'lion' => NULL,
-            ),
-            424 => 
-            array (
+                'lion' => null,
+            ],
+            424 => [
                 'id' => 425,
                 'province_id' => 25,
                 'district_name' => 'Sorong',
@@ -4692,10 +4265,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '98411',
                 'id_express' => 535,
-                'lion' => NULL,
-            ),
-            425 => 
-            array (
+                'lion' => null,
+            ],
+            425 => [
                 'id' => 426,
                 'province_id' => 25,
                 'district_name' => 'Sorong Selatan',
@@ -4703,10 +4275,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '98454',
                 'id_express' => 542,
-                'lion' => NULL,
-            ),
-            426 => 
-            array (
+                'lion' => null,
+            ],
+            426 => [
                 'id' => 427,
                 'province_id' => 10,
                 'district_name' => 'Sragen',
@@ -4714,10 +4285,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C7',
                 'postal_code' => '57211',
                 'id_express' => 104,
-                'lion' => NULL,
-            ),
-            427 => 
-            array (
+                'lion' => null,
+            ],
+            427 => [
                 'id' => 428,
                 'province_id' => 9,
                 'district_name' => 'Subang',
@@ -4725,10 +4295,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '41215',
                 'id_express' => 72,
-                'lion' => NULL,
-            ),
-            428 => 
-            array (
+                'lion' => null,
+            ],
+            428 => [
                 'id' => 429,
                 'province_id' => 21,
                 'district_name' => 'Subulussalam',
@@ -4736,10 +4305,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '24882',
                 'id_express' => 186,
-                'lion' => NULL,
-            ),
-            429 => 
-            array (
+                'lion' => null,
+            ],
+            429 => [
                 'id' => 430,
                 'province_id' => 9,
                 'district_name' => 'Sukabumi',
@@ -4747,10 +4315,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '43311',
                 'id_express' => 73,
-                'lion' => NULL,
-            ),
-            430 => 
-            array (
+                'lion' => null,
+            ],
+            430 => [
                 'id' => 431,
                 'province_id' => 9,
                 'district_name' => 'Sukabumi',
@@ -4758,10 +4325,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '43114',
                 'id_express' => 66,
-                'lion' => NULL,
-            ),
-            431 => 
-            array (
+                'lion' => null,
+            ],
+            431 => [
                 'id' => 432,
                 'province_id' => 14,
                 'district_name' => 'Sukamara',
@@ -4769,10 +4335,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '74712',
                 'id_express' => 348,
-                'lion' => NULL,
-            ),
-            432 => 
-            array (
+                'lion' => null,
+            ],
+            432 => [
                 'id' => 433,
                 'province_id' => 10,
                 'district_name' => 'Sukoharjo',
@@ -4780,10 +4345,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C8',
                 'postal_code' => '57514',
                 'id_express' => 105,
-                'lion' => NULL,
-            ),
-            433 => 
-            array (
+                'lion' => null,
+            ],
+            433 => [
                 'id' => 434,
                 'province_id' => 23,
                 'district_name' => 'Sumba Barat',
@@ -4791,10 +4355,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B5',
                 'postal_code' => '87219',
                 'id_express' => 478,
-                'lion' => NULL,
-            ),
-            434 => 
-            array (
+                'lion' => null,
+            ],
+            434 => [
                 'id' => 435,
                 'province_id' => 23,
                 'district_name' => 'Sumba Barat Daya',
@@ -4802,10 +4365,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B6',
                 'postal_code' => '87453',
                 'id_express' => 479,
-                'lion' => NULL,
-            ),
-            435 => 
-            array (
+                'lion' => null,
+            ],
+            435 => [
                 'id' => 436,
                 'province_id' => 23,
                 'district_name' => 'Sumba Tengah',
@@ -4813,10 +4375,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B7',
                 'postal_code' => '87358',
                 'id_express' => 480,
-                'lion' => NULL,
-            ),
-            436 => 
-            array (
+                'lion' => null,
+            ],
+            436 => [
                 'id' => 437,
                 'province_id' => 23,
                 'district_name' => 'Sumba Timur',
@@ -4824,10 +4385,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '87112',
                 'id_express' => 481,
-                'lion' => NULL,
-            ),
-            437 => 
-            array (
+                'lion' => null,
+            ],
+            437 => [
                 'id' => 438,
                 'province_id' => 22,
                 'district_name' => 'Sumbawa',
@@ -4835,10 +4395,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '84315',
                 'id_express' => 461,
-                'lion' => NULL,
-            ),
-            438 => 
-            array (
+                'lion' => null,
+            ],
+            438 => [
                 'id' => 439,
                 'province_id' => 22,
                 'district_name' => 'Sumbawa Barat',
@@ -4846,10 +4405,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '84419',
                 'id_express' => 462,
-                'lion' => NULL,
-            ),
-            439 => 
-            array (
+                'lion' => null,
+            ],
+            439 => [
                 'id' => 440,
                 'province_id' => 9,
                 'district_name' => 'Sumedang',
@@ -4857,10 +4415,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C4',
                 'postal_code' => '45326',
                 'id_express' => 74,
-                'lion' => NULL,
-            ),
-            440 => 
-            array (
+                'lion' => null,
+            ],
+            440 => [
                 'id' => 441,
                 'province_id' => 11,
                 'district_name' => 'Sumenep',
@@ -4868,10 +4425,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D3',
                 'postal_code' => '69413',
                 'id_express' => 149,
-                'lion' => NULL,
-            ),
-            441 => 
-            array (
+                'lion' => null,
+            ],
+            441 => [
                 'id' => 442,
                 'province_id' => 8,
                 'district_name' => 'Sungai Penuh',
@@ -4879,10 +4435,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '37113',
                 'id_express' => 194,
-                'lion' => NULL,
-            ),
-            442 => 
-            array (
+                'lion' => null,
+            ],
+            442 => [
                 'id' => 443,
                 'province_id' => 24,
                 'district_name' => 'Supiori',
@@ -4890,10 +4445,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C4',
                 'postal_code' => '98164',
                 'id_express' => 528,
-                'lion' => NULL,
-            ),
-            443 => 
-            array (
+                'lion' => null,
+            ],
+            443 => [
                 'id' => 444,
                 'province_id' => 11,
                 'district_name' => 'Surabaya',
@@ -4902,20 +4456,18 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '60119',
                 'id_express' => 150,
                 'lion' => 'U1RBUkFCMkJTVUIuQVBJIENMMzE1NTcga3Nrc0pTSlM=',
-            ),
-            444 => 
-            array (
+            ],
+            444 => [
                 'id' => 445,
                 'province_id' => 10,
-            'district_name' => 'Surakarta (Solo)',
+                'district_name' => 'Surakarta (Solo)',
                 'district_type' => 'Kota',
                 'district_code' => 'C9',
                 'postal_code' => '57113',
                 'id_express' => 106,
-                'lion' => NULL,
-            ),
-            445 => 
-            array (
+                'lion' => null,
+            ],
+            445 => [
                 'id' => 446,
                 'province_id' => 13,
                 'district_name' => 'Tabalong',
@@ -4923,10 +4475,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '71513',
                 'id_express' => 331,
-                'lion' => NULL,
-            ),
-            446 => 
-            array (
+                'lion' => null,
+            ],
+            446 => [
                 'id' => 447,
                 'province_id' => 1,
                 'district_name' => 'Tabanan',
@@ -4934,10 +4485,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '82119',
                 'id_express' => 453,
-                'lion' => NULL,
-            ),
-            447 => 
-            array (
+                'lion' => null,
+            ],
+            447 => [
                 'id' => 448,
                 'province_id' => 28,
                 'district_name' => 'Takalar',
@@ -4945,10 +4495,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '92212',
                 'id_express' => 396,
-                'lion' => NULL,
-            ),
-            448 => 
-            array (
+                'lion' => null,
+            ],
+            448 => [
                 'id' => 449,
                 'province_id' => 25,
                 'district_name' => 'Tambrauw',
@@ -4956,10 +4505,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '98475',
                 'id_express' => 543,
-                'lion' => NULL,
-            ),
-            449 => 
-            array (
+                'lion' => null,
+            ],
+            449 => [
                 'id' => 450,
                 'province_id' => 16,
                 'district_name' => 'Tana Tidung',
@@ -4967,10 +4515,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A3',
                 'postal_code' => '77611',
                 'id_express' => 362,
-                'lion' => NULL,
-            ),
-            450 => 
-            array (
+                'lion' => null,
+            ],
+            450 => [
                 'id' => 451,
                 'province_id' => 28,
                 'district_name' => 'Tana Toraja',
@@ -4978,10 +4525,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C1',
                 'postal_code' => '91819',
                 'id_express' => 397,
-                'lion' => NULL,
-            ),
-            451 => 
-            array (
+                'lion' => null,
+            ],
+            451 => [
                 'id' => 452,
                 'province_id' => 13,
                 'district_name' => 'Tanah Bumbu',
@@ -4989,10 +4535,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '72211',
                 'id_express' => 332,
-                'lion' => NULL,
-            ),
-            452 => 
-            array (
+                'lion' => null,
+            ],
+            452 => [
                 'id' => 453,
                 'province_id' => 32,
                 'district_name' => 'Tanah Datar',
@@ -5000,10 +4545,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B8',
                 'postal_code' => '27211',
                 'id_express' => 257,
-                'lion' => NULL,
-            ),
-            453 => 
-            array (
+                'lion' => null,
+            ],
+            453 => [
                 'id' => 454,
                 'province_id' => 13,
                 'district_name' => 'Tanah Laut',
@@ -5011,10 +4555,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '70811',
                 'id_express' => 333,
-                'lion' => NULL,
-            ),
-            454 => 
-            array (
+                'lion' => null,
+            ],
+            454 => [
                 'id' => 455,
                 'province_id' => 3,
                 'district_name' => 'Tangerang',
@@ -5023,9 +4566,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '15914',
                 'id_express' => 42,
                 'lion' => 'U1RBUkFCMkJUTkcuQVBJIENMMzE1NTc=',
-            ),
-            455 => 
-            array (
+            ],
+            455 => [
                 'id' => 456,
                 'province_id' => 3,
                 'district_name' => 'Tangerang',
@@ -5034,9 +4576,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '15111',
                 'id_express' => 41,
                 'lion' => 'U1RBUkFCMkJUTkcuQVBJIENMMzE1NTc=',
-            ),
-            456 => 
-            array (
+            ],
+            456 => [
                 'id' => 457,
                 'province_id' => 3,
                 'district_name' => 'Tangerang Selatan',
@@ -5045,9 +4586,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '15332',
                 'id_express' => 43,
                 'lion' => 'U1RBUkFCMkJUTkcuQVBJIENMMzE1NTc=',
-            ),
-            457 => 
-            array (
+            ],
+            457 => [
                 'id' => 458,
                 'province_id' => 18,
                 'district_name' => 'Tanggamus',
@@ -5055,10 +4595,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '35619',
                 'id_express' => 223,
-                'lion' => NULL,
-            ),
-            458 => 
-            array (
+                'lion' => null,
+            ],
+            458 => [
                 'id' => 459,
                 'province_id' => 34,
                 'district_name' => 'Tanjung Balai',
@@ -5066,10 +4605,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C7',
                 'postal_code' => '21321',
                 'id_express' => 284,
-                'lion' => NULL,
-            ),
-            459 => 
-            array (
+                'lion' => null,
+            ],
+            459 => [
                 'id' => 460,
                 'province_id' => 8,
                 'district_name' => 'Tanjung Jabung Barat',
@@ -5077,10 +4615,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '36513',
                 'id_express' => 195,
-                'lion' => NULL,
-            ),
-            460 => 
-            array (
+                'lion' => null,
+            ],
+            460 => [
                 'id' => 461,
                 'province_id' => 8,
                 'district_name' => 'Tanjung Jabung Timur',
@@ -5088,10 +4625,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '36719',
                 'id_express' => 196,
-                'lion' => NULL,
-            ),
-            461 => 
-            array (
+                'lion' => null,
+            ],
+            461 => [
                 'id' => 462,
                 'province_id' => 17,
                 'district_name' => 'Tanjungpinang',
@@ -5099,10 +4635,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A6',
                 'postal_code' => '29111',
                 'id_express' => 211,
-                'lion' => NULL,
-            ),
-            462 => 
-            array (
+                'lion' => null,
+            ],
+            462 => [
                 'id' => 463,
                 'province_id' => 34,
                 'district_name' => 'Tapanuli Selatan',
@@ -5110,10 +4645,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C8',
                 'postal_code' => '22742',
                 'id_express' => 303,
-                'lion' => NULL,
-            ),
-            463 => 
-            array (
+                'lion' => null,
+            ],
+            463 => [
                 'id' => 464,
                 'province_id' => 34,
                 'district_name' => 'Tapanuli Tengah',
@@ -5121,10 +4655,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C9',
                 'postal_code' => '22611',
                 'id_express' => 304,
-                'lion' => NULL,
-            ),
-            464 => 
-            array (
+                'lion' => null,
+            ],
+            464 => [
                 'id' => 465,
                 'province_id' => 34,
                 'district_name' => 'Tapanuli Utara',
@@ -5132,10 +4665,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D0',
                 'postal_code' => '22414',
                 'id_express' => 305,
-                'lion' => NULL,
-            ),
-            465 => 
-            array (
+                'lion' => null,
+            ],
+            465 => [
                 'id' => 466,
                 'province_id' => 13,
                 'district_name' => 'Tapin',
@@ -5143,10 +4675,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '71119',
                 'id_express' => 334,
-                'lion' => NULL,
-            ),
-            466 => 
-            array (
+                'lion' => null,
+            ],
+            466 => [
                 'id' => 467,
                 'province_id' => 16,
                 'district_name' => 'Tarakan',
@@ -5154,10 +4685,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '77114',
                 'id_express' => 363,
-                'lion' => NULL,
-            ),
-            467 => 
-            array (
+                'lion' => null,
+            ],
+            467 => [
                 'id' => 468,
                 'province_id' => 9,
                 'district_name' => 'Tasikmalaya',
@@ -5165,10 +4695,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C5',
                 'postal_code' => '46411',
                 'id_express' => 75,
-                'lion' => NULL,
-            ),
-            468 => 
-            array (
+                'lion' => null,
+            ],
+            468 => [
                 'id' => 469,
                 'province_id' => 9,
                 'district_name' => 'Tasikmalaya',
@@ -5176,10 +4705,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C6',
                 'postal_code' => '46116',
                 'id_express' => 67,
-                'lion' => NULL,
-            ),
-            469 => 
-            array (
+                'lion' => null,
+            ],
+            469 => [
                 'id' => 470,
                 'province_id' => 34,
                 'district_name' => 'Tebing Tinggi',
@@ -5187,10 +4715,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D1',
                 'postal_code' => '20632',
                 'id_express' => 306,
-                'lion' => NULL,
-            ),
-            470 => 
-            array (
+                'lion' => null,
+            ],
+            470 => [
                 'id' => 471,
                 'province_id' => 8,
                 'district_name' => 'Tebo',
@@ -5198,10 +4725,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '37519',
                 'id_express' => 197,
-                'lion' => NULL,
-            ),
-            471 => 
-            array (
+                'lion' => null,
+            ],
+            471 => [
                 'id' => 472,
                 'province_id' => 10,
                 'district_name' => 'Tegal',
@@ -5209,10 +4735,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D0',
                 'postal_code' => '52419',
                 'id_express' => 107,
-                'lion' => NULL,
-            ),
-            472 => 
-            array (
+                'lion' => null,
+            ],
+            472 => [
                 'id' => 473,
                 'province_id' => 10,
                 'district_name' => 'Tegal',
@@ -5220,10 +4745,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D1',
                 'postal_code' => '52114',
                 'id_express' => 93,
-                'lion' => NULL,
-            ),
-            473 => 
-            array (
+                'lion' => null,
+            ],
+            473 => [
                 'id' => 474,
                 'province_id' => 25,
                 'district_name' => 'Teluk Bintuni',
@@ -5231,10 +4755,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '98551',
                 'id_express' => 544,
-                'lion' => NULL,
-            ),
-            474 => 
-            array (
+                'lion' => null,
+            ],
+            474 => [
                 'id' => 475,
                 'province_id' => 25,
                 'district_name' => 'Teluk Wondama',
@@ -5242,10 +4765,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '98591',
                 'id_express' => 545,
-                'lion' => NULL,
-            ),
-            475 => 
-            array (
+                'lion' => null,
+            ],
+            475 => [
                 'id' => 476,
                 'province_id' => 10,
                 'district_name' => 'Temanggung',
@@ -5253,10 +4775,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D2',
                 'postal_code' => '56212',
                 'id_express' => 108,
-                'lion' => NULL,
-            ),
-            476 => 
-            array (
+                'lion' => null,
+            ],
+            476 => [
                 'id' => 477,
                 'province_id' => 20,
                 'district_name' => 'Ternate',
@@ -5264,10 +4785,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A7',
                 'postal_code' => '97714',
                 'id_express' => 503,
-                'lion' => NULL,
-            ),
-            477 => 
-            array (
+                'lion' => null,
+            ],
+            477 => [
                 'id' => 478,
                 'province_id' => 20,
                 'district_name' => 'Tidore Kepulauan',
@@ -5275,10 +4795,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A8',
                 'postal_code' => '97815',
                 'id_express' => 504,
-                'lion' => NULL,
-            ),
-            478 => 
-            array (
+                'lion' => null,
+            ],
+            478 => [
                 'id' => 479,
                 'province_id' => 23,
                 'district_name' => 'Timor Tengah Selatan',
@@ -5286,10 +4805,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B9',
                 'postal_code' => '85562',
                 'id_express' => 482,
-                'lion' => NULL,
-            ),
-            479 => 
-            array (
+                'lion' => null,
+            ],
+            479 => [
                 'id' => 480,
                 'province_id' => 23,
                 'district_name' => 'Timor Tengah Utara',
@@ -5297,10 +4815,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C0',
                 'postal_code' => '85612',
                 'id_express' => 483,
-                'lion' => NULL,
-            ),
-            480 => 
-            array (
+                'lion' => null,
+            ],
+            480 => [
                 'id' => 481,
                 'province_id' => 34,
                 'district_name' => 'Toba Samosir',
@@ -5308,10 +4825,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D2',
                 'postal_code' => '22316',
                 'id_express' => 307,
-                'lion' => NULL,
-            ),
-            481 => 
-            array (
+                'lion' => null,
+            ],
+            481 => [
                 'id' => 482,
                 'province_id' => 29,
                 'district_name' => 'Tojo Una-Una',
@@ -5319,10 +4835,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A9',
                 'postal_code' => '94683',
                 'id_express' => 411,
-                'lion' => NULL,
-            ),
-            482 => 
-            array (
+                'lion' => null,
+            ],
+            482 => [
                 'id' => 483,
                 'province_id' => 29,
                 'district_name' => 'Toli-Toli',
@@ -5330,10 +4845,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '94542',
                 'id_express' => 412,
-                'lion' => NULL,
-            ),
-            483 => 
-            array (
+                'lion' => null,
+            ],
+            483 => [
                 'id' => 484,
                 'province_id' => 24,
                 'district_name' => 'Tolikara',
@@ -5341,10 +4855,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C5',
                 'postal_code' => '99411',
                 'id_express' => 529,
-                'lion' => NULL,
-            ),
-            484 => 
-            array (
+                'lion' => null,
+            ],
+            484 => [
                 'id' => 485,
                 'province_id' => 31,
                 'district_name' => 'Tomohon',
@@ -5352,10 +4865,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '95416',
                 'id_express' => 444,
-                'lion' => NULL,
-            ),
-            485 => 
-            array (
+                'lion' => null,
+            ],
+            485 => [
                 'id' => 486,
                 'province_id' => 28,
                 'district_name' => 'Toraja Utara',
@@ -5363,10 +4875,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C2',
                 'postal_code' => '91831',
                 'id_express' => 398,
-                'lion' => NULL,
-            ),
-            486 => 
-            array (
+                'lion' => null,
+            ],
+            486 => [
                 'id' => 487,
                 'province_id' => 11,
                 'district_name' => 'Trenggalek',
@@ -5374,10 +4885,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D5',
                 'postal_code' => '66312',
                 'id_express' => 151,
-                'lion' => NULL,
-            ),
-            487 => 
-            array (
+                'lion' => null,
+            ],
+            487 => [
                 'id' => 488,
                 'province_id' => 19,
                 'district_name' => 'Tual',
@@ -5385,10 +4895,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B0',
                 'postal_code' => '97612',
                 'id_express' => 494,
-                'lion' => NULL,
-            ),
-            488 => 
-            array (
+                'lion' => null,
+            ],
+            488 => [
                 'id' => 489,
                 'province_id' => 11,
                 'district_name' => 'Tuban',
@@ -5397,9 +4906,8 @@ class JpbDistrictTableSeeder extends Seeder
                 'postal_code' => '62319',
                 'id_express' => 152,
                 'lion' => 'U1RBUkFCMkJUVUIuQVBJIENMMzE1NTc=',
-            ),
-            489 => 
-            array (
+            ],
+            489 => [
                 'id' => 490,
                 'province_id' => 18,
                 'district_name' => 'Tulang Bawang',
@@ -5407,10 +4915,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B2',
                 'postal_code' => '34613',
                 'id_express' => 225,
-                'lion' => NULL,
-            ),
-            490 => 
-            array (
+                'lion' => null,
+            ],
+            490 => [
                 'id' => 491,
                 'province_id' => 18,
                 'district_name' => 'Tulang Bawang Barat',
@@ -5418,10 +4925,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B3',
                 'postal_code' => '34419',
                 'id_express' => 224,
-                'lion' => NULL,
-            ),
-            491 => 
-            array (
+                'lion' => null,
+            ],
+            491 => [
                 'id' => 492,
                 'province_id' => 11,
                 'district_name' => 'Tulungagung',
@@ -5429,10 +4935,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D7',
                 'postal_code' => '66212',
                 'id_express' => 153,
-                'lion' => NULL,
-            ),
-            492 => 
-            array (
+                'lion' => null,
+            ],
+            492 => [
                 'id' => 493,
                 'province_id' => 28,
                 'district_name' => 'Wajo',
@@ -5440,10 +4945,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C3',
                 'postal_code' => '90911',
                 'id_express' => 399,
-                'lion' => NULL,
-            ),
-            493 => 
-            array (
+                'lion' => null,
+            ],
+            493 => [
                 'id' => 494,
                 'province_id' => 30,
                 'district_name' => 'Wakatobi',
@@ -5451,10 +4955,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B1',
                 'postal_code' => '93791',
                 'id_express' => 429,
-                'lion' => NULL,
-            ),
-            494 => 
-            array (
+                'lion' => null,
+            ],
+            494 => [
                 'id' => 495,
                 'province_id' => 24,
                 'district_name' => 'Waropen',
@@ -5462,10 +4965,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C6',
                 'postal_code' => '98269',
                 'id_express' => 530,
-                'lion' => NULL,
-            ),
-            495 => 
-            array (
+                'lion' => null,
+            ],
+            495 => [
                 'id' => 496,
                 'province_id' => 18,
                 'district_name' => 'Way Kanan',
@@ -5473,10 +4975,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'B4',
                 'postal_code' => '34711',
                 'id_express' => 226,
-                'lion' => NULL,
-            ),
-            496 => 
-            array (
+                'lion' => null,
+            ],
+            496 => [
                 'id' => 497,
                 'province_id' => 10,
                 'district_name' => 'Wonogiri',
@@ -5484,10 +4985,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D3',
                 'postal_code' => '57619',
                 'id_express' => 109,
-                'lion' => NULL,
-            ),
-            497 => 
-            array (
+                'lion' => null,
+            ],
+            497 => [
                 'id' => 498,
                 'province_id' => 10,
                 'district_name' => 'Wonosobo',
@@ -5495,10 +4995,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'D4',
                 'postal_code' => '56311',
                 'id_express' => 110,
-                'lion' => NULL,
-            ),
-            498 => 
-            array (
+                'lion' => null,
+            ],
+            498 => [
                 'id' => 499,
                 'province_id' => 24,
                 'district_name' => 'Yahukimo',
@@ -5506,10 +5005,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C7',
                 'postal_code' => '99041',
                 'id_express' => 531,
-                'lion' => NULL,
-            ),
-            499 => 
-            array (
+                'lion' => null,
+            ],
+            499 => [
                 'id' => 500,
                 'province_id' => 24,
                 'district_name' => 'Yalimo',
@@ -5517,12 +5015,11 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'C8',
                 'postal_code' => '99481',
                 'id_express' => 532,
-                'lion' => NULL,
-            ),
-        ));
-        \DB::table('jpb_district')->insert(array (
-            0 => 
-            array (
+                'lion' => null,
+            ],
+        ]);
+        \DB::table('jpb_district')->insert([
+            0 => [
                 'id' => 501,
                 'province_id' => 5,
                 'district_name' => 'Yogyakarta',
@@ -5530,32 +5027,29 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => 'A4',
                 'postal_code' => '55111',
                 'id_express' => 113,
-                'lion' => NULL,
-            ),
-            1 => 
-            array (
+                'lion' => null,
+            ],
+            1 => [
                 'id' => 502,
                 'province_id' => 33,
                 'district_name' => 'Penukal Abab Lematang Ilir',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '31316',
                 'id_express' => 273,
-                'lion' => NULL,
-            ),
-            2 => 
-            array (
+                'lion' => null,
+            ],
+            2 => [
                 'id' => 503,
                 'province_id' => 33,
                 'district_name' => 'Musi Rawas Utara',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 265,
-                'lion' => NULL,
-            ),
-            3 => 
-            array (
+                'lion' => null,
+            ],
+            3 => [
                 'id' => 504,
                 'province_id' => 15,
                 'district_name' => 'Mahakam Ulu',
@@ -5563,10 +5057,9 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => '',
                 'postal_code' => '75768',
                 'id_express' => 355,
-                'lion' => NULL,
-            ),
-            4 => 
-            array (
+                'lion' => null,
+            ],
+            4 => [
                 'id' => 505,
                 'province_id' => 27,
                 'district_name' => 'Mamuju Tengah',
@@ -5574,109 +5067,99 @@ class JpbDistrictTableSeeder extends Seeder
                 'district_code' => '',
                 'postal_code' => '',
                 'id_express' => 373,
-                'lion' => NULL,
-            ),
-            5 => 
-            array (
+                'lion' => null,
+            ],
+            5 => [
                 'id' => 506,
                 'province_id' => 29,
                 'district_name' => 'Banggai Laut',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 402,
-                'lion' => NULL,
-            ),
-            6 => 
-            array (
+                'lion' => null,
+            ],
+            6 => [
                 'id' => 507,
                 'province_id' => 29,
                 'district_name' => 'Morowali Utara',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 406,
-                'lion' => NULL,
-            ),
-            7 => 
-            array (
+                'lion' => null,
+            ],
+            7 => [
                 'id' => 508,
                 'province_id' => 30,
                 'district_name' => 'Buton Selatan',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 416,
-                'lion' => NULL,
-            ),
-            8 => 
-            array (
+                'lion' => null,
+            ],
+            8 => [
                 'id' => 509,
                 'province_id' => 30,
                 'district_name' => 'Buton Tengah',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 417,
-                'lion' => NULL,
-            ),
-            9 => 
-            array (
+                'lion' => null,
+            ],
+            9 => [
                 'id' => 510,
                 'province_id' => 30,
                 'district_name' => 'Kolaka Timur',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 421,
-                'lion' => NULL,
-            ),
-            10 => 
-            array (
+                'lion' => null,
+            ],
+            10 => [
                 'id' => 511,
                 'province_id' => 30,
                 'district_name' => 'Konawe Kepulauan',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 424,
-                'lion' => NULL,
-            ),
-            11 => 
-            array (
+                'lion' => null,
+            ],
+            11 => [
                 'id' => 512,
                 'province_id' => 30,
                 'district_name' => 'Muna Barat',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 428,
-                'lion' => NULL,
-            ),
-            12 => 
-            array (
+                'lion' => null,
+            ],
+            12 => [
                 'id' => 513,
                 'province_id' => 23,
                 'district_name' => 'Malaka',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 469,
-                'lion' => NULL,
-            ),
-            13 => 
-            array (
+                'lion' => null,
+            ],
+            13 => [
                 'id' => 514,
                 'province_id' => 20,
                 'district_name' => 'Pulau Taliabu',
                 'district_type' => 'Kabupaten',
-                'district_code' => NULL,
+                'district_code' => null,
                 'postal_code' => '',
                 'id_express' => 502,
-                'lion' => NULL,
-            ),
-        ));
-        
-        
+                'lion' => null,
+            ],
+        ]);
+
     }
 }

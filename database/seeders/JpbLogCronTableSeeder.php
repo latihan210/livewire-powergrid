@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbLogCronTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,2434 +13,2163 @@ class JpbLogCronTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_log_cron')->delete();
-        
-        \DB::table('jpb_log_cron')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_log_cron')->insert([
+            0 => [
                 'id' => 1,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-23 00:10:01',
                 'end_time' => '2025-04-23 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0313 seconds, Log : ',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-24 00:10:00',
                 'end_time' => '2025-04-24 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0222 seconds, Log : ',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-25 00:10:00',
                 'end_time' => '2025-04-25 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0134 seconds, Log : ',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-26 00:05:00',
                 'end_time' => '2025-04-26 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0498 seconds, Log : ',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-26 00:10:00',
                 'end_time' => '2025-04-26 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0317 seconds, Log : ',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-27 00:05:00',
                 'end_time' => '2025-04-27 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0480 seconds, Log : ',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-27 00:10:00',
                 'end_time' => '2025-04-27 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0084 seconds, Log : ',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-28 00:05:00',
                 'end_time' => '2025-04-28 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0496 seconds, Log : ',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-28 00:10:00',
                 'end_time' => '2025-04-28 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-29 00:05:00',
                 'end_time' => '2025-04-29 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0472 seconds, Log : ',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-29 00:10:00',
                 'end_time' => '2025-04-29 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0226 seconds, Log : ',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-30 00:05:00',
                 'end_time' => '2025-04-30 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0455 seconds, Log : ',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-04-30 00:10:00',
                 'end_time' => '2025-04-30 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0119 seconds, Log : ',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-01 00:05:00',
                 'end_time' => '2025-05-01 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0471 seconds, Log : ',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-01 00:10:00',
                 'end_time' => '2025-05-01 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0048 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-02 00:05:00',
                 'end_time' => '2025-05-02 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0575 seconds, Log : ',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-02 00:10:00',
                 'end_time' => '2025-05-02 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0303 seconds, Log : ',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-03 00:05:00',
                 'end_time' => '2025-05-03 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0487 seconds, Log : ',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-03 00:10:00',
                 'end_time' => '2025-05-03 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0104 seconds, Log : ',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-04 00:05:01',
                 'end_time' => '2025-05-04 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0536 seconds, Log : ',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-04 00:10:01',
                 'end_time' => '2025-05-04 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0100 seconds, Log : ',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-05 00:05:00',
                 'end_time' => '2025-05-05 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0462 seconds, Log : ',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-05 00:10:00',
                 'end_time' => '2025-05-05 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0243 seconds, Log : ',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-06 00:05:00',
                 'end_time' => '2025-05-06 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0454 seconds, Log : ',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-06 00:10:00',
                 'end_time' => '2025-05-06 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0160 seconds, Log : ',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-07 00:05:00',
                 'end_time' => '2025-05-07 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0492 seconds, Log : ',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-07 00:10:00',
                 'end_time' => '2025-05-07 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0125 seconds, Log : ',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-08 00:05:00',
                 'end_time' => '2025-05-08 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0586 seconds, Log : ',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-08 00:10:00',
                 'end_time' => '2025-05-08 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0241 seconds, Log : ',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-09 00:05:00',
                 'end_time' => '2025-05-09 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0515 seconds, Log : ',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-09 00:10:00',
                 'end_time' => '2025-05-09 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0082 seconds, Log : ',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-10 00:05:01',
                 'end_time' => '2025-05-10 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0541 seconds, Log : ',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-10 00:10:01',
                 'end_time' => '2025-05-10 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0174 seconds, Log : ',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-11 00:05:00',
                 'end_time' => '2025-05-11 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0546 seconds, Log : ',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-11 00:10:00',
                 'end_time' => '2025-05-11 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0082 seconds, Log : ',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-12 00:05:00',
                 'end_time' => '2025-05-12 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0494 seconds, Log : ',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-12 00:10:00',
                 'end_time' => '2025-05-12 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0083 seconds, Log : ',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-13 00:05:00',
                 'end_time' => '2025-05-13 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0486 seconds, Log : ',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-13 00:10:00',
                 'end_time' => '2025-05-13 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0258 seconds, Log : ',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-14 00:05:01',
                 'end_time' => '2025-05-14 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0518 seconds, Log : ',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-14 00:10:01',
                 'end_time' => '2025-05-14 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0195 seconds, Log : ',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-15 00:05:00',
                 'end_time' => '2025-05-15 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0483 seconds, Log : ',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-15 00:10:00',
                 'end_time' => '2025-05-15 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0110 seconds, Log : ',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-16 00:05:00',
                 'end_time' => '2025-05-16 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0464 seconds, Log : ',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-16 00:10:00',
                 'end_time' => '2025-05-16 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0288 seconds, Log : ',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-17 00:05:00',
                 'end_time' => '2025-05-17 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0466 seconds, Log : ',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-17 00:10:00',
                 'end_time' => '2025-05-17 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0152 seconds, Log : ',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-18 00:05:01',
                 'end_time' => '2025-05-18 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0430 seconds, Log : ',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-18 00:10:01',
                 'end_time' => '2025-05-18 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0083 seconds, Log : ',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-19 00:05:00',
                 'end_time' => '2025-05-19 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0438 seconds, Log : ',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-19 00:10:00',
                 'end_time' => '2025-05-19 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0242 seconds, Log : ',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-20 00:05:00',
                 'end_time' => '2025-05-20 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0451 seconds, Log : ',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-20 00:10:00',
                 'end_time' => '2025-05-20 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0083 seconds, Log : ',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-21 00:05:00',
                 'end_time' => '2025-05-21 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0461 seconds, Log : ',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-21 00:10:00',
                 'end_time' => '2025-05-21 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0293 seconds, Log : ',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-22 00:05:01',
                 'end_time' => '2025-05-22 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0514 seconds, Log : ',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-22 00:10:00',
                 'end_time' => '2025-05-22 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0095 seconds, Log : ',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-23 00:05:00',
                 'end_time' => '2025-05-23 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0489 seconds, Log : ',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-23 00:10:00',
                 'end_time' => '2025-05-23 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-24 00:05:00',
                 'end_time' => '2025-05-24 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0457 seconds, Log : ',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-24 00:10:00',
                 'end_time' => '2025-05-24 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0090 seconds, Log : ',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-25 00:05:00',
                 'end_time' => '2025-05-25 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0509 seconds, Log : ',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-25 00:10:00',
                 'end_time' => '2025-05-25 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0180 seconds, Log : ',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-26 00:05:00',
                 'end_time' => '2025-05-26 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0514 seconds, Log : ',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-26 00:10:00',
                 'end_time' => '2025-05-26 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0084 seconds, Log : ',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-27 00:05:00',
                 'end_time' => '2025-05-27 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0489 seconds, Log : ',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-27 00:10:00',
                 'end_time' => '2025-05-27 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0096 seconds, Log : ',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-28 00:05:00',
                 'end_time' => '2025-05-28 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-28 00:10:00',
                 'end_time' => '2025-05-28 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0194 seconds, Log : ',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-29 00:05:00',
                 'end_time' => '2025-05-29 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0520 seconds, Log : ',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-29 00:10:00',
                 'end_time' => '2025-05-29 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0127 seconds, Log : ',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-30 00:05:00',
                 'end_time' => '2025-05-30 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0474 seconds, Log : ',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 73,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-30 00:10:00',
                 'end_time' => '2025-05-30 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0326 seconds, Log : ',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 74,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-31 00:05:00',
                 'end_time' => '2025-05-31 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0512 seconds, Log : ',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 75,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-05-31 00:10:00',
                 'end_time' => '2025-05-31 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0115 seconds, Log : ',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 76,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-01 00:05:00',
                 'end_time' => '2025-06-01 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 77,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-01 00:10:00',
                 'end_time' => '2025-06-01 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0087 seconds, Log : ',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 78,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-02 00:05:01',
                 'end_time' => '2025-06-02 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 79,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-02 00:10:01',
                 'end_time' => '2025-06-02 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0108 seconds, Log : ',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 80,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-03 00:05:00',
                 'end_time' => '2025-06-03 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0471 seconds, Log : ',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 81,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-03 00:10:00',
                 'end_time' => '2025-06-03 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0109 seconds, Log : ',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 82,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-04 00:05:00',
                 'end_time' => '2025-06-04 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0473 seconds, Log : ',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 83,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-04 00:10:00',
                 'end_time' => '2025-06-04 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0129 seconds, Log : ',
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 84,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-05 00:05:00',
                 'end_time' => '2025-06-05 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0495 seconds, Log : ',
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 85,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-05 00:10:00',
                 'end_time' => '2025-06-05 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0131 seconds, Log : ',
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 86,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-06 00:05:00',
                 'end_time' => '2025-06-06 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0496 seconds, Log : ',
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 87,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-06 00:10:00',
                 'end_time' => '2025-06-06 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0084 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 88,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-07 00:05:00',
                 'end_time' => '2025-06-07 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0491 seconds, Log : ',
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 89,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-07 00:10:00',
                 'end_time' => '2025-06-07 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0057 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 90,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-08 00:05:01',
                 'end_time' => '2025-06-08 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0540 seconds, Log : ',
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 91,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-08 00:10:01',
                 'end_time' => '2025-06-08 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0067 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 92,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-09 00:05:00',
                 'end_time' => '2025-06-09 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0595 seconds, Log : ',
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 93,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-09 00:10:00',
                 'end_time' => '2025-06-09 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0056 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 94,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-10 00:05:00',
                 'end_time' => '2025-06-10 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0473 seconds, Log : ',
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 95,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-10 00:10:00',
                 'end_time' => '2025-06-10 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0058 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 96,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-11 00:05:00',
                 'end_time' => '2025-06-11 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0461 seconds, Log : ',
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 97,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-11 00:10:01',
                 'end_time' => '2025-06-11 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0065 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 98,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-12 00:05:00',
                 'end_time' => '2025-06-12 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0449 seconds, Log : ',
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 99,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-12 00:10:00',
                 'end_time' => '2025-06-12 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0596 seconds, Log : ',
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 100,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-13 00:05:00',
                 'end_time' => '2025-06-13 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0469 seconds, Log : ',
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 101,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-13 00:10:00',
                 'end_time' => '2025-06-13 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0201 seconds, Log : ',
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 102,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-14 00:05:00',
                 'end_time' => '2025-06-14 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0479 seconds, Log : ',
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 103,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-14 00:10:00',
                 'end_time' => '2025-06-14 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0207 seconds, Log : ',
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 104,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-15 00:05:01',
                 'end_time' => '2025-06-15 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0474 seconds, Log : ',
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 105,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-15 00:10:00',
                 'end_time' => '2025-06-15 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0067 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 106,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-16 00:05:00',
                 'end_time' => '2025-06-16 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0473 seconds, Log : ',
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 107,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-16 00:10:00',
                 'end_time' => '2025-06-16 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0071 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-17 00:05:00',
                 'end_time' => '2025-06-17 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0486 seconds, Log : ',
-            ),
-            108 => 
-            array (
+            ],
+            108 => [
                 'id' => 109,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-17 00:10:00',
                 'end_time' => '2025-06-17 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0060 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            109 => 
-            array (
+            ],
+            109 => [
                 'id' => 110,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-18 00:05:00',
                 'end_time' => '2025-06-18 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0478 seconds, Log : ',
-            ),
-            110 => 
-            array (
+            ],
+            110 => [
                 'id' => 111,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-18 00:10:00',
                 'end_time' => '2025-06-18 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0070 seconds, Log : Data Deposite tidak ditemukan',
-            ),
-            111 => 
-            array (
+            ],
+            111 => [
                 'id' => 112,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-19 00:05:00',
                 'end_time' => '2025-06-19 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0464 seconds, Log : ',
-            ),
-            112 => 
-            array (
+            ],
+            112 => [
                 'id' => 113,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-19 00:10:00',
                 'end_time' => '2025-06-19 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0335 seconds, Log : ',
-            ),
-            113 => 
-            array (
+            ],
+            113 => [
                 'id' => 114,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-20 00:05:00',
                 'end_time' => '2025-06-20 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0467 seconds, Log : ',
-            ),
-            114 => 
-            array (
+            ],
+            114 => [
                 'id' => 115,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-20 00:10:00',
                 'end_time' => '2025-06-20 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0167 seconds, Log : ',
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 116,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-21 00:05:01',
                 'end_time' => '2025-06-21 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0652 seconds, Log : ',
-            ),
-            116 => 
-            array (
+            ],
+            116 => [
                 'id' => 117,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-21 00:10:01',
                 'end_time' => '2025-06-21 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0165 seconds, Log : ',
-            ),
-            117 => 
-            array (
+            ],
+            117 => [
                 'id' => 118,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-22 00:05:00',
                 'end_time' => '2025-06-22 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0453 seconds, Log : ',
-            ),
-            118 => 
-            array (
+            ],
+            118 => [
                 'id' => 119,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-22 00:10:00',
                 'end_time' => '2025-06-22 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0098 seconds, Log : ',
-            ),
-            119 => 
-            array (
+            ],
+            119 => [
                 'id' => 120,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-23 00:05:00',
                 'end_time' => '2025-06-23 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0440 seconds, Log : ',
-            ),
-            120 => 
-            array (
+            ],
+            120 => [
                 'id' => 121,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-23 00:10:00',
                 'end_time' => '2025-06-23 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0209 seconds, Log : ',
-            ),
-            121 => 
-            array (
+            ],
+            121 => [
                 'id' => 122,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-24 00:05:00',
                 'end_time' => '2025-06-24 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0448 seconds, Log : ',
-            ),
-            122 => 
-            array (
+            ],
+            122 => [
                 'id' => 123,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-24 00:10:00',
                 'end_time' => '2025-06-24 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0096 seconds, Log : ',
-            ),
-            123 => 
-            array (
+            ],
+            123 => [
                 'id' => 124,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-25 00:05:01',
                 'end_time' => '2025-06-25 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0469 seconds, Log : ',
-            ),
-            124 => 
-            array (
+            ],
+            124 => [
                 'id' => 125,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-25 00:10:01',
                 'end_time' => '2025-06-25 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            125 => 
-            array (
+            ],
+            125 => [
                 'id' => 126,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-26 00:05:00',
                 'end_time' => '2025-06-26 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0456 seconds, Log : ',
-            ),
-            126 => 
-            array (
+            ],
+            126 => [
                 'id' => 127,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-26 00:10:00',
                 'end_time' => '2025-06-26 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0126 seconds, Log : ',
-            ),
-            127 => 
-            array (
+            ],
+            127 => [
                 'id' => 128,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-27 00:05:00',
                 'end_time' => '2025-06-27 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0447 seconds, Log : ',
-            ),
-            128 => 
-            array (
+            ],
+            128 => [
                 'id' => 129,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-27 00:10:00',
                 'end_time' => '2025-06-27 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0231 seconds, Log : ',
-            ),
-            129 => 
-            array (
+            ],
+            129 => [
                 'id' => 130,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-28 00:05:00',
                 'end_time' => '2025-06-28 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0471 seconds, Log : ',
-            ),
-            130 => 
-            array (
+            ],
+            130 => [
                 'id' => 131,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-28 00:10:00',
                 'end_time' => '2025-06-28 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0221 seconds, Log : ',
-            ),
-            131 => 
-            array (
+            ],
+            131 => [
                 'id' => 132,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-29 00:05:00',
                 'end_time' => '2025-06-29 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0445 seconds, Log : ',
-            ),
-            132 => 
-            array (
+            ],
+            132 => [
                 'id' => 133,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-29 00:10:00',
                 'end_time' => '2025-06-29 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0093 seconds, Log : ',
-            ),
-            133 => 
-            array (
+            ],
+            133 => [
                 'id' => 134,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-30 00:05:00',
                 'end_time' => '2025-06-30 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0483 seconds, Log : ',
-            ),
-            134 => 
-            array (
+            ],
+            134 => [
                 'id' => 135,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-06-30 00:10:00',
                 'end_time' => '2025-06-30 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            135 => 
-            array (
+            ],
+            135 => [
                 'id' => 136,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-01 00:05:00',
                 'end_time' => '2025-07-01 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0485 seconds, Log : ',
-            ),
-            136 => 
-            array (
+            ],
+            136 => [
                 'id' => 137,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-01 00:10:00',
                 'end_time' => '2025-07-01 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            137 => 
-            array (
+            ],
+            137 => [
                 'id' => 138,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-02 00:05:00',
                 'end_time' => '2025-07-02 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0484 seconds, Log : ',
-            ),
-            138 => 
-            array (
+            ],
+            138 => [
                 'id' => 139,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-02 00:10:00',
                 'end_time' => '2025-07-02 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0095 seconds, Log : ',
-            ),
-            139 => 
-            array (
+            ],
+            139 => [
                 'id' => 140,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-03 00:05:00',
                 'end_time' => '2025-07-03 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0457 seconds, Log : ',
-            ),
-            140 => 
-            array (
+            ],
+            140 => [
                 'id' => 141,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-03 00:10:00',
                 'end_time' => '2025-07-03 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0107 seconds, Log : ',
-            ),
-            141 => 
-            array (
+            ],
+            141 => [
                 'id' => 142,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-04 00:05:01',
                 'end_time' => '2025-07-04 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0515 seconds, Log : ',
-            ),
-            142 => 
-            array (
+            ],
+            142 => [
                 'id' => 143,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-04 00:10:01',
                 'end_time' => '2025-07-04 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0148 seconds, Log : ',
-            ),
-            143 => 
-            array (
+            ],
+            143 => [
                 'id' => 144,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-05 00:05:00',
                 'end_time' => '2025-07-05 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0465 seconds, Log : ',
-            ),
-            144 => 
-            array (
+            ],
+            144 => [
                 'id' => 145,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-05 00:10:00',
                 'end_time' => '2025-07-05 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0099 seconds, Log : ',
-            ),
-            145 => 
-            array (
+            ],
+            145 => [
                 'id' => 146,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-06 00:05:00',
                 'end_time' => '2025-07-06 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0467 seconds, Log : ',
-            ),
-            146 => 
-            array (
+            ],
+            146 => [
                 'id' => 147,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-06 00:10:00',
                 'end_time' => '2025-07-06 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            147 => 
-            array (
+            ],
+            147 => [
                 'id' => 148,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-07 00:05:00',
                 'end_time' => '2025-07-07 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0450 seconds, Log : ',
-            ),
-            148 => 
-            array (
+            ],
+            148 => [
                 'id' => 149,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-07 00:10:00',
                 'end_time' => '2025-07-07 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            149 => 
-            array (
+            ],
+            149 => [
                 'id' => 150,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-08 00:05:01',
                 'end_time' => '2025-07-08 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0457 seconds, Log : ',
-            ),
-            150 => 
-            array (
+            ],
+            150 => [
                 'id' => 151,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-08 00:10:01',
                 'end_time' => '2025-07-08 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0118 seconds, Log : ',
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 152,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-09 00:05:00',
                 'end_time' => '2025-07-09 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0483 seconds, Log : ',
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 153,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-09 00:10:00',
                 'end_time' => '2025-07-09 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0092 seconds, Log : ',
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 154,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-10 00:05:00',
                 'end_time' => '2025-07-10 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0464 seconds, Log : ',
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 155,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-10 00:10:00',
                 'end_time' => '2025-07-10 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0133 seconds, Log : ',
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 156,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-11 00:05:00',
                 'end_time' => '2025-07-11 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0447 seconds, Log : ',
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 157,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-11 00:10:00',
                 'end_time' => '2025-07-11 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0185 seconds, Log : ',
-            ),
-            157 => 
-            array (
+            ],
+            157 => [
                 'id' => 158,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-12 00:05:01',
                 'end_time' => '2025-07-12 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0455 seconds, Log : ',
-            ),
-            158 => 
-            array (
+            ],
+            158 => [
                 'id' => 159,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-12 00:10:01',
                 'end_time' => '2025-07-12 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0130 seconds, Log : ',
-            ),
-            159 => 
-            array (
+            ],
+            159 => [
                 'id' => 160,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-13 00:05:00',
                 'end_time' => '2025-07-13 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0468 seconds, Log : ',
-            ),
-            160 => 
-            array (
+            ],
+            160 => [
                 'id' => 161,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-13 00:10:00',
                 'end_time' => '2025-07-13 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0089 seconds, Log : ',
-            ),
-            161 => 
-            array (
+            ],
+            161 => [
                 'id' => 162,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-14 00:05:00',
                 'end_time' => '2025-07-14 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0459 seconds, Log : ',
-            ),
-            162 => 
-            array (
+            ],
+            162 => [
                 'id' => 163,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-14 00:10:00',
                 'end_time' => '2025-07-14 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0099 seconds, Log : ',
-            ),
-            163 => 
-            array (
+            ],
+            163 => [
                 'id' => 164,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-15 00:05:00',
                 'end_time' => '2025-07-15 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0484 seconds, Log : ',
-            ),
-            164 => 
-            array (
+            ],
+            164 => [
                 'id' => 165,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-15 00:10:00',
                 'end_time' => '2025-07-15 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            165 => 
-            array (
+            ],
+            165 => [
                 'id' => 166,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-16 00:05:01',
                 'end_time' => '2025-07-16 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0669 seconds, Log : ',
-            ),
-            166 => 
-            array (
+            ],
+            166 => [
                 'id' => 167,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-16 00:10:01',
                 'end_time' => '2025-07-16 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0163 seconds, Log : ',
-            ),
-            167 => 
-            array (
+            ],
+            167 => [
                 'id' => 168,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-17 00:05:00',
                 'end_time' => '2025-07-17 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0519 seconds, Log : ',
-            ),
-            168 => 
-            array (
+            ],
+            168 => [
                 'id' => 169,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-17 00:10:00',
                 'end_time' => '2025-07-17 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0098 seconds, Log : ',
-            ),
-            169 => 
-            array (
+            ],
+            169 => [
                 'id' => 170,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-18 00:05:00',
                 'end_time' => '2025-07-18 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            170 => 
-            array (
+            ],
+            170 => [
                 'id' => 171,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-18 00:10:00',
                 'end_time' => '2025-07-18 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0089 seconds, Log : ',
-            ),
-            171 => 
-            array (
+            ],
+            171 => [
                 'id' => 172,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-19 00:05:00',
                 'end_time' => '2025-07-19 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0448 seconds, Log : ',
-            ),
-            172 => 
-            array (
+            ],
+            172 => [
                 'id' => 173,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-19 00:10:00',
                 'end_time' => '2025-07-19 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0091 seconds, Log : ',
-            ),
-            173 => 
-            array (
+            ],
+            173 => [
                 'id' => 174,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-20 00:05:01',
                 'end_time' => '2025-07-20 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0479 seconds, Log : ',
-            ),
-            174 => 
-            array (
+            ],
+            174 => [
                 'id' => 175,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-20 00:10:01',
                 'end_time' => '2025-07-20 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0098 seconds, Log : ',
-            ),
-            175 => 
-            array (
+            ],
+            175 => [
                 'id' => 176,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-21 00:05:00',
                 'end_time' => '2025-07-21 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            176 => 
-            array (
+            ],
+            176 => [
                 'id' => 177,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-21 00:10:00',
                 'end_time' => '2025-07-21 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0093 seconds, Log : ',
-            ),
-            177 => 
-            array (
+            ],
+            177 => [
                 'id' => 178,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-22 00:05:00',
                 'end_time' => '2025-07-22 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0472 seconds, Log : ',
-            ),
-            178 => 
-            array (
+            ],
+            178 => [
                 'id' => 179,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-22 00:10:00',
                 'end_time' => '2025-07-22 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0089 seconds, Log : ',
-            ),
-            179 => 
-            array (
+            ],
+            179 => [
                 'id' => 180,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-23 00:05:00',
                 'end_time' => '2025-07-23 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0507 seconds, Log : ',
-            ),
-            180 => 
-            array (
+            ],
+            180 => [
                 'id' => 181,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-23 00:10:00',
                 'end_time' => '2025-07-23 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0163 seconds, Log : ',
-            ),
-            181 => 
-            array (
+            ],
+            181 => [
                 'id' => 182,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-24 00:05:00',
                 'end_time' => '2025-07-24 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0522 seconds, Log : ',
-            ),
-            182 => 
-            array (
+            ],
+            182 => [
                 'id' => 183,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-24 00:10:00',
                 'end_time' => '2025-07-24 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0104 seconds, Log : ',
-            ),
-            183 => 
-            array (
+            ],
+            183 => [
                 'id' => 184,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-25 00:05:01',
                 'end_time' => '2025-07-25 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0456 seconds, Log : ',
-            ),
-            184 => 
-            array (
+            ],
+            184 => [
                 'id' => 185,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-25 00:10:00',
                 'end_time' => '2025-07-25 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0092 seconds, Log : ',
-            ),
-            185 => 
-            array (
+            ],
+            185 => [
                 'id' => 186,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-26 00:05:00',
                 'end_time' => '2025-07-26 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0476 seconds, Log : ',
-            ),
-            186 => 
-            array (
+            ],
+            186 => [
                 'id' => 187,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-26 00:10:00',
                 'end_time' => '2025-07-26 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            187 => 
-            array (
+            ],
+            187 => [
                 'id' => 188,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-27 00:05:01',
                 'end_time' => '2025-07-27 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0541 seconds, Log : ',
-            ),
-            188 => 
-            array (
+            ],
+            188 => [
                 'id' => 189,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-27 00:10:01',
                 'end_time' => '2025-07-27 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            189 => 
-            array (
+            ],
+            189 => [
                 'id' => 190,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-28 00:05:00',
                 'end_time' => '2025-07-28 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0478 seconds, Log : ',
-            ),
-            190 => 
-            array (
+            ],
+            190 => [
                 'id' => 191,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-28 00:10:00',
                 'end_time' => '2025-07-28 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0085 seconds, Log : ',
-            ),
-            191 => 
-            array (
+            ],
+            191 => [
                 'id' => 192,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-29 00:05:00',
                 'end_time' => '2025-07-29 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0483 seconds, Log : ',
-            ),
-            192 => 
-            array (
+            ],
+            192 => [
                 'id' => 193,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-29 00:10:00',
                 'end_time' => '2025-07-29 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0088 seconds, Log : ',
-            ),
-            193 => 
-            array (
+            ],
+            193 => [
                 'id' => 194,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-30 00:05:00',
                 'end_time' => '2025-07-30 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0502 seconds, Log : ',
-            ),
-            194 => 
-            array (
+            ],
+            194 => [
                 'id' => 195,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-30 00:10:00',
                 'end_time' => '2025-07-30 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0089 seconds, Log : ',
-            ),
-            195 => 
-            array (
+            ],
+            195 => [
                 'id' => 196,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-31 00:05:01',
                 'end_time' => '2025-07-31 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0467 seconds, Log : ',
-            ),
-            196 => 
-            array (
+            ],
+            196 => [
                 'id' => 197,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-07-31 00:10:01',
                 'end_time' => '2025-07-31 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0101 seconds, Log : ',
-            ),
-            197 => 
-            array (
+            ],
+            197 => [
                 'id' => 198,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-01 00:05:00',
                 'end_time' => '2025-08-01 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0739 seconds, Log : ',
-            ),
-            198 => 
-            array (
+            ],
+            198 => [
                 'id' => 199,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-01 00:10:00',
                 'end_time' => '2025-08-01 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0426 seconds, Log : ',
-            ),
-            199 => 
-            array (
+            ],
+            199 => [
                 'id' => 200,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-02 00:05:00',
                 'end_time' => '2025-08-02 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0503 seconds, Log : ',
-            ),
-            200 => 
-            array (
+            ],
+            200 => [
                 'id' => 201,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-02 00:10:00',
                 'end_time' => '2025-08-02 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            201 => 
-            array (
+            ],
+            201 => [
                 'id' => 202,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-03 00:05:00',
                 'end_time' => '2025-08-03 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0478 seconds, Log : ',
-            ),
-            202 => 
-            array (
+            ],
+            202 => [
                 'id' => 203,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-03 00:10:00',
                 'end_time' => '2025-08-03 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0094 seconds, Log : ',
-            ),
-            203 => 
-            array (
+            ],
+            203 => [
                 'id' => 204,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-04 00:05:00',
                 'end_time' => '2025-08-04 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0498 seconds, Log : ',
-            ),
-            204 => 
-            array (
+            ],
+            204 => [
                 'id' => 205,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-04 00:10:00',
                 'end_time' => '2025-08-04 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0170 seconds, Log : ',
-            ),
-            205 => 
-            array (
+            ],
+            205 => [
                 'id' => 206,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-05 00:05:01',
                 'end_time' => '2025-08-05 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0448 seconds, Log : ',
-            ),
-            206 => 
-            array (
+            ],
+            206 => [
                 'id' => 207,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-05 00:10:01',
                 'end_time' => '2025-08-05 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0096 seconds, Log : ',
-            ),
-            207 => 
-            array (
+            ],
+            207 => [
                 'id' => 208,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-06 00:05:00',
                 'end_time' => '2025-08-06 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0450 seconds, Log : ',
-            ),
-            208 => 
-            array (
+            ],
+            208 => [
                 'id' => 209,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-06 00:10:00',
                 'end_time' => '2025-08-06 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0108 seconds, Log : ',
-            ),
-            209 => 
-            array (
+            ],
+            209 => [
                 'id' => 210,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-07 00:05:00',
                 'end_time' => '2025-08-07 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0469 seconds, Log : ',
-            ),
-            210 => 
-            array (
+            ],
+            210 => [
                 'id' => 211,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-07 00:10:00',
                 'end_time' => '2025-08-07 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0107 seconds, Log : ',
-            ),
-            211 => 
-            array (
+            ],
+            211 => [
                 'id' => 212,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-08 00:05:00',
                 'end_time' => '2025-08-08 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0464 seconds, Log : ',
-            ),
-            212 => 
-            array (
+            ],
+            212 => [
                 'id' => 213,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-08 00:10:00',
                 'end_time' => '2025-08-08 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0102 seconds, Log : ',
-            ),
-            213 => 
-            array (
+            ],
+            213 => [
                 'id' => 214,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-09 00:05:01',
                 'end_time' => '2025-08-09 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0453 seconds, Log : ',
-            ),
-            214 => 
-            array (
+            ],
+            214 => [
                 'id' => 215,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-09 00:10:01',
                 'end_time' => '2025-08-09 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            215 => 
-            array (
+            ],
+            215 => [
                 'id' => 216,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-10 00:05:00',
                 'end_time' => '2025-08-10 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0469 seconds, Log : ',
-            ),
-            216 => 
-            array (
+            ],
+            216 => [
                 'id' => 217,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-10 00:10:00',
                 'end_time' => '2025-08-10 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0095 seconds, Log : ',
-            ),
-            217 => 
-            array (
+            ],
+            217 => [
                 'id' => 218,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-11 00:05:00',
                 'end_time' => '2025-08-11 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0466 seconds, Log : ',
-            ),
-            218 => 
-            array (
+            ],
+            218 => [
                 'id' => 219,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-11 00:10:00',
                 'end_time' => '2025-08-11 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0090 seconds, Log : ',
-            ),
-            219 => 
-            array (
+            ],
+            219 => [
                 'id' => 220,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-12 00:05:00',
                 'end_time' => '2025-08-12 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0466 seconds, Log : ',
-            ),
-            220 => 
-            array (
+            ],
+            220 => [
                 'id' => 221,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-12 00:10:00',
                 'end_time' => '2025-08-12 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0089 seconds, Log : ',
-            ),
-            221 => 
-            array (
+            ],
+            221 => [
                 'id' => 222,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-13 00:05:01',
                 'end_time' => '2025-08-13 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0496 seconds, Log : ',
-            ),
-            222 => 
-            array (
+            ],
+            222 => [
                 'id' => 223,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-13 00:10:01',
                 'end_time' => '2025-08-13 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            223 => 
-            array (
+            ],
+            223 => [
                 'id' => 224,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-14 00:05:00',
                 'end_time' => '2025-08-14 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0506 seconds, Log : ',
-            ),
-            224 => 
-            array (
+            ],
+            224 => [
                 'id' => 225,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-14 00:10:00',
                 'end_time' => '2025-08-14 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0099 seconds, Log : ',
-            ),
-            225 => 
-            array (
+            ],
+            225 => [
                 'id' => 226,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-15 00:05:00',
                 'end_time' => '2025-08-15 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0488 seconds, Log : ',
-            ),
-            226 => 
-            array (
+            ],
+            226 => [
                 'id' => 227,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-15 00:10:00',
                 'end_time' => '2025-08-15 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0095 seconds, Log : ',
-            ),
-            227 => 
-            array (
+            ],
+            227 => [
                 'id' => 228,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-16 00:05:00',
                 'end_time' => '2025-08-16 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0476 seconds, Log : ',
-            ),
-            228 => 
-            array (
+            ],
+            228 => [
                 'id' => 229,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-16 00:10:00',
                 'end_time' => '2025-08-16 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0171 seconds, Log : ',
-            ),
-            229 => 
-            array (
+            ],
+            229 => [
                 'id' => 230,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-17 00:05:01',
                 'end_time' => '2025-08-17 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0530 seconds, Log : ',
-            ),
-            230 => 
-            array (
+            ],
+            230 => [
                 'id' => 231,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-17 00:10:01',
                 'end_time' => '2025-08-17 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0116 seconds, Log : ',
-            ),
-            231 => 
-            array (
+            ],
+            231 => [
                 'id' => 232,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-18 00:05:00',
                 'end_time' => '2025-08-18 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0452 seconds, Log : ',
-            ),
-            232 => 
-            array (
+            ],
+            232 => [
                 'id' => 233,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-18 00:10:00',
                 'end_time' => '2025-08-18 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0090 seconds, Log : ',
-            ),
-            233 => 
-            array (
+            ],
+            233 => [
                 'id' => 234,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-19 00:05:00',
                 'end_time' => '2025-08-19 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0499 seconds, Log : ',
-            ),
-            234 => 
-            array (
+            ],
+            234 => [
                 'id' => 235,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-19 00:10:00',
                 'end_time' => '2025-08-19 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0097 seconds, Log : ',
-            ),
-            235 => 
-            array (
+            ],
+            235 => [
                 'id' => 236,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-20 00:05:00',
                 'end_time' => '2025-08-20 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0458 seconds, Log : ',
-            ),
-            236 => 
-            array (
+            ],
+            236 => [
                 'id' => 237,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-20 00:10:00',
                 'end_time' => '2025-08-20 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0106 seconds, Log : ',
-            ),
-            237 => 
-            array (
+            ],
+            237 => [
                 'id' => 238,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-21 00:05:01',
                 'end_time' => '2025-08-21 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0603 seconds, Log : ',
-            ),
-            238 => 
-            array (
+            ],
+            238 => [
                 'id' => 239,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-21 00:10:01',
                 'end_time' => '2025-08-21 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0100 seconds, Log : ',
-            ),
-            239 => 
-            array (
+            ],
+            239 => [
                 'id' => 240,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-22 00:05:00',
                 'end_time' => '2025-08-22 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0529 seconds, Log : ',
-            ),
-            240 => 
-            array (
+            ],
+            240 => [
                 'id' => 241,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-22 00:10:00',
                 'end_time' => '2025-08-22 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0222 seconds, Log : ',
-            ),
-            241 => 
-            array (
+            ],
+            241 => [
                 'id' => 242,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-23 00:05:00',
                 'end_time' => '2025-08-23 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0462 seconds, Log : ',
-            ),
-            242 => 
-            array (
+            ],
+            242 => [
                 'id' => 243,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-23 00:10:00',
                 'end_time' => '2025-08-23 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0343 seconds, Log : ',
-            ),
-            243 => 
-            array (
+            ],
+            243 => [
                 'id' => 244,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-24 00:05:00',
                 'end_time' => '2025-08-24 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0450 seconds, Log : ',
-            ),
-            244 => 
-            array (
+            ],
+            244 => [
                 'id' => 245,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-24 00:10:00',
                 'end_time' => '2025-08-24 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0118 seconds, Log : ',
-            ),
-            245 => 
-            array (
+            ],
+            245 => [
                 'id' => 246,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-25 00:05:01',
                 'end_time' => '2025-08-25 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0579 seconds, Log : ',
-            ),
-            246 => 
-            array (
+            ],
+            246 => [
                 'id' => 247,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-25 00:10:01',
                 'end_time' => '2025-08-25 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0121 seconds, Log : ',
-            ),
-            247 => 
-            array (
+            ],
+            247 => [
                 'id' => 248,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-26 00:05:00',
                 'end_time' => '2025-08-26 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0487 seconds, Log : ',
-            ),
-            248 => 
-            array (
+            ],
+            248 => [
                 'id' => 249,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-26 00:10:00',
                 'end_time' => '2025-08-26 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0115 seconds, Log : ',
-            ),
-            249 => 
-            array (
+            ],
+            249 => [
                 'id' => 250,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-27 00:05:00',
                 'end_time' => '2025-08-27 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0449 seconds, Log : ',
-            ),
-            250 => 
-            array (
+            ],
+            250 => [
                 'id' => 251,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-27 00:10:00',
                 'end_time' => '2025-08-27 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0118 seconds, Log : ',
-            ),
-            251 => 
-            array (
+            ],
+            251 => [
                 'id' => 252,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-28 00:05:00',
                 'end_time' => '2025-08-28 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0523 seconds, Log : ',
-            ),
-            252 => 
-            array (
+            ],
+            252 => [
                 'id' => 253,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-28 00:10:00',
                 'end_time' => '2025-08-28 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0115 seconds, Log : ',
-            ),
-            253 => 
-            array (
+            ],
+            253 => [
                 'id' => 254,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-29 00:05:01',
                 'end_time' => '2025-08-29 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0481 seconds, Log : ',
-            ),
-            254 => 
-            array (
+            ],
+            254 => [
                 'id' => 255,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-29 00:10:01',
                 'end_time' => '2025-08-29 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0122 seconds, Log : ',
-            ),
-            255 => 
-            array (
+            ],
+            255 => [
                 'id' => 256,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-30 00:05:00',
                 'end_time' => '2025-08-30 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0448 seconds, Log : ',
-            ),
-            256 => 
-            array (
+            ],
+            256 => [
                 'id' => 257,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-30 00:10:00',
                 'end_time' => '2025-08-30 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0114 seconds, Log : ',
-            ),
-            257 => 
-            array (
+            ],
+            257 => [
                 'id' => 258,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-31 00:05:00',
                 'end_time' => '2025-08-31 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0508 seconds, Log : ',
-            ),
-            258 => 
-            array (
+            ],
+            258 => [
                 'id' => 259,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-08-31 00:10:00',
                 'end_time' => '2025-08-31 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0121 seconds, Log : ',
-            ),
-            259 => 
-            array (
+            ],
+            259 => [
                 'id' => 260,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-01 00:05:00',
                 'end_time' => '2025-09-01 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0464 seconds, Log : ',
-            ),
-            260 => 
-            array (
+            ],
+            260 => [
                 'id' => 261,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-01 00:10:00',
                 'end_time' => '2025-09-01 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0117 seconds, Log : ',
-            ),
-            261 => 
-            array (
+            ],
+            261 => [
                 'id' => 262,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-02 00:05:01',
                 'end_time' => '2025-09-02 00:05:01',
                 'log_desc' => 'Elapsed Time : 0.0486 seconds, Log : ',
-            ),
-            262 => 
-            array (
+            ],
+            262 => [
                 'id' => 263,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-02 00:10:01',
                 'end_time' => '2025-09-02 00:10:01',
                 'log_desc' => 'Elapsed Time : 0.0257 seconds, Log : ',
-            ),
-            263 => 
-            array (
+            ],
+            263 => [
                 'id' => 264,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-03 00:05:00',
                 'end_time' => '2025-09-03 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0472 seconds, Log : ',
-            ),
-            264 => 
-            array (
+            ],
+            264 => [
                 'id' => 265,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-03 00:10:00',
                 'end_time' => '2025-09-03 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0138 seconds, Log : ',
-            ),
-            265 => 
-            array (
+            ],
+            265 => [
                 'id' => 266,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-04 00:05:00',
                 'end_time' => '2025-09-04 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0504 seconds, Log : ',
-            ),
-            266 => 
-            array (
+            ],
+            266 => [
                 'id' => 267,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-04 00:10:00',
                 'end_time' => '2025-09-04 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0252 seconds, Log : ',
-            ),
-            267 => 
-            array (
+            ],
+            267 => [
                 'id' => 268,
                 'cron_name' => 'Rank',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-05 00:05:00',
                 'end_time' => '2025-09-05 00:05:00',
                 'log_desc' => 'Elapsed Time : 0.0446 seconds, Log : ',
-            ),
-            268 => 
-            array (
+            ],
+            268 => [
                 'id' => 269,
                 'cron_name' => 'Withdraw',
                 'status' => 'SUCCESS',
                 'start_time' => '2025-09-05 00:10:00',
                 'end_time' => '2025-09-05 00:10:00',
                 'log_desc' => 'Elapsed Time : 0.0118 seconds, Log : ',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

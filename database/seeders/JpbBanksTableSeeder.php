@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbBanksTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbBanksTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_banks')->delete();
-        
-        \DB::table('jpb_banks')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_banks')->insert([
+            0 => [
                 'id' => 1,
                 'nama' => 'BCA',
                 'kode' => '014',
@@ -29,9 +26,8 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '014',
                 'linkitacode' => '014',
                 'logo' => 'dhaassets/backend/img/bank/bca.png',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'nama' => 'BNI',
                 'kode' => '009',
@@ -40,9 +36,8 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '009',
                 'linkitacode' => '009',
                 'logo' => 'dhaassets/backend/img/bank/bni.png',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'nama' => 'BRI',
                 'kode' => '002',
@@ -51,9 +46,8 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '002',
                 'linkitacode' => '002',
                 'logo' => 'dhaassets/backend/img/bank/briva.png',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'nama' => 'Mandiri',
                 'kode' => '008',
@@ -62,20 +56,18 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '008',
                 'linkitacode' => '008',
                 'logo' => 'dhaassets/backend/img/bank/mandiri.png',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'nama' => 'BSI',
                 'kode' => '451',
                 'type' => 'bank',
                 'flipcode' => 'bsm',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '451',
-                'logo' => NULL,
-            ),
-            5 => 
-            array (
+                'logo' => null,
+            ],
+            5 => [
                 'id' => 6,
                 'nama' => 'CIMB Niaga',
                 'kode' => '022',
@@ -84,53 +76,48 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '022',
                 'linkitacode' => '022',
                 'logo' => 'dhaassets/backend/img/bank/cimb.png',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'nama' => 'CIMB Niaga Syariah',
                 'kode' => '022',
                 'type' => 'bank',
                 'flipcode' => 'cimb',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '022',
-                'logo' => NULL,
-            ),
-            7 => 
-            array (
+                'logo' => null,
+            ],
+            7 => [
                 'id' => 8,
                 'nama' => 'Muamalat',
                 'kode' => '147',
                 'type' => 'bank',
                 'flipcode' => 'muamalat',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '147',
-                'logo' => NULL,
-            ),
-            8 => 
-            array (
+                'logo' => null,
+            ],
+            8 => [
                 'id' => 9,
                 'nama' => 'BRI Syariah',
                 'kode' => '422',
                 'type' => 'bank',
                 'flipcode' => 'bri_syr',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '422',
-                'logo' => NULL,
-            ),
-            9 => 
-            array (
+                'logo' => null,
+            ],
+            9 => [
                 'id' => 10,
                 'nama' => 'BTN',
                 'kode' => '200',
                 'type' => 'bank',
                 'flipcode' => 'btn',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '200',
-                'logo' => NULL,
-            ),
-            10 => 
-            array (
+                'logo' => null,
+            ],
+            10 => [
                 'id' => 11,
                 'nama' => 'Permata Bank',
                 'kode' => '013',
@@ -139,537 +126,488 @@ class JpbBanksTableSeeder extends Seeder
                 'espaycode' => '013',
                 'linkitacode' => '013',
                 'logo' => 'dhaassets/backend/img/bank/permata.png',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'nama' => 'Danamon',
                 'kode' => '011',
                 'type' => 'bank',
                 'flipcode' => 'danamon',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '011',
-                'logo' => NULL,
-            ),
-            12 => 
-            array (
+                'logo' => null,
+            ],
+            12 => [
                 'id' => 13,
                 'nama' => 'BII Maybank',
                 'kode' => '016',
                 'type' => 'bank',
                 'flipcode' => 'bii',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '016',
-                'logo' => NULL,
-            ),
-            13 => 
-            array (
+                'logo' => null,
+            ],
+            13 => [
                 'id' => 14,
                 'nama' => 'Mega',
                 'kode' => '426',
                 'type' => 'bank',
                 'flipcode' => 'mega',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '426',
-                'logo' => NULL,
-            ),
-            14 => 
-            array (
+                'logo' => null,
+            ],
+            14 => [
                 'id' => 15,
                 'nama' => 'Sinarmas',
                 'kode' => '153',
                 'type' => 'bank',
                 'flipcode' => 'sinarmas',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '153',
-                'logo' => NULL,
-            ),
-            15 => 
-            array (
+                'logo' => null,
+            ],
+            15 => [
                 'id' => 16,
                 'nama' => 'OCBC NISP',
                 'kode' => '028',
                 'type' => 'bank',
                 'flipcode' => 'ocbc',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '028',
-                'logo' => NULL,
-            ),
-            16 => 
-            array (
+                'logo' => null,
+            ],
+            16 => [
                 'id' => 17,
                 'nama' => 'Bukopin',
                 'kode' => '441',
                 'type' => 'bank',
                 'flipcode' => 'bukopin',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '441',
-                'logo' => NULL,
-            ),
-            17 => 
-            array (
+                'logo' => null,
+            ],
+            17 => [
                 'id' => 18,
                 'nama' => 'BCA Syariah',
                 'kode' => '536',
                 'type' => 'bank',
                 'flipcode' => 'bca_syr',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '536',
-                'logo' => NULL,
-            ),
-            18 => 
-            array (
+                'logo' => null,
+            ],
+            18 => [
                 'id' => 19,
                 'nama' => 'Lippo',
                 'kode' => '026',
                 'type' => 'bank',
                 'flipcode' => '',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '026',
-                'logo' => NULL,
-            ),
-            19 => 
-            array (
+                'logo' => null,
+            ],
+            19 => [
                 'id' => 20,
                 'nama' => 'Citibank',
                 'kode' => '031',
                 'type' => 'bank',
                 'flipcode' => 'citibank',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '031',
-                'logo' => NULL,
-            ),
-            20 => 
-            array (
+                'logo' => null,
+            ],
+            20 => [
                 'id' => 21,
                 'nama' => 'BTPN',
                 'kode' => '213',
                 'type' => 'bank',
                 'flipcode' => 'tabungan_pensiunan_nasional',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '213',
-                'logo' => NULL,
-            ),
-            21 => 
-            array (
+                'logo' => null,
+            ],
+            21 => [
                 'id' => 22,
-            'nama' => 'BPD Jabar Banten (BJB)',
+                'nama' => 'BPD Jabar Banten (BJB)',
                 'kode' => '110',
                 'type' => 'bank',
                 'flipcode' => 'bjb',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '110',
-                'logo' => NULL,
-            ),
-            22 => 
-            array (
+                'logo' => null,
+            ],
+            22 => [
                 'id' => 23,
                 'nama' => 'Bank DKI',
                 'kode' => '111',
                 'type' => 'bank',
                 'flipcode' => 'dki',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '111',
-                'logo' => NULL,
-            ),
-            23 => 
-            array (
+                'logo' => null,
+            ],
+            23 => [
                 'id' => 24,
                 'nama' => 'BPD DIY',
                 'kode' => '112',
                 'type' => 'bank',
                 'flipcode' => 'daerah_istimewa',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '112',
-                'logo' => NULL,
-            ),
-            24 => 
-            array (
+                'logo' => null,
+            ],
+            24 => [
                 'id' => 25,
                 'nama' => 'BPD Jateng',
                 'kode' => '113',
                 'type' => 'bank',
                 'flipcode' => 'jawa_tengah',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '113',
-                'logo' => NULL,
-            ),
-            25 => 
-            array (
+                'logo' => null,
+            ],
+            25 => [
                 'id' => 26,
                 'nama' => 'BPD Jatim',
                 'kode' => '114',
                 'type' => 'bank',
                 'flipcode' => 'jawa_timur',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '114',
-                'logo' => NULL,
-            ),
-            26 => 
-            array (
+                'logo' => null,
+            ],
+            26 => [
                 'id' => 27,
                 'nama' => 'BPD Jambi',
                 'kode' => '115',
                 'type' => 'bank',
                 'flipcode' => 'jambi',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '115',
-                'logo' => NULL,
-            ),
-            27 => 
-            array (
+                'logo' => null,
+            ],
+            27 => [
                 'id' => 28,
                 'nama' => 'BPD Aceh',
                 'kode' => '116',
                 'type' => 'bank',
                 'flipcode' => '',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '116',
-                'logo' => NULL,
-            ),
-            28 => 
-            array (
+                'logo' => null,
+            ],
+            28 => [
                 'id' => 29,
                 'nama' => 'BPD Sumut',
                 'kode' => '117',
                 'type' => 'bank',
                 'flipcode' => 'sumut',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '117',
-                'logo' => NULL,
-            ),
-            29 => 
-            array (
+                'logo' => null,
+            ],
+            29 => [
                 'id' => 30,
-            'nama' => 'Bank Nagari (BPD Sumbar)',
+                'nama' => 'Bank Nagari (BPD Sumbar)',
                 'kode' => '118',
                 'type' => 'bank',
                 'flipcode' => 'sumatera_barat',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '118',
-                'logo' => NULL,
-            ),
-            30 => 
-            array (
+                'logo' => null,
+            ],
+            30 => [
                 'id' => 31,
                 'nama' => 'BPD Riau Kepri',
                 'kode' => '119',
                 'type' => 'bank',
                 'flipcode' => 'riau_dan_kepri',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '119',
-                'logo' => NULL,
-            ),
-            31 => 
-            array (
+                'logo' => null,
+            ],
+            31 => [
                 'id' => 32,
                 'nama' => 'BPD Sumsel Babel',
                 'kode' => '120',
                 'type' => 'bank',
                 'flipcode' => 'sumsel_dan_babel',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '120',
-                'logo' => NULL,
-            ),
-            32 => 
-            array (
+                'logo' => null,
+            ],
+            32 => [
                 'id' => 33,
                 'nama' => 'BPD Lampung',
                 'kode' => '121',
                 'type' => 'bank',
                 'flipcode' => 'lampung',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '121',
-                'logo' => NULL,
-            ),
-            33 => 
-            array (
+                'logo' => null,
+            ],
+            33 => [
                 'id' => 34,
                 'nama' => 'BPD Kalsel',
                 'kode' => '122',
                 'type' => 'bank',
                 'flipcode' => 'kalimantan_selatan',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '122',
-                'logo' => NULL,
-            ),
-            34 => 
-            array (
+                'logo' => null,
+            ],
+            34 => [
                 'id' => 35,
                 'nama' => 'BPD Kalimantan Barat',
                 'kode' => '123',
                 'type' => 'bank',
                 'flipcode' => 'kalimantan_barat',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '123',
-                'logo' => NULL,
-            ),
-            35 => 
-            array (
+                'logo' => null,
+            ],
+            35 => [
                 'id' => 36,
                 'nama' => 'BPD Kaltim',
                 'kode' => '124',
                 'type' => 'bank',
                 'flipcode' => 'kalimantan_timur',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '124',
-                'logo' => NULL,
-            ),
-            36 => 
-            array (
+                'logo' => null,
+            ],
+            36 => [
                 'id' => 37,
                 'nama' => 'BPD Kalteng',
                 'kode' => '125',
                 'type' => 'bank',
                 'flipcode' => 'kalimantan_tengah',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '125',
-                'logo' => NULL,
-            ),
-            37 => 
-            array (
+                'logo' => null,
+            ],
+            37 => [
                 'id' => 38,
                 'nama' => 'BPD Sulselbar',
                 'kode' => '126',
                 'type' => 'bank',
                 'flipcode' => 'sulselbar',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '126',
-                'logo' => NULL,
-            ),
-            38 => 
-            array (
+                'logo' => null,
+            ],
+            38 => [
                 'id' => 39,
                 'nama' => 'Bank Sulut',
                 'kode' => '127',
                 'type' => 'bank',
                 'flipcode' => 'sulut',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '127',
-                'logo' => NULL,
-            ),
-            39 => 
-            array (
+                'logo' => null,
+            ],
+            39 => [
                 'id' => 40,
                 'nama' => 'BPD NTB',
                 'kode' => '128',
                 'type' => 'bank',
                 'flipcode' => 'nusa_tenggara_barat',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '128',
-                'logo' => NULL,
-            ),
-            40 => 
-            array (
+                'logo' => null,
+            ],
+            40 => [
                 'id' => 41,
                 'nama' => 'BPD Bali',
                 'kode' => '129',
                 'type' => 'bank',
                 'flipcode' => 'bali',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '129',
-                'logo' => NULL,
-            ),
-            41 => 
-            array (
+                'logo' => null,
+            ],
+            41 => [
                 'id' => 42,
                 'nama' => 'BPD NTT',
                 'kode' => '130',
                 'type' => 'bank',
                 'flipcode' => 'nusa_tenggara_timur',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '130',
-                'logo' => NULL,
-            ),
-            42 => 
-            array (
+                'logo' => null,
+            ],
+            42 => [
                 'id' => 43,
                 'nama' => 'BPD Maluku',
                 'kode' => '131',
                 'type' => 'bank',
                 'flipcode' => 'maluku',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '131',
-                'logo' => NULL,
-            ),
-            43 => 
-            array (
+                'logo' => null,
+            ],
+            43 => [
                 'id' => 44,
                 'nama' => 'BPD Papua',
                 'kode' => '132',
                 'type' => 'bank',
                 'flipcode' => 'papua',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '132',
-                'logo' => NULL,
-            ),
-            44 => 
-            array (
+                'logo' => null,
+            ],
+            44 => [
                 'id' => 45,
                 'nama' => 'BPD Bengkulu',
                 'kode' => '133',
                 'type' => 'bank',
                 'flipcode' => 'bengkulu',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '133',
-                'logo' => NULL,
-            ),
-            45 => 
-            array (
+                'logo' => null,
+            ],
+            45 => [
                 'id' => 46,
                 'nama' => 'BPD Sulawesi Tengah',
                 'kode' => '134',
                 'type' => 'bank',
                 'flipcode' => 'sulawesi',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '134',
-                'logo' => NULL,
-            ),
-            46 => 
-            array (
+                'logo' => null,
+            ],
+            46 => [
                 'id' => 47,
                 'nama' => 'BPD Sultra',
                 'kode' => '135',
                 'type' => 'bank',
                 'flipcode' => 'sulawesi_tenggara',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '135',
-                'logo' => NULL,
-            ),
-            47 => 
-            array (
+                'logo' => null,
+            ],
+            47 => [
                 'id' => 48,
                 'nama' => 'Panin Bank',
                 'kode' => '019',
                 'type' => 'bank',
                 'flipcode' => 'panin',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '019',
-                'logo' => NULL,
-            ),
-            48 => 
-            array (
+                'logo' => null,
+            ],
+            48 => [
                 'id' => 49,
                 'nama' => 'DBS Indonesia',
                 'kode' => '046',
                 'type' => 'bank',
                 'flipcode' => 'dbs',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '046',
-                'logo' => NULL,
-            ),
-            49 => 
-            array (
+                'logo' => null,
+            ],
+            49 => [
                 'id' => 50,
                 'nama' => 'Bank Victoria',
                 'kode' => '566',
                 'type' => 'bank',
                 'flipcode' => 'victoria_internasional',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '566',
-                'logo' => NULL,
-            ),
-            50 => 
-            array (
+                'logo' => null,
+            ],
+            50 => [
                 'id' => 51,
                 'nama' => 'Bank BJB Syariah',
                 'kode' => '425',
                 'type' => 'bank',
                 'flipcode' => 'bjb_syr',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '425',
-                'logo' => NULL,
-            ),
-            51 => 
-            array (
+                'logo' => null,
+            ],
+            51 => [
                 'id' => 52,
                 'nama' => 'BNI Syariah',
                 'kode' => '427',
                 'type' => 'bank',
                 'flipcode' => 'bni',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '427',
-                'logo' => NULL,
-            ),
-            52 => 
-            array (
+                'logo' => null,
+            ],
+            52 => [
                 'id' => 53,
-            'nama' => 'Bank National Nobu (BANK ALFINDO)',
+                'nama' => 'Bank National Nobu (BANK ALFINDO)',
                 'kode' => '503',
                 'type' => 'bank',
                 'flipcode' => 'nationalnobu',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '503',
-                'logo' => NULL,
-            ),
-            53 => 
-            array (
+                'logo' => null,
+            ],
+            53 => [
                 'id' => 54,
                 'nama' => 'Artha Graha International',
                 'kode' => '037',
                 'type' => 'bank',
                 'flipcode' => 'artha',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '037',
-                'logo' => NULL,
-            ),
-            54 => 
-            array (
+                'logo' => null,
+            ],
+            54 => [
                 'id' => 55,
-            'nama' => 'SeaBank (BKE)',
+                'nama' => 'SeaBank (BKE)',
                 'kode' => '535',
                 'type' => 'bank',
                 'flipcode' => 'kesejahteraan_ekonomi',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '535',
-                'logo' => NULL,
-            ),
-            55 => 
-            array (
+                'logo' => null,
+            ],
+            55 => [
                 'id' => 56,
                 'nama' => 'DANA',
                 'kode' => '991',
                 'type' => 'emoney',
                 'flipcode' => 'dana',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => 'dana',
-                'logo' => NULL,
-            ),
-            56 => 
-            array (
+                'logo' => null,
+            ],
+            56 => [
                 'id' => 57,
                 'nama' => 'OVO',
                 'kode' => '992',
                 'type' => 'emoney',
                 'flipcode' => 'ovo',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => 'ovo',
-                'logo' => NULL,
-            ),
-            57 => 
-            array (
+                'logo' => null,
+            ],
+            57 => [
                 'id' => 58,
                 'nama' => 'GOPAY',
                 'kode' => '993',
                 'type' => 'emoney',
                 'flipcode' => 'gopay',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => 'gopay',
-                'logo' => NULL,
-            ),
-            58 => 
-            array (
+                'logo' => null,
+            ],
+            58 => [
                 'id' => 59,
                 'nama' => 'Bank Jago Syariah',
                 'kode' => '542',
                 'type' => 'bank',
                 'flipcode' => 'artos_syr',
-                'espaycode' => NULL,
+                'espaycode' => null,
                 'linkitacode' => '542',
-                'logo' => NULL,
-            ),
-        ));
-        
-        
+                'logo' => null,
+            ],
+        ]);
+
     }
 }

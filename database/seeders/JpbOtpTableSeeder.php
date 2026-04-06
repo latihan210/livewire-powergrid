@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbOtpTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbOtpTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_otp')->delete();
-        
-        
-        
+
     }
 }

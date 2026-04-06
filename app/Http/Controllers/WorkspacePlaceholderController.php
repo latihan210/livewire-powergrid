@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Support\Arr;
+use App\Models\Member;
 use Illuminate\Http\Request;
+use Illuminate\Support\Arr;
+use Illuminate\Support\Facades\DB;
 use Illuminate\View\View;
 
 class WorkspacePlaceholderController extends Controller
@@ -17,11 +19,138 @@ class WorkspacePlaceholderController extends Controller
 
         abort_unless($module, 404);
 
+        // Check if we have a real implementation view
+        $viewPath = "pages.workspace.modules.{$group}.{$page}";
+        if (view()->exists($viewPath)) {
+            return $this->loadRealView($group, $page, $request);
+        }
+
+        // Fallback to placeholder
         return view('pages.workspace.placeholder', [
             'group' => $group,
             'page' => $page,
             'module' => $module,
         ]);
+    }
+
+    private function loadRealView(string $group, string $page, Request $request): View
+    {
+        // Load data untuk modul tertentu
+        $data = [];
+
+        if ($group === 'member' && $page === 'overview') {
+            $data = $this->getMemberOverviewData();
+        } elseif ($group === 'commission' && $page === 'statement') {
+            $data = $this->getCommissionStatementData();
+        } elseif ($group === 'report' && $page === 'registration') {
+            $data = $this->getRegistrationReportData();
+        } elseif ($group === 'pin-member' && $page === 'datalists') {
+            $data = $this->getPinMemberDatalistsData($request);
+        }
+
+        return view("pages.workspace.modules.{$group}.{$page}", $data);
+    }
+
+    private function getMemberOverviewData(): array
+    {
+        $totalMembers = Member::count();
+        $activeMembers = Member::where('status', 1)->count();
+        $totalOmzet = Member::sum('total_omzet');
+        $avgOmzet = $totalMembers > 0 ? $totalOmzet / $totalMembers : 0;
+        $newMembers7Days = Member::where('datecreated', '>=', now()->subDays(7))->count();
+        $newMembersMonth = Member::where('datecreated', '>=', now()->startOfMonth())->count();
+        $omzetMonth = Member::where('datecreated', '>=', now()->startOfMonth())->sum('total_omzet');
+
+        // Rank distribution
+        $rankDistribution = DB::table('members')
+            ->select('package', DB::raw('COUNT(*) as count'))
+            ->whereNotNull('package')
+            ->groupBy('package')
+            ->get()
+            ->toArray();
+
+        return compact(
+            'totalMembers',
+            'activeMembers',
+            'totalOmzet',
+            'avgOmzet',
+            'newMembers7Days',
+            'newMembersMonth',
+            'omzetMonth',
+            'rankDistribution',
+        );
+    }
+
+    private function getCommissionStatementData(): array
+    {
+        $bonuses = DB::table('bonuses')
+            ->join('members', 'bonuses.member_id', '=', 'members.id')
+            ->select(
+                'bonuses.datecreated as date',
+                'members.username',
+                'members.name',
+                'bonuses.type',
+                'bonuses.amount as nominal',
+                DB::raw("CONCAT(bonuses.type, ' bonus') as description")
+            )
+            ->orderByDesc('bonuses.datecreated')
+            ->limit(50)
+            ->get();
+
+        $totalCommission = DB::table('bonuses')->sum('amount');
+        $totalTransactions = DB::table('bonuses')->count();
+
+        return [
+            'commissions' => $bonuses,
+            'totalCommission' => $totalCommission,
+            'totalTransactions' => $totalTransactions,
+        ];
+    }
+
+    private function getRegistrationReportData(): array
+    {
+        $now = now();
+        $startOfMonth = $now->startOfMonth();
+        $endOfMonth = $now->endOfMonth();
+
+        $registrations = Member::whereBetween('datecreated', [$startOfMonth, $endOfMonth])
+            ->orderByDesc('datecreated')
+            ->limit(50)
+            ->get();
+
+        $totalRegistration = Member::whereBetween('datecreated', [$startOfMonth, $endOfMonth])->count();
+        $daysInPeriod = $startOfMonth->diffInDays($endOfMonth) + 1;
+
+        // Calculate total value based on package (assuming standard package values)
+        $totalValue = Member::whereBetween('datecreated', [$startOfMonth, $endOfMonth])->count() * 100000; // Placeholder value
+
+        return [
+            'registrations' => $registrations,
+            'totalRegistration' => $totalRegistration,
+            'daysInPeriod' => $daysInPeriod,
+            'totalValue' => $totalValue,
+        ];
+    }
+
+    private function getPinMemberDatalistsData(Request $request): array
+    {
+        // Mock data for product stock - this should be replaced with actual query
+        $stocks = [
+            ['product_name' => 'Paket Premium', 'sku' => 'PKG-001', 'quantity' => 5, 'received_date' => '2024-12-20', 'status' => 'ready'],
+            ['product_name' => 'Paket Basic', 'sku' => 'PKG-002', 'quantity' => 2, 'received_date' => '2024-12-15', 'status' => 'ready'],
+            ['product_name' => 'Suplemen A', 'sku' => 'SUP-001', 'quantity' => 1, 'received_date' => '2024-12-01', 'status' => 'expired'],
+        ];
+
+        $totalProducts = count($stocks);
+        $totalQuantity = collect($stocks)->sum('quantity');
+        $readyToShip = collect($stocks)->where('status', 'ready')->count();
+
+        return [
+            'stocks' => $stocks,
+            'totalProducts' => $totalProducts,
+            'totalQuantity' => $totalQuantity,
+            'readyToShip' => $readyToShip,
+        ];
     }
 
     private function canAccessGroup(Request $request, string $group): bool

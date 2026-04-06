@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbRanksTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbRanksTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_ranks')->delete();
-        
-        \DB::table('jpb_ranks')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_ranks')->insert([
+            0 => [
                 'id' => 1,
                 'id_member' => 2,
                 'username' => 'jpbuana',
@@ -32,9 +29,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_member' => 9,
                 'username' => 'jpbasil',
@@ -46,9 +42,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_member' => 17,
                 'username' => 'mastermanifestasi',
@@ -60,9 +55,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_member' => 18,
                 'username' => 'align',
@@ -74,9 +68,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_member' => 19,
                 'username' => 'joyandglory',
@@ -88,9 +81,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_member' => 21,
                 'username' => 'moneymagnet',
@@ -102,9 +94,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_member' => 23,
                 'username' => 'eternalglory',
@@ -116,9 +107,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_member' => 26,
                 'username' => 'founderjpb',
@@ -130,9 +120,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_member' => 42,
                 'username' => 'joel225',
@@ -144,9 +133,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_member' => 44,
                 'username' => 'cikaya',
@@ -158,9 +146,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_member' => 58,
                 'username' => 'cakra69',
@@ -172,9 +159,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_member' => 82,
                 'username' => 'cakrasani',
@@ -186,9 +172,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_member' => 93,
                 'username' => 'figoalamo',
@@ -200,9 +185,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_member' => 106,
                 'username' => 'diandomenie',
@@ -214,9 +198,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_member' => 109,
                 'username' => 'infinity',
@@ -228,9 +211,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_member' => 121,
                 'username' => 'ningsih',
@@ -242,9 +224,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_member' => 135,
                 'username' => 'jpb001',
@@ -256,9 +237,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_member' => 139,
                 'username' => 'oscar168',
@@ -270,9 +250,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_member' => 149,
                 'username' => 'donwoge',
@@ -284,9 +263,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_member' => 152,
                 'username' => 'arpannora',
@@ -298,9 +276,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:04:27',
                 'datemodified' => '2025-04-24 16:04:27',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_member' => 64,
                 'username' => 'legendai',
@@ -312,9 +289,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:09:50',
                 'datemodified' => '2025-04-24 16:09:50',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_member' => 76,
                 'username' => 'MARITACHAMPION',
@@ -326,9 +302,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 16:10:38',
                 'datemodified' => '2025-04-24 16:10:38',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_member' => 14,
                 'username' => 'jpbasil6',
@@ -340,9 +315,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 17:43:51',
                 'datemodified' => '2025-04-25 17:43:51',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_member' => 13,
                 'username' => 'jpbasil5',
@@ -354,9 +328,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 20:10:06',
                 'datemodified' => '2025-04-25 20:10:06',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_member' => 38,
                 'username' => 'cakrawala369',
@@ -368,9 +341,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 21:18:59',
                 'datemodified' => '2025-04-25 21:18:59',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_member' => 167,
                 'username' => 'queenla',
@@ -382,9 +354,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 21:20:43',
                 'datemodified' => '2025-04-25 21:20:43',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_member' => 12,
                 'username' => 'jpbasil4',
@@ -396,9 +367,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-26 18:59:01',
                 'datemodified' => '2025-04-26 18:59:01',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_member' => 32,
                 'username' => 'myhandoyo',
@@ -410,9 +380,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 23:23:00',
                 'datemodified' => '2025-05-01 23:23:00',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_member' => 186,
                 'username' => 'sarah',
@@ -424,9 +393,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-04 11:13:57',
                 'datemodified' => '2025-05-04 11:13:57',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_member' => 39,
                 'username' => 'chakrabuana369',
@@ -438,9 +406,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-07 23:23:00',
                 'datemodified' => '2025-05-07 23:23:00',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_member' => 237,
                 'username' => 'shin10',
@@ -452,9 +419,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 17:04:05',
                 'datemodified' => '2025-06-04 17:04:05',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_member' => 258,
                 'username' => 'wiwinkunarti',
@@ -466,9 +432,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 12:58:02',
                 'datemodified' => '2025-06-26 12:58:02',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_member' => 22,
                 'username' => 'mostwanted',
@@ -480,9 +445,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:41:05',
                 'datemodified' => '2025-09-01 14:41:05',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_member' => 274,
                 'username' => 'demoaccount',
@@ -494,9 +458,8 @@ class JpbRanksTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-09 15:29:13',
                 'datemodified' => '2025-09-09 15:29:13',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

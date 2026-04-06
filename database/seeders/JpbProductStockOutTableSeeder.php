@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductStockOutTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbProductStockOutTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('product_stock_outs')->delete();
-        
-        \DB::table('product_stock_outs')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('product_stock_outs')->insert([
+            0 => [
                 'id' => 1,
                 'id_warehouse' => 0,
                 'id_member' => 2,
@@ -33,9 +30,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000229',
                 'datecreated' => '2025-04-21 13:40:24',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -48,9 +44,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000230',
                 'datecreated' => '2025-04-21 17:50:58',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -63,9 +58,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000231',
                 'datecreated' => '2025-04-21 18:40:51',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_warehouse' => 0,
                 'id_member' => 22,
@@ -78,9 +72,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000232',
                 'datecreated' => '2025-04-21 18:43:02',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -93,9 +86,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000233',
                 'datecreated' => '2025-04-22 19:13:52',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_warehouse' => 0,
                 'id_member' => 26,
@@ -108,9 +100,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000234',
                 'datecreated' => '2025-04-23 18:54:46',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -123,9 +114,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000235',
                 'datecreated' => '2025-04-24 20:03:06',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_warehouse' => 0,
                 'id_member' => 35,
@@ -138,9 +128,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000236',
                 'datecreated' => '2025-04-25 10:30:55',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -153,9 +142,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000237',
                 'datecreated' => '2025-04-25 14:18:08',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -168,9 +156,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000238',
                 'datecreated' => '2025-04-25 19:32:42',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_warehouse' => 0,
                 'id_member' => 13,
@@ -183,9 +170,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000239',
                 'datecreated' => '2025-04-25 19:42:44',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -198,9 +184,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000240',
                 'datecreated' => '2025-04-27 12:22:12',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -213,9 +198,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000241',
                 'datecreated' => '2025-04-29 16:20:17',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -228,9 +212,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000242',
                 'datecreated' => '2025-04-30 12:08:18',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_warehouse' => 0,
                 'id_member' => 26,
@@ -243,9 +226,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000243',
                 'datecreated' => '2025-05-01 13:51:38',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -258,9 +240,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000244',
                 'datecreated' => '2025-05-01 21:27:06',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -273,9 +254,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000245',
                 'datecreated' => '2025-05-02 11:33:28',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -288,9 +268,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000246',
                 'datecreated' => '2025-05-04 09:10:24',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -303,9 +282,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000247',
                 'datecreated' => '2025-05-05 17:26:30',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_warehouse' => 0,
                 'id_member' => 13,
@@ -318,9 +296,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000248',
                 'datecreated' => '2025-05-05 18:07:33',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -333,9 +310,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000249',
                 'datecreated' => '2025-05-06 15:20:40',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -348,9 +324,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000250',
                 'datecreated' => '2025-05-07 19:09:59',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_warehouse' => 0,
                 'id_member' => 35,
@@ -363,9 +338,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000251',
                 'datecreated' => '2025-05-14 11:04:13',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -378,9 +352,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000252',
                 'datecreated' => '2025-05-16 06:41:16',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -393,9 +366,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000253',
                 'datecreated' => '2025-05-18 12:56:57',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -408,9 +380,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000254',
                 'datecreated' => '2025-05-20 14:33:23',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -423,9 +394,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000255',
                 'datecreated' => '2025-05-22 13:39:02',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -438,9 +408,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000256',
                 'datecreated' => '2025-05-27 20:37:39',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_warehouse' => 0,
                 'id_member' => 35,
@@ -453,9 +422,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000257',
                 'datecreated' => '2025-05-29 14:45:27',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -468,9 +436,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000258',
                 'datecreated' => '2025-05-29 19:25:04',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_warehouse' => 0,
                 'id_member' => 22,
@@ -483,9 +450,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000259',
                 'datecreated' => '2025-05-30 13:14:59',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -498,9 +464,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000260',
                 'datecreated' => '2025-05-30 17:02:39',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -513,9 +478,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000261',
                 'datecreated' => '2025-05-31 15:10:41',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -528,9 +492,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000262',
                 'datecreated' => '2025-06-03 21:21:24',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -543,9 +506,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000263',
                 'datecreated' => '2025-06-04 16:45:38',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -558,9 +520,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000264',
                 'datecreated' => '2025-06-11 14:01:13',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -573,9 +534,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000265',
                 'datecreated' => '2025-06-11 14:18:43',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -588,9 +548,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000266',
                 'datecreated' => '2025-06-11 18:22:22',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -603,9 +562,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000267',
                 'datecreated' => '2025-06-13 16:02:13',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -618,9 +576,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000268',
                 'datecreated' => '2025-06-18 21:06:32',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_warehouse' => 0,
                 'id_member' => 21,
@@ -633,9 +590,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000269',
                 'datecreated' => '2025-06-20 09:25:41',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -648,9 +604,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000270',
                 'datecreated' => '2025-06-20 20:06:01',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_warehouse' => 0,
                 'id_member' => 15,
@@ -663,9 +618,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000271',
                 'datecreated' => '2025-06-26 12:53:16',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -678,9 +632,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000272',
                 'datecreated' => '2025-06-26 20:07:11',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -693,9 +646,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000273',
                 'datecreated' => '2025-07-10 20:49:23',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -708,9 +660,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000274',
                 'datecreated' => '2025-07-14 16:03:27',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_warehouse' => 0,
                 'id_member' => 275,
@@ -723,9 +674,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000276',
                 'datecreated' => '2025-07-21 23:25:09',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_warehouse' => 0,
                 'id_member' => 276,
@@ -738,9 +688,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000277',
                 'datecreated' => '2025-07-21 23:25:18',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_warehouse' => 0,
                 'id_member' => 23,
@@ -753,9 +702,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000278',
                 'datecreated' => '2025-08-01 12:01:45',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_warehouse' => 0,
                 'id_member' => 17,
@@ -768,9 +716,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000280',
                 'datecreated' => '2025-08-15 11:35:48',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_warehouse' => 0,
                 'id_member' => 22,
@@ -783,9 +730,8 @@ class JpbProductStockOutTableSeeder extends Seeder
                 'status' => 1,
                 'description' => 'Stok Keluar dari Pesanan #INV/00000281',
                 'datecreated' => '2025-08-28 15:42:37',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

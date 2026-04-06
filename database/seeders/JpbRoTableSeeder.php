@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbRoTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbRoTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_ro')->delete();
-        
-        \DB::table('jpb_ro')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_ro')->insert([
+            0 => [
                 'id' => 1,
                 'invoice' => 'INV/RO/00001312',
                 'id_activator' => 8,
@@ -51,12 +48,11 @@ class JpbRoTableSeeder extends Seeder
                 'desc' => 'Manual RO Saya',
                 'datecreated' => '2025-07-21 18:02:34',
                 'datemodified' => '2025-07-21 18:02:34',
-                'dateconfirmed' => NULL,
-                'confirmed_by' => NULL,
-                'modified_by' => NULL,
-            ),
-        ));
-        
-        
+                'dateconfirmed' => null,
+                'confirmed_by' => null,
+                'modified_by' => null,
+            ],
+        ]);
+
     }
 }

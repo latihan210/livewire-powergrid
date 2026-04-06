@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbEproductTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbEproductTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_eproduct')->delete();
-        
-        
-        
+
     }
 }

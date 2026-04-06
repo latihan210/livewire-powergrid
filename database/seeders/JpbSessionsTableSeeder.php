@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbSessionsTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbSessionsTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_sessions')->delete();
-        
-        \DB::table('jpb_sessions')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_sessions')->insert([
+            0 => [
                 'session_id' => '04b85de7a43264e30a0fa6541a83fdc6',
                 'device_id' => '6687b270082d692aae1b31f52f39c5cf',
                 'username' => 'bisnisnyonyaboss',
@@ -30,8 +27,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745844892,
                 'user_data' => 'a:4:{s:8:"username";s:16:"bisnisnyonyaboss";s:4:"name";s:19:"VANIZA ANDHIKA DEWI";s:5:"email";s:28:"vaniza.andhikadewi@gmail.com";s:5:"phone";s:14:"+6281289835585";}',
                 'token' => 'WGxaTVY1c0RXTkRjUHk4OERVMnBVdz09',
@@ -39,9 +36,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 09:54:52',
                 'datemodified' => '2025-04-28 09:54:52',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'session_id' => '0942331edf2faf911c256803e50643a4',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'blessedpath',
@@ -51,8 +47,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746184741,
                 'user_data' => 'a:4:{s:8:"username";s:11:"blessedpath";s:4:"name";s:16:"YASINTA HARYANTI";s:5:"email";s:27:"sintahariyanti123@gmail.com";s:5:"phone";s:14:"+6282219160117";}',
                 'token' => 'OEEwVkFIQW0yK2RCVHVKeTIyTlF5Zz09',
@@ -60,9 +56,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-02 08:19:01',
                 'datemodified' => '2025-05-02 08:19:01',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'session_id' => '0b645ec1d817172c16003b83a32bb669',
                 'device_id' => '06b5a83667baa404947c5dbb2cdaab7b',
                 'username' => 'jpbasil2',
@@ -72,8 +67,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1749670475,
                 'user_data' => 'a:4:{s:8:"username";s:8:"jpbasil2";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'NWtRY0JORlpTTFRRVkFCbEkvZnA0Zz09',
@@ -81,9 +76,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-11 16:34:35',
                 'datemodified' => '2025-06-11 16:34:35',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'session_id' => '0c2f15bdb632572484fd5614b23e6ec6',
                 'device_id' => '1520d3272e024ffea6565e78d96f96da',
                 'username' => 'vanilestari',
@@ -93,8 +87,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745886650,
                 'user_data' => 'a:4:{s:8:"username";s:11:"vanilestari";s:4:"name";s:12:"VANI LESTARI";s:5:"email";s:25:"vanilestari191@icloud.com";s:5:"phone";s:0:"";}',
                 'token' => 'QUp2YWJUVC9QbE5oaUxZclhWblRMQT09',
@@ -102,9 +96,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 21:30:50',
                 'datemodified' => '2025-04-28 21:30:50',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'session_id' => '10f57e46e73475952fb096fc444662eb',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'doubleblessing888',
@@ -114,8 +107,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746224278,
                 'user_data' => 'a:4:{s:8:"username";s:17:"doubleblessing888";s:4:"name";s:12:"WENNA WIBAWA";s:5:"email";s:21:"wennawibawa@gmail.com";s:5:"phone";s:14:"+6282144688300";}',
                 'token' => 'V2lSK05NUnp2VlFwWXF1bWdvVC9XZz09',
@@ -123,9 +116,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-02 19:17:58',
                 'datemodified' => '2025-05-02 19:17:58',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'session_id' => '139742020a0dcb38ac98f8a0d5bbf22d',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'milyarderjpb',
@@ -135,8 +127,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745454450,
                 'user_data' => 'a:4:{s:8:"username";s:12:"milyarderjpb";s:4:"name";s:24:"MAXWELL TANDHIKA HARDIAN";s:5:"email";s:18:"m1xwelth@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'aFJvVi9Tc1ZSWklpMXlqblFFNVhRQT09',
@@ -144,9 +136,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-23 21:27:30',
                 'datemodified' => '2025-04-23 21:27:30',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'session_id' => '144eac1edf807151b83caf71466c0369',
                 'device_id' => '1c113b60332548438960e5face35f52e',
                 'username' => 'pollosalim',
@@ -156,8 +147,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 131.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0',
-            'user_agent' => '{"agent":"Chrome 131.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 Edg/131.0.0.0',
+                'user_agent' => '{"agent":"Chrome 131.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/131.0.0.0 Safari\\/537.36 Edg\\/131.0.0.0"}',
                 'expiration' => 1745856955,
                 'user_data' => 'a:4:{s:8:"username";s:10:"pollosalim";s:4:"name";s:18:"POLLO SUTENO SALIM";s:5:"email";s:20:"pollosalim@yahoo.com";s:5:"phone";s:14:"+6281239362303";}',
                 'token' => 'SVpJS2NTOUo5NHZ6dnptcCtrSHl0Zz09',
@@ -165,9 +156,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 13:15:55',
                 'datemodified' => '2025-04-28 13:15:55',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'session_id' => '1492e80705aa659d34accfefde500cf8',
                 'device_id' => 'e00342c821162ab6652b521b33c68eb3',
                 'username' => 'cakracenter',
@@ -177,8 +167,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Linux',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745859442,
                 'user_data' => 'a:4:{s:8:"username";s:11:"cakracenter";s:4:"name";s:6:"IKHSAN";s:5:"email";s:22:"ikhsancenter@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'MUcyV1g2QldkQzdQNUc3V0FaU2FJZz09',
@@ -186,9 +176,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 13:57:22',
                 'datemodified' => '2025-04-28 13:57:22',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'session_id' => '16fe0d5f7f41662a7d17a0ee65810f45',
                 'device_id' => 'e00342c821162ab6652b521b33c68eb3',
                 'username' => 'mostwanted',
@@ -198,8 +187,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Linux',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1744935498,
                 'user_data' => 'a:4:{s:8:"username";s:10:"mostwanted";s:4:"name";s:17:"CENDRA JAYA TIRTA";s:5:"email";s:23:"redvelvettt79@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'ZmlYTnFiUUFBNXZzYk5lVSsxVjlmUT09',
@@ -207,9 +196,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-17 21:18:18',
                 'datemodified' => '2025-04-17 21:18:18',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'session_id' => '17f1343d4f8217304efd821c9ace04a4',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpbasil7',
@@ -219,8 +207,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745767270,
                 'user_data' => 'a:4:{s:8:"username";s:8:"jpbasil7";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'R3pxeUNPWmN2c3drVnVacXh1ZUlDQT09',
@@ -228,9 +216,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-27 12:21:10',
                 'datemodified' => '2025-04-27 12:21:10',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'session_id' => '2038f0e688df444f9097aeb392cdab10',
                 'device_id' => '6687b270082d692aae1b31f52f39c5cf',
                 'username' => 'lovelysheen',
@@ -240,8 +227,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745351956,
                 'user_data' => 'a:4:{s:8:"username";s:11:"lovelysheen";s:4:"name";s:23:"SHINTA SUSANTO HARTANTO";s:5:"email";s:21:"bitha_pinky@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'S09IUUgyUlM3TEhSYzZUUW5MU3lDdz09',
@@ -249,9 +236,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-22 16:59:16',
                 'datemodified' => '2025-04-22 16:59:16',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'session_id' => '228df0fb2d21435d6876c2d7dc6eb184',
                 'device_id' => 'fa843bd5e33d63594c4bb4da5fd08caf',
                 'username' => 'beyondu',
@@ -261,8 +247,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 130.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 130.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/28.0 Chrome\\/130.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 130.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/28.0 Chrome\\/130.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746479044,
                 'user_data' => 'a:4:{s:8:"username";s:7:"beyondu";s:4:"name";s:10:"GUI LE TIN";s:5:"email";s:19:"letin_lee@yahoo.com";s:5:"phone";s:13:"+628121327538";}',
                 'token' => 'aFJuTVkwaDJPS1BqaU1iVGprVEExUT09',
@@ -270,9 +256,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-05 18:04:04',
                 'datemodified' => '2025-05-05 18:04:04',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'session_id' => '3240289060b7c2ad4f5209fe5730d57e',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'cakrawala369',
@@ -282,8 +267,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745296479,
                 'user_data' => 'a:4:{s:8:"username";s:12:"cakrawala369";s:4:"name";s:15:"EDRY RIZQIE BAM";s:5:"email";s:20:"rizqie8888@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'Qmt3czNWYy9SZWNNSkV5TndIZ2xuQT09',
@@ -291,9 +276,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-22 01:34:39',
                 'datemodified' => '2025-04-22 01:34:39',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'session_id' => '3ec9f2da4b4f69706e51a5174cefa2f2',
                 'device_id' => '5c4ca9a2b50ebaeb3fdc1c5bb65e95a2',
                 'username' => 'livelargeatitsbest',
@@ -303,8 +287,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 138.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 138.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/138.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 138.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/138.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1752012073,
                 'user_data' => 'a:4:{s:8:"username";s:18:"livelargeatitsbest";s:4:"name";s:9:"JOSEPH AS";s:5:"email";s:21:"jo.josephas@gmail.com";s:5:"phone";s:14:"+6288213304388";}',
                 'token' => 'L0VKNGJUK2N6M2VCa2JTckpndExaUT09',
@@ -312,9 +296,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-07-08 19:01:13',
                 'datemodified' => '2025-07-08 19:01:13',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'session_id' => '40a51d7e62e69d42d3de6e97c61b9a11',
                 'device_id' => '42f7236658cd86ece00be7e980522586',
                 'username' => 'eternalglory',
@@ -324,8 +307,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
                 'expiration' => 1744939945,
                 'user_data' => 'a:4:{s:8:"username";s:12:"eternalglory";s:4:"name";s:20:"RYANDI GUSANTO THIAN";s:5:"email";s:18:"rgusanto@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'c1FGcFU0M2YvWjVtR0I3UldSUEVOQT09',
@@ -333,9 +316,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-17 22:32:25',
                 'datemodified' => '2025-04-17 22:32:25',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'session_id' => '41d67e22c08173fbecdff4cc921972ba',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpb007',
@@ -345,8 +327,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745507756,
                 'user_data' => 'a:4:{s:8:"username";s:6:"jpb007";s:4:"name";s:7:"MICHAEL";s:5:"email";s:25:"michael.kho9507@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'WWRuRGx6RVZlTEZNS2h5UlBhMlI2Zz09',
@@ -354,9 +336,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-24 12:15:56',
                 'datemodified' => '2025-04-24 12:15:56',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'session_id' => '4a43c4bbd72d542969ba566b2d11c682',
                 'device_id' => 'bee2b52f19ab9edbf09c06e981935634',
                 'username' => 'jhonkho88',
@@ -366,8 +347,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 139.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 139.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/139.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 139.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/139.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1756088484,
                 'user_data' => 'a:4:{s:8:"username";s:9:"jhonkho88";s:4:"name";s:8:"JHON KHO";s:5:"email";s:19:"jhonkho83@gmail.com";s:5:"phone";s:14:"+6287884475199";}',
                 'token' => 'QWFwMFpaQ1kzRHlQVFJJUTgvVmRwdz09',
@@ -375,9 +356,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-08-24 23:21:24',
                 'datemodified' => '2025-08-24 23:21:24',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'session_id' => '4b43589a19366d88f335fb745574f7b9',
                 'device_id' => '1a55dcda64c86b94ba988be4ff8d460e',
                 'username' => '805hk',
@@ -387,8 +367,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 119.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1744947080,
                 'user_data' => 'a:4:{s:8:"username";s:5:"805hk";s:4:"name";s:9:"SUHARYONO";s:5:"email";s:21:"805harykiem@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'eWdNUVRqZUpOdzJDVThQYUh5SFl1QT09',
@@ -396,9 +376,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-18 00:31:20',
                 'datemodified' => '2025-04-18 00:31:20',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'session_id' => '4f64d977f54692cba4199a75f6de7dce',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpbasil5',
@@ -408,8 +387,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745620845,
                 'user_data' => 'a:4:{s:8:"username";s:8:"jpbasil5";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'cS96ck1lL1UxbGR2QS9ZQ3doSXZtUT09',
@@ -417,9 +396,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 19:40:45',
                 'datemodified' => '2025-04-25 19:40:45',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'session_id' => '53797fd1c962dfc677beb21ffe8a4c0d',
                 'device_id' => 'b23483ff5f676568b43ed35e7bf35ba6',
                 'username' => 'gieangela',
@@ -429,8 +407,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1746197464,
                 'user_data' => 'a:4:{s:8:"username";s:9:"gieangela";s:4:"name";s:19:"ANGELA MARIA SHANTI";s:5:"email";s:21:"an.ardidana@gmail.com";s:5:"phone";s:14:"+6281290639398";}',
                 'token' => 'djl5Ui9kZDhjdmVCOXIxYjh3NWVQUT09',
@@ -438,9 +416,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-02 11:51:04',
                 'datemodified' => '2025-05-02 11:51:04',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'session_id' => '54e3cc3bd5b5b246e2b5e3df71915401',
                 'device_id' => 'fa843bd5e33d63594c4bb4da5fd08caf',
                 'username' => 'secretofmanifestation',
@@ -450,8 +427,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 130.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 130.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/28.0 Chrome\\/130.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/28.0 Chrome/130.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 130.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/28.0 Chrome\\/130.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745617748,
                 'user_data' => 'a:4:{s:8:"username";s:21:"secretofmanifestation";s:4:"name";s:12:"DEVI SUSANTI";s:5:"email";s:22:"susantidevi9@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'bFVneWozWUtQbDl5SUk0TXZTL3F5Zz09',
@@ -459,9 +436,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 18:49:08',
                 'datemodified' => '2025-04-25 18:49:08',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'session_id' => '5901a66fdcf036ac248df3ea4fde4ce6',
                 'device_id' => '6687b270082d692aae1b31f52f39c5cf',
                 'username' => 'ririnfajarini',
@@ -471,8 +447,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745922857,
                 'user_data' => 'a:4:{s:8:"username";s:13:"ririnfajarini";s:4:"name";s:8:"FAJARINI";s:5:"email";s:24:"ririn_fajarini@ymail.com";s:5:"phone";s:14:"+6281360608899";}',
                 'token' => 'c1RxdUI1UWlTRGUvVzlTTnlnajduZz09',
@@ -480,9 +456,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-29 07:34:17',
                 'datemodified' => '2025-04-29 07:34:17',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'session_id' => '5968c0290b68e0e1a63299b5b3eb57e0',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'moneymagnet',
@@ -492,8 +467,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1744927632,
                 'user_data' => 'a:4:{s:8:"username";s:11:"moneymagnet";s:4:"name";s:23:"BAMBANG SANTOSO SUBAGIO";s:5:"email";s:25:"fa.bambangss888@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'OTJGRjNiUWhlWnlNUzZza3JpMDdZdz09',
@@ -501,9 +476,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-17 19:07:12',
                 'datemodified' => '2025-04-17 19:07:12',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'session_id' => '5ab4e57f91cfd6c13c330964362057b3',
                 'device_id' => 'bd5c85ecc2a8aff84b5b82640cc1a3b6',
                 'username' => 'wongosing',
@@ -513,8 +487,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1746341398,
                 'user_data' => 'a:4:{s:8:"username";s:9:"wongosing";s:4:"name";s:13:"SONNY HARTONO";s:5:"email";s:22:"sonnyhar3011@gmail.com";s:5:"phone";s:14:"+6281219753625";}',
                 'token' => 'UVUrV2NUbzljeXJUUTFGamhCS3BNUT09',
@@ -522,9 +496,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-04 03:49:58',
                 'datemodified' => '2025-05-04 03:49:58',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'session_id' => '5ceaf51e0f29df441ce9336c2da82d67',
                 'device_id' => '1a55dcda64c86b94ba988be4ff8d460e',
                 'username' => 'joel225',
@@ -534,8 +507,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 119.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745060115,
                 'user_data' => 'a:4:{s:8:"username";s:7:"joel225";s:4:"name";s:18:"LIEM YUDY HARYANTO";s:5:"email";s:19:"biovoda88@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'VnM2N24zZElHTGR1VjhxMmU4cmdsdz09',
@@ -543,9 +516,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-19 07:55:15',
                 'datemodified' => '2025-04-19 07:55:15',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'session_id' => '5e36dd420b0de0488709dea8217e6d64',
                 'device_id' => '425e2b5b48eb24cb7156472a3cfd6ce4',
                 'username' => 'superbmanifastor',
@@ -555,8 +527,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 109.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 109.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/109.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 109.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/109.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1746052549,
                 'user_data' => 'a:4:{s:8:"username";s:16:"superbmanifastor";s:4:"name";s:15:"ANTONIUS WIBAWA";s:5:"email";s:26:"antoniuswibawa58@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'K2VjUGVaMmhXenltUkVJcUpnVm9Xdz09',
@@ -564,9 +536,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-30 19:35:49',
                 'datemodified' => '2025-04-30 19:35:49',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'session_id' => '5ee3dc27351e159ff33f33cfcf68fbe4',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'keajaibanmanifestasi',
@@ -576,8 +547,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745614654,
                 'user_data' => 'a:4:{s:8:"username";s:20:"keajaibanmanifestasi";s:4:"name";s:12:"ANDRE WIBAWA";s:5:"email";s:22:"wibawa.andre@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'Q1g3dm83MEZjalVrdkNMRGZGemg1UT09',
@@ -585,9 +556,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 17:57:34',
                 'datemodified' => '2025-04-25 17:57:34',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'session_id' => '5fd66fcaa1dca7817e44866d069365a0',
                 'device_id' => 'c4fde55505e35d45d1f06650c1b21fcc',
                 'username' => 'cintadiripastiuntung',
@@ -597,8 +567,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 91.0.4472.88',
-            'agent' => 'Mozilla/5.0 (Linux; U; Android 9; in-id; CPH2015 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/25.12.4.1',
-            'user_agent' => '{"agent":"Chrome 91.0.4472.88","agent_string":"Mozilla\\/5.0 (Linux; U; Android 9; in-id; CPH2015 Build\\/PPR1.180610.011) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/91.0.4472.88 Mobile Safari\\/537.36 HeyTapBrowser\\/25.12.4.1"}',
+                'agent' => 'Mozilla/5.0 (Linux; U; Android 9; in-id; CPH2015 Build/PPR1.180610.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.88 Mobile Safari/537.36 HeyTapBrowser/25.12.4.1',
+                'user_agent' => '{"agent":"Chrome 91.0.4472.88","agent_string":"Mozilla\\/5.0 (Linux; U; Android 9; in-id; CPH2015 Build\\/PPR1.180610.011) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/91.0.4472.88 Mobile Safari\\/537.36 HeyTapBrowser\\/25.12.4.1"}',
                 'expiration' => 1745705130,
                 'user_data' => 'a:4:{s:8:"username";s:20:"cintadiripastiuntung";s:4:"name";s:8:"YUSTIANI";s:5:"email";s:18:"yustit14@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'WHNNUkVBb2U3akNaRTFNL0FpTVZSUT09',
@@ -606,9 +576,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-26 19:05:30',
                 'datemodified' => '2025-04-26 19:05:30',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'session_id' => '62fa89937e49e3aee57aaa9dd3393d11',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'hinro888',
@@ -618,8 +587,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1748132203,
                 'user_data' => 'a:4:{s:8:"username";s:8:"hinro888";s:4:"name";s:14:"MUHAMMAD IQBAL";s:5:"email";s:19:"hinro5758@gmail.com";s:5:"phone";s:14:"+6281318993688";}',
                 'token' => 'Y3g1S08vaDZqaVFlTlpHZXhObkFsUT09',
@@ -627,9 +596,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-24 21:16:43',
                 'datemodified' => '2025-05-24 21:16:43',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'session_id' => '6c994e336494a8cfffb7e6f92e5bdebb',
                 'device_id' => '41815508404062a2d3f6323bbaba55d6',
                 'username' => 'ftsgk',
@@ -639,8 +607,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 123.0.6312.118',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/14.30.0-gn',
-            'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 XiaoMi\\/MiuiBrowser\\/14.30.0-gn"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/14.30.0-gn',
+                'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 XiaoMi\\/MiuiBrowser\\/14.30.0-gn"}',
                 'expiration' => 1745280568,
                 'user_data' => 'a:4:{s:8:"username";s:5:"ftsgk";s:4:"name";s:17:"FERDIANTO TJIAMAS";s:5:"email";s:27:"ferdianto.tjiamas@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'NURPUzdIMGlseDRiNC83WHI2Yld3QT09',
@@ -648,9 +616,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-21 21:09:28',
                 'datemodified' => '2025-04-21 21:09:28',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'session_id' => '6f893065b1fd44932c9ad3eb7f42a578',
                 'device_id' => '293e0c3b81327ec113570295e035339e',
                 'username' => 'liuciphin',
@@ -660,8 +627,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Linux',
                 'browser' => 'Chrome 91.0.4472.88',
-            'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.12.3.1 Chrome/91.0.4472.88',
-            'user_agent' => '{"agent":"Chrome 91.0.4472.88","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Safari\\/537.36 HeyTapBrowser\\/45.12.3.1 Chrome\\/91.0.4472.88"}',
+                'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Safari/537.36 HeyTapBrowser/45.12.3.1 Chrome/91.0.4472.88',
+                'user_agent' => '{"agent":"Chrome 91.0.4472.88","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Safari\\/537.36 HeyTapBrowser\\/45.12.3.1 Chrome\\/91.0.4472.88"}',
                 'expiration' => 1745861331,
                 'user_data' => 'a:4:{s:8:"username";s:9:"liuciphin";s:4:"name";s:11:"LIU CI PHIN";s:5:"email";s:22:"liuciphin981@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'VGw3cS9MYUpON29UTlJEaTBLcGJyZz09',
@@ -669,9 +636,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 14:28:51',
                 'datemodified' => '2025-04-28 14:28:51',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'session_id' => '73a318067bd08e450c419962b77902d8',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'sinar69',
@@ -681,8 +647,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745266612,
                 'user_data' => 'a:4:{s:8:"username";s:7:"sinar69";s:4:"name";s:12:"ELLIS GRIADY";s:5:"email";s:18:"griady55@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'MzVGbURHSW55ZFlxSDVmR3NSMUJuUT09',
@@ -690,9 +656,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-21 17:16:52',
                 'datemodified' => '2025-04-21 17:16:52',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'session_id' => '755edb32671fd958cce1823dd9966c33',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'beerich',
@@ -702,8 +667,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745612100,
                 'user_data' => 'a:4:{s:8:"username";s:7:"beerich";s:4:"name";s:14:"ERNI HERTALINA";s:5:"email";s:20:"ernihalim5@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'QTJYbWVZM211d0YxT3k1d21sNkwxdz09',
@@ -711,9 +676,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 17:15:00',
                 'datemodified' => '2025-04-25 17:15:00',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'session_id' => '789a6f03130d2f1ad9e7c5c5626cdf9f',
                 'device_id' => '11f0979b59e2a7d742d5750b1cca3dff',
                 'username' => 'cynthiapuk',
@@ -723,8 +687,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1746024588,
                 'user_data' => 'a:4:{s:8:"username";s:10:"cynthiapuk";s:4:"name";s:7:"CYNTHIA";s:5:"email";s:21:"cynthiapuk1@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'THowZmZJMTF2VzV1eTNFOWlsbUNZdz09',
@@ -732,9 +696,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-30 11:49:48',
                 'datemodified' => '2025-04-30 11:49:48',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'session_id' => '79d9e67385291909768cecc3a49b20e0',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'berkelimpahan',
@@ -744,8 +707,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745196871,
                 'user_data' => 'a:4:{s:8:"username";s:13:"berkelimpahan";s:4:"name";s:5:"YOSEF";s:5:"email";s:21:"yosef180812@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'OVoxa2pEa0Y3T014dFNZckJHMU9sQT09',
@@ -753,9 +716,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-20 21:54:31',
                 'datemodified' => '2025-04-20 21:54:31',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'session_id' => '7e8ae935b11f03d4983b65022fd93ac2',
                 'device_id' => 'e00342c821162ab6652b521b33c68eb3',
                 'username' => 'nusantara',
@@ -765,8 +727,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Linux',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (X11; Linux x86_64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745097128,
                 'user_data' => 'a:4:{s:8:"username";s:9:"nusantara";s:4:"name";s:14:"BASTIAN IRAWAN";s:5:"email";s:24:"bisnisglobal83@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'UmtSUHE3Qk9WWllyYWorVlRsYWc1Zz09',
@@ -774,9 +736,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-19 18:12:08',
                 'datemodified' => '2025-04-19 18:12:08',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'session_id' => '7efc895b333ce1dcfe5d6f64d77d8c44',
                 'device_id' => '233c61327bd3f6ac189348dd1aba662c',
                 'username' => 'ahlimanifestasi',
@@ -786,8 +747,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 123.0.6312.118',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/14.32.0-gn',
-            'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 XiaoMi\\/MiuiBrowser\\/14.32.0-gn"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.6312.118 Mobile Safari/537.36 XiaoMi/MiuiBrowser/14.32.0-gn',
+                'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 XiaoMi\\/MiuiBrowser\\/14.32.0-gn"}',
                 'expiration' => 1745792862,
                 'user_data' => 'a:4:{s:8:"username";s:15:"ahlimanifestasi";s:4:"name";s:12:"YENNI WIBAWA";s:5:"email";s:22:"yenni.wibawa@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'Nkx5MGlrRURUVTlYQkFhZUJkTjQwUT09',
@@ -795,9 +756,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-27 19:27:42',
                 'datemodified' => '2025-04-27 19:27:42',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'session_id' => '8210f13c26f213a107475ac78b294edf',
                 'device_id' => '83fadd5f25e9e5db6403417a8ff21cb1',
                 'username' => 'chitta',
@@ -807,8 +767,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/136.0.7103.91 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/136.0.7103.91 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/136.0.7103.91 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/136.0.7103.91 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1747134083,
                 'user_data' => 'a:4:{s:8:"username";s:6:"chitta";s:4:"name";s:16:"YUNITA GUNAWANTO";s:5:"email";s:26:"yunita.gunawanto@gmail.com";s:5:"phone";s:14:"+6287887885125";}',
                 'token' => 'Q3RiOWljeGc5VjQ4U1lzQjFEQlZiZz09',
@@ -816,9 +776,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-13 08:01:23',
                 'datemodified' => '2025-05-13 08:01:23',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'session_id' => '848a22496ea119b5d18a091d8c8da6e0',
                 'device_id' => 'd7a1c4199a50a4eb6fc3d01210d33866',
                 'username' => 'gitakaya',
@@ -828,8 +787,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1750887730,
                 'user_data' => 'a:4:{s:8:"username";s:8:"gitakaya";s:4:"name";s:16:"GITA AFNININGSIH";s:5:"email";s:22:"gitaalvin107@gmail.com";s:5:"phone";s:14:"+6285692710429";}',
                 'token' => 'WHQybTZaM1c1NHNwbUF5QnhDa20vZz09',
@@ -837,9 +796,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-25 18:42:10',
                 'datemodified' => '2025-06-25 18:42:10',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'session_id' => '84985077ac014e90cc601d8e3aabdfee',
                 'device_id' => '1a55dcda64c86b94ba988be4ff8d460e',
                 'username' => 'alib4f',
@@ -849,8 +807,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 119.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 119.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/119.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1747772302,
                 'user_data' => 'a:4:{s:8:"username";s:6:"alib4f";s:4:"name";s:6:"WELING";s:5:"email";s:19:"shtweling@gmail.com";s:5:"phone";s:13:"+628187136836";}',
                 'token' => 'V2ZnVDNBNUVCNHYvU1lITTJxazFIQT09',
@@ -858,9 +816,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-20 17:18:22',
                 'datemodified' => '2025-05-20 17:18:22',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'session_id' => '850e7b905e4fa7db73a058033fa137a8',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'diandomenie',
@@ -870,8 +827,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745373925,
                 'user_data' => 'a:4:{s:8:"username";s:11:"diandomenie";s:4:"name";s:18:"AGUSTINA MARDIANTI";s:5:"email";s:21:"diandomenie@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'WWl3NFNKcmR2QUxrWEFwVjRlK0orQT09',
@@ -879,9 +836,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-22 23:05:25',
                 'datemodified' => '2025-04-22 23:05:25',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'session_id' => '8666f768f8af234d9c60855ba6db2386',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'joyandglory',
@@ -891,8 +847,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745265679,
                 'user_data' => 'a:4:{s:8:"username";s:11:"joyandglory";s:4:"name";s:20:"JOCELYN ANGELA BASIL";s:5:"email";s:18:"kengvera@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'S3o3VkNQTElNdlliVU1qVmM5UWhQQT09',
@@ -900,9 +856,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-21 17:01:19',
                 'datemodified' => '2025-04-21 17:01:19',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'session_id' => '8901e2f76312a1bea773cb4808302be2',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'swati',
@@ -912,8 +867,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746531078,
                 'user_data' => 'a:4:{s:8:"username";s:5:"swati";s:4:"name";s:18:"SAWTI L SOTINIWATI";s:5:"email";s:22:"swatisimswat@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'dnYwOWw0ZEY2cGQxUXdMZzlaSDRBZz09',
@@ -921,9 +876,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-06 08:31:18',
                 'datemodified' => '2025-05-06 08:31:18',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'session_id' => '89e07c02eed4404bd692cebdcee140a6',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'namaste',
@@ -933,8 +887,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746478433,
                 'user_data' => 'a:4:{s:8:"username";s:7:"namaste";s:4:"name";s:22:"ELANI PRISCILIA AZELIE";s:5:"email";s:30:"elaniprisciliaazelie@gmail.com";s:5:"phone";s:14:"+6281990888188";}',
                 'token' => 'ekljaG1mSEZUblpCa3p5L0xBYXUxUT09',
@@ -942,9 +896,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-05 17:53:53',
                 'datemodified' => '2025-05-05 17:53:53',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'session_id' => '8d30a6b985c0c7882505ea74cb457731',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'fajarsukses',
@@ -954,8 +907,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745288349,
                 'user_data' => 'a:4:{s:8:"username";s:11:"fajarsukses";s:4:"name";s:19:"FAJAR SUTISNA AMBAN";s:5:"email";s:20:"ambanfajar@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'UjNoZ1M1cG5vcU1DT0lBV3VXRDZxdz09',
@@ -963,9 +916,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-21 23:19:09',
                 'datemodified' => '2025-04-21 23:19:09',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'session_id' => '907f7d6dedae28b0208185004ba1dda5',
                 'device_id' => '34b67e3252d9c6ff67fe9bafaded0806',
                 'username' => 'kioekioe',
@@ -975,8 +927,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 125.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745450565,
                 'user_data' => 'a:4:{s:8:"username";s:8:"kioekioe";s:4:"name";s:15:"LUCIANA SAPUTRA";s:5:"email";s:25:"lucianasaputra5@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'bzdxdlpudWw3RUkvM2lqNGxvR2NlZz09',
@@ -984,9 +936,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-23 20:22:45',
                 'datemodified' => '2025-04-23 20:22:45',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'session_id' => '910394a212952ca27e9075eacd35093d',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'slmtrilyuner',
@@ -996,8 +947,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745055992,
                 'user_data' => 'a:4:{s:8:"username";s:12:"slmtrilyuner";s:4:"name";s:14:"SINARDI CANDRA";s:5:"email";s:23:"candrasinardi@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'aStxd0xZSW5QZnlhTVR0dmJISHU0dz09',
@@ -1005,9 +956,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-19 06:46:32',
                 'datemodified' => '2025-04-19 06:46:32',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'session_id' => '92ca3462c51f167642436195a73fa15b',
                 'device_id' => 'c5f0799a4a02dc56763578ae5b46c80e',
                 'username' => 'mindexpertise',
@@ -1017,8 +967,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745963665,
                 'user_data' => 'a:4:{s:8:"username";s:13:"mindexpertise";s:4:"name";s:20:"ANDREAS ARDY PRADANA";s:5:"email";s:23:"pradana270391@gmail.com";s:5:"phone";s:14:"+6282298737109";}',
                 'token' => 'Sm1uUTRMU3NObXQ3WXFkL2kxalg2dz09',
@@ -1026,9 +976,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-29 18:54:25',
                 'datemodified' => '2025-04-29 18:54:25',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'session_id' => '9362892f4238d48d3e23456d2f19bbe0',
                 'device_id' => '93c7e5b6e89963b37307e366f20aa7d8',
                 'username' => 'demoaccount',
@@ -1038,8 +987,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Mac OS X',
                 'browser' => 'Chrome 128.0.0.0',
-            'agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 128.0.0.0","agent_string":"Mozilla\\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/128.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 128.0.0.0","agent_string":"Mozilla\\/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/128.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1753150860,
                 'user_data' => 'a:4:{s:8:"username";s:11:"demoaccount";s:4:"name";s:12:"DEMO ACCOUNT";s:5:"email";s:23:"demoaccount@jpbuana.com";s:5:"phone";s:14:"+6281234567890";}',
                 'token' => 'R2pqY3k3VVZYUW1XdVM4cnlRYnVHUT09',
@@ -1047,9 +996,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-07-21 23:21:00',
                 'datemodified' => '2025-07-21 23:21:00',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'session_id' => '9984f55c48696ac003b1beea02ae3010',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'yuhandi',
@@ -1059,8 +1007,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746479397,
                 'user_data' => 'a:4:{s:8:"username";s:7:"yuhandi";s:4:"name";s:7:"YUHANDI";s:5:"email";s:20:"yuhandi.pb@gmail.com";s:5:"phone";s:14:"+6281314154684";}',
                 'token' => 'K1dDVEJ1d3JTcWkzL1dPRkE3ZkJLZz09',
@@ -1068,9 +1016,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-05 18:09:57',
                 'datemodified' => '2025-05-05 18:09:57',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'session_id' => '9c502e6cefeb81f1f111d1751e76cb82',
                 'device_id' => '83fadd5f25e9e5db6403417a8ff21cb1',
                 'username' => 'blessmore',
@@ -1080,8 +1027,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/136.0.7103.91 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/136.0.7103.91 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/136.0.7103.91 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/136.0.7103.91 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1747061985,
                 'user_data' => 'a:4:{s:8:"username";s:9:"blessmore";s:4:"name";s:12:"FERDIANTO DR";s:5:"email";s:25:"ferdiantokho123@gmail.com";s:5:"phone";s:14:"+6287788190579";}',
                 'token' => 'MFRFUXp6dHlQcm9CN0xkZ3YvZUQ4Zz09',
@@ -1089,9 +1036,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-12 11:59:45',
                 'datemodified' => '2025-05-12 11:59:45',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'session_id' => '9d6f8dded236a0fe94ccd5a8c0eb4bde',
                 'device_id' => '06b5a83667baa404947c5dbb2cdaab7b',
                 'username' => 'jpbasil4',
@@ -1101,8 +1047,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1749670629,
                 'user_data' => 'a:4:{s:8:"username";s:8:"jpbasil4";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'aFVFWW1hZzJTaXFTS2U5TGllUjFGUT09',
@@ -1110,9 +1056,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-11 16:37:09',
                 'datemodified' => '2025-06-11 16:37:09',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'session_id' => '9f87bc5866183a088030bfceb87ede9a',
                 'device_id' => 'd7a1c4199a50a4eb6fc3d01210d33866',
                 'username' => 'rizqiekaya369',
@@ -1122,8 +1067,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1751069408,
                 'user_data' => 'a:4:{s:8:"username";s:13:"rizqiekaya369";s:4:"name";s:21:"INTAN RIZQIE AZ ZAHRA";s:5:"email";s:23:"rizqiekaya888@gmail.com";s:5:"phone";s:14:"+6285813074489";}',
                 'token' => 'c2dtYVNNSjU3RWE0cVpvYmxTc213QT09',
@@ -1131,9 +1076,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-27 21:10:08',
                 'datemodified' => '2025-06-27 21:10:08',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'session_id' => '9ff124cdf57826650af8f693c4e521a1',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'alexsusanto',
@@ -1143,8 +1087,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745778680,
                 'user_data' => 'a:4:{s:8:"username";s:11:"alexsusanto";s:4:"name";s:12:"ALEX SUSANTO";s:5:"email";s:26:"alex.alexsusanto@gmail.com";s:5:"phone";s:13:"+628999910000";}',
                 'token' => 'cTNqV1JYQVplOWZYVlo4VGNpc2p4dz09',
@@ -1152,9 +1096,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-27 15:31:20',
                 'datemodified' => '2025-04-27 15:31:20',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'session_id' => 'a1b8cb13a383012dfc74b6a8a1440349',
                 'device_id' => '1520d3272e024ffea6565e78d96f96da',
                 'username' => 'ekobudisusanto',
@@ -1164,8 +1107,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745840907,
                 'user_data' => 'a:4:{s:8:"username";s:14:"ekobudisusanto";s:4:"name";s:16:"EKO BUDI SUSANTO";s:5:"email";s:19:"vanko.ebs@gmail.com";s:5:"phone";s:13:"+628119772805";}',
                 'token' => 'YVMwZE96OFZRWjRxTEtMZ1lpbVRRQT09',
@@ -1173,9 +1116,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 08:48:27',
                 'datemodified' => '2025-04-28 08:48:27',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'session_id' => 'a34385477d6d00b6cbd13357e61ac8b1',
                 'device_id' => '53446355fcf06436c534dc9fe598bd99',
                 'username' => 'fortuna',
@@ -1185,8 +1127,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Firefox 137.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
-            'user_agent' => '{"agent":"Firefox 137.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko\\/20100101 Firefox\\/137.0"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0',
+                'user_agent' => '{"agent":"Firefox 137.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko\\/20100101 Firefox\\/137.0"}',
                 'expiration' => 1745021030,
                 'user_data' => 'a:4:{s:8:"username";s:7:"fortuna";s:4:"name";s:10:"LIMAJATINI";s:5:"email";s:20:"limajatini@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'a0YwMVhUM25jbklmUmFSYVVNSkwzQT09',
@@ -1194,9 +1136,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-18 21:03:50',
                 'datemodified' => '2025-04-18 21:03:50',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'session_id' => 'a7cfea29fd39201c457ac52a849a2756',
                 'device_id' => 'ebc35171350dc428766e54bba7b2991b',
                 'username' => 'legendai',
@@ -1206,8 +1147,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745024039,
                 'user_data' => 'a:4:{s:8:"username";s:8:"legendai";s:4:"name";s:5:"HENDI";s:5:"email";s:21:"henokhhendi@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'VVpaZU9UUWVTckl2djNVSms0QWZBQT09',
@@ -1215,9 +1156,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-18 21:53:59',
                 'datemodified' => '2025-04-18 21:53:59',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'session_id' => 'ab9aaed044cc4f93717f4365ca2b7d02',
                 'device_id' => '34b67e3252d9c6ff67fe9bafaded0806',
                 'username' => 'soedeny',
@@ -1227,8 +1167,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 125.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745417847,
                 'user_data' => 'a:4:{s:8:"username";s:7:"soedeny";s:4:"name";s:7:"SOEDENY";s:5:"email";s:17:"soedeny@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'ZjJ1aUZ6U2QyWWx1Z2pON3R6QkE1dz09',
@@ -1236,9 +1176,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-23 11:17:27',
                 'datemodified' => '2025-04-23 11:17:27',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'session_id' => 'ad3a9947504bb434f590ff6f2bf42b6b',
                 'device_id' => '34b67e3252d9c6ff67fe9bafaded0806',
                 'username' => 'ningsih',
@@ -1248,8 +1187,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 125.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745116766,
                 'user_data' => 'a:4:{s:8:"username";s:7:"ningsih";s:4:"name";s:23:"NI KADEK SANTRI NINGSIH";s:5:"email";s:32:"nikadeksantriningsih85@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'QmMxakd2U2tpenE4bnVoR2kyRkJiQT09',
@@ -1257,9 +1196,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-19 23:39:26',
                 'datemodified' => '2025-04-19 23:39:26',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'session_id' => 'ad9b70aa2fdb49dbb83493f7fbfb8a57',
                 'device_id' => 'f70123453b0f5814e9610ad039b96a39',
                 'username' => 'shin10',
@@ -1269,8 +1207,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 122.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/122.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 122.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/26.0 Chrome\\/122.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/26.0 Chrome/122.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 122.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/26.0 Chrome\\/122.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746629653,
                 'user_data' => 'a:4:{s:8:"username";s:6:"shin10";s:4:"name";s:25:"SHINTA PUTRI WIDYANINGSIH";s:5:"email";s:22:"melyrestia40@gmail.com";s:5:"phone";s:14:"+6285860120026";}',
                 'token' => 'dUo3dGowdHFFV3Q4WS82SHdQM2FGQT09',
@@ -1278,9 +1216,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-07 11:54:13',
                 'datemodified' => '2025-05-07 11:54:13',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'session_id' => 'b21bc8d45bae607663e68d1dcd98dbf7',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpbasil6',
@@ -1290,8 +1227,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745612548,
                 'user_data' => 'a:4:{s:8:"username";s:8:"jpbasil6";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'NUNOWngyanpxeE9zTXVncE03UVVzUT09',
@@ -1299,9 +1236,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 17:22:28',
                 'datemodified' => '2025-04-25 17:22:28',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'session_id' => 'b3ddd5c106dafe4ed4c25dcbb8767046',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'mastermanifestasi',
@@ -1311,8 +1247,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1744934202,
                 'user_data' => 'a:4:{s:8:"username";s:17:"mastermanifestasi";s:4:"name";s:13:"KENG VERAWATY";s:5:"email";s:18:"kengvera@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'MW8wbTAyTndNTzNFVG5hcnh3MWQvZz09',
@@ -1320,9 +1256,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-17 20:56:42',
                 'datemodified' => '2025-04-17 20:56:42',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'session_id' => 'b3f99911f92b236a83ee60012d1a56a8',
                 'device_id' => 'd591084bc7bc190616119a2752a97dec',
                 'username' => 'juniavrilianovita',
@@ -1332,8 +1267,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.1.1 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.1.1 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745624466,
                 'user_data' => 'a:4:{s:8:"username";s:17:"juniavrilianovita";s:4:"name";s:11:"JUNI NOVITA";s:5:"email";s:21:"juninovitaa@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'dWZMbmtFWmJkM21yT1d6TkFiRmV3QT09',
@@ -1341,9 +1276,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 20:41:06',
                 'datemodified' => '2025-04-25 20:41:06',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'session_id' => 'b9ee6f9ba293ede0a07ce314c1ee3e88',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'founderjpb',
@@ -1353,8 +1287,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1744956501,
                 'user_data' => 'a:4:{s:8:"username";s:10:"founderjpb";s:4:"name";s:15:"LIONG TJIN TJIN";s:5:"email";s:24:"liong.tjintjin@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'OWltK3YrKzhKTEd1YjY0eEsxT3paUT09',
@@ -1362,9 +1296,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-18 03:08:21',
                 'datemodified' => '2025-04-18 03:08:21',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'session_id' => 'bf7bbdbe20c2d072e4356bf5db8b4d07',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpbasil',
@@ -1374,8 +1307,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745961998,
                 'user_data' => 'a:4:{s:8:"username";s:7:"jpbasil";s:4:"name";s:21:"JOSEPH PASKALIS BASIL";s:5:"email";s:18:"ceoptyes@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'YVYrZVlQSTMxRmVid0NZMFJSMnN6UT09',
@@ -1383,9 +1316,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-29 18:26:38',
                 'datemodified' => '2025-04-29 18:26:38',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'session_id' => 'c0f2949d65995050636e2d2e9114ecc3',
                 'device_id' => '6687b270082d692aae1b31f52f39c5cf',
                 'username' => 'citramahira',
@@ -1395,8 +1327,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_3_2 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.3.1 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745712576,
                 'user_data' => 'a:4:{s:8:"username";s:11:"citramahira";s:4:"name";s:22:"CITRA ARDIYANTI MAHIRA";s:5:"email";s:17:"kei_gad@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'ZW9SbjYyRWNrTENjSER2RUMvVEhvUT09',
@@ -1404,9 +1336,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-26 21:09:36',
                 'datemodified' => '2025-04-26 21:09:36',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'session_id' => 'c2bca6a4302baa9e17fe021ed02c7636',
                 'device_id' => '42f7236658cd86ece00be7e980522586',
                 'username' => 'abundance',
@@ -1416,8 +1347,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
                 'expiration' => 1745013004,
                 'user_data' => 'a:4:{s:8:"username";s:9:"abundance";s:4:"name";s:8:"TJEN NIE";s:5:"email";s:20:"tjennie978@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'Wmh5RHQxRnNSSDNYTzNyVzQ1UitJZz09',
@@ -1425,9 +1356,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-18 18:50:04',
                 'datemodified' => '2025-04-18 18:50:04',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'session_id' => 'c4eded3b92013485fc1fc59404eb0a77',
                 'device_id' => '1802739d3402c49e10d0825e50248635',
                 'username' => 'jpbuana',
@@ -1437,8 +1367,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1745595451,
                 'user_data' => 'a:4:{s:8:"username";s:7:"jpbuana";s:4:"name";s:18:"JAGAD PESONA BUANA";s:5:"email";s:26:"jagadpesonabuana@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'TDlSMUF2OGxQc2xMVDFzOW9MZjAxZz09',
@@ -1446,9 +1376,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-25 12:37:31',
                 'datemodified' => '2025-04-25 12:37:31',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'session_id' => 'c9a32dade902e814bcd87a0d4a550875',
                 'device_id' => '164e2c017149e023f7790cb97cc9b54c',
                 'username' => 'starom1',
@@ -1458,8 +1387,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 123.0.6312.118',
-            'agent' => 'Mozilla/5.0 (Linux; Android 14; V2302) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36 VivoBrowser/14.2.2.2',
-            'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 14; V2302) AppleWebKit\\/537.36 (KHTML, like Gecko) Version\\/4.0 Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 VivoBrowser\\/14.2.2.2"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 14; V2302) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.118 Mobile Safari/537.36 VivoBrowser/14.2.2.2',
+                'user_agent' => '{"agent":"Chrome 123.0.6312.118","agent_string":"Mozilla\\/5.0 (Linux; Android 14; V2302) AppleWebKit\\/537.36 (KHTML, like Gecko) Version\\/4.0 Chrome\\/123.0.6312.118 Mobile Safari\\/537.36 VivoBrowser\\/14.2.2.2"}',
                 'expiration' => 1750983272,
                 'user_data' => 'a:4:{s:8:"username";s:7:"starom1";s:4:"name";s:4:"ROMY";s:5:"email";s:19:"12omy0782@gmail.com";s:5:"phone";s:14:"+6282311217509";}',
                 'token' => 'aExicGtxTExBS1QzL2dzMzRKZGFTUT09',
@@ -1467,9 +1396,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-26 21:14:32',
                 'datemodified' => '2025-06-26 21:14:32',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'session_id' => 'cb50ecf39c1d66ad3c18da436628c4f9',
                 'device_id' => '380d912d385ed4da73afe5c40c8c6387',
                 'username' => 'farahaull',
@@ -1479,8 +1407,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/16.6 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 16_6_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/16.6 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745963441,
                 'user_data' => 'a:4:{s:8:"username";s:9:"farahaull";s:4:"name";s:11:"FARAH AULIA";s:5:"email";s:22:"farahaulia42@yahoo.com";s:5:"phone";s:14:"+6281382329782";}',
                 'token' => 'RlRkdUdGZ3lWRnZ3NXhLaElVNmx0Zz09',
@@ -1488,9 +1416,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-29 18:50:41',
                 'datemodified' => '2025-04-29 18:50:41',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'session_id' => 'd0b60fcf526c1bd69009afb72b7b87a9',
                 'device_id' => '1520d3272e024ffea6565e78d96f96da',
                 'username' => 'garuda',
@@ -1500,8 +1427,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_4_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) Version\\/18.4 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745849529,
                 'user_data' => 'a:4:{s:8:"username";s:6:"garuda";s:4:"name";s:14:"JAMARIS SASTRA";s:5:"email";s:23:"euroexpress89@gmail.com";s:5:"phone";s:12:"+62819883319";}',
                 'token' => 'WlFEUStxRDZXV0RGN0Zyblh4VDgrUT09',
@@ -1509,9 +1436,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-28 11:12:09',
                 'datemodified' => '2025-04-28 11:12:09',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'session_id' => 'db09ee11a04a8f7eb3579c0e10cb28c2',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'jhonkho83',
@@ -1521,8 +1447,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745691172,
                 'user_data' => 'a:4:{s:8:"username";s:9:"jhonkho83";s:4:"name";s:8:"JHON KHO";s:5:"email";s:19:"jhonkho83@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'ZkY5V3liMWhESVdHR2ZUdHErQXVjZz09',
@@ -1530,9 +1456,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-26 15:12:52',
                 'datemodified' => '2025-04-26 15:12:52',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'session_id' => 'dc4559edcfdbc9b668e2eb4aba56fa22',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'chakrabuana369',
@@ -1542,8 +1467,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745368098,
                 'user_data' => 'a:4:{s:8:"username";s:14:"chakrabuana369";s:4:"name";s:7:"MARLISA";s:5:"email";s:22:"lisarizqie82@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'dTBPYjJjRWlyb3dMWnEzVVFSUSthQT09',
@@ -1551,9 +1476,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-22 21:28:18',
                 'datemodified' => '2025-04-22 21:28:18',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'session_id' => 'e7aab87119165bdbfbd2013087ca0a53',
                 'device_id' => '42f7236658cd86ece00be7e980522586',
                 'username' => 'queenla',
@@ -1563,8 +1487,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36 EdgA/135.0.0.0',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36 EdgA\\/135.0.0.0"}',
                 'expiration' => 1745277224,
                 'user_data' => 'a:4:{s:8:"username";s:7:"queenla";s:4:"name";s:8:"NURLAELA";s:5:"email";s:24:"jojoraharjo114@gmail.com";s:5:"phone";s:14:"+6281388607089";}',
                 'token' => 'eXJEN1lLQTE0eEE3SGR2cVIxcm1MQT09',
@@ -1572,9 +1496,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-21 20:13:44',
                 'datemodified' => '2025-04-21 20:13:44',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'session_id' => 'e8a92d876a2f146b788fe650d61c8fa0',
                 'device_id' => '2c6b6aa4e13ec13126e595f38ff6b8ac',
                 'username' => 'nsulistyana',
@@ -1584,8 +1507,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'iOS',
                 'browser' => 'Safari 604.1',
-            'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
-            'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
+                'agent' => 'Mozilla/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.83 Mobile/15E148 Safari/604.1',
+                'user_agent' => '{"agent":"Safari 604.1","agent_string":"Mozilla\\/5.0 (iPhone; CPU iPhone OS 18_1_1 like Mac OS X) AppleWebKit\\/605.1.15 (KHTML, like Gecko) CriOS\\/135.0.7049.83 Mobile\\/15E148 Safari\\/604.1"}',
                 'expiration' => 1745457459,
                 'user_data' => 'a:4:{s:8:"username";s:11:"nsulistyana";s:4:"name";s:17:"NUNUNG SULISTYANA";s:5:"email";s:21:"nsulistyana@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'WmdacnNUa2V6ejRsSCs3M0hEV1RpZz09',
@@ -1593,9 +1516,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-23 22:17:39',
                 'datemodified' => '2025-04-23 22:17:39',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'session_id' => 'eb58806801486174b53268ecda7d961f',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'myhandoyo',
@@ -1605,8 +1527,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746121130,
                 'user_data' => 'a:4:{s:8:"username";s:9:"myhandoyo";s:4:"name";s:20:"MARIA YOSEFA HANDOYO";s:5:"email";s:22:"mariayos1028@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'eDlrbTdxbGI4MGRZS0ZEWFRYVDYyZz09',
@@ -1614,9 +1536,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-01 14:38:50',
                 'datemodified' => '2025-05-01 14:38:50',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'session_id' => 'f173c7d222d164107e1238ac9abca4fb',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'kartika',
@@ -1626,8 +1547,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745356481,
                 'user_data' => 'a:4:{s:8:"username";s:7:"kartika";s:4:"name";s:14:"THERESIA MARIA";s:5:"email";s:26:"theresiamariac61@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'b1l0eGRFQXBiMEl1TGRYRXFXWG0wdz09',
@@ -1635,9 +1556,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-22 18:14:41',
                 'datemodified' => '2025-04-22 18:14:41',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'session_id' => 'f2c61e08b61be1723940f27bd6cb223b',
                 'device_id' => '06b5a83667baa404947c5dbb2cdaab7b',
                 'username' => 'houseofvictory',
@@ -1647,8 +1567,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Windows 10',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Safari\\/537.36"}',
                 'expiration' => 1749670741,
                 'user_data' => 'a:4:{s:8:"username";s:14:"houseofvictory";s:4:"name";s:13:"KENG VERAWATY";s:5:"email";s:18:"kengvera@yahoo.com";s:5:"phone";s:0:"";}',
                 'token' => 'Y1dZUHA3elQwaG5VUTdlc0FZTk5vQT09',
@@ -1656,9 +1576,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-06-11 16:39:01',
                 'datemodified' => '2025-06-11 16:39:01',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'session_id' => 'f4d77ba828b1d598e218fafec0ba8e68',
                 'device_id' => '2b4b8b9b6d9b364ecbb55069850afbac',
                 'username' => 'tzetze8899',
@@ -1668,8 +1587,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 103.0.5060.129',
-            'agent' => 'Mozilla/5.0 (Linux; Android 14; en; Infinix X6731 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.129 HiBrowser/v2.24.2.1 UWS/ Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 103.0.5060.129","agent_string":"Mozilla\\/5.0 (Linux; Android 14; en; Infinix X6731 Build\\/SP1A.210812.016) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/103.0.5060.129 HiBrowser\\/v2.24.2.1 UWS\\/ Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 14; en; Infinix X6731 Build/SP1A.210812.016) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.129 HiBrowser/v2.24.2.1 UWS/ Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 103.0.5060.129","agent_string":"Mozilla\\/5.0 (Linux; Android 14; en; Infinix X6731 Build\\/SP1A.210812.016) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/103.0.5060.129 HiBrowser\\/v2.24.2.1 UWS\\/ Mobile Safari\\/537.36"}',
                 'expiration' => 1745712016,
                 'user_data' => 'a:4:{s:8:"username";s:10:"tzetze8899";s:4:"name";s:8:"SOK KUAN";s:5:"email";s:18:"mytzetze@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'VmFqTnpGNXpIMysxc21vZnM0RUY4Zz09',
@@ -1677,9 +1596,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-26 21:00:16',
                 'datemodified' => '2025-04-26 21:00:16',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'session_id' => 'f4d77cc1a3caea16d93e5e190b093ab0',
                 'device_id' => 'f80dd69a9729bdf1b9764cd9b14e51dc',
                 'username' => 'salmannoer',
@@ -1689,8 +1607,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 121.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/25.0 Chrome/121.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 121.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/25.0 Chrome\\/121.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/25.0 Chrome/121.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 121.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/25.0 Chrome\\/121.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1746438219,
                 'user_data' => 'a:4:{s:8:"username";s:10:"salmannoer";s:4:"name";s:13:"SALMAN M NOER";s:5:"email";s:25:"salmanmnoer1959@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'd3J0KzMyb1VLcTVaWDRIZE1DTytEdz09',
@@ -1698,9 +1616,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-05-05 06:43:39',
                 'datemodified' => '2025-05-05 06:43:39',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'session_id' => 'f4f301c0c6d928c6bbfe44ac428ad839',
                 'device_id' => 'd7a1c4199a50a4eb6fc3d01210d33866',
                 'username' => 'sehatberlimpah',
@@ -1710,8 +1627,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 137.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 137.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/137.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1751479091,
                 'user_data' => 'a:4:{s:8:"username";s:14:"sehatberlimpah";s:4:"name";s:5:"YOSEF";s:5:"email";s:21:"yosef180812@gmail.com";s:5:"phone";s:13:"+628176674797";}',
                 'token' => 'c3JUQUppdks0S1VNWld3SHNqRWQ0QT09',
@@ -1719,9 +1636,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-07-02 14:58:11',
                 'datemodified' => '2025-07-02 14:58:11',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'session_id' => 'f93c5435e093eb0712da39f65c5e8a7a',
                 'device_id' => '34b67e3252d9c6ff67fe9bafaded0806',
                 'username' => 'infinity',
@@ -1731,8 +1647,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 125.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/27.0 Chrome/125.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 125.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) SamsungBrowser\\/27.0 Chrome\\/125.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745103302,
                 'user_data' => 'a:4:{s:8:"username";s:8:"infinity";s:4:"name";s:15:"IN IN INDRAWATI";s:5:"email";s:26:"indrawatihilman1@gmail.com";s:5:"phone";s:0:"";}',
                 'token' => 'M1h5eWRsUWtHUlAvNjBrT09vcFRPZz09',
@@ -1740,9 +1656,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-19 19:55:02',
                 'datemodified' => '2025-04-19 19:55:02',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'session_id' => 'fd970c3143db311035765901168b411c',
                 'device_id' => '11e7287de6032ffdc420fa35b3c82891',
                 'username' => 'risingphoenix',
@@ -1752,8 +1667,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'ip_address' => '127.0.0.1',
                 'platform' => 'Android',
                 'browser' => 'Chrome 135.0.0.0',
-            'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
-            'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
+                'agent' => 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Mobile Safari/537.36',
+                'user_agent' => '{"agent":"Chrome 135.0.0.0","agent_string":"Mozilla\\/5.0 (Linux; Android 10; K) AppleWebKit\\/537.36 (KHTML, like Gecko) Chrome\\/135.0.0.0 Mobile Safari\\/537.36"}',
                 'expiration' => 1745436604,
                 'user_data' => 'a:4:{s:8:"username";s:13:"risingphoenix";s:4:"name";s:11:"YENNY THANG";s:5:"email";s:23:"sweetyenny724@gmail.com";s:5:"phone";s:13:"+628151817330";}',
                 'token' => 'VDBIVVdVV3FDVEs5TUc0S21oNlZPZz09',
@@ -1761,9 +1676,8 @@ class JpbSessionsTableSeeder extends Seeder
                 'otp_expiration' => 0,
                 'datecreated' => '2025-04-23 16:30:04',
                 'datemodified' => '2025-04-23 16:30:04',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

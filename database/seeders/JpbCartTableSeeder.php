@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbCartTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbCartTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_cart')->delete();
-        
-        \DB::table('jpb_cart')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_cart')->insert([
+            0 => [
                 'id' => 'anBxQ0ZKaWFFZTdvd1hTSHQxWlg1QT09',
                 'cart_code' => 'SFJzOGd0U0wyZUJGaFlNcXUwQ0JMdz09',
                 'id_member' => 166,
@@ -41,9 +38,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-21 12:57:28',
                 'datemodified' => '2025-04-21 12:57:33',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 'bUloMDJneHBZVjR6VUJVYkh3WGt4QT09',
                 'cart_code' => 'VGk1V1ZIUW50QUttMFhqM2FML3VCdz09',
                 'id_member' => 2,
@@ -64,9 +60,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 11:05:12',
                 'datemodified' => '2025-07-25 08:58:16',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 'MkNXQ1grZUpkNklDV2MyMDVZYWxJZz09',
                 'cart_code' => 'cm16ZjlyK0lORk96YU13cWplUTFCUT09',
                 'id_member' => 23,
@@ -87,9 +82,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 0,
                 'datecreated' => '2025-07-23 23:27:40',
                 'datemodified' => '2025-07-30 04:21:02',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 'NlZWRVVTYXBEZWhHbmxYeGNQOG1BUT09',
                 'cart_code' => 'azUwakxac1hBQ24zQ1llTDZnWEZiZz09',
                 'id_member' => 2,
@@ -110,9 +104,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-24 07:51:51',
                 'datemodified' => '2025-07-25 09:01:05',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 'Nnk3S0NKOElNOUhtWVRhbzZyTXhBUT09',
                 'cart_code' => 'TFVpZGRoMllKRXMzMjVMSWdVNWozUT09',
                 'id_member' => 81,
@@ -132,10 +125,9 @@ class JpbCartTableSeeder extends Seeder
                 'items' => '',
                 'status' => 1,
                 'datecreated' => '2025-04-18 20:12:14',
-                'datemodified' => NULL,
-            ),
-            5 => 
-            array (
+                'datemodified' => null,
+            ],
+            5 => [
                 'id' => 'RFVXOGZTOVNaSGxJbDB6QjhrQmRZUT09',
                 'cart_code' => 'WUd0cGROVVczQWRlT0RMbEZqQ0FYZz09',
                 'id_member' => 8,
@@ -156,9 +148,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-21 17:55:56',
                 'datemodified' => '2025-07-21 18:21:34',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 'SmI0NnR1NEZ4TTJsN1hCVUZnaFZUUT09',
                 'cart_code' => 'YjVGTlpwMjBvYUFEZWJaU3Uvd291dz09',
                 'id_member' => 274,
@@ -179,9 +170,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-24 19:40:29',
                 'datemodified' => '2025-09-03 12:46:09',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 'TU1VdWJGaXZETGxjd3djdTBrc3ZCZz09',
                 'cart_code' => 'RHFTQ28xNElYeFhzMk9HY3JiS0xmQT09',
                 'id_member' => 23,
@@ -202,9 +192,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 0,
                 'datecreated' => '2025-07-30 04:20:41',
                 'datemodified' => '2025-07-30 04:21:06',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 'UGxBWWsyMDBoM3ppNzlyZDRHRzM5dz09',
                 'cart_code' => 'WTRvUWxMOW9kSUtrUHVpTFpCdndIQT09',
                 'id_member' => 206,
@@ -224,10 +213,9 @@ class JpbCartTableSeeder extends Seeder
                 'items' => '',
                 'status' => 1,
                 'datecreated' => '2025-07-07 18:12:25',
-                'datemodified' => NULL,
-            ),
-            9 => 
-            array (
+                'datemodified' => null,
+            ],
+            9 => [
                 'id' => 'Y3Bqa1hNZ1B5TkdFZTZuc1dLWUZPQT09',
                 'cart_code' => 'NmNBZFltQTV1cU91cnlkUWFlbXBJZz09',
                 'id_member' => 274,
@@ -248,9 +236,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-24 08:46:42',
                 'datemodified' => '2025-09-03 12:46:10',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 'YjJ4RGJGdWRXcktQRnRpMU1IUWpYQT09',
                 'cart_code' => 'Z1JNU2h5d2VIRGJIV2FacUFRZllHZz09',
                 'id_member' => 23,
@@ -271,9 +258,8 @@ class JpbCartTableSeeder extends Seeder
                 'status' => 0,
                 'datecreated' => '2025-06-16 10:44:55',
                 'datemodified' => '2025-07-30 04:21:04',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 'ZVZwWHMzWHJFb1VZbGQ4Q3MwSjd0dz09',
                 'cart_code' => 'UTNuSmtGTTU0Y3dwakdzVkdQNnZqZz09',
                 'id_member' => 237,
@@ -293,10 +279,9 @@ class JpbCartTableSeeder extends Seeder
                 'items' => '',
                 'status' => 1,
                 'datecreated' => '2025-06-11 04:46:56',
-                'datemodified' => NULL,
-            ),
-        ));
-        
-        
+                'datemodified' => null,
+            ],
+        ]);
+
     }
 }

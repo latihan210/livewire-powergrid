@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbPinTransferTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbPinTransferTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_pin_transfer')->delete();
-        
-        \DB::table('jpb_pin_transfer')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_pin_transfer')->insert([
+            0 => [
                 'id' => 1,
                 'id_member_sender' => 2,
                 'username_sender' => 'jpbuana',
@@ -36,9 +33,8 @@ class JpbPinTransferTableSeeder extends Seeder
                 'description' => 'Transfer Stok Produk',
                 'datecreated' => '2025-04-25 17:23:22',
                 'datemodified' => '2025-04-25 17:23:22',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_member_sender' => 2,
                 'username_sender' => 'jpbuana',
@@ -54,9 +50,8 @@ class JpbPinTransferTableSeeder extends Seeder
                 'description' => 'Transfer Stok Produk',
                 'datecreated' => '2025-04-25 17:23:22',
                 'datemodified' => '2025-04-25 17:23:22',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_member_sender' => 2,
                 'username_sender' => 'jpbuana',
@@ -72,9 +67,8 @@ class JpbPinTransferTableSeeder extends Seeder
                 'description' => 'Transfer Stok Produk',
                 'datecreated' => '2025-04-25 17:23:22',
                 'datemodified' => '2025-04-25 17:23:22',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

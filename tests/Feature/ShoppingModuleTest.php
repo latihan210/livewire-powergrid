@@ -10,7 +10,7 @@ function createShoppingMember(): User
 
     DB::table('members')->insert([
         'user_id' => $user->id,
-        'username' => 'member-' . Str::lower(Str::random(8)),
+        'username' => 'member-'.Str::lower(Str::random(8)),
         'name' => 'Shopping Member',
         'package' => 'basic',
         'sponsor' => 1,

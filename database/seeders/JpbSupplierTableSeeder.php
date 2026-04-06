@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbSupplierTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbSupplierTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_supplier')->delete();
-        
-        \DB::table('jpb_supplier')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_supplier')->insert([
+            0 => [
                 'id' => 1,
                 'name' => 'JP Buana',
                 'email' => '',
@@ -30,9 +27,8 @@ class JpbSupplierTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-10 15:47:56',
                 'datemodified' => '2025-04-10 15:47:56',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'name' => 'Comtech',
                 'email' => '',
@@ -42,9 +38,8 @@ class JpbSupplierTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-27 13:57:34',
                 'datemodified' => '2025-06-27 13:57:34',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

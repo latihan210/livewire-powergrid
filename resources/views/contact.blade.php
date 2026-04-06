@@ -85,7 +85,7 @@
                         </p>
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                             <div>
-                                <flux:input wire:model="name" :label="__('Name')" type="text" required autofocus
+                                <flux:input wire:model="name" :label="__('Name')" type="text" required
                                     autocomplete="name" />
                             </div>
                             <div>

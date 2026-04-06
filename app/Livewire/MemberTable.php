@@ -53,8 +53,8 @@ final class MemberTable extends PowerGridComponent
     {
         return PowerGrid::fields()
             ->add('no')
-            ->add('name')
             ->add('username')
+            ->add('name')
             ->add('rank')
             ->add('rank_label', function (Member $member) {
                 return match (strtolower($member->rank ?? 'member')) {
@@ -104,15 +104,15 @@ final class MemberTable extends PowerGridComponent
     {
         return [
             Column::make('#', 'no'),
-            Column::make('Name', 'name')->sortable(),
             Column::make('Username', 'username')->sortable(),
+            Column::make('Name', 'name')->sortable(),
             Column::make('Rank', 'rank_label', 'rank')->sortable(),
             Column::make('Contact', 'contact', 'email', 'phone')->sortable(),
             Column::make('Sponsor', 'sponsor')->sortable(),
             Column::make('Upline', 'upline', 'parent')->sortable(),
             Column::make('Position', 'position')->sortable(),
             Column::make('Status', 'status_label', 'status')->sortable(),
-            Column::make('Created at', 'datecreated_formatted', 'datecreated')->sortable(),
+            Column::make('Join Date', 'datecreated_formatted', 'datecreated')->sortable(),
             Column::make('Last Login', 'last_login_formatted', 'last_login')->sortable(),
             Column::action('Action'),
         ];
@@ -121,23 +121,25 @@ final class MemberTable extends PowerGridComponent
     public function filters(): array
     {
         return [
-            Filter::inputText('name')->operators(['contains']),
             Filter::inputText('username')->operators(['contains']),
-            Filter::inputText('rank')->operators(['contains']),
-            Filter::inputText('contact')
-                ->operators(['contains'])
-                ->builder(function (Builder $query, $value) {
-                    $search = is_array($value) ? trim($value['value'] ?? '') : trim($value);
+            Filter::inputText('name')->operators(['contains']),
+            // Rank as select (try config first, fallback to distinct values)
+            Filter::select('rank')
+                ->dataSource(function () {
+                    $ranks = config('ranks');
 
-                    if ($search === '') {
-                        return;
+                    if (is_array($ranks) && count($ranks) > 0) {
+                        return collect($ranks)->map(fn($label, $key) => ['id' => $key, 'name' => $label])->values()->toArray();
                     }
 
-                    $query->where(function (Builder $memberQuery) use ($search) {
-                        $memberQuery->where('email', 'like', "%{$search}%")
-                            ->orWhere('phone', 'like', "%{$search}%");
-                    });
-                }),
+                    return Member::query()->distinct()->pluck('rank')->filter()->map(fn($r) => ['id' => $r, 'name' => ucfirst($r)])->values()->toArray();
+                })
+                ->optionValue('id')
+                ->optionLabel('name'),
+
+            // Email and Phone separate filters (matches CI3 UI)
+            Filter::inputText('email')->operators(['contains']),
+            Filter::inputText('phone')->operators(['contains']),
             Filter::inputText('sponsor')
                 ->operators(['contains'])
                 ->builder(function (Builder $query, $value) {
@@ -166,7 +168,14 @@ final class MemberTable extends PowerGridComponent
                             ->orWhere('name', 'like', "%{$search}%");
                     });
                 }),
-            Filter::inputText('position')->operators(['contains']),
+            Filter::select('position')
+                ->dataSource(function () {
+                    $positions = Member::query()->distinct()->pluck('position')->filter()->values();
+
+                    return $positions->map(fn($p) => ['id' => $p, 'name' => strtoupper($p)])->toArray();
+                })
+                ->optionValue('id')
+                ->optionLabel('name'),
             Filter::select('status')
                 ->dataSource([
                     ['id' => 0, 'name' => 'Not Active'],
@@ -184,14 +193,14 @@ final class MemberTable extends PowerGridComponent
     public function actions(Member $row): array
     {
         return [
-            Button::add('show')
-                ->slot('Detail')
-                ->route('member.show', ['member' => $row->id])
-                ->class('pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700'),
             Button::add('impersonate')
-                ->slot('Login')
+                ->slot('<i class="fas fa-user-secret"></i>')
                 ->route('impersonation.start', ['member' => $row->id])
                 ->can(fn(Member $member) => auth()->user()?->isAdministrator() && filled($member->user_id) && $member->user_id !== auth()->id())
+                ->class('pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700'),
+            Button::add('show')
+                ->slot('<i class="fas fa-info"></i>')
+                ->route('member.show', ['member' => $row->id])
                 ->class('pg-btn-white dark:ring-pg-primary-600 dark:border-pg-primary-600 dark:hover:bg-pg-primary-700 dark:ring-offset-pg-primary-800 dark:text-pg-primary-300 dark:bg-pg-primary-700'),
         ];
     }

@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbBonusLevelRefsTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('bonus_level_refs')->delete();
-        
-        \DB::table('bonus_level_refs')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('bonus_level_refs')->insert([
+            0 => [
                 'id' => 1,
                 'id_bonus' => 2,
                 'id_member' => 39,
@@ -34,12 +31,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_bonus' => 3,
                 'id_member' => 38,
@@ -53,12 +49,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_bonus' => 4,
                 'id_member' => 23,
@@ -72,12 +67,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_bonus' => 5,
                 'id_member' => 22,
@@ -91,12 +85,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_bonus' => 6,
                 'id_member' => 21,
@@ -110,12 +103,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_bonus' => 7,
                 'id_member' => 20,
@@ -129,12 +121,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_bonus' => 8,
                 'id_member' => 18,
@@ -148,12 +139,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_bonus' => 9,
                 'id_member' => 17,
@@ -167,12 +157,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_bonus' => 10,
                 'id_member' => 16,
@@ -186,12 +175,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_bonus' => 11,
                 'id_member' => 12,
@@ -205,12 +193,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_bonus' => 12,
                 'id_member' => 10,
@@ -224,12 +211,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_bonus' => 13,
                 'id_member' => 9,
@@ -243,12 +229,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_bonus' => 14,
                 'id_member' => 5,
@@ -262,12 +247,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_bonus' => 15,
                 'id_member' => 3,
@@ -281,12 +265,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_bonus' => 16,
                 'id_member' => 2,
@@ -300,12 +283,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member queenla (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member queenla (2.500 BV)',
                 'dateomzet' => '2025-04-21 18:06:18',
                 'datecreated' => '2025-04-21 18:06:18',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_bonus' => 27,
                 'id_member' => 70,
@@ -319,12 +301,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_bonus' => 28,
                 'id_member' => 66,
@@ -338,12 +319,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_bonus' => 29,
                 'id_member' => 64,
@@ -357,12 +337,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_bonus' => 30,
                 'id_member' => 63,
@@ -376,12 +355,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_bonus' => 31,
                 'id_member' => 62,
@@ -395,12 +373,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_bonus' => 32,
                 'id_member' => 58,
@@ -414,12 +391,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_bonus' => 33,
                 'id_member' => 52,
@@ -433,12 +409,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_bonus' => 34,
                 'id_member' => 51,
@@ -452,12 +427,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_bonus' => 35,
                 'id_member' => 42,
@@ -471,12 +445,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_bonus' => 36,
                 'id_member' => 22,
@@ -490,12 +463,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_bonus' => 37,
                 'id_member' => 21,
@@ -509,12 +481,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_bonus' => 38,
                 'id_member' => 20,
@@ -528,12 +499,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_bonus' => 39,
                 'id_member' => 18,
@@ -547,12 +517,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_bonus' => 40,
                 'id_member' => 17,
@@ -566,12 +535,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_bonus' => 41,
                 'id_member' => 16,
@@ -585,12 +553,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_bonus' => 42,
                 'id_member' => 12,
@@ -604,12 +571,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_bonus' => 43,
                 'id_member' => 10,
@@ -623,12 +589,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_bonus' => 44,
                 'id_member' => 9,
@@ -642,12 +607,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_bonus' => 45,
                 'id_member' => 5,
@@ -661,12 +625,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_bonus' => 46,
                 'id_member' => 3,
@@ -680,12 +643,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member liuciphin2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member liuciphin2 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:44:34',
                 'datecreated' => '2025-04-21 19:44:34',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_bonus' => 61,
                 'id_member' => 167,
@@ -699,12 +661,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_bonus' => 62,
                 'id_member' => 39,
@@ -718,12 +679,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_bonus' => 63,
                 'id_member' => 38,
@@ -737,12 +697,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_bonus' => 64,
                 'id_member' => 23,
@@ -756,12 +715,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_bonus' => 65,
                 'id_member' => 22,
@@ -775,12 +733,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_bonus' => 66,
                 'id_member' => 21,
@@ -794,12 +751,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_bonus' => 67,
                 'id_member' => 20,
@@ -813,12 +769,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_bonus' => 68,
                 'id_member' => 18,
@@ -832,12 +787,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_bonus' => 69,
                 'id_member' => 17,
@@ -851,12 +805,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_bonus' => 70,
                 'id_member' => 16,
@@ -870,12 +823,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_bonus' => 71,
                 'id_member' => 12,
@@ -889,12 +841,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_bonus' => 72,
                 'id_member' => 10,
@@ -908,12 +859,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_bonus' => 73,
                 'id_member' => 9,
@@ -927,12 +877,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_bonus' => 74,
                 'id_member' => 5,
@@ -946,12 +895,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_bonus' => 75,
                 'id_member' => 3,
@@ -965,12 +913,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_bonus' => 76,
                 'id_member' => 2,
@@ -984,12 +931,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member nurlaelaraharjo (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:45:53',
                 'datecreated' => '2025-04-21 19:45:53',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'id_bonus' => 88,
                 'id_member' => 71,
@@ -1003,12 +949,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'id_bonus' => 89,
                 'id_member' => 70,
@@ -1022,12 +967,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'id_bonus' => 90,
                 'id_member' => 66,
@@ -1041,12 +985,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'id_bonus' => 91,
                 'id_member' => 64,
@@ -1060,12 +1003,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'id_bonus' => 92,
                 'id_member' => 63,
@@ -1079,12 +1021,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'id_bonus' => 93,
                 'id_member' => 62,
@@ -1098,12 +1039,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'id_bonus' => 94,
                 'id_member' => 58,
@@ -1117,12 +1057,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'id_bonus' => 95,
                 'id_member' => 52,
@@ -1136,12 +1075,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'id_bonus' => 96,
                 'id_member' => 51,
@@ -1155,12 +1093,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'id_bonus' => 97,
                 'id_member' => 42,
@@ -1174,12 +1111,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'id_bonus' => 98,
                 'id_member' => 22,
@@ -1193,12 +1129,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'id_bonus' => 99,
                 'id_member' => 21,
@@ -1212,12 +1147,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'id_bonus' => 100,
                 'id_member' => 20,
@@ -1231,12 +1165,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'id_bonus' => 101,
                 'id_member' => 18,
@@ -1250,12 +1183,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'id_bonus' => 102,
                 'id_member' => 17,
@@ -1269,12 +1201,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'id_bonus' => 103,
                 'id_member' => 16,
@@ -1288,12 +1219,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'id_bonus' => 104,
                 'id_member' => 12,
@@ -1307,12 +1237,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'id_bonus' => 105,
                 'id_member' => 10,
@@ -1326,12 +1255,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'id_bonus' => 106,
                 'id_member' => 9,
@@ -1345,12 +1273,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'id_bonus' => 107,
                 'id_member' => 5,
@@ -1364,12 +1291,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member alibaba1998 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member alibaba1998 (2.500 BV)',
                 'dateomzet' => '2025-04-21 19:57:53',
                 'datecreated' => '2025-04-21 19:57:53',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'id_bonus' => 122,
                 'id_member' => 169,
@@ -1383,12 +1309,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 73,
                 'id_bonus' => 123,
                 'id_member' => 167,
@@ -1402,12 +1327,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 74,
                 'id_bonus' => 124,
                 'id_member' => 39,
@@ -1421,12 +1345,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 75,
                 'id_bonus' => 125,
                 'id_member' => 38,
@@ -1440,12 +1363,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 76,
                 'id_bonus' => 126,
                 'id_member' => 23,
@@ -1459,12 +1381,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 77,
                 'id_bonus' => 127,
                 'id_member' => 22,
@@ -1478,12 +1399,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 78,
                 'id_bonus' => 128,
                 'id_member' => 21,
@@ -1497,12 +1417,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 79,
                 'id_bonus' => 129,
                 'id_member' => 20,
@@ -1516,12 +1435,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 80,
                 'id_bonus' => 130,
                 'id_member' => 18,
@@ -1535,12 +1453,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 81,
                 'id_bonus' => 131,
                 'id_member' => 17,
@@ -1554,12 +1471,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 82,
                 'id_bonus' => 132,
                 'id_member' => 16,
@@ -1573,12 +1489,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 83,
                 'id_bonus' => 133,
                 'id_member' => 12,
@@ -1592,12 +1507,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 84,
                 'id_bonus' => 134,
                 'id_member' => 10,
@@ -1611,12 +1525,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 85,
                 'id_bonus' => 135,
                 'id_member' => 9,
@@ -1630,12 +1543,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 86,
                 'id_bonus' => 136,
                 'id_member' => 5,
@@ -1649,12 +1561,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 87,
                 'id_bonus' => 137,
                 'id_member' => 3,
@@ -1668,12 +1579,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 88,
                 'id_bonus' => 138,
                 'id_member' => 2,
@@ -1687,12 +1597,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member wonderwoman (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member wonderwoman (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:07:24',
                 'datecreated' => '2025-04-21 20:07:24',
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 89,
                 'id_bonus' => 150,
                 'id_member' => 170,
@@ -1706,12 +1615,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 90,
                 'id_bonus' => 151,
                 'id_member' => 71,
@@ -1725,12 +1633,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 91,
                 'id_bonus' => 152,
                 'id_member' => 70,
@@ -1744,12 +1651,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 92,
                 'id_bonus' => 153,
                 'id_member' => 66,
@@ -1763,12 +1669,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 93,
                 'id_bonus' => 154,
                 'id_member' => 64,
@@ -1782,12 +1687,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 94,
                 'id_bonus' => 155,
                 'id_member' => 63,
@@ -1801,12 +1705,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 95,
                 'id_bonus' => 156,
                 'id_member' => 62,
@@ -1820,12 +1723,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 96,
                 'id_bonus' => 157,
                 'id_member' => 58,
@@ -1839,12 +1741,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 97,
                 'id_bonus' => 158,
                 'id_member' => 52,
@@ -1858,12 +1759,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 98,
                 'id_bonus' => 159,
                 'id_member' => 51,
@@ -1877,12 +1777,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 99,
                 'id_bonus' => 160,
                 'id_member' => 42,
@@ -1896,12 +1795,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 100,
                 'id_bonus' => 161,
                 'id_member' => 22,
@@ -1915,12 +1813,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 101,
                 'id_bonus' => 162,
                 'id_member' => 21,
@@ -1934,12 +1831,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 102,
                 'id_bonus' => 163,
                 'id_member' => 20,
@@ -1953,12 +1849,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 103,
                 'id_bonus' => 164,
                 'id_member' => 18,
@@ -1972,12 +1867,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 104,
                 'id_bonus' => 165,
                 'id_member' => 17,
@@ -1991,12 +1885,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 105,
                 'id_bonus' => 166,
                 'id_member' => 16,
@@ -2010,12 +1903,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 106,
                 'id_bonus' => 167,
                 'id_member' => 12,
@@ -2029,12 +1921,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 107,
                 'id_bonus' => 168,
                 'id_member' => 10,
@@ -2048,12 +1939,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'id_bonus' => 169,
                 'id_member' => 9,
@@ -2067,12 +1957,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member lungga14 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member lungga14 (2.500 BV)',
                 'dateomzet' => '2025-04-21 20:12:53',
                 'datecreated' => '2025-04-21 20:12:53',
-            ),
-            108 => 
-            array (
+            ],
+            108 => [
                 'id' => 109,
                 'id_bonus' => 184,
                 'id_member' => 90,
@@ -2086,12 +1975,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            109 => 
-            array (
+            ],
+            109 => [
                 'id' => 110,
                 'id_bonus' => 185,
                 'id_member' => 55,
@@ -2105,12 +1993,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            110 => 
-            array (
+            ],
+            110 => [
                 'id' => 111,
                 'id_bonus' => 186,
                 'id_member' => 54,
@@ -2124,12 +2011,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            111 => 
-            array (
+            ],
+            111 => [
                 'id' => 112,
                 'id_bonus' => 187,
                 'id_member' => 53,
@@ -2143,12 +2029,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            112 => 
-            array (
+            ],
+            112 => [
                 'id' => 113,
                 'id_bonus' => 188,
                 'id_member' => 21,
@@ -2162,12 +2047,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            113 => 
-            array (
+            ],
+            113 => [
                 'id' => 114,
                 'id_bonus' => 189,
                 'id_member' => 20,
@@ -2181,12 +2065,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            114 => 
-            array (
+            ],
+            114 => [
                 'id' => 115,
                 'id_bonus' => 190,
                 'id_member' => 18,
@@ -2200,12 +2083,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 116,
                 'id_bonus' => 191,
                 'id_member' => 17,
@@ -2219,12 +2101,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            116 => 
-            array (
+            ],
+            116 => [
                 'id' => 117,
                 'id_bonus' => 192,
                 'id_member' => 16,
@@ -2238,12 +2119,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            117 => 
-            array (
+            ],
+            117 => [
                 'id' => 118,
                 'id_bonus' => 193,
                 'id_member' => 12,
@@ -2257,12 +2137,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            118 => 
-            array (
+            ],
+            118 => [
                 'id' => 119,
                 'id_bonus' => 194,
                 'id_member' => 10,
@@ -2276,12 +2155,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            119 => 
-            array (
+            ],
+            119 => [
                 'id' => 120,
                 'id_bonus' => 195,
                 'id_member' => 9,
@@ -2295,12 +2173,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            120 => 
-            array (
+            ],
+            120 => [
                 'id' => 121,
                 'id_bonus' => 196,
                 'id_member' => 5,
@@ -2314,12 +2191,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            121 => 
-            array (
+            ],
+            121 => [
                 'id' => 122,
                 'id_bonus' => 197,
                 'id_member' => 3,
@@ -2333,12 +2209,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            122 => 
-            array (
+            ],
+            122 => [
                 'id' => 123,
                 'id_bonus' => 198,
                 'id_member' => 2,
@@ -2352,12 +2227,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member risingphoenix (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member risingphoenix (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:41:37',
                 'datecreated' => '2025-04-22 20:41:37',
-            ),
-            123 => 
-            array (
+            ],
+            123 => [
                 'id' => 124,
                 'id_bonus' => 206,
                 'id_member' => 178,
@@ -2371,12 +2245,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            124 => 
-            array (
+            ],
+            124 => [
                 'id' => 125,
                 'id_bonus' => 207,
                 'id_member' => 90,
@@ -2390,12 +2263,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            125 => 
-            array (
+            ],
+            125 => [
                 'id' => 126,
                 'id_bonus' => 208,
                 'id_member' => 55,
@@ -2409,12 +2281,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            126 => 
-            array (
+            ],
+            126 => [
                 'id' => 127,
                 'id_bonus' => 209,
                 'id_member' => 54,
@@ -2428,12 +2299,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            127 => 
-            array (
+            ],
+            127 => [
                 'id' => 128,
                 'id_bonus' => 210,
                 'id_member' => 53,
@@ -2447,12 +2317,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            128 => 
-            array (
+            ],
+            128 => [
                 'id' => 129,
                 'id_bonus' => 211,
                 'id_member' => 21,
@@ -2466,12 +2335,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            129 => 
-            array (
+            ],
+            129 => [
                 'id' => 130,
                 'id_bonus' => 212,
                 'id_member' => 20,
@@ -2485,12 +2353,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            130 => 
-            array (
+            ],
+            130 => [
                 'id' => 131,
                 'id_bonus' => 213,
                 'id_member' => 18,
@@ -2504,12 +2371,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            131 => 
-            array (
+            ],
+            131 => [
                 'id' => 132,
                 'id_bonus' => 214,
                 'id_member' => 17,
@@ -2523,12 +2389,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            132 => 
-            array (
+            ],
+            132 => [
                 'id' => 133,
                 'id_bonus' => 215,
                 'id_member' => 16,
@@ -2542,12 +2407,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            133 => 
-            array (
+            ],
+            133 => [
                 'id' => 134,
                 'id_bonus' => 216,
                 'id_member' => 12,
@@ -2561,12 +2425,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            134 => 
-            array (
+            ],
+            134 => [
                 'id' => 135,
                 'id_bonus' => 217,
                 'id_member' => 10,
@@ -2580,12 +2443,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            135 => 
-            array (
+            ],
+            135 => [
                 'id' => 136,
                 'id_bonus' => 218,
                 'id_member' => 9,
@@ -2599,12 +2461,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            136 => 
-            array (
+            ],
+            136 => [
                 'id' => 137,
                 'id_bonus' => 219,
                 'id_member' => 5,
@@ -2618,12 +2479,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            137 => 
-            array (
+            ],
+            137 => [
                 'id' => 138,
                 'id_bonus' => 220,
                 'id_member' => 3,
@@ -2637,12 +2497,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            138 => 
-            array (
+            ],
+            138 => [
                 'id' => 139,
                 'id_bonus' => 221,
                 'id_member' => 2,
@@ -2656,12 +2515,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member ririnfajarini (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member ririnfajarini (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:43:42',
                 'datecreated' => '2025-04-22 20:43:42',
-            ),
-            139 => 
-            array (
+            ],
+            139 => [
                 'id' => 140,
                 'id_bonus' => 229,
                 'id_member' => 179,
@@ -2675,12 +2533,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            140 => 
-            array (
+            ],
+            140 => [
                 'id' => 141,
                 'id_bonus' => 230,
                 'id_member' => 178,
@@ -2694,12 +2551,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            141 => 
-            array (
+            ],
+            141 => [
                 'id' => 142,
                 'id_bonus' => 231,
                 'id_member' => 90,
@@ -2713,12 +2569,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            142 => 
-            array (
+            ],
+            142 => [
                 'id' => 143,
                 'id_bonus' => 232,
                 'id_member' => 55,
@@ -2732,12 +2587,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            143 => 
-            array (
+            ],
+            143 => [
                 'id' => 144,
                 'id_bonus' => 233,
                 'id_member' => 54,
@@ -2751,12 +2605,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            144 => 
-            array (
+            ],
+            144 => [
                 'id' => 145,
                 'id_bonus' => 234,
                 'id_member' => 53,
@@ -2770,12 +2623,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            145 => 
-            array (
+            ],
+            145 => [
                 'id' => 146,
                 'id_bonus' => 235,
                 'id_member' => 21,
@@ -2789,12 +2641,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            146 => 
-            array (
+            ],
+            146 => [
                 'id' => 147,
                 'id_bonus' => 236,
                 'id_member' => 20,
@@ -2808,12 +2659,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            147 => 
-            array (
+            ],
+            147 => [
                 'id' => 148,
                 'id_bonus' => 237,
                 'id_member' => 18,
@@ -2827,12 +2677,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            148 => 
-            array (
+            ],
+            148 => [
                 'id' => 149,
                 'id_bonus' => 238,
                 'id_member' => 17,
@@ -2846,12 +2695,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            149 => 
-            array (
+            ],
+            149 => [
                 'id' => 150,
                 'id_bonus' => 239,
                 'id_member' => 16,
@@ -2865,12 +2713,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            150 => 
-            array (
+            ],
+            150 => [
                 'id' => 151,
                 'id_bonus' => 240,
                 'id_member' => 12,
@@ -2884,12 +2731,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 152,
                 'id_bonus' => 241,
                 'id_member' => 10,
@@ -2903,12 +2749,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 153,
                 'id_bonus' => 242,
                 'id_member' => 9,
@@ -2922,12 +2767,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 154,
                 'id_bonus' => 243,
                 'id_member' => 5,
@@ -2941,12 +2785,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 155,
                 'id_bonus' => 244,
                 'id_member' => 3,
@@ -2960,12 +2803,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 156,
                 'id_bonus' => 245,
                 'id_member' => 2,
@@ -2979,12 +2821,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member julianlie (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member julianlie (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:47:11',
                 'datecreated' => '2025-04-22 20:47:11',
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 157,
                 'id_bonus' => 253,
                 'id_member' => 90,
@@ -2998,12 +2839,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            157 => 
-            array (
+            ],
+            157 => [
                 'id' => 158,
                 'id_bonus' => 254,
                 'id_member' => 55,
@@ -3017,12 +2857,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            158 => 
-            array (
+            ],
+            158 => [
                 'id' => 159,
                 'id_bonus' => 255,
                 'id_member' => 54,
@@ -3036,12 +2875,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            159 => 
-            array (
+            ],
+            159 => [
                 'id' => 160,
                 'id_bonus' => 256,
                 'id_member' => 53,
@@ -3055,12 +2893,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            160 => 
-            array (
+            ],
+            160 => [
                 'id' => 161,
                 'id_bonus' => 257,
                 'id_member' => 21,
@@ -3074,12 +2911,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            161 => 
-            array (
+            ],
+            161 => [
                 'id' => 162,
                 'id_bonus' => 258,
                 'id_member' => 20,
@@ -3093,12 +2929,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            162 => 
-            array (
+            ],
+            162 => [
                 'id' => 163,
                 'id_bonus' => 259,
                 'id_member' => 18,
@@ -3112,12 +2947,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            163 => 
-            array (
+            ],
+            163 => [
                 'id' => 164,
                 'id_bonus' => 260,
                 'id_member' => 17,
@@ -3131,12 +2965,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            164 => 
-            array (
+            ],
+            164 => [
                 'id' => 165,
                 'id_bonus' => 261,
                 'id_member' => 16,
@@ -3150,12 +2983,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            165 => 
-            array (
+            ],
+            165 => [
                 'id' => 166,
                 'id_bonus' => 262,
                 'id_member' => 12,
@@ -3169,12 +3001,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            166 => 
-            array (
+            ],
+            166 => [
                 'id' => 167,
                 'id_bonus' => 263,
                 'id_member' => 10,
@@ -3188,12 +3019,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            167 => 
-            array (
+            ],
+            167 => [
                 'id' => 168,
                 'id_bonus' => 264,
                 'id_member' => 9,
@@ -3207,12 +3037,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            168 => 
-            array (
+            ],
+            168 => [
                 'id' => 169,
                 'id_bonus' => 265,
                 'id_member' => 5,
@@ -3226,12 +3055,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            169 => 
-            array (
+            ],
+            169 => [
                 'id' => 170,
                 'id_bonus' => 266,
                 'id_member' => 3,
@@ -3245,12 +3073,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            170 => 
-            array (
+            ],
+            170 => [
                 'id' => 171,
                 'id_bonus' => 267,
                 'id_member' => 2,
@@ -3264,12 +3091,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member hinro888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member hinro888 (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:52:28',
                 'datecreated' => '2025-04-22 20:52:28',
-            ),
-            171 => 
-            array (
+            ],
+            171 => [
                 'id' => 172,
                 'id_bonus' => 277,
                 'id_member' => 181,
@@ -3283,12 +3109,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            172 => 
-            array (
+            ],
+            172 => [
                 'id' => 173,
                 'id_bonus' => 278,
                 'id_member' => 90,
@@ -3302,12 +3127,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            173 => 
-            array (
+            ],
+            173 => [
                 'id' => 174,
                 'id_bonus' => 279,
                 'id_member' => 55,
@@ -3321,12 +3145,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            174 => 
-            array (
+            ],
+            174 => [
                 'id' => 175,
                 'id_bonus' => 280,
                 'id_member' => 54,
@@ -3340,12 +3163,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            175 => 
-            array (
+            ],
+            175 => [
                 'id' => 176,
                 'id_bonus' => 281,
                 'id_member' => 53,
@@ -3359,12 +3181,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            176 => 
-            array (
+            ],
+            176 => [
                 'id' => 177,
                 'id_bonus' => 282,
                 'id_member' => 21,
@@ -3378,12 +3199,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            177 => 
-            array (
+            ],
+            177 => [
                 'id' => 178,
                 'id_bonus' => 283,
                 'id_member' => 20,
@@ -3397,12 +3217,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            178 => 
-            array (
+            ],
+            178 => [
                 'id' => 179,
                 'id_bonus' => 284,
                 'id_member' => 18,
@@ -3416,12 +3235,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            179 => 
-            array (
+            ],
+            179 => [
                 'id' => 180,
                 'id_bonus' => 285,
                 'id_member' => 17,
@@ -3435,12 +3253,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            180 => 
-            array (
+            ],
+            180 => [
                 'id' => 181,
                 'id_bonus' => 286,
                 'id_member' => 16,
@@ -3454,12 +3271,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            181 => 
-            array (
+            ],
+            181 => [
                 'id' => 182,
                 'id_bonus' => 287,
                 'id_member' => 12,
@@ -3473,12 +3289,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            182 => 
-            array (
+            ],
+            182 => [
                 'id' => 183,
                 'id_bonus' => 288,
                 'id_member' => 10,
@@ -3492,12 +3307,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            183 => 
-            array (
+            ],
+            183 => [
                 'id' => 184,
                 'id_bonus' => 289,
                 'id_member' => 9,
@@ -3511,12 +3325,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            184 => 
-            array (
+            ],
+            184 => [
                 'id' => 185,
                 'id_bonus' => 290,
                 'id_member' => 5,
@@ -3530,12 +3343,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            185 => 
-            array (
+            ],
+            185 => [
                 'id' => 186,
                 'id_bonus' => 291,
                 'id_member' => 3,
@@ -3549,12 +3361,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            186 => 
-            array (
+            ],
+            186 => [
                 'id' => 187,
                 'id_bonus' => 292,
                 'id_member' => 2,
@@ -3568,12 +3379,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member peetamarisa (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member peetamarisa (2.500 BV)',
                 'dateomzet' => '2025-04-22 20:55:29',
                 'datecreated' => '2025-04-22 20:55:29',
-            ),
-            187 => 
-            array (
+            ],
+            187 => [
                 'id' => 188,
                 'id_bonus' => 303,
                 'id_member' => 28,
@@ -3587,12 +3397,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            188 => 
-            array (
+            ],
+            188 => [
                 'id' => 189,
                 'id_bonus' => 304,
                 'id_member' => 26,
@@ -3606,12 +3415,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            189 => 
-            array (
+            ],
+            189 => [
                 'id' => 190,
                 'id_bonus' => 305,
                 'id_member' => 25,
@@ -3625,12 +3433,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            190 => 
-            array (
+            ],
+            190 => [
                 'id' => 191,
                 'id_bonus' => 306,
                 'id_member' => 24,
@@ -3644,12 +3451,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            191 => 
-            array (
+            ],
+            191 => [
                 'id' => 192,
                 'id_bonus' => 307,
                 'id_member' => 23,
@@ -3663,12 +3469,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            192 => 
-            array (
+            ],
+            192 => [
                 'id' => 193,
                 'id_bonus' => 308,
                 'id_member' => 22,
@@ -3682,12 +3487,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            193 => 
-            array (
+            ],
+            193 => [
                 'id' => 194,
                 'id_bonus' => 309,
                 'id_member' => 21,
@@ -3701,12 +3505,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            194 => 
-            array (
+            ],
+            194 => [
                 'id' => 195,
                 'id_bonus' => 310,
                 'id_member' => 20,
@@ -3720,12 +3523,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            195 => 
-            array (
+            ],
+            195 => [
                 'id' => 196,
                 'id_bonus' => 311,
                 'id_member' => 18,
@@ -3739,12 +3541,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            196 => 
-            array (
+            ],
+            196 => [
                 'id' => 197,
                 'id_bonus' => 312,
                 'id_member' => 17,
@@ -3758,12 +3559,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            197 => 
-            array (
+            ],
+            197 => [
                 'id' => 198,
                 'id_bonus' => 313,
                 'id_member' => 16,
@@ -3777,12 +3577,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            198 => 
-            array (
+            ],
+            198 => [
                 'id' => 199,
                 'id_bonus' => 314,
                 'id_member' => 12,
@@ -3796,12 +3595,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            199 => 
-            array (
+            ],
+            199 => [
                 'id' => 200,
                 'id_bonus' => 315,
                 'id_member' => 10,
@@ -3815,12 +3613,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            200 => 
-            array (
+            ],
+            200 => [
                 'id' => 201,
                 'id_bonus' => 316,
                 'id_member' => 9,
@@ -3834,12 +3631,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            201 => 
-            array (
+            ],
+            201 => [
                 'id' => 202,
                 'id_bonus' => 317,
                 'id_member' => 5,
@@ -3853,12 +3649,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            202 => 
-            array (
+            ],
+            202 => [
                 'id' => 203,
                 'id_bonus' => 318,
                 'id_member' => 3,
@@ -3872,12 +3667,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            203 => 
-            array (
+            ],
+            203 => [
                 'id' => 204,
                 'id_bonus' => 319,
                 'id_member' => 2,
@@ -3891,12 +3685,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-23',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member founderjpbuana (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member founderjpbuana (2.500 BV)',
                 'dateomzet' => '2025-04-23 21:00:21',
                 'datecreated' => '2025-04-23 21:00:21',
-            ),
-            204 => 
-            array (
+            ],
+            204 => [
                 'id' => 205,
                 'id_bonus' => 331,
                 'id_member' => 167,
@@ -3910,12 +3703,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            205 => 
-            array (
+            ],
+            205 => [
                 'id' => 206,
                 'id_bonus' => 332,
                 'id_member' => 39,
@@ -3929,12 +3721,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            206 => 
-            array (
+            ],
+            206 => [
                 'id' => 207,
                 'id_bonus' => 333,
                 'id_member' => 38,
@@ -3948,12 +3739,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            207 => 
-            array (
+            ],
+            207 => [
                 'id' => 208,
                 'id_bonus' => 334,
                 'id_member' => 23,
@@ -3967,12 +3757,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            208 => 
-            array (
+            ],
+            208 => [
                 'id' => 209,
                 'id_bonus' => 335,
                 'id_member' => 22,
@@ -3986,12 +3775,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            209 => 
-            array (
+            ],
+            209 => [
                 'id' => 210,
                 'id_bonus' => 336,
                 'id_member' => 21,
@@ -4005,12 +3793,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            210 => 
-            array (
+            ],
+            210 => [
                 'id' => 211,
                 'id_bonus' => 337,
                 'id_member' => 20,
@@ -4024,12 +3811,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            211 => 
-            array (
+            ],
+            211 => [
                 'id' => 212,
                 'id_bonus' => 338,
                 'id_member' => 18,
@@ -4043,12 +3829,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            212 => 
-            array (
+            ],
+            212 => [
                 'id' => 213,
                 'id_bonus' => 339,
                 'id_member' => 17,
@@ -4062,12 +3847,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            213 => 
-            array (
+            ],
+            213 => [
                 'id' => 214,
                 'id_bonus' => 340,
                 'id_member' => 16,
@@ -4081,12 +3865,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            214 => 
-            array (
+            ],
+            214 => [
                 'id' => 215,
                 'id_bonus' => 341,
                 'id_member' => 12,
@@ -4100,12 +3883,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            215 => 
-            array (
+            ],
+            215 => [
                 'id' => 216,
                 'id_bonus' => 342,
                 'id_member' => 10,
@@ -4119,12 +3901,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            216 => 
-            array (
+            ],
+            216 => [
                 'id' => 217,
                 'id_bonus' => 343,
                 'id_member' => 9,
@@ -4138,12 +3919,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            217 => 
-            array (
+            ],
+            217 => [
                 'id' => 218,
                 'id_bonus' => 344,
                 'id_member' => 5,
@@ -4157,12 +3937,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            218 => 
-            array (
+            ],
+            218 => [
                 'id' => 219,
                 'id_bonus' => 345,
                 'id_member' => 3,
@@ -4176,12 +3955,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            219 => 
-            array (
+            ],
+            219 => [
                 'id' => 220,
                 'id_bonus' => 346,
                 'id_member' => 2,
@@ -4195,12 +3973,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member queenla2 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member queenla2 (2.500 BV)',
                 'dateomzet' => '2025-04-24 20:41:42',
                 'datecreated' => '2025-04-24 20:41:42',
-            ),
-            220 => 
-            array (
+            ],
+            220 => [
                 'id' => 221,
                 'id_bonus' => 359,
                 'id_member' => 57,
@@ -4214,12 +3991,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            221 => 
-            array (
+            ],
+            221 => [
                 'id' => 222,
                 'id_bonus' => 360,
                 'id_member' => 56,
@@ -4233,12 +4009,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            222 => 
-            array (
+            ],
+            222 => [
                 'id' => 223,
                 'id_bonus' => 361,
                 'id_member' => 41,
@@ -4252,12 +4027,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            223 => 
-            array (
+            ],
+            223 => [
                 'id' => 224,
                 'id_bonus' => 362,
                 'id_member' => 40,
@@ -4271,12 +4045,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            224 => 
-            array (
+            ],
+            224 => [
                 'id' => 225,
                 'id_bonus' => 363,
                 'id_member' => 38,
@@ -4290,12 +4063,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            225 => 
-            array (
+            ],
+            225 => [
                 'id' => 226,
                 'id_bonus' => 364,
                 'id_member' => 23,
@@ -4309,12 +4081,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            226 => 
-            array (
+            ],
+            226 => [
                 'id' => 227,
                 'id_bonus' => 365,
                 'id_member' => 22,
@@ -4328,12 +4099,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            227 => 
-            array (
+            ],
+            227 => [
                 'id' => 228,
                 'id_bonus' => 366,
                 'id_member' => 21,
@@ -4347,12 +4117,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            228 => 
-            array (
+            ],
+            228 => [
                 'id' => 229,
                 'id_bonus' => 367,
                 'id_member' => 20,
@@ -4366,12 +4135,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            229 => 
-            array (
+            ],
+            229 => [
                 'id' => 230,
                 'id_bonus' => 368,
                 'id_member' => 18,
@@ -4385,12 +4153,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            230 => 
-            array (
+            ],
+            230 => [
                 'id' => 231,
                 'id_bonus' => 369,
                 'id_member' => 17,
@@ -4404,12 +4171,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            231 => 
-            array (
+            ],
+            231 => [
                 'id' => 232,
                 'id_bonus' => 370,
                 'id_member' => 16,
@@ -4423,12 +4189,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            232 => 
-            array (
+            ],
+            232 => [
                 'id' => 233,
                 'id_bonus' => 371,
                 'id_member' => 12,
@@ -4442,12 +4207,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            233 => 
-            array (
+            ],
+            233 => [
                 'id' => 234,
                 'id_bonus' => 372,
                 'id_member' => 10,
@@ -4461,12 +4225,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            234 => 
-            array (
+            ],
+            234 => [
                 'id' => 235,
                 'id_bonus' => 373,
                 'id_member' => 9,
@@ -4480,12 +4243,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            235 => 
-            array (
+            ],
+            235 => [
                 'id' => 236,
                 'id_bonus' => 374,
                 'id_member' => 5,
@@ -4499,12 +4261,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            236 => 
-            array (
+            ],
+            236 => [
                 'id' => 237,
                 'id_bonus' => 375,
                 'id_member' => 3,
@@ -4518,12 +4279,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            237 => 
-            array (
+            ],
+            237 => [
                 'id' => 238,
                 'id_bonus' => 376,
                 'id_member' => 2,
@@ -4537,12 +4297,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member yayanhebat (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member yayanhebat (2.500 BV)',
                 'dateomzet' => '2025-04-25 15:15:05',
                 'datecreated' => '2025-04-25 15:15:05',
-            ),
-            238 => 
-            array (
+            ],
+            238 => [
                 'id' => 239,
                 'id_bonus' => 387,
                 'id_member' => 178,
@@ -4556,12 +4315,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            239 => 
-            array (
+            ],
+            239 => [
                 'id' => 240,
                 'id_bonus' => 388,
                 'id_member' => 90,
@@ -4575,12 +4333,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            240 => 
-            array (
+            ],
+            240 => [
                 'id' => 241,
                 'id_bonus' => 389,
                 'id_member' => 55,
@@ -4594,12 +4351,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            241 => 
-            array (
+            ],
+            241 => [
                 'id' => 242,
                 'id_bonus' => 390,
                 'id_member' => 54,
@@ -4613,12 +4369,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            242 => 
-            array (
+            ],
+            242 => [
                 'id' => 243,
                 'id_bonus' => 391,
                 'id_member' => 53,
@@ -4632,12 +4387,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            243 => 
-            array (
+            ],
+            243 => [
                 'id' => 244,
                 'id_bonus' => 392,
                 'id_member' => 21,
@@ -4651,12 +4405,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            244 => 
-            array (
+            ],
+            244 => [
                 'id' => 245,
                 'id_bonus' => 393,
                 'id_member' => 20,
@@ -4670,12 +4423,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            245 => 
-            array (
+            ],
+            245 => [
                 'id' => 246,
                 'id_bonus' => 394,
                 'id_member' => 18,
@@ -4689,12 +4441,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            246 => 
-            array (
+            ],
+            246 => [
                 'id' => 247,
                 'id_bonus' => 395,
                 'id_member' => 17,
@@ -4708,12 +4459,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            247 => 
-            array (
+            ],
+            247 => [
                 'id' => 248,
                 'id_bonus' => 396,
                 'id_member' => 16,
@@ -4727,12 +4477,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            248 => 
-            array (
+            ],
+            248 => [
                 'id' => 249,
                 'id_bonus' => 397,
                 'id_member' => 12,
@@ -4746,12 +4495,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            249 => 
-            array (
+            ],
+            249 => [
                 'id' => 250,
                 'id_bonus' => 398,
                 'id_member' => 10,
@@ -4765,12 +4513,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            250 => 
-            array (
+            ],
+            250 => [
                 'id' => 251,
                 'id_bonus' => 399,
                 'id_member' => 9,
@@ -4784,12 +4531,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            251 => 
-            array (
+            ],
+            251 => [
                 'id' => 252,
                 'id_bonus' => 400,
                 'id_member' => 5,
@@ -4803,12 +4549,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            252 => 
-            array (
+            ],
+            252 => [
                 'id' => 253,
                 'id_bonus' => 401,
                 'id_member' => 3,
@@ -4822,12 +4567,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            253 => 
-            array (
+            ],
+            253 => [
                 'id' => 254,
                 'id_bonus' => 402,
                 'id_member' => 2,
@@ -4841,12 +4585,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member royal888 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member royal888 (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:35:38',
                 'datecreated' => '2025-04-25 19:35:38',
-            ),
-            254 => 
-            array (
+            ],
+            254 => [
                 'id' => 255,
                 'id_bonus' => 412,
                 'id_member' => 13,
@@ -4860,12 +4603,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            255 => 
-            array (
+            ],
+            255 => [
                 'id' => 256,
                 'id_bonus' => 413,
                 'id_member' => 10,
@@ -4879,12 +4621,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            256 => 
-            array (
+            ],
+            256 => [
                 'id' => 257,
                 'id_bonus' => 414,
                 'id_member' => 9,
@@ -4898,12 +4639,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            257 => 
-            array (
+            ],
+            257 => [
                 'id' => 258,
                 'id_bonus' => 415,
                 'id_member' => 5,
@@ -4917,12 +4657,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            258 => 
-            array (
+            ],
+            258 => [
                 'id' => 259,
                 'id_bonus' => 416,
                 'id_member' => 3,
@@ -4936,12 +4675,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            259 => 
-            array (
+            ],
+            259 => [
                 'id' => 260,
                 'id_bonus' => 417,
                 'id_member' => 2,
@@ -4955,12 +4693,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alexsusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alexsusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:44:52',
                 'datecreated' => '2025-04-25 19:44:52',
-            ),
-            260 => 
-            array (
+            ],
+            260 => [
                 'id' => 261,
                 'id_bonus' => 423,
                 'id_member' => 206,
@@ -4974,12 +4711,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            261 => 
-            array (
+            ],
+            261 => [
                 'id' => 262,
                 'id_bonus' => 424,
                 'id_member' => 13,
@@ -4993,12 +4729,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            262 => 
-            array (
+            ],
+            262 => [
                 'id' => 263,
                 'id_bonus' => 425,
                 'id_member' => 10,
@@ -5012,12 +4747,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            263 => 
-            array (
+            ],
+            263 => [
                 'id' => 264,
                 'id_bonus' => 426,
                 'id_member' => 9,
@@ -5031,12 +4765,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            264 => 
-            array (
+            ],
+            264 => [
                 'id' => 265,
                 'id_bonus' => 427,
                 'id_member' => 5,
@@ -5050,12 +4783,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            265 => 
-            array (
+            ],
+            265 => [
                 'id' => 266,
                 'id_bonus' => 428,
                 'id_member' => 3,
@@ -5069,12 +4801,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            266 => 
-            array (
+            ],
+            266 => [
                 'id' => 267,
                 'id_bonus' => 429,
                 'id_member' => 2,
@@ -5088,12 +4819,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member pollosalim (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member pollosalim (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:46:44',
                 'datecreated' => '2025-04-25 19:46:44',
-            ),
-            267 => 
-            array (
+            ],
+            267 => [
                 'id' => 268,
                 'id_bonus' => 435,
                 'id_member' => 207,
@@ -5107,12 +4837,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            268 => 
-            array (
+            ],
+            268 => [
                 'id' => 269,
                 'id_bonus' => 436,
                 'id_member' => 206,
@@ -5126,12 +4855,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            269 => 
-            array (
+            ],
+            269 => [
                 'id' => 270,
                 'id_bonus' => 437,
                 'id_member' => 13,
@@ -5145,12 +4873,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            270 => 
-            array (
+            ],
+            270 => [
                 'id' => 271,
                 'id_bonus' => 438,
                 'id_member' => 10,
@@ -5164,12 +4891,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            271 => 
-            array (
+            ],
+            271 => [
                 'id' => 272,
                 'id_bonus' => 439,
                 'id_member' => 9,
@@ -5183,12 +4909,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            272 => 
-            array (
+            ],
+            272 => [
                 'id' => 273,
                 'id_bonus' => 440,
                 'id_member' => 5,
@@ -5202,12 +4927,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            273 => 
-            array (
+            ],
+            273 => [
                 'id' => 274,
                 'id_bonus' => 441,
                 'id_member' => 3,
@@ -5221,12 +4945,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            274 => 
-            array (
+            ],
+            274 => [
                 'id' => 275,
                 'id_bonus' => 442,
                 'id_member' => 2,
@@ -5240,12 +4963,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jamaris (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jamaris (2.500 BV)',
                 'dateomzet' => '2025-04-25 19:48:10',
                 'datecreated' => '2025-04-25 19:48:10',
-            ),
-            275 => 
-            array (
+            ],
+            275 => [
                 'id' => 276,
                 'id_bonus' => 448,
                 'id_member' => 209,
@@ -5259,12 +4981,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            276 => 
-            array (
+            ],
+            276 => [
                 'id' => 277,
                 'id_bonus' => 449,
                 'id_member' => 13,
@@ -5278,12 +4999,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            277 => 
-            array (
+            ],
+            277 => [
                 'id' => 278,
                 'id_bonus' => 450,
                 'id_member' => 10,
@@ -5297,12 +5017,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            278 => 
-            array (
+            ],
+            278 => [
                 'id' => 279,
                 'id_bonus' => 451,
                 'id_member' => 9,
@@ -5316,12 +5035,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            279 => 
-            array (
+            ],
+            279 => [
                 'id' => 280,
                 'id_bonus' => 452,
                 'id_member' => 5,
@@ -5335,12 +5053,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            280 => 
-            array (
+            ],
+            280 => [
                 'id' => 281,
                 'id_bonus' => 453,
                 'id_member' => 3,
@@ -5354,12 +5071,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            281 => 
-            array (
+            ],
+            281 => [
                 'id' => 282,
                 'id_bonus' => 454,
                 'id_member' => 2,
@@ -5373,12 +5089,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-25',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ekobudisusanto (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ekobudisusanto (2.500 BV)',
                 'dateomzet' => '2025-04-25 20:19:24',
                 'datecreated' => '2025-04-25 20:19:24',
-            ),
-            282 => 
-            array (
+            ],
+            282 => [
                 'id' => 283,
                 'id_bonus' => 462,
                 'id_member' => 213,
@@ -5392,12 +5107,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            283 => 
-            array (
+            ],
+            283 => [
                 'id' => 284,
                 'id_bonus' => 463,
                 'id_member' => 211,
@@ -5411,12 +5125,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            284 => 
-            array (
+            ],
+            284 => [
                 'id' => 285,
                 'id_bonus' => 464,
                 'id_member' => 137,
@@ -5430,12 +5143,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            285 => 
-            array (
+            ],
+            285 => [
                 'id' => 286,
                 'id_bonus' => 465,
                 'id_member' => 135,
@@ -5449,12 +5161,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            286 => 
-            array (
+            ],
+            286 => [
                 'id' => 287,
                 'id_bonus' => 466,
                 'id_member' => 113,
@@ -5468,12 +5179,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            287 => 
-            array (
+            ],
+            287 => [
                 'id' => 288,
                 'id_bonus' => 467,
                 'id_member' => 112,
@@ -5487,12 +5197,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            288 => 
-            array (
+            ],
+            288 => [
                 'id' => 289,
                 'id_bonus' => 468,
                 'id_member' => 111,
@@ -5506,12 +5215,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            289 => 
-            array (
+            ],
+            289 => [
                 'id' => 290,
                 'id_bonus' => 469,
                 'id_member' => 109,
@@ -5525,12 +5233,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            290 => 
-            array (
+            ],
+            290 => [
                 'id' => 291,
                 'id_bonus' => 470,
                 'id_member' => 107,
@@ -5544,12 +5251,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            291 => 
-            array (
+            ],
+            291 => [
                 'id' => 292,
                 'id_bonus' => 471,
                 'id_member' => 106,
@@ -5563,12 +5269,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            292 => 
-            array (
+            ],
+            292 => [
                 'id' => 293,
                 'id_bonus' => 472,
                 'id_member' => 15,
@@ -5582,12 +5287,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            293 => 
-            array (
+            ],
+            293 => [
                 'id' => 294,
                 'id_bonus' => 473,
                 'id_member' => 11,
@@ -5601,12 +5305,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            294 => 
-            array (
+            ],
+            294 => [
                 'id' => 295,
                 'id_bonus' => 474,
                 'id_member' => 9,
@@ -5620,12 +5323,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            295 => 
-            array (
+            ],
+            295 => [
                 'id' => 296,
                 'id_bonus' => 475,
                 'id_member' => 5,
@@ -5639,12 +5341,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            296 => 
-            array (
+            ],
+            296 => [
                 'id' => 297,
                 'id_bonus' => 476,
                 'id_member' => 3,
@@ -5658,12 +5359,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            297 => 
-            array (
+            ],
+            297 => [
                 'id' => 298,
                 'id_bonus' => 477,
                 'id_member' => 2,
@@ -5677,12 +5377,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member bisnisnyonyaboss (2.500 BV)',
                 'dateomzet' => '2025-04-27 12:27:29',
                 'datecreated' => '2025-04-27 12:27:29',
-            ),
-            298 => 
-            array (
+            ],
+            298 => [
                 'id' => 299,
                 'id_bonus' => 483,
                 'id_member' => 180,
@@ -5696,12 +5395,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            299 => 
-            array (
+            ],
+            299 => [
                 'id' => 300,
                 'id_bonus' => 484,
                 'id_member' => 179,
@@ -5715,12 +5413,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            300 => 
-            array (
+            ],
+            300 => [
                 'id' => 301,
                 'id_bonus' => 485,
                 'id_member' => 178,
@@ -5734,12 +5431,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            301 => 
-            array (
+            ],
+            301 => [
                 'id' => 302,
                 'id_bonus' => 486,
                 'id_member' => 90,
@@ -5753,12 +5449,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            302 => 
-            array (
+            ],
+            302 => [
                 'id' => 303,
                 'id_bonus' => 487,
                 'id_member' => 55,
@@ -5772,12 +5467,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            303 => 
-            array (
+            ],
+            303 => [
                 'id' => 304,
                 'id_bonus' => 488,
                 'id_member' => 54,
@@ -5791,12 +5485,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            304 => 
-            array (
+            ],
+            304 => [
                 'id' => 305,
                 'id_bonus' => 489,
                 'id_member' => 53,
@@ -5810,12 +5503,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            305 => 
-            array (
+            ],
+            305 => [
                 'id' => 306,
                 'id_bonus' => 490,
                 'id_member' => 21,
@@ -5829,12 +5521,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            306 => 
-            array (
+            ],
+            306 => [
                 'id' => 307,
                 'id_bonus' => 491,
                 'id_member' => 20,
@@ -5848,12 +5539,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            307 => 
-            array (
+            ],
+            307 => [
                 'id' => 308,
                 'id_bonus' => 492,
                 'id_member' => 18,
@@ -5867,12 +5557,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            308 => 
-            array (
+            ],
+            308 => [
                 'id' => 309,
                 'id_bonus' => 493,
                 'id_member' => 17,
@@ -5886,12 +5575,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            309 => 
-            array (
+            ],
+            309 => [
                 'id' => 310,
                 'id_bonus' => 494,
                 'id_member' => 16,
@@ -5905,12 +5593,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            310 => 
-            array (
+            ],
+            310 => [
                 'id' => 311,
                 'id_bonus' => 495,
                 'id_member' => 12,
@@ -5924,12 +5611,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            311 => 
-            array (
+            ],
+            311 => [
                 'id' => 312,
                 'id_bonus' => 496,
                 'id_member' => 10,
@@ -5943,12 +5629,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            312 => 
-            array (
+            ],
+            312 => [
                 'id' => 313,
                 'id_bonus' => 497,
                 'id_member' => 9,
@@ -5962,12 +5647,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            313 => 
-            array (
+            ],
+            313 => [
                 'id' => 314,
                 'id_bonus' => 498,
                 'id_member' => 5,
@@ -5981,12 +5665,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            314 => 
-            array (
+            ],
+            314 => [
                 'id' => 315,
                 'id_bonus' => 499,
                 'id_member' => 3,
@@ -6000,12 +5683,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            315 => 
-            array (
+            ],
+            315 => [
                 'id' => 316,
                 'id_bonus' => 500,
                 'id_member' => 2,
@@ -6019,12 +5701,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member mindexpertise (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member mindexpertise (2.500 BV)',
                 'dateomzet' => '2025-04-29 16:58:43',
                 'datecreated' => '2025-04-29 16:58:43',
-            ),
-            316 => 
-            array (
+            ],
+            316 => [
                 'id' => 317,
                 'id_bonus' => 508,
                 'id_member' => 221,
@@ -6038,12 +5719,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            317 => 
-            array (
+            ],
+            317 => [
                 'id' => 318,
                 'id_bonus' => 509,
                 'id_member' => 180,
@@ -6057,12 +5737,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            318 => 
-            array (
+            ],
+            318 => [
                 'id' => 319,
                 'id_bonus' => 510,
                 'id_member' => 179,
@@ -6076,12 +5755,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            319 => 
-            array (
+            ],
+            319 => [
                 'id' => 320,
                 'id_bonus' => 511,
                 'id_member' => 178,
@@ -6095,12 +5773,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            320 => 
-            array (
+            ],
+            320 => [
                 'id' => 321,
                 'id_bonus' => 512,
                 'id_member' => 90,
@@ -6114,12 +5791,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            321 => 
-            array (
+            ],
+            321 => [
                 'id' => 322,
                 'id_bonus' => 513,
                 'id_member' => 55,
@@ -6133,12 +5809,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            322 => 
-            array (
+            ],
+            322 => [
                 'id' => 323,
                 'id_bonus' => 514,
                 'id_member' => 54,
@@ -6152,12 +5827,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            323 => 
-            array (
+            ],
+            323 => [
                 'id' => 324,
                 'id_bonus' => 515,
                 'id_member' => 53,
@@ -6171,12 +5845,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            324 => 
-            array (
+            ],
+            324 => [
                 'id' => 325,
                 'id_bonus' => 516,
                 'id_member' => 21,
@@ -6190,12 +5863,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            325 => 
-            array (
+            ],
+            325 => [
                 'id' => 326,
                 'id_bonus' => 517,
                 'id_member' => 20,
@@ -6209,12 +5881,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            326 => 
-            array (
+            ],
+            326 => [
                 'id' => 327,
                 'id_bonus' => 518,
                 'id_member' => 18,
@@ -6228,12 +5899,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            327 => 
-            array (
+            ],
+            327 => [
                 'id' => 328,
                 'id_bonus' => 519,
                 'id_member' => 17,
@@ -6247,12 +5917,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            328 => 
-            array (
+            ],
+            328 => [
                 'id' => 329,
                 'id_bonus' => 520,
                 'id_member' => 16,
@@ -6266,12 +5935,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            329 => 
-            array (
+            ],
+            329 => [
                 'id' => 330,
                 'id_bonus' => 521,
                 'id_member' => 12,
@@ -6285,12 +5953,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            330 => 
-            array (
+            ],
+            330 => [
                 'id' => 331,
                 'id_bonus' => 522,
                 'id_member' => 10,
@@ -6304,12 +5971,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            331 => 
-            array (
+            ],
+            331 => [
                 'id' => 332,
                 'id_bonus' => 523,
                 'id_member' => 9,
@@ -6323,12 +5989,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            332 => 
-            array (
+            ],
+            332 => [
                 'id' => 333,
                 'id_bonus' => 524,
                 'id_member' => 5,
@@ -6342,12 +6007,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            333 => 
-            array (
+            ],
+            333 => [
                 'id' => 334,
                 'id_bonus' => 525,
                 'id_member' => 3,
@@ -6361,12 +6025,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            334 => 
-            array (
+            ],
+            334 => [
                 'id' => 335,
                 'id_bonus' => 526,
                 'id_member' => 2,
@@ -6380,12 +6043,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 4,
                 'date' => '2025-04-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member farahaull (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member farahaull (2.500 BV)',
                 'dateomzet' => '2025-04-29 17:08:02',
                 'datecreated' => '2025-04-29 17:08:02',
-            ),
-            335 => 
-            array (
+            ],
+            335 => [
                 'id' => 336,
                 'id_bonus' => 535,
                 'id_member' => 33,
@@ -6399,12 +6061,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            336 => 
-            array (
+            ],
+            336 => [
                 'id' => 337,
                 'id_bonus' => 536,
                 'id_member' => 32,
@@ -6418,12 +6079,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            337 => 
-            array (
+            ],
+            337 => [
                 'id' => 338,
                 'id_bonus' => 537,
                 'id_member' => 30,
@@ -6437,12 +6097,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            338 => 
-            array (
+            ],
+            338 => [
                 'id' => 339,
                 'id_bonus' => 538,
                 'id_member' => 28,
@@ -6456,12 +6115,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            339 => 
-            array (
+            ],
+            339 => [
                 'id' => 340,
                 'id_bonus' => 539,
                 'id_member' => 26,
@@ -6475,12 +6133,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            340 => 
-            array (
+            ],
+            340 => [
                 'id' => 341,
                 'id_bonus' => 540,
                 'id_member' => 25,
@@ -6494,12 +6151,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            341 => 
-            array (
+            ],
+            341 => [
                 'id' => 342,
                 'id_bonus' => 541,
                 'id_member' => 24,
@@ -6513,12 +6169,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            342 => 
-            array (
+            ],
+            342 => [
                 'id' => 343,
                 'id_bonus' => 542,
                 'id_member' => 23,
@@ -6532,12 +6187,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            343 => 
-            array (
+            ],
+            343 => [
                 'id' => 344,
                 'id_bonus' => 543,
                 'id_member' => 22,
@@ -6551,12 +6205,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            344 => 
-            array (
+            ],
+            344 => [
                 'id' => 345,
                 'id_bonus' => 544,
                 'id_member' => 21,
@@ -6570,12 +6223,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            345 => 
-            array (
+            ],
+            345 => [
                 'id' => 346,
                 'id_bonus' => 545,
                 'id_member' => 20,
@@ -6589,12 +6241,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            346 => 
-            array (
+            ],
+            346 => [
                 'id' => 347,
                 'id_bonus' => 546,
                 'id_member' => 18,
@@ -6608,12 +6259,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            347 => 
-            array (
+            ],
+            347 => [
                 'id' => 348,
                 'id_bonus' => 547,
                 'id_member' => 17,
@@ -6627,12 +6277,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            348 => 
-            array (
+            ],
+            348 => [
                 'id' => 349,
                 'id_bonus' => 548,
                 'id_member' => 16,
@@ -6646,12 +6295,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            349 => 
-            array (
+            ],
+            349 => [
                 'id' => 350,
                 'id_bonus' => 549,
                 'id_member' => 12,
@@ -6665,12 +6313,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            350 => 
-            array (
+            ],
+            350 => [
                 'id' => 351,
                 'id_bonus' => 550,
                 'id_member' => 10,
@@ -6684,12 +6331,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            351 => 
-            array (
+            ],
+            351 => [
                 'id' => 352,
                 'id_bonus' => 551,
                 'id_member' => 9,
@@ -6703,12 +6349,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            352 => 
-            array (
+            ],
+            352 => [
                 'id' => 353,
                 'id_bonus' => 552,
                 'id_member' => 5,
@@ -6722,12 +6367,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            353 => 
-            array (
+            ],
+            353 => [
                 'id' => 354,
                 'id_bonus' => 553,
                 'id_member' => 3,
@@ -6741,12 +6385,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            354 => 
-            array (
+            ],
+            354 => [
                 'id' => 355,
                 'id_bonus' => 554,
                 'id_member' => 2,
@@ -6760,12 +6403,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member sonyiesong (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member sonyiesong (2.500 BV)',
                 'dateomzet' => '2025-05-01 14:28:55',
                 'datecreated' => '2025-05-01 14:28:55',
-            ),
-            355 => 
-            array (
+            ],
+            355 => [
                 'id' => 356,
                 'id_bonus' => 570,
                 'id_member' => 55,
@@ -6779,12 +6421,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            356 => 
-            array (
+            ],
+            356 => [
                 'id' => 357,
                 'id_bonus' => 571,
                 'id_member' => 54,
@@ -6798,12 +6439,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            357 => 
-            array (
+            ],
+            357 => [
                 'id' => 358,
                 'id_bonus' => 572,
                 'id_member' => 53,
@@ -6817,12 +6457,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            358 => 
-            array (
+            ],
+            358 => [
                 'id' => 359,
                 'id_bonus' => 573,
                 'id_member' => 21,
@@ -6836,12 +6475,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            359 => 
-            array (
+            ],
+            359 => [
                 'id' => 360,
                 'id_bonus' => 574,
                 'id_member' => 20,
@@ -6855,12 +6493,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            360 => 
-            array (
+            ],
+            360 => [
                 'id' => 361,
                 'id_bonus' => 575,
                 'id_member' => 18,
@@ -6874,12 +6511,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            361 => 
-            array (
+            ],
+            361 => [
                 'id' => 362,
                 'id_bonus' => 576,
                 'id_member' => 17,
@@ -6893,12 +6529,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            362 => 
-            array (
+            ],
+            362 => [
                 'id' => 363,
                 'id_bonus' => 577,
                 'id_member' => 16,
@@ -6912,12 +6547,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            363 => 
-            array (
+            ],
+            363 => [
                 'id' => 364,
                 'id_bonus' => 578,
                 'id_member' => 12,
@@ -6931,12 +6565,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            364 => 
-            array (
+            ],
+            364 => [
                 'id' => 365,
                 'id_bonus' => 579,
                 'id_member' => 10,
@@ -6950,12 +6583,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            365 => 
-            array (
+            ],
+            365 => [
                 'id' => 366,
                 'id_bonus' => 580,
                 'id_member' => 9,
@@ -6969,12 +6601,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            366 => 
-            array (
+            ],
+            366 => [
                 'id' => 367,
                 'id_bonus' => 581,
                 'id_member' => 5,
@@ -6988,12 +6619,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            367 => 
-            array (
+            ],
+            367 => [
                 'id' => 368,
                 'id_bonus' => 582,
                 'id_member' => 3,
@@ -7007,12 +6637,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            368 => 
-            array (
+            ],
+            368 => [
                 'id' => 369,
                 'id_bonus' => 583,
                 'id_member' => 2,
@@ -7026,12 +6655,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member wongosing (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member wongosing (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:27:05',
                 'datecreated' => '2025-05-01 20:27:05',
-            ),
-            369 => 
-            array (
+            ],
+            369 => [
                 'id' => 370,
                 'id_bonus' => 593,
                 'id_member' => 224,
@@ -7045,12 +6673,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            370 => 
-            array (
+            ],
+            370 => [
                 'id' => 371,
                 'id_bonus' => 594,
                 'id_member' => 55,
@@ -7064,12 +6691,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            371 => 
-            array (
+            ],
+            371 => [
                 'id' => 372,
                 'id_bonus' => 595,
                 'id_member' => 54,
@@ -7083,12 +6709,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            372 => 
-            array (
+            ],
+            372 => [
                 'id' => 373,
                 'id_bonus' => 596,
                 'id_member' => 53,
@@ -7102,12 +6727,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            373 => 
-            array (
+            ],
+            373 => [
                 'id' => 374,
                 'id_bonus' => 597,
                 'id_member' => 21,
@@ -7121,12 +6745,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            374 => 
-            array (
+            ],
+            374 => [
                 'id' => 375,
                 'id_bonus' => 598,
                 'id_member' => 20,
@@ -7140,12 +6763,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            375 => 
-            array (
+            ],
+            375 => [
                 'id' => 376,
                 'id_bonus' => 599,
                 'id_member' => 18,
@@ -7159,12 +6781,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            376 => 
-            array (
+            ],
+            376 => [
                 'id' => 377,
                 'id_bonus' => 600,
                 'id_member' => 17,
@@ -7178,12 +6799,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            377 => 
-            array (
+            ],
+            377 => [
                 'id' => 378,
                 'id_bonus' => 601,
                 'id_member' => 16,
@@ -7197,12 +6817,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            378 => 
-            array (
+            ],
+            378 => [
                 'id' => 379,
                 'id_bonus' => 602,
                 'id_member' => 12,
@@ -7216,12 +6835,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            379 => 
-            array (
+            ],
+            379 => [
                 'id' => 380,
                 'id_bonus' => 603,
                 'id_member' => 10,
@@ -7235,12 +6853,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            380 => 
-            array (
+            ],
+            380 => [
                 'id' => 381,
                 'id_bonus' => 604,
                 'id_member' => 9,
@@ -7254,12 +6871,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            381 => 
-            array (
+            ],
+            381 => [
                 'id' => 382,
                 'id_bonus' => 605,
                 'id_member' => 5,
@@ -7273,12 +6889,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            382 => 
-            array (
+            ],
+            382 => [
                 'id' => 383,
                 'id_bonus' => 606,
                 'id_member' => 3,
@@ -7292,12 +6907,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            383 => 
-            array (
+            ],
+            383 => [
                 'id' => 384,
                 'id_bonus' => 607,
                 'id_member' => 2,
@@ -7311,12 +6925,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member blessmore (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member blessmore (2.500 BV)',
                 'dateomzet' => '2025-05-01 20:30:37',
                 'datecreated' => '2025-05-01 20:30:37',
-            ),
-            384 => 
-            array (
+            ],
+            384 => [
                 'id' => 385,
                 'id_bonus' => 618,
                 'id_member' => 225,
@@ -7330,12 +6943,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            385 => 
-            array (
+            ],
+            385 => [
                 'id' => 386,
                 'id_bonus' => 619,
                 'id_member' => 224,
@@ -7349,12 +6961,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            386 => 
-            array (
+            ],
+            386 => [
                 'id' => 387,
                 'id_bonus' => 620,
                 'id_member' => 55,
@@ -7368,12 +6979,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            387 => 
-            array (
+            ],
+            387 => [
                 'id' => 388,
                 'id_bonus' => 621,
                 'id_member' => 54,
@@ -7387,12 +6997,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            388 => 
-            array (
+            ],
+            388 => [
                 'id' => 389,
                 'id_bonus' => 622,
                 'id_member' => 53,
@@ -7406,12 +7015,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            389 => 
-            array (
+            ],
+            389 => [
                 'id' => 390,
                 'id_bonus' => 623,
                 'id_member' => 21,
@@ -7425,12 +7033,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            390 => 
-            array (
+            ],
+            390 => [
                 'id' => 391,
                 'id_bonus' => 624,
                 'id_member' => 20,
@@ -7444,12 +7051,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            391 => 
-            array (
+            ],
+            391 => [
                 'id' => 392,
                 'id_bonus' => 625,
                 'id_member' => 18,
@@ -7463,12 +7069,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            392 => 
-            array (
+            ],
+            392 => [
                 'id' => 393,
                 'id_bonus' => 626,
                 'id_member' => 17,
@@ -7482,12 +7087,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            393 => 
-            array (
+            ],
+            393 => [
                 'id' => 394,
                 'id_bonus' => 627,
                 'id_member' => 16,
@@ -7501,12 +7105,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            394 => 
-            array (
+            ],
+            394 => [
                 'id' => 395,
                 'id_bonus' => 628,
                 'id_member' => 12,
@@ -7520,12 +7123,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            395 => 
-            array (
+            ],
+            395 => [
                 'id' => 396,
                 'id_bonus' => 629,
                 'id_member' => 10,
@@ -7539,12 +7141,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            396 => 
-            array (
+            ],
+            396 => [
                 'id' => 397,
                 'id_bonus' => 630,
                 'id_member' => 9,
@@ -7558,12 +7159,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            397 => 
-            array (
+            ],
+            397 => [
                 'id' => 398,
                 'id_bonus' => 631,
                 'id_member' => 5,
@@ -7577,12 +7177,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            398 => 
-            array (
+            ],
+            398 => [
                 'id' => 399,
                 'id_bonus' => 632,
                 'id_member' => 3,
@@ -7596,12 +7195,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            399 => 
-            array (
+            ],
+            399 => [
                 'id' => 400,
                 'id_bonus' => 633,
                 'id_member' => 2,
@@ -7615,12 +7213,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member blessedpath (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member blessedpath (2.500 BV)',
                 'dateomzet' => '2025-05-01 21:40:56',
                 'datecreated' => '2025-05-01 21:40:56',
-            ),
-            400 => 
-            array (
+            ],
+            400 => [
                 'id' => 401,
                 'id_bonus' => 644,
                 'id_member' => 221,
@@ -7634,12 +7231,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            401 => 
-            array (
+            ],
+            401 => [
                 'id' => 402,
                 'id_bonus' => 645,
                 'id_member' => 180,
@@ -7653,12 +7249,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            402 => 
-            array (
+            ],
+            402 => [
                 'id' => 403,
                 'id_bonus' => 646,
                 'id_member' => 179,
@@ -7672,12 +7267,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            403 => 
-            array (
+            ],
+            403 => [
                 'id' => 404,
                 'id_bonus' => 647,
                 'id_member' => 178,
@@ -7691,12 +7285,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            404 => 
-            array (
+            ],
+            404 => [
                 'id' => 405,
                 'id_bonus' => 648,
                 'id_member' => 90,
@@ -7710,12 +7303,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            405 => 
-            array (
+            ],
+            405 => [
                 'id' => 406,
                 'id_bonus' => 649,
                 'id_member' => 55,
@@ -7729,12 +7321,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            406 => 
-            array (
+            ],
+            406 => [
                 'id' => 407,
                 'id_bonus' => 650,
                 'id_member' => 54,
@@ -7748,12 +7339,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            407 => 
-            array (
+            ],
+            407 => [
                 'id' => 408,
                 'id_bonus' => 651,
                 'id_member' => 53,
@@ -7767,12 +7357,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            408 => 
-            array (
+            ],
+            408 => [
                 'id' => 409,
                 'id_bonus' => 652,
                 'id_member' => 21,
@@ -7786,12 +7375,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            409 => 
-            array (
+            ],
+            409 => [
                 'id' => 410,
                 'id_bonus' => 653,
                 'id_member' => 20,
@@ -7805,12 +7393,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            410 => 
-            array (
+            ],
+            410 => [
                 'id' => 411,
                 'id_bonus' => 654,
                 'id_member' => 18,
@@ -7824,12 +7411,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            411 => 
-            array (
+            ],
+            411 => [
                 'id' => 412,
                 'id_bonus' => 655,
                 'id_member' => 17,
@@ -7843,12 +7429,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            412 => 
-            array (
+            ],
+            412 => [
                 'id' => 413,
                 'id_bonus' => 656,
                 'id_member' => 16,
@@ -7862,12 +7447,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            413 => 
-            array (
+            ],
+            413 => [
                 'id' => 414,
                 'id_bonus' => 657,
                 'id_member' => 12,
@@ -7881,12 +7465,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            414 => 
-            array (
+            ],
+            414 => [
                 'id' => 415,
                 'id_bonus' => 658,
                 'id_member' => 10,
@@ -7900,12 +7483,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            415 => 
-            array (
+            ],
+            415 => [
                 'id' => 416,
                 'id_bonus' => 659,
                 'id_member' => 9,
@@ -7919,12 +7501,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            416 => 
-            array (
+            ],
+            416 => [
                 'id' => 417,
                 'id_bonus' => 660,
                 'id_member' => 5,
@@ -7938,12 +7519,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            417 => 
-            array (
+            ],
+            417 => [
                 'id' => 418,
                 'id_bonus' => 661,
                 'id_member' => 3,
@@ -7957,12 +7537,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            418 => 
-            array (
+            ],
+            418 => [
                 'id' => 419,
                 'id_bonus' => 662,
                 'id_member' => 2,
@@ -7976,12 +7555,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-02',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member gieangela (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member gieangela (2.500 BV)',
                 'dateomzet' => '2025-05-02 11:48:45',
                 'datecreated' => '2025-05-02 11:48:45',
-            ),
-            419 => 
-            array (
+            ],
+            419 => [
                 'id' => 420,
                 'id_bonus' => 671,
                 'id_member' => 39,
@@ -7995,12 +7573,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            420 => 
-            array (
+            ],
+            420 => [
                 'id' => 421,
                 'id_bonus' => 672,
                 'id_member' => 38,
@@ -8014,12 +7591,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            421 => 
-            array (
+            ],
+            421 => [
                 'id' => 422,
                 'id_bonus' => 673,
                 'id_member' => 23,
@@ -8033,12 +7609,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            422 => 
-            array (
+            ],
+            422 => [
                 'id' => 423,
                 'id_bonus' => 674,
                 'id_member' => 22,
@@ -8052,12 +7627,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            423 => 
-            array (
+            ],
+            423 => [
                 'id' => 424,
                 'id_bonus' => 675,
                 'id_member' => 21,
@@ -8071,12 +7645,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            424 => 
-            array (
+            ],
+            424 => [
                 'id' => 425,
                 'id_bonus' => 676,
                 'id_member' => 20,
@@ -8090,12 +7663,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            425 => 
-            array (
+            ],
+            425 => [
                 'id' => 426,
                 'id_bonus' => 677,
                 'id_member' => 18,
@@ -8109,12 +7681,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            426 => 
-            array (
+            ],
+            426 => [
                 'id' => 427,
                 'id_bonus' => 678,
                 'id_member' => 17,
@@ -8128,12 +7699,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            427 => 
-            array (
+            ],
+            427 => [
                 'id' => 428,
                 'id_bonus' => 679,
                 'id_member' => 16,
@@ -8147,12 +7717,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            428 => 
-            array (
+            ],
+            428 => [
                 'id' => 429,
                 'id_bonus' => 680,
                 'id_member' => 12,
@@ -8166,12 +7735,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            429 => 
-            array (
+            ],
+            429 => [
                 'id' => 430,
                 'id_bonus' => 681,
                 'id_member' => 10,
@@ -8185,12 +7753,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            430 => 
-            array (
+            ],
+            430 => [
                 'id' => 431,
                 'id_bonus' => 682,
                 'id_member' => 9,
@@ -8204,12 +7771,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            431 => 
-            array (
+            ],
+            431 => [
                 'id' => 432,
                 'id_bonus' => 683,
                 'id_member' => 5,
@@ -8223,12 +7789,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            432 => 
-            array (
+            ],
+            432 => [
                 'id' => 433,
                 'id_bonus' => 684,
                 'id_member' => 3,
@@ -8242,12 +7807,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            433 => 
-            array (
+            ],
+            433 => [
                 'id' => 434,
                 'id_bonus' => 685,
                 'id_member' => 2,
@@ -8261,12 +7825,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member pandawalima (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member pandawalima (2.500 BV)',
                 'dateomzet' => '2025-05-04 20:41:30',
                 'datecreated' => '2025-05-04 20:41:30',
-            ),
-            434 => 
-            array (
+            ],
+            434 => [
                 'id' => 435,
                 'id_bonus' => 698,
                 'id_member' => 151,
@@ -8280,12 +7843,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            435 => 
-            array (
+            ],
+            435 => [
                 'id' => 436,
                 'id_bonus' => 699,
                 'id_member' => 149,
@@ -8299,12 +7861,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            436 => 
-            array (
+            ],
+            436 => [
                 'id' => 437,
                 'id_bonus' => 700,
                 'id_member' => 15,
@@ -8318,12 +7879,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            437 => 
-            array (
+            ],
+            437 => [
                 'id' => 438,
                 'id_bonus' => 701,
                 'id_member' => 11,
@@ -8337,12 +7897,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            438 => 
-            array (
+            ],
+            438 => [
                 'id' => 439,
                 'id_bonus' => 702,
                 'id_member' => 9,
@@ -8356,12 +7915,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            439 => 
-            array (
+            ],
+            439 => [
                 'id' => 440,
                 'id_bonus' => 703,
                 'id_member' => 5,
@@ -8375,12 +7933,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            440 => 
-            array (
+            ],
+            440 => [
                 'id' => 441,
                 'id_bonus' => 704,
                 'id_member' => 3,
@@ -8394,12 +7951,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            441 => 
-            array (
+            ],
+            441 => [
                 'id' => 442,
                 'id_bonus' => 705,
                 'id_member' => 2,
@@ -8413,12 +7969,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member beyondu (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member beyondu (2.500 BV)',
                 'dateomzet' => '2025-05-05 17:38:42',
                 'datecreated' => '2025-05-05 17:38:42',
-            ),
-            442 => 
-            array (
+            ],
+            442 => [
                 'id' => 443,
                 'id_bonus' => 712,
                 'id_member' => 215,
@@ -8432,12 +7987,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            443 => 
-            array (
+            ],
+            443 => [
                 'id' => 444,
                 'id_bonus' => 713,
                 'id_member' => 214,
@@ -8451,12 +8005,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            444 => 
-            array (
+            ],
+            444 => [
                 'id' => 445,
                 'id_bonus' => 714,
                 'id_member' => 209,
@@ -8470,12 +8023,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            445 => 
-            array (
+            ],
+            445 => [
                 'id' => 446,
                 'id_bonus' => 715,
                 'id_member' => 13,
@@ -8489,12 +8041,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            446 => 
-            array (
+            ],
+            446 => [
                 'id' => 447,
                 'id_bonus' => 716,
                 'id_member' => 10,
@@ -8508,12 +8059,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            447 => 
-            array (
+            ],
+            447 => [
                 'id' => 448,
                 'id_bonus' => 717,
                 'id_member' => 9,
@@ -8527,12 +8077,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            448 => 
-            array (
+            ],
+            448 => [
                 'id' => 449,
                 'id_bonus' => 718,
                 'id_member' => 5,
@@ -8546,12 +8095,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            449 => 
-            array (
+            ],
+            449 => [
                 'id' => 450,
                 'id_bonus' => 719,
                 'id_member' => 3,
@@ -8565,12 +8113,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            450 => 
-            array (
+            ],
+            450 => [
                 'id' => 451,
                 'id_bonus' => 720,
                 'id_member' => 2,
@@ -8584,12 +8131,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-05',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member siwfang (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member siwfang (2.500 BV)',
                 'dateomzet' => '2025-05-05 18:09:41',
                 'datecreated' => '2025-05-05 18:09:41',
-            ),
-            451 => 
-            array (
+            ],
+            451 => [
                 'id' => 452,
                 'id_bonus' => 729,
                 'id_member' => 226,
@@ -8603,12 +8149,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            452 => 
-            array (
+            ],
+            452 => [
                 'id' => 453,
                 'id_bonus' => 730,
                 'id_member' => 225,
@@ -8622,12 +8167,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            453 => 
-            array (
+            ],
+            453 => [
                 'id' => 454,
                 'id_bonus' => 731,
                 'id_member' => 224,
@@ -8641,12 +8185,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            454 => 
-            array (
+            ],
+            454 => [
                 'id' => 455,
                 'id_bonus' => 732,
                 'id_member' => 55,
@@ -8660,12 +8203,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            455 => 
-            array (
+            ],
+            455 => [
                 'id' => 456,
                 'id_bonus' => 733,
                 'id_member' => 54,
@@ -8679,12 +8221,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            456 => 
-            array (
+            ],
+            456 => [
                 'id' => 457,
                 'id_bonus' => 734,
                 'id_member' => 53,
@@ -8698,12 +8239,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            457 => 
-            array (
+            ],
+            457 => [
                 'id' => 458,
                 'id_bonus' => 735,
                 'id_member' => 21,
@@ -8717,12 +8257,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            458 => 
-            array (
+            ],
+            458 => [
                 'id' => 459,
                 'id_bonus' => 736,
                 'id_member' => 20,
@@ -8736,12 +8275,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            459 => 
-            array (
+            ],
+            459 => [
                 'id' => 460,
                 'id_bonus' => 737,
                 'id_member' => 18,
@@ -8755,12 +8293,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            460 => 
-            array (
+            ],
+            460 => [
                 'id' => 461,
                 'id_bonus' => 738,
                 'id_member' => 17,
@@ -8774,12 +8311,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            461 => 
-            array (
+            ],
+            461 => [
                 'id' => 462,
                 'id_bonus' => 739,
                 'id_member' => 16,
@@ -8793,12 +8329,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            462 => 
-            array (
+            ],
+            462 => [
                 'id' => 463,
                 'id_bonus' => 740,
                 'id_member' => 12,
@@ -8812,12 +8347,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            463 => 
-            array (
+            ],
+            463 => [
                 'id' => 464,
                 'id_bonus' => 741,
                 'id_member' => 10,
@@ -8831,12 +8365,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            464 => 
-            array (
+            ],
+            464 => [
                 'id' => 465,
                 'id_bonus' => 742,
                 'id_member' => 9,
@@ -8850,12 +8383,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            465 => 
-            array (
+            ],
+            465 => [
                 'id' => 466,
                 'id_bonus' => 743,
                 'id_member' => 5,
@@ -8869,12 +8401,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            466 => 
-            array (
+            ],
+            466 => [
                 'id' => 467,
                 'id_bonus' => 744,
                 'id_member' => 3,
@@ -8888,12 +8419,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            467 => 
-            array (
+            ],
+            467 => [
                 'id' => 468,
                 'id_bonus' => 745,
                 'id_member' => 2,
@@ -8907,12 +8437,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-06',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member jinbao88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member jinbao88 (2.500 BV)',
                 'dateomzet' => '2025-05-06 23:48:16',
                 'datecreated' => '2025-05-06 23:48:16',
-            ),
-            468 => 
-            array (
+            ],
+            468 => [
                 'id' => 469,
                 'id_bonus' => 757,
                 'id_member' => 171,
@@ -8926,12 +8455,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            469 => 
-            array (
+            ],
+            469 => [
                 'id' => 470,
                 'id_bonus' => 758,
                 'id_member' => 169,
@@ -8945,12 +8473,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            470 => 
-            array (
+            ],
+            470 => [
                 'id' => 471,
                 'id_bonus' => 759,
                 'id_member' => 167,
@@ -8964,12 +8491,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            471 => 
-            array (
+            ],
+            471 => [
                 'id' => 472,
                 'id_bonus' => 760,
                 'id_member' => 39,
@@ -8983,12 +8509,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            472 => 
-            array (
+            ],
+            472 => [
                 'id' => 473,
                 'id_bonus' => 761,
                 'id_member' => 38,
@@ -9002,12 +8527,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            473 => 
-            array (
+            ],
+            473 => [
                 'id' => 474,
                 'id_bonus' => 762,
                 'id_member' => 23,
@@ -9021,12 +8545,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            474 => 
-            array (
+            ],
+            474 => [
                 'id' => 475,
                 'id_bonus' => 763,
                 'id_member' => 22,
@@ -9040,12 +8563,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            475 => 
-            array (
+            ],
+            475 => [
                 'id' => 476,
                 'id_bonus' => 764,
                 'id_member' => 21,
@@ -9059,12 +8581,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            476 => 
-            array (
+            ],
+            476 => [
                 'id' => 477,
                 'id_bonus' => 765,
                 'id_member' => 20,
@@ -9078,12 +8599,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            477 => 
-            array (
+            ],
+            477 => [
                 'id' => 478,
                 'id_bonus' => 766,
                 'id_member' => 18,
@@ -9097,12 +8617,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            478 => 
-            array (
+            ],
+            478 => [
                 'id' => 479,
                 'id_bonus' => 767,
                 'id_member' => 17,
@@ -9116,12 +8635,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            479 => 
-            array (
+            ],
+            479 => [
                 'id' => 480,
                 'id_bonus' => 768,
                 'id_member' => 16,
@@ -9135,12 +8653,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            480 => 
-            array (
+            ],
+            480 => [
                 'id' => 481,
                 'id_bonus' => 769,
                 'id_member' => 12,
@@ -9154,12 +8671,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            481 => 
-            array (
+            ],
+            481 => [
                 'id' => 482,
                 'id_bonus' => 770,
                 'id_member' => 10,
@@ -9173,12 +8689,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            482 => 
-            array (
+            ],
+            482 => [
                 'id' => 483,
                 'id_bonus' => 771,
                 'id_member' => 9,
@@ -9192,12 +8707,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            483 => 
-            array (
+            ],
+            483 => [
                 'id' => 484,
                 'id_bonus' => 772,
                 'id_member' => 5,
@@ -9211,12 +8725,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            484 => 
-            array (
+            ],
+            484 => [
                 'id' => 485,
                 'id_bonus' => 773,
                 'id_member' => 3,
@@ -9230,12 +8743,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            485 => 
-            array (
+            ],
+            485 => [
                 'id' => 486,
                 'id_bonus' => 774,
                 'id_member' => 2,
@@ -9249,12 +8761,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member rolyta (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member rolyta (2.500 BV)',
                 'dateomzet' => '2025-05-07 21:07:57',
                 'datecreated' => '2025-05-07 21:07:57',
-            ),
-            486 => 
-            array (
+            ],
+            486 => [
                 'id' => 487,
                 'id_bonus' => 786,
                 'id_member' => 36,
@@ -9268,12 +8779,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            487 => 
-            array (
+            ],
+            487 => [
                 'id' => 488,
                 'id_bonus' => 787,
                 'id_member' => 35,
@@ -9287,12 +8797,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            488 => 
-            array (
+            ],
+            488 => [
                 'id' => 489,
                 'id_bonus' => 788,
                 'id_member' => 27,
@@ -9306,12 +8815,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            489 => 
-            array (
+            ],
+            489 => [
                 'id' => 490,
                 'id_bonus' => 789,
                 'id_member' => 26,
@@ -9325,12 +8833,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            490 => 
-            array (
+            ],
+            490 => [
                 'id' => 491,
                 'id_bonus' => 790,
                 'id_member' => 25,
@@ -9344,12 +8851,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            491 => 
-            array (
+            ],
+            491 => [
                 'id' => 492,
                 'id_bonus' => 791,
                 'id_member' => 24,
@@ -9363,12 +8869,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            492 => 
-            array (
+            ],
+            492 => [
                 'id' => 493,
                 'id_bonus' => 792,
                 'id_member' => 23,
@@ -9382,12 +8887,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            493 => 
-            array (
+            ],
+            493 => [
                 'id' => 494,
                 'id_bonus' => 793,
                 'id_member' => 22,
@@ -9401,12 +8905,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            494 => 
-            array (
+            ],
+            494 => [
                 'id' => 495,
                 'id_bonus' => 794,
                 'id_member' => 21,
@@ -9420,12 +8923,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            495 => 
-            array (
+            ],
+            495 => [
                 'id' => 496,
                 'id_bonus' => 795,
                 'id_member' => 20,
@@ -9439,12 +8941,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            496 => 
-            array (
+            ],
+            496 => [
                 'id' => 497,
                 'id_bonus' => 796,
                 'id_member' => 18,
@@ -9458,12 +8959,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            497 => 
-            array (
+            ],
+            497 => [
                 'id' => 498,
                 'id_bonus' => 797,
                 'id_member' => 17,
@@ -9477,12 +8977,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            498 => 
-            array (
+            ],
+            498 => [
                 'id' => 499,
                 'id_bonus' => 798,
                 'id_member' => 16,
@@ -9496,12 +8995,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            499 => 
-            array (
+            ],
+            499 => [
                 'id' => 500,
                 'id_bonus' => 799,
                 'id_member' => 12,
@@ -9515,14 +9013,13 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-        ));
-        \DB::table('bonus_level_refs')->insert(array (
-            0 => 
-            array (
+            ],
+        ]);
+        \DB::table('bonus_level_refs')->insert([
+            0 => [
                 'id' => 501,
                 'id_bonus' => 800,
                 'id_member' => 10,
@@ -9536,12 +9033,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 502,
                 'id_bonus' => 801,
                 'id_member' => 9,
@@ -9555,12 +9051,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 503,
                 'id_bonus' => 802,
                 'id_member' => 5,
@@ -9574,12 +9069,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 504,
                 'id_bonus' => 803,
                 'id_member' => 3,
@@ -9593,12 +9087,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 505,
                 'id_bonus' => 804,
                 'id_member' => 2,
@@ -9612,12 +9105,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member hokilay (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member hokilay (2.500 BV)',
                 'dateomzet' => '2025-05-15 19:08:41',
                 'datecreated' => '2025-05-15 19:08:41',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 506,
                 'id_bonus' => 818,
                 'id_member' => 56,
@@ -9631,12 +9123,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 507,
                 'id_bonus' => 819,
                 'id_member' => 41,
@@ -9650,12 +9141,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 508,
                 'id_bonus' => 820,
                 'id_member' => 40,
@@ -9669,12 +9159,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 509,
                 'id_bonus' => 821,
                 'id_member' => 38,
@@ -9688,12 +9177,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 510,
                 'id_bonus' => 822,
                 'id_member' => 23,
@@ -9707,12 +9195,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 511,
                 'id_bonus' => 823,
                 'id_member' => 22,
@@ -9726,12 +9213,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 512,
                 'id_bonus' => 824,
                 'id_member' => 21,
@@ -9745,12 +9231,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 513,
                 'id_bonus' => 825,
                 'id_member' => 20,
@@ -9764,12 +9249,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 514,
                 'id_bonus' => 826,
                 'id_member' => 18,
@@ -9783,12 +9267,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 515,
                 'id_bonus' => 827,
                 'id_member' => 17,
@@ -9802,12 +9285,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 516,
                 'id_bonus' => 828,
                 'id_member' => 16,
@@ -9821,12 +9303,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 517,
                 'id_bonus' => 829,
                 'id_member' => 12,
@@ -9840,12 +9321,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 518,
                 'id_bonus' => 830,
                 'id_member' => 10,
@@ -9859,12 +9339,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 519,
                 'id_bonus' => 831,
                 'id_member' => 9,
@@ -9878,12 +9357,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 520,
                 'id_bonus' => 832,
                 'id_member' => 5,
@@ -9897,12 +9375,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 521,
                 'id_bonus' => 833,
                 'id_member' => 3,
@@ -9916,12 +9393,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 522,
                 'id_bonus' => 834,
                 'id_member' => 2,
@@ -9935,12 +9411,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-16',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member swarti80 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member swarti80 (2.500 BV)',
                 'dateomzet' => '2025-05-16 09:59:48',
                 'datecreated' => '2025-05-16 09:59:48',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 523,
                 'id_bonus' => 847,
                 'id_member' => 184,
@@ -9954,12 +9429,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 524,
                 'id_bonus' => 848,
                 'id_member' => 167,
@@ -9973,12 +9447,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 525,
                 'id_bonus' => 849,
                 'id_member' => 39,
@@ -9992,12 +9465,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 526,
                 'id_bonus' => 850,
                 'id_member' => 38,
@@ -10011,12 +9483,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 527,
                 'id_bonus' => 851,
                 'id_member' => 23,
@@ -10030,12 +9501,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 528,
                 'id_bonus' => 852,
                 'id_member' => 22,
@@ -10049,12 +9519,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 529,
                 'id_bonus' => 853,
                 'id_member' => 21,
@@ -10068,12 +9537,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 530,
                 'id_bonus' => 854,
                 'id_member' => 20,
@@ -10087,12 +9555,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 531,
                 'id_bonus' => 855,
                 'id_member' => 18,
@@ -10106,12 +9573,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 532,
                 'id_bonus' => 856,
                 'id_member' => 17,
@@ -10125,12 +9591,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 533,
                 'id_bonus' => 857,
                 'id_member' => 16,
@@ -10144,12 +9609,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 534,
                 'id_bonus' => 858,
                 'id_member' => 12,
@@ -10163,12 +9627,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 535,
                 'id_bonus' => 859,
                 'id_member' => 10,
@@ -10182,12 +9645,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 536,
                 'id_bonus' => 860,
                 'id_member' => 9,
@@ -10201,12 +9663,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 537,
                 'id_bonus' => 861,
                 'id_member' => 5,
@@ -10220,12 +9681,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 538,
                 'id_bonus' => 862,
                 'id_member' => 3,
@@ -10239,12 +9699,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 539,
                 'id_bonus' => 863,
                 'id_member' => 2,
@@ -10258,12 +9717,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member kayaraya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member kayaraya (2.500 BV)',
                 'dateomzet' => '2025-05-18 13:27:17',
                 'datecreated' => '2025-05-18 13:27:17',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 540,
                 'id_bonus' => 876,
                 'id_member' => 41,
@@ -10277,12 +9735,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 541,
                 'id_bonus' => 877,
                 'id_member' => 40,
@@ -10296,12 +9753,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 542,
                 'id_bonus' => 878,
                 'id_member' => 38,
@@ -10315,12 +9771,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 543,
                 'id_bonus' => 879,
                 'id_member' => 23,
@@ -10334,12 +9789,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 544,
                 'id_bonus' => 880,
                 'id_member' => 22,
@@ -10353,12 +9807,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 545,
                 'id_bonus' => 881,
                 'id_member' => 21,
@@ -10372,12 +9825,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 546,
                 'id_bonus' => 882,
                 'id_member' => 20,
@@ -10391,12 +9843,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 547,
                 'id_bonus' => 883,
                 'id_member' => 18,
@@ -10410,12 +9861,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 548,
                 'id_bonus' => 884,
                 'id_member' => 17,
@@ -10429,12 +9879,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 549,
                 'id_bonus' => 885,
                 'id_member' => 16,
@@ -10448,12 +9897,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 550,
                 'id_bonus' => 886,
                 'id_member' => 12,
@@ -10467,12 +9915,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 551,
                 'id_bonus' => 887,
                 'id_member' => 10,
@@ -10486,12 +9933,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 552,
                 'id_bonus' => 888,
                 'id_member' => 9,
@@ -10505,12 +9951,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 553,
                 'id_bonus' => 889,
                 'id_member' => 5,
@@ -10524,12 +9969,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 554,
                 'id_bonus' => 890,
                 'id_member' => 3,
@@ -10543,12 +9987,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 555,
                 'id_bonus' => 891,
                 'id_member' => 2,
@@ -10562,12 +10005,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member alib4f (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member alib4f (2.500 BV)',
                 'dateomzet' => '2025-05-20 16:03:19',
                 'datecreated' => '2025-05-20 16:03:19',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 556,
                 'id_bonus' => 903,
                 'id_member' => 182,
@@ -10581,12 +10023,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 557,
                 'id_bonus' => 904,
                 'id_member' => 181,
@@ -10600,12 +10041,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 558,
                 'id_bonus' => 905,
                 'id_member' => 90,
@@ -10619,12 +10059,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 559,
                 'id_bonus' => 906,
                 'id_member' => 55,
@@ -10638,12 +10077,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 560,
                 'id_bonus' => 907,
                 'id_member' => 54,
@@ -10657,12 +10095,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 561,
                 'id_bonus' => 908,
                 'id_member' => 53,
@@ -10676,12 +10113,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 562,
                 'id_bonus' => 909,
                 'id_member' => 21,
@@ -10695,12 +10131,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 563,
                 'id_bonus' => 910,
                 'id_member' => 20,
@@ -10714,12 +10149,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 564,
                 'id_bonus' => 911,
                 'id_member' => 18,
@@ -10733,12 +10167,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 565,
                 'id_bonus' => 912,
                 'id_member' => 17,
@@ -10752,12 +10185,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 566,
                 'id_bonus' => 913,
                 'id_member' => 16,
@@ -10771,12 +10203,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 567,
                 'id_bonus' => 914,
                 'id_member' => 12,
@@ -10790,12 +10221,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 568,
                 'id_bonus' => 915,
                 'id_member' => 10,
@@ -10809,12 +10239,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 569,
                 'id_bonus' => 916,
                 'id_member' => 9,
@@ -10828,12 +10257,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 570,
                 'id_bonus' => 917,
                 'id_member' => 5,
@@ -10847,12 +10275,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 571,
                 'id_bonus' => 918,
                 'id_member' => 3,
@@ -10866,12 +10293,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 572,
                 'id_bonus' => 919,
                 'id_member' => 2,
@@ -10885,12 +10311,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-24',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member waluyo (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member waluyo (2.500 BV)',
                 'dateomzet' => '2025-05-24 21:20:19',
                 'datecreated' => '2025-05-24 21:20:19',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 573,
                 'id_bonus' => 930,
                 'id_member' => 240,
@@ -10904,12 +10329,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 574,
                 'id_bonus' => 931,
                 'id_member' => 56,
@@ -10923,12 +10347,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 575,
                 'id_bonus' => 932,
                 'id_member' => 41,
@@ -10942,12 +10365,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 576,
                 'id_bonus' => 933,
                 'id_member' => 40,
@@ -10961,12 +10383,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 577,
                 'id_bonus' => 934,
                 'id_member' => 38,
@@ -10980,12 +10401,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 578,
                 'id_bonus' => 935,
                 'id_member' => 23,
@@ -10999,12 +10419,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 579,
                 'id_bonus' => 936,
                 'id_member' => 22,
@@ -11018,12 +10437,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 580,
                 'id_bonus' => 937,
                 'id_member' => 21,
@@ -11037,12 +10455,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 581,
                 'id_bonus' => 938,
                 'id_member' => 20,
@@ -11056,12 +10473,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 582,
                 'id_bonus' => 939,
                 'id_member' => 18,
@@ -11075,12 +10491,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 583,
                 'id_bonus' => 940,
                 'id_member' => 17,
@@ -11094,12 +10509,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 584,
                 'id_bonus' => 941,
                 'id_member' => 16,
@@ -11113,12 +10527,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 585,
                 'id_bonus' => 942,
                 'id_member' => 12,
@@ -11132,12 +10545,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 586,
                 'id_bonus' => 943,
                 'id_member' => 10,
@@ -11151,12 +10563,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 587,
                 'id_bonus' => 944,
                 'id_member' => 9,
@@ -11170,12 +10581,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 588,
                 'id_bonus' => 945,
                 'id_member' => 5,
@@ -11189,12 +10599,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 589,
                 'id_bonus' => 946,
                 'id_member' => 3,
@@ -11208,12 +10617,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 590,
                 'id_bonus' => 947,
                 'id_member' => 2,
@@ -11227,12 +10635,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-27',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member gitakaya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member gitakaya (2.500 BV)',
                 'dateomzet' => '2025-05-27 22:05:15',
                 'datecreated' => '2025-05-27 22:05:15',
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 591,
                 'id_bonus' => 959,
                 'id_member' => 75,
@@ -11246,12 +10653,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 592,
                 'id_bonus' => 960,
                 'id_member' => 61,
@@ -11265,12 +10671,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 593,
                 'id_bonus' => 961,
                 'id_member' => 37,
@@ -11284,12 +10689,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 594,
                 'id_bonus' => 962,
                 'id_member' => 36,
@@ -11303,12 +10707,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 595,
                 'id_bonus' => 963,
                 'id_member' => 35,
@@ -11322,12 +10725,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 596,
                 'id_bonus' => 964,
                 'id_member' => 27,
@@ -11341,12 +10743,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 597,
                 'id_bonus' => 965,
                 'id_member' => 26,
@@ -11360,12 +10761,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 598,
                 'id_bonus' => 966,
                 'id_member' => 25,
@@ -11379,12 +10779,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 599,
                 'id_bonus' => 967,
                 'id_member' => 24,
@@ -11398,12 +10797,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 600,
                 'id_bonus' => 968,
                 'id_member' => 23,
@@ -11417,12 +10815,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 601,
                 'id_bonus' => 969,
                 'id_member' => 22,
@@ -11436,12 +10833,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 602,
                 'id_bonus' => 970,
                 'id_member' => 21,
@@ -11455,12 +10851,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 603,
                 'id_bonus' => 971,
                 'id_member' => 20,
@@ -11474,12 +10869,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 604,
                 'id_bonus' => 972,
                 'id_member' => 18,
@@ -11493,12 +10887,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 605,
                 'id_bonus' => 973,
                 'id_member' => 17,
@@ -11512,12 +10905,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 606,
                 'id_bonus' => 974,
                 'id_member' => 16,
@@ -11531,12 +10923,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 607,
                 'id_bonus' => 975,
                 'id_member' => 12,
@@ -11550,12 +10941,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 608,
                 'id_bonus' => 976,
                 'id_member' => 10,
@@ -11569,12 +10959,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            108 => 
-            array (
+            ],
+            108 => [
                 'id' => 609,
                 'id_bonus' => 977,
                 'id_member' => 9,
@@ -11588,12 +10977,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            109 => 
-            array (
+            ],
+            109 => [
                 'id' => 610,
                 'id_bonus' => 978,
                 'id_member' => 5,
@@ -11607,12 +10995,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member zenacan (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member zenacan (2.500 BV)',
                 'dateomzet' => '2025-05-29 12:57:37',
                 'datecreated' => '2025-05-29 12:57:37',
-            ),
-            110 => 
-            array (
+            ],
+            110 => [
                 'id' => 611,
                 'id_bonus' => 995,
                 'id_member' => 245,
@@ -11626,12 +11013,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            111 => 
-            array (
+            ],
+            111 => [
                 'id' => 612,
                 'id_bonus' => 996,
                 'id_member' => 75,
@@ -11645,12 +11031,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            112 => 
-            array (
+            ],
+            112 => [
                 'id' => 613,
                 'id_bonus' => 997,
                 'id_member' => 61,
@@ -11664,12 +11049,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            113 => 
-            array (
+            ],
+            113 => [
                 'id' => 614,
                 'id_bonus' => 998,
                 'id_member' => 37,
@@ -11683,12 +11067,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            114 => 
-            array (
+            ],
+            114 => [
                 'id' => 615,
                 'id_bonus' => 999,
                 'id_member' => 36,
@@ -11702,12 +11085,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            115 => 
-            array (
+            ],
+            115 => [
                 'id' => 616,
                 'id_bonus' => 1000,
                 'id_member' => 35,
@@ -11721,12 +11103,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            116 => 
-            array (
+            ],
+            116 => [
                 'id' => 617,
                 'id_bonus' => 1001,
                 'id_member' => 27,
@@ -11740,12 +11121,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            117 => 
-            array (
+            ],
+            117 => [
                 'id' => 618,
                 'id_bonus' => 1002,
                 'id_member' => 26,
@@ -11759,12 +11139,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            118 => 
-            array (
+            ],
+            118 => [
                 'id' => 619,
                 'id_bonus' => 1003,
                 'id_member' => 25,
@@ -11778,12 +11157,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            119 => 
-            array (
+            ],
+            119 => [
                 'id' => 620,
                 'id_bonus' => 1004,
                 'id_member' => 24,
@@ -11797,12 +11175,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            120 => 
-            array (
+            ],
+            120 => [
                 'id' => 621,
                 'id_bonus' => 1005,
                 'id_member' => 23,
@@ -11816,12 +11193,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            121 => 
-            array (
+            ],
+            121 => [
                 'id' => 622,
                 'id_bonus' => 1006,
                 'id_member' => 22,
@@ -11835,12 +11211,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            122 => 
-            array (
+            ],
+            122 => [
                 'id' => 623,
                 'id_bonus' => 1007,
                 'id_member' => 21,
@@ -11854,12 +11229,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            123 => 
-            array (
+            ],
+            123 => [
                 'id' => 624,
                 'id_bonus' => 1008,
                 'id_member' => 20,
@@ -11873,12 +11247,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            124 => 
-            array (
+            ],
+            124 => [
                 'id' => 625,
                 'id_bonus' => 1009,
                 'id_member' => 18,
@@ -11892,12 +11265,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            125 => 
-            array (
+            ],
+            125 => [
                 'id' => 626,
                 'id_bonus' => 1010,
                 'id_member' => 17,
@@ -11911,12 +11283,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            126 => 
-            array (
+            ],
+            126 => [
                 'id' => 627,
                 'id_bonus' => 1011,
                 'id_member' => 16,
@@ -11930,12 +11301,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            127 => 
-            array (
+            ],
+            127 => [
                 'id' => 628,
                 'id_bonus' => 1012,
                 'id_member' => 12,
@@ -11949,12 +11319,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            128 => 
-            array (
+            ],
+            128 => [
                 'id' => 629,
                 'id_bonus' => 1013,
                 'id_member' => 10,
@@ -11968,12 +11337,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            129 => 
-            array (
+            ],
+            129 => [
                 'id' => 630,
                 'id_bonus' => 1014,
                 'id_member' => 9,
@@ -11987,12 +11355,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-29',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member miracle168 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member miracle168 (2.500 BV)',
                 'dateomzet' => '2025-05-29 19:49:19',
                 'datecreated' => '2025-05-29 19:49:19',
-            ),
-            130 => 
-            array (
+            ],
+            130 => [
                 'id' => 631,
                 'id_bonus' => 1024,
                 'id_member' => 171,
@@ -12006,12 +11373,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            131 => 
-            array (
+            ],
+            131 => [
                 'id' => 632,
                 'id_bonus' => 1025,
                 'id_member' => 169,
@@ -12025,12 +11391,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            132 => 
-            array (
+            ],
+            132 => [
                 'id' => 633,
                 'id_bonus' => 1026,
                 'id_member' => 167,
@@ -12044,12 +11409,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            133 => 
-            array (
+            ],
+            133 => [
                 'id' => 634,
                 'id_bonus' => 1027,
                 'id_member' => 39,
@@ -12063,12 +11427,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            134 => 
-            array (
+            ],
+            134 => [
                 'id' => 635,
                 'id_bonus' => 1028,
                 'id_member' => 38,
@@ -12082,12 +11445,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            135 => 
-            array (
+            ],
+            135 => [
                 'id' => 636,
                 'id_bonus' => 1029,
                 'id_member' => 23,
@@ -12101,12 +11463,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            136 => 
-            array (
+            ],
+            136 => [
                 'id' => 637,
                 'id_bonus' => 1030,
                 'id_member' => 22,
@@ -12120,12 +11481,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            137 => 
-            array (
+            ],
+            137 => [
                 'id' => 638,
                 'id_bonus' => 1031,
                 'id_member' => 21,
@@ -12139,12 +11499,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            138 => 
-            array (
+            ],
+            138 => [
                 'id' => 639,
                 'id_bonus' => 1032,
                 'id_member' => 20,
@@ -12158,12 +11517,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            139 => 
-            array (
+            ],
+            139 => [
                 'id' => 640,
                 'id_bonus' => 1033,
                 'id_member' => 18,
@@ -12177,12 +11535,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            140 => 
-            array (
+            ],
+            140 => [
                 'id' => 641,
                 'id_bonus' => 1034,
                 'id_member' => 17,
@@ -12196,12 +11553,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            141 => 
-            array (
+            ],
+            141 => [
                 'id' => 642,
                 'id_bonus' => 1035,
                 'id_member' => 16,
@@ -12215,12 +11571,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            142 => 
-            array (
+            ],
+            142 => [
                 'id' => 643,
                 'id_bonus' => 1036,
                 'id_member' => 12,
@@ -12234,12 +11589,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            143 => 
-            array (
+            ],
+            143 => [
                 'id' => 644,
                 'id_bonus' => 1037,
                 'id_member' => 10,
@@ -12253,12 +11607,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            144 => 
-            array (
+            ],
+            144 => [
                 'id' => 645,
                 'id_bonus' => 1038,
                 'id_member' => 9,
@@ -12272,12 +11625,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            145 => 
-            array (
+            ],
+            145 => [
                 'id' => 646,
                 'id_bonus' => 1039,
                 'id_member' => 5,
@@ -12291,12 +11643,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            146 => 
-            array (
+            ],
+            146 => [
                 'id' => 647,
                 'id_bonus' => 1040,
                 'id_member' => 3,
@@ -12310,12 +11661,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            147 => 
-            array (
+            ],
+            147 => [
                 'id' => 648,
                 'id_bonus' => 1041,
                 'id_member' => 2,
@@ -12329,12 +11679,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 5,
                 'date' => '2025-05-30',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member omdey (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member omdey (2.500 BV)',
                 'dateomzet' => '2025-05-30 21:59:43',
                 'datecreated' => '2025-05-30 21:59:43',
-            ),
-            148 => 
-            array (
+            ],
+            148 => [
                 'id' => 649,
                 'id_bonus' => 1055,
                 'id_member' => 227,
@@ -12348,12 +11697,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            149 => 
-            array (
+            ],
+            149 => [
                 'id' => 650,
                 'id_bonus' => 1056,
                 'id_member' => 221,
@@ -12367,12 +11715,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            150 => 
-            array (
+            ],
+            150 => [
                 'id' => 651,
                 'id_bonus' => 1057,
                 'id_member' => 180,
@@ -12386,12 +11733,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            151 => 
-            array (
+            ],
+            151 => [
                 'id' => 652,
                 'id_bonus' => 1058,
                 'id_member' => 179,
@@ -12405,12 +11751,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            152 => 
-            array (
+            ],
+            152 => [
                 'id' => 653,
                 'id_bonus' => 1059,
                 'id_member' => 178,
@@ -12424,12 +11769,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            153 => 
-            array (
+            ],
+            153 => [
                 'id' => 654,
                 'id_bonus' => 1060,
                 'id_member' => 90,
@@ -12443,12 +11787,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            154 => 
-            array (
+            ],
+            154 => [
                 'id' => 655,
                 'id_bonus' => 1061,
                 'id_member' => 55,
@@ -12462,12 +11805,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            155 => 
-            array (
+            ],
+            155 => [
                 'id' => 656,
                 'id_bonus' => 1062,
                 'id_member' => 54,
@@ -12481,12 +11823,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            156 => 
-            array (
+            ],
+            156 => [
                 'id' => 657,
                 'id_bonus' => 1063,
                 'id_member' => 53,
@@ -12500,12 +11841,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            157 => 
-            array (
+            ],
+            157 => [
                 'id' => 658,
                 'id_bonus' => 1064,
                 'id_member' => 21,
@@ -12519,12 +11859,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            158 => 
-            array (
+            ],
+            158 => [
                 'id' => 659,
                 'id_bonus' => 1065,
                 'id_member' => 20,
@@ -12538,12 +11877,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            159 => 
-            array (
+            ],
+            159 => [
                 'id' => 660,
                 'id_bonus' => 1066,
                 'id_member' => 18,
@@ -12557,12 +11895,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            160 => 
-            array (
+            ],
+            160 => [
                 'id' => 661,
                 'id_bonus' => 1067,
                 'id_member' => 17,
@@ -12576,12 +11913,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            161 => 
-            array (
+            ],
+            161 => [
                 'id' => 662,
                 'id_bonus' => 1068,
                 'id_member' => 16,
@@ -12595,12 +11931,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            162 => 
-            array (
+            ],
+            162 => [
                 'id' => 663,
                 'id_bonus' => 1069,
                 'id_member' => 12,
@@ -12614,12 +11949,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            163 => 
-            array (
+            ],
+            163 => [
                 'id' => 664,
                 'id_bonus' => 1070,
                 'id_member' => 10,
@@ -12633,12 +11967,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            164 => 
-            array (
+            ],
+            164 => [
                 'id' => 665,
                 'id_bonus' => 1071,
                 'id_member' => 9,
@@ -12652,12 +11985,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            165 => 
-            array (
+            ],
+            165 => [
                 'id' => 666,
                 'id_bonus' => 1072,
                 'id_member' => 5,
@@ -12671,12 +12003,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            166 => 
-            array (
+            ],
+            166 => [
                 'id' => 667,
                 'id_bonus' => 1073,
                 'id_member' => 3,
@@ -12690,12 +12021,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            167 => 
-            array (
+            ],
+            167 => [
                 'id' => 668,
                 'id_bonus' => 1074,
                 'id_member' => 2,
@@ -12709,12 +12039,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-03',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-20 dari pendaftaran member fransiska (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-20 dari pendaftaran member fransiska (2.500 BV)',
                 'dateomzet' => '2025-06-03 23:12:32',
                 'datecreated' => '2025-06-03 23:12:32',
-            ),
-            168 => 
-            array (
+            ],
+            168 => [
                 'id' => 669,
                 'id_bonus' => 1082,
                 'id_member' => 125,
@@ -12728,12 +12057,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            169 => 
-            array (
+            ],
+            169 => [
                 'id' => 670,
                 'id_bonus' => 1083,
                 'id_member' => 124,
@@ -12747,12 +12075,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            170 => 
-            array (
+            ],
+            170 => [
                 'id' => 671,
                 'id_bonus' => 1084,
                 'id_member' => 122,
@@ -12766,12 +12093,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            171 => 
-            array (
+            ],
+            171 => [
                 'id' => 672,
                 'id_bonus' => 1085,
                 'id_member' => 121,
@@ -12785,12 +12111,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            172 => 
-            array (
+            ],
+            172 => [
                 'id' => 673,
                 'id_bonus' => 1086,
                 'id_member' => 108,
@@ -12804,12 +12129,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            173 => 
-            array (
+            ],
+            173 => [
                 'id' => 674,
                 'id_bonus' => 1087,
                 'id_member' => 106,
@@ -12823,12 +12147,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            174 => 
-            array (
+            ],
+            174 => [
                 'id' => 675,
                 'id_bonus' => 1088,
                 'id_member' => 15,
@@ -12842,12 +12165,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            175 => 
-            array (
+            ],
+            175 => [
                 'id' => 676,
                 'id_bonus' => 1089,
                 'id_member' => 11,
@@ -12861,12 +12183,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            176 => 
-            array (
+            ],
+            176 => [
                 'id' => 677,
                 'id_bonus' => 1090,
                 'id_member' => 9,
@@ -12880,12 +12201,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            177 => 
-            array (
+            ],
+            177 => [
                 'id' => 678,
                 'id_bonus' => 1091,
                 'id_member' => 5,
@@ -12899,12 +12219,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            178 => 
-            array (
+            ],
+            178 => [
                 'id' => 679,
                 'id_bonus' => 1092,
                 'id_member' => 3,
@@ -12918,12 +12237,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            179 => 
-            array (
+            ],
+            179 => [
                 'id' => 680,
                 'id_bonus' => 1093,
                 'id_member' => 2,
@@ -12937,12 +12255,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ningsih1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ningsih1 (2.500 BV)',
                 'dateomzet' => '2025-06-04 12:36:35',
                 'datecreated' => '2025-06-04 12:36:35',
-            ),
-            180 => 
-            array (
+            ],
+            180 => [
                 'id' => 681,
                 'id_bonus' => 1101,
                 'id_member' => 237,
@@ -12956,12 +12273,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            181 => 
-            array (
+            ],
+            181 => [
                 'id' => 682,
                 'id_bonus' => 1102,
                 'id_member' => 176,
@@ -12975,12 +12291,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            182 => 
-            array (
+            ],
+            182 => [
                 'id' => 683,
                 'id_bonus' => 1103,
                 'id_member' => 19,
@@ -12994,12 +12309,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            183 => 
-            array (
+            ],
+            183 => [
                 'id' => 684,
                 'id_bonus' => 1104,
                 'id_member' => 17,
@@ -13013,12 +12327,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            184 => 
-            array (
+            ],
+            184 => [
                 'id' => 685,
                 'id_bonus' => 1105,
                 'id_member' => 16,
@@ -13032,12 +12345,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            185 => 
-            array (
+            ],
+            185 => [
                 'id' => 686,
                 'id_bonus' => 1106,
                 'id_member' => 12,
@@ -13051,12 +12363,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            186 => 
-            array (
+            ],
+            186 => [
                 'id' => 687,
                 'id_bonus' => 1107,
                 'id_member' => 10,
@@ -13070,12 +12381,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            187 => 
-            array (
+            ],
+            187 => [
                 'id' => 688,
                 'id_bonus' => 1108,
                 'id_member' => 9,
@@ -13089,12 +12399,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            188 => 
-            array (
+            ],
+            188 => [
                 'id' => 689,
                 'id_bonus' => 1109,
                 'id_member' => 5,
@@ -13108,12 +12417,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            189 => 
-            array (
+            ],
+            189 => [
                 'id' => 690,
                 'id_bonus' => 1110,
                 'id_member' => 3,
@@ -13127,12 +12435,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            190 => 
-            array (
+            ],
+            190 => [
                 'id' => 691,
                 'id_bonus' => 1111,
                 'id_member' => 2,
@@ -13146,12 +12453,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member yukeirawati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member yukeirawati (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:55:46',
                 'datecreated' => '2025-06-04 16:55:46',
-            ),
-            191 => 
-            array (
+            ],
+            191 => [
                 'id' => 692,
                 'id_bonus' => 1118,
                 'id_member' => 251,
@@ -13165,12 +12471,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            192 => 
-            array (
+            ],
+            192 => [
                 'id' => 693,
                 'id_bonus' => 1119,
                 'id_member' => 237,
@@ -13184,12 +12489,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            193 => 
-            array (
+            ],
+            193 => [
                 'id' => 694,
                 'id_bonus' => 1120,
                 'id_member' => 176,
@@ -13203,12 +12507,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            194 => 
-            array (
+            ],
+            194 => [
                 'id' => 695,
                 'id_bonus' => 1121,
                 'id_member' => 19,
@@ -13222,12 +12525,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            195 => 
-            array (
+            ],
+            195 => [
                 'id' => 696,
                 'id_bonus' => 1122,
                 'id_member' => 17,
@@ -13241,12 +12543,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            196 => 
-            array (
+            ],
+            196 => [
                 'id' => 697,
                 'id_bonus' => 1123,
                 'id_member' => 16,
@@ -13260,12 +12561,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            197 => 
-            array (
+            ],
+            197 => [
                 'id' => 698,
                 'id_bonus' => 1124,
                 'id_member' => 12,
@@ -13279,12 +12579,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            198 => 
-            array (
+            ],
+            198 => [
                 'id' => 699,
                 'id_bonus' => 1125,
                 'id_member' => 10,
@@ -13298,12 +12597,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            199 => 
-            array (
+            ],
+            199 => [
                 'id' => 700,
                 'id_bonus' => 1126,
                 'id_member' => 9,
@@ -13317,12 +12615,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            200 => 
-            array (
+            ],
+            200 => [
                 'id' => 701,
                 'id_bonus' => 1127,
                 'id_member' => 5,
@@ -13336,12 +12633,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            201 => 
-            array (
+            ],
+            201 => [
                 'id' => 702,
                 'id_bonus' => 1128,
                 'id_member' => 3,
@@ -13355,12 +12651,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            202 => 
-            array (
+            ],
+            202 => [
                 'id' => 703,
                 'id_bonus' => 1129,
                 'id_member' => 2,
@@ -13374,12 +12669,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member niayanuarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member niayanuarti (2.500 BV)',
                 'dateomzet' => '2025-06-04 16:57:58',
                 'datecreated' => '2025-06-04 16:57:58',
-            ),
-            203 => 
-            array (
+            ],
+            203 => [
                 'id' => 704,
                 'id_bonus' => 1136,
                 'id_member' => 237,
@@ -13393,12 +12687,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            204 => 
-            array (
+            ],
+            204 => [
                 'id' => 705,
                 'id_bonus' => 1137,
                 'id_member' => 176,
@@ -13412,12 +12705,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            205 => 
-            array (
+            ],
+            205 => [
                 'id' => 706,
                 'id_bonus' => 1138,
                 'id_member' => 19,
@@ -13431,12 +12723,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            206 => 
-            array (
+            ],
+            206 => [
                 'id' => 707,
                 'id_bonus' => 1139,
                 'id_member' => 17,
@@ -13450,12 +12741,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            207 => 
-            array (
+            ],
+            207 => [
                 'id' => 708,
                 'id_bonus' => 1140,
                 'id_member' => 16,
@@ -13469,12 +12759,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            208 => 
-            array (
+            ],
+            208 => [
                 'id' => 709,
                 'id_bonus' => 1141,
                 'id_member' => 12,
@@ -13488,12 +12777,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            209 => 
-            array (
+            ],
+            209 => [
                 'id' => 710,
                 'id_bonus' => 1142,
                 'id_member' => 10,
@@ -13507,12 +12795,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            210 => 
-            array (
+            ],
+            210 => [
                 'id' => 711,
                 'id_bonus' => 1143,
                 'id_member' => 9,
@@ -13526,12 +12813,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            211 => 
-            array (
+            ],
+            211 => [
                 'id' => 712,
                 'id_bonus' => 1144,
                 'id_member' => 5,
@@ -13545,12 +12831,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            212 => 
-            array (
+            ],
+            212 => [
                 'id' => 713,
                 'id_bonus' => 1145,
                 'id_member' => 3,
@@ -13564,12 +12849,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            213 => 
-            array (
+            ],
+            213 => [
                 'id' => 714,
                 'id_bonus' => 1146,
                 'id_member' => 2,
@@ -13583,12 +12867,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member idakurniasih (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member idakurniasih (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:00:09',
                 'datecreated' => '2025-06-04 17:00:09',
-            ),
-            214 => 
-            array (
+            ],
+            214 => [
                 'id' => 715,
                 'id_bonus' => 1154,
                 'id_member' => 253,
@@ -13602,12 +12885,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            215 => 
-            array (
+            ],
+            215 => [
                 'id' => 716,
                 'id_bonus' => 1155,
                 'id_member' => 237,
@@ -13621,12 +12903,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            216 => 
-            array (
+            ],
+            216 => [
                 'id' => 717,
                 'id_bonus' => 1156,
                 'id_member' => 176,
@@ -13640,12 +12921,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            217 => 
-            array (
+            ],
+            217 => [
                 'id' => 718,
                 'id_bonus' => 1157,
                 'id_member' => 19,
@@ -13659,12 +12939,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            218 => 
-            array (
+            ],
+            218 => [
                 'id' => 719,
                 'id_bonus' => 1158,
                 'id_member' => 17,
@@ -13678,12 +12957,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            219 => 
-            array (
+            ],
+            219 => [
                 'id' => 720,
                 'id_bonus' => 1159,
                 'id_member' => 16,
@@ -13697,12 +12975,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            220 => 
-            array (
+            ],
+            220 => [
                 'id' => 721,
                 'id_bonus' => 1160,
                 'id_member' => 12,
@@ -13716,12 +12993,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            221 => 
-            array (
+            ],
+            221 => [
                 'id' => 722,
                 'id_bonus' => 1161,
                 'id_member' => 10,
@@ -13735,12 +13011,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            222 => 
-            array (
+            ],
+            222 => [
                 'id' => 723,
                 'id_bonus' => 1162,
                 'id_member' => 9,
@@ -13754,12 +13029,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            223 => 
-            array (
+            ],
+            223 => [
                 'id' => 724,
                 'id_bonus' => 1163,
                 'id_member' => 5,
@@ -13773,12 +13047,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            224 => 
-            array (
+            ],
+            224 => [
                 'id' => 725,
                 'id_bonus' => 1164,
                 'id_member' => 3,
@@ -13792,12 +13065,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            225 => 
-            array (
+            ],
+            225 => [
                 'id' => 726,
                 'id_bonus' => 1165,
                 'id_member' => 2,
@@ -13811,12 +13083,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-04',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member samsularipin (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member samsularipin (2.500 BV)',
                 'dateomzet' => '2025-06-04 17:04:05',
                 'datecreated' => '2025-06-04 17:04:05',
-            ),
-            226 => 
-            array (
+            ],
+            226 => [
                 'id' => 727,
                 'id_bonus' => 1173,
                 'id_member' => 228,
@@ -13830,12 +13101,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            227 => 
-            array (
+            ],
+            227 => [
                 'id' => 728,
                 'id_bonus' => 1174,
                 'id_member' => 194,
@@ -13849,12 +13119,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            228 => 
-            array (
+            ],
+            228 => [
                 'id' => 729,
                 'id_bonus' => 1175,
                 'id_member' => 193,
@@ -13868,12 +13137,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            229 => 
-            array (
+            ],
+            229 => [
                 'id' => 730,
                 'id_bonus' => 1176,
                 'id_member' => 191,
@@ -13887,12 +13155,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            230 => 
-            array (
+            ],
+            230 => [
                 'id' => 731,
                 'id_bonus' => 1177,
                 'id_member' => 190,
@@ -13906,12 +13173,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            231 => 
-            array (
+            ],
+            231 => [
                 'id' => 732,
                 'id_bonus' => 1178,
                 'id_member' => 186,
@@ -13925,12 +13191,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            232 => 
-            array (
+            ],
+            232 => [
                 'id' => 733,
                 'id_bonus' => 1179,
                 'id_member' => 14,
@@ -13944,12 +13209,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            233 => 
-            array (
+            ],
+            233 => [
                 'id' => 734,
                 'id_bonus' => 1180,
                 'id_member' => 11,
@@ -13963,12 +13227,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            234 => 
-            array (
+            ],
+            234 => [
                 'id' => 735,
                 'id_bonus' => 1181,
                 'id_member' => 9,
@@ -13982,12 +13245,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            235 => 
-            array (
+            ],
+            235 => [
                 'id' => 736,
                 'id_bonus' => 1182,
                 'id_member' => 5,
@@ -14001,12 +13263,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            236 => 
-            array (
+            ],
+            236 => [
                 'id' => 737,
                 'id_bonus' => 1183,
                 'id_member' => 3,
@@ -14020,12 +13281,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            237 => 
-            array (
+            ],
+            237 => [
                 'id' => 738,
                 'id_bonus' => 1184,
                 'id_member' => 2,
@@ -14039,12 +13299,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-07',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member suriani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member suriani (2.500 BV)',
                 'dateomzet' => '2025-06-07 11:54:27',
                 'datecreated' => '2025-06-07 11:54:27',
-            ),
-            238 => 
-            array (
+            ],
+            238 => [
                 'id' => 739,
                 'id_bonus' => 1193,
                 'id_member' => 120,
@@ -14058,12 +13317,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            239 => 
-            array (
+            ],
+            239 => [
                 'id' => 740,
                 'id_bonus' => 1194,
                 'id_member' => 119,
@@ -14077,12 +13335,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            240 => 
-            array (
+            ],
+            240 => [
                 'id' => 741,
                 'id_bonus' => 1195,
                 'id_member' => 117,
@@ -14096,12 +13353,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            241 => 
-            array (
+            ],
+            241 => [
                 'id' => 742,
                 'id_bonus' => 1196,
                 'id_member' => 115,
@@ -14115,12 +13371,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            242 => 
-            array (
+            ],
+            242 => [
                 'id' => 743,
                 'id_bonus' => 1197,
                 'id_member' => 110,
@@ -14134,12 +13389,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            243 => 
-            array (
+            ],
+            243 => [
                 'id' => 744,
                 'id_bonus' => 1198,
                 'id_member' => 109,
@@ -14153,12 +13407,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            244 => 
-            array (
+            ],
+            244 => [
                 'id' => 745,
                 'id_bonus' => 1199,
                 'id_member' => 107,
@@ -14172,12 +13425,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            245 => 
-            array (
+            ],
+            245 => [
                 'id' => 746,
                 'id_bonus' => 1200,
                 'id_member' => 106,
@@ -14191,12 +13443,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            246 => 
-            array (
+            ],
+            246 => [
                 'id' => 747,
                 'id_bonus' => 1201,
                 'id_member' => 15,
@@ -14210,12 +13461,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            247 => 
-            array (
+            ],
+            247 => [
                 'id' => 748,
                 'id_bonus' => 1202,
                 'id_member' => 11,
@@ -14229,12 +13479,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            248 => 
-            array (
+            ],
+            248 => [
                 'id' => 749,
                 'id_bonus' => 1203,
                 'id_member' => 9,
@@ -14248,12 +13497,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            249 => 
-            array (
+            ],
+            249 => [
                 'id' => 750,
                 'id_bonus' => 1204,
                 'id_member' => 5,
@@ -14267,12 +13515,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            250 => 
-            array (
+            ],
+            250 => [
                 'id' => 751,
                 'id_bonus' => 1205,
                 'id_member' => 3,
@@ -14286,12 +13533,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            251 => 
-            array (
+            ],
+            251 => [
                 'id' => 752,
                 'id_bonus' => 1206,
                 'id_member' => 2,
@@ -14305,12 +13551,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member dianad1n (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member dianad1n (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:05:36',
                 'datecreated' => '2025-06-11 14:05:36',
-            ),
-            252 => 
-            array (
+            ],
+            252 => [
                 'id' => 753,
                 'id_bonus' => 1214,
                 'id_member' => 108,
@@ -14324,12 +13569,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            253 => 
-            array (
+            ],
+            253 => [
                 'id' => 754,
                 'id_bonus' => 1215,
                 'id_member' => 106,
@@ -14343,12 +13587,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            254 => 
-            array (
+            ],
+            254 => [
                 'id' => 755,
                 'id_bonus' => 1216,
                 'id_member' => 15,
@@ -14362,12 +13605,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            255 => 
-            array (
+            ],
+            255 => [
                 'id' => 756,
                 'id_bonus' => 1217,
                 'id_member' => 11,
@@ -14381,12 +13623,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            256 => 
-            array (
+            ],
+            256 => [
                 'id' => 757,
                 'id_bonus' => 1218,
                 'id_member' => 9,
@@ -14400,12 +13641,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            257 => 
-            array (
+            ],
+            257 => [
                 'id' => 758,
                 'id_bonus' => 1219,
                 'id_member' => 5,
@@ -14419,12 +13659,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            258 => 
-            array (
+            ],
+            258 => [
                 'id' => 759,
                 'id_bonus' => 1220,
                 'id_member' => 3,
@@ -14438,12 +13677,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            259 => 
-            array (
+            ],
+            259 => [
                 'id' => 760,
                 'id_bonus' => 1221,
                 'id_member' => 2,
@@ -14457,12 +13695,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yerikha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member yerikha (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:44:44',
                 'datecreated' => '2025-06-11 14:44:44',
-            ),
-            260 => 
-            array (
+            ],
+            260 => [
                 'id' => 761,
                 'id_bonus' => 1229,
                 'id_member' => 257,
@@ -14476,12 +13713,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            261 => 
-            array (
+            ],
+            261 => [
                 'id' => 762,
                 'id_bonus' => 1230,
                 'id_member' => 108,
@@ -14495,12 +13731,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            262 => 
-            array (
+            ],
+            262 => [
                 'id' => 763,
                 'id_bonus' => 1231,
                 'id_member' => 106,
@@ -14514,12 +13749,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            263 => 
-            array (
+            ],
+            263 => [
                 'id' => 764,
                 'id_bonus' => 1232,
                 'id_member' => 15,
@@ -14533,12 +13767,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            264 => 
-            array (
+            ],
+            264 => [
                 'id' => 765,
                 'id_bonus' => 1233,
                 'id_member' => 11,
@@ -14552,12 +13785,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            265 => 
-            array (
+            ],
+            265 => [
                 'id' => 766,
                 'id_bonus' => 1234,
                 'id_member' => 9,
@@ -14571,12 +13803,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            266 => 
-            array (
+            ],
+            266 => [
                 'id' => 767,
                 'id_bonus' => 1235,
                 'id_member' => 5,
@@ -14590,12 +13821,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            267 => 
-            array (
+            ],
+            267 => [
                 'id' => 768,
                 'id_bonus' => 1236,
                 'id_member' => 3,
@@ -14609,12 +13839,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            268 => 
-            array (
+            ],
+            268 => [
                 'id' => 769,
                 'id_bonus' => 1237,
                 'id_member' => 2,
@@ -14628,12 +13857,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wiwinkunarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member wiwinkunarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:48:06',
                 'datecreated' => '2025-06-11 14:48:06',
-            ),
-            269 => 
-            array (
+            ],
+            269 => [
                 'id' => 770,
                 'id_bonus' => 1243,
                 'id_member' => 258,
@@ -14647,12 +13875,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            270 => 
-            array (
+            ],
+            270 => [
                 'id' => 771,
                 'id_bonus' => 1244,
                 'id_member' => 257,
@@ -14666,12 +13893,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            271 => 
-            array (
+            ],
+            271 => [
                 'id' => 772,
                 'id_bonus' => 1245,
                 'id_member' => 108,
@@ -14685,12 +13911,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            272 => 
-            array (
+            ],
+            272 => [
                 'id' => 773,
                 'id_bonus' => 1246,
                 'id_member' => 106,
@@ -14704,12 +13929,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            273 => 
-            array (
+            ],
+            273 => [
                 'id' => 774,
                 'id_bonus' => 1247,
                 'id_member' => 15,
@@ -14723,12 +13947,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            274 => 
-            array (
+            ],
+            274 => [
                 'id' => 775,
                 'id_bonus' => 1248,
                 'id_member' => 11,
@@ -14742,12 +13965,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            275 => 
-            array (
+            ],
+            275 => [
                 'id' => 776,
                 'id_bonus' => 1249,
                 'id_member' => 9,
@@ -14761,12 +13983,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            276 => 
-            array (
+            ],
+            276 => [
                 'id' => 777,
                 'id_bonus' => 1250,
                 'id_member' => 5,
@@ -14780,12 +14001,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            277 => 
-            array (
+            ],
+            277 => [
                 'id' => 778,
                 'id_bonus' => 1251,
                 'id_member' => 3,
@@ -14799,12 +14019,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            278 => 
-            array (
+            ],
+            278 => [
                 'id' => 779,
                 'id_bonus' => 1252,
                 'id_member' => 2,
@@ -14818,12 +14037,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member dwisantoso (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member dwisantoso (2.500 BV)',
                 'dateomzet' => '2025-06-11 14:57:48',
                 'datecreated' => '2025-06-11 14:57:48',
-            ),
-            279 => 
-            array (
+            ],
+            279 => [
                 'id' => 780,
                 'id_bonus' => 1259,
                 'id_member' => 259,
@@ -14837,12 +14055,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            280 => 
-            array (
+            ],
+            280 => [
                 'id' => 781,
                 'id_bonus' => 1260,
                 'id_member' => 258,
@@ -14856,12 +14073,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            281 => 
-            array (
+            ],
+            281 => [
                 'id' => 782,
                 'id_bonus' => 1261,
                 'id_member' => 257,
@@ -14875,12 +14091,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            282 => 
-            array (
+            ],
+            282 => [
                 'id' => 783,
                 'id_bonus' => 1262,
                 'id_member' => 108,
@@ -14894,12 +14109,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            283 => 
-            array (
+            ],
+            283 => [
                 'id' => 784,
                 'id_bonus' => 1263,
                 'id_member' => 106,
@@ -14913,12 +14127,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            284 => 
-            array (
+            ],
+            284 => [
                 'id' => 785,
                 'id_bonus' => 1264,
                 'id_member' => 15,
@@ -14932,12 +14145,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            285 => 
-            array (
+            ],
+            285 => [
                 'id' => 786,
                 'id_bonus' => 1265,
                 'id_member' => 11,
@@ -14951,12 +14163,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            286 => 
-            array (
+            ],
+            286 => [
                 'id' => 787,
                 'id_bonus' => 1266,
                 'id_member' => 9,
@@ -14970,12 +14181,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            287 => 
-            array (
+            ],
+            287 => [
                 'id' => 788,
                 'id_bonus' => 1267,
                 'id_member' => 5,
@@ -14989,12 +14199,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            288 => 
-            array (
+            ],
+            288 => [
                 'id' => 789,
                 'id_bonus' => 1268,
                 'id_member' => 3,
@@ -15008,12 +14217,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            289 => 
-            array (
+            ],
+            289 => [
                 'id' => 790,
                 'id_bonus' => 1269,
                 'id_member' => 2,
@@ -15027,12 +14235,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member masha (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member masha (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:04:53',
                 'datecreated' => '2025-06-11 16:04:53',
-            ),
-            290 => 
-            array (
+            ],
+            290 => [
                 'id' => 791,
                 'id_bonus' => 1275,
                 'id_member' => 258,
@@ -15046,12 +14253,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            291 => 
-            array (
+            ],
+            291 => [
                 'id' => 792,
                 'id_bonus' => 1276,
                 'id_member' => 257,
@@ -15065,12 +14271,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            292 => 
-            array (
+            ],
+            292 => [
                 'id' => 793,
                 'id_bonus' => 1277,
                 'id_member' => 108,
@@ -15084,12 +14289,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            293 => 
-            array (
+            ],
+            293 => [
                 'id' => 794,
                 'id_bonus' => 1278,
                 'id_member' => 106,
@@ -15103,12 +14307,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            294 => 
-            array (
+            ],
+            294 => [
                 'id' => 795,
                 'id_bonus' => 1279,
                 'id_member' => 15,
@@ -15122,12 +14325,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            295 => 
-            array (
+            ],
+            295 => [
                 'id' => 796,
                 'id_bonus' => 1280,
                 'id_member' => 11,
@@ -15141,12 +14343,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            296 => 
-            array (
+            ],
+            296 => [
                 'id' => 797,
                 'id_bonus' => 1281,
                 'id_member' => 9,
@@ -15160,12 +14361,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            297 => 
-            array (
+            ],
+            297 => [
                 'id' => 798,
                 'id_bonus' => 1282,
                 'id_member' => 5,
@@ -15179,12 +14379,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            298 => 
-            array (
+            ],
+            298 => [
                 'id' => 799,
                 'id_bonus' => 1283,
                 'id_member' => 3,
@@ -15198,12 +14397,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            299 => 
-            array (
+            ],
+            299 => [
                 'id' => 800,
                 'id_bonus' => 1284,
                 'id_member' => 2,
@@ -15217,12 +14415,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member herminindarti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member herminindarti (2.500 BV)',
                 'dateomzet' => '2025-06-11 16:06:56',
                 'datecreated' => '2025-06-11 16:06:56',
-            ),
-            300 => 
-            array (
+            ],
+            300 => [
                 'id' => 801,
                 'id_bonus' => 1292,
                 'id_member' => 229,
@@ -15236,12 +14433,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            301 => 
-            array (
+            ],
+            301 => [
                 'id' => 802,
                 'id_bonus' => 1293,
                 'id_member' => 39,
@@ -15255,12 +14451,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            302 => 
-            array (
+            ],
+            302 => [
                 'id' => 803,
                 'id_bonus' => 1294,
                 'id_member' => 38,
@@ -15274,12 +14469,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            303 => 
-            array (
+            ],
+            303 => [
                 'id' => 804,
                 'id_bonus' => 1295,
                 'id_member' => 23,
@@ -15293,12 +14487,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            304 => 
-            array (
+            ],
+            304 => [
                 'id' => 805,
                 'id_bonus' => 1296,
                 'id_member' => 22,
@@ -15312,12 +14505,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            305 => 
-            array (
+            ],
+            305 => [
                 'id' => 806,
                 'id_bonus' => 1297,
                 'id_member' => 21,
@@ -15331,12 +14523,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            306 => 
-            array (
+            ],
+            306 => [
                 'id' => 807,
                 'id_bonus' => 1298,
                 'id_member' => 20,
@@ -15350,12 +14541,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            307 => 
-            array (
+            ],
+            307 => [
                 'id' => 808,
                 'id_bonus' => 1299,
                 'id_member' => 18,
@@ -15369,12 +14559,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            308 => 
-            array (
+            ],
+            308 => [
                 'id' => 809,
                 'id_bonus' => 1300,
                 'id_member' => 17,
@@ -15388,12 +14577,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            309 => 
-            array (
+            ],
+            309 => [
                 'id' => 810,
                 'id_bonus' => 1301,
                 'id_member' => 16,
@@ -15407,12 +14595,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            310 => 
-            array (
+            ],
+            310 => [
                 'id' => 811,
                 'id_bonus' => 1302,
                 'id_member' => 12,
@@ -15426,12 +14613,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            311 => 
-            array (
+            ],
+            311 => [
                 'id' => 812,
                 'id_bonus' => 1303,
                 'id_member' => 10,
@@ -15445,12 +14631,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            312 => 
-            array (
+            ],
+            312 => [
                 'id' => 813,
                 'id_bonus' => 1304,
                 'id_member' => 9,
@@ -15464,12 +14649,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            313 => 
-            array (
+            ],
+            313 => [
                 'id' => 814,
                 'id_bonus' => 1305,
                 'id_member' => 5,
@@ -15483,12 +14667,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            314 => 
-            array (
+            ],
+            314 => [
                 'id' => 815,
                 'id_bonus' => 1306,
                 'id_member' => 3,
@@ -15502,12 +14685,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            315 => 
-            array (
+            ],
+            315 => [
                 'id' => 816,
                 'id_bonus' => 1307,
                 'id_member' => 2,
@@ -15521,12 +14703,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-11',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member rizqiekaya369 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member rizqiekaya369 (2.500 BV)',
                 'dateomzet' => '2025-06-11 19:34:21',
                 'datecreated' => '2025-06-11 19:34:21',
-            ),
-            316 => 
-            array (
+            ],
+            316 => [
                 'id' => 817,
                 'id_bonus' => 1319,
                 'id_member' => 79,
@@ -15540,12 +14721,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            317 => 
-            array (
+            ],
+            317 => [
                 'id' => 818,
                 'id_bonus' => 1320,
                 'id_member' => 77,
@@ -15559,12 +14739,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            318 => 
-            array (
+            ],
+            318 => [
                 'id' => 819,
                 'id_bonus' => 1321,
                 'id_member' => 76,
@@ -15578,12 +14757,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            319 => 
-            array (
+            ],
+            319 => [
                 'id' => 820,
                 'id_bonus' => 1322,
                 'id_member' => 46,
@@ -15597,12 +14775,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            320 => 
-            array (
+            ],
+            320 => [
                 'id' => 821,
                 'id_bonus' => 1323,
                 'id_member' => 45,
@@ -15616,12 +14793,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            321 => 
-            array (
+            ],
+            321 => [
                 'id' => 822,
                 'id_bonus' => 1324,
                 'id_member' => 44,
@@ -15635,12 +14811,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            322 => 
-            array (
+            ],
+            322 => [
                 'id' => 823,
                 'id_bonus' => 1325,
                 'id_member' => 42,
@@ -15654,12 +14829,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            323 => 
-            array (
+            ],
+            323 => [
                 'id' => 824,
                 'id_bonus' => 1326,
                 'id_member' => 22,
@@ -15673,12 +14847,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            324 => 
-            array (
+            ],
+            324 => [
                 'id' => 825,
                 'id_bonus' => 1327,
                 'id_member' => 21,
@@ -15692,12 +14865,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            325 => 
-            array (
+            ],
+            325 => [
                 'id' => 826,
                 'id_bonus' => 1328,
                 'id_member' => 20,
@@ -15711,12 +14883,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            326 => 
-            array (
+            ],
+            326 => [
                 'id' => 827,
                 'id_bonus' => 1329,
                 'id_member' => 18,
@@ -15730,12 +14901,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            327 => 
-            array (
+            ],
+            327 => [
                 'id' => 828,
                 'id_bonus' => 1330,
                 'id_member' => 17,
@@ -15749,12 +14919,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            328 => 
-            array (
+            ],
+            328 => [
                 'id' => 829,
                 'id_bonus' => 1331,
                 'id_member' => 16,
@@ -15768,12 +14937,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            329 => 
-            array (
+            ],
+            329 => [
                 'id' => 830,
                 'id_bonus' => 1332,
                 'id_member' => 12,
@@ -15787,12 +14955,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            330 => 
-            array (
+            ],
+            330 => [
                 'id' => 831,
                 'id_bonus' => 1333,
                 'id_member' => 10,
@@ -15806,12 +14973,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            331 => 
-            array (
+            ],
+            331 => [
                 'id' => 832,
                 'id_bonus' => 1334,
                 'id_member' => 9,
@@ -15825,12 +14991,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            332 => 
-            array (
+            ],
+            332 => [
                 'id' => 833,
                 'id_bonus' => 1335,
                 'id_member' => 5,
@@ -15844,12 +15009,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            333 => 
-            array (
+            ],
+            333 => [
                 'id' => 834,
                 'id_bonus' => 1336,
                 'id_member' => 3,
@@ -15863,12 +15027,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            334 => 
-            array (
+            ],
+            334 => [
                 'id' => 835,
                 'id_bonus' => 1337,
                 'id_member' => 2,
@@ -15882,12 +15045,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-12',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member livelargeatitsbest (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member livelargeatitsbest (2.500 BV)',
                 'dateomzet' => '2025-06-12 20:40:12',
                 'datecreated' => '2025-06-12 20:40:12',
-            ),
-            335 => 
-            array (
+            ],
+            335 => [
                 'id' => 836,
                 'id_bonus' => 1350,
                 'id_member' => 252,
@@ -15901,12 +15063,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            336 => 
-            array (
+            ],
+            336 => [
                 'id' => 837,
                 'id_bonus' => 1351,
                 'id_member' => 251,
@@ -15920,12 +15081,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            337 => 
-            array (
+            ],
+            337 => [
                 'id' => 838,
                 'id_bonus' => 1352,
                 'id_member' => 237,
@@ -15939,12 +15099,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            338 => 
-            array (
+            ],
+            338 => [
                 'id' => 839,
                 'id_bonus' => 1353,
                 'id_member' => 176,
@@ -15958,12 +15117,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            339 => 
-            array (
+            ],
+            339 => [
                 'id' => 840,
                 'id_bonus' => 1354,
                 'id_member' => 19,
@@ -15977,12 +15135,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            340 => 
-            array (
+            ],
+            340 => [
                 'id' => 841,
                 'id_bonus' => 1355,
                 'id_member' => 17,
@@ -15996,12 +15153,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            341 => 
-            array (
+            ],
+            341 => [
                 'id' => 842,
                 'id_bonus' => 1356,
                 'id_member' => 16,
@@ -16015,12 +15171,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            342 => 
-            array (
+            ],
+            342 => [
                 'id' => 843,
                 'id_bonus' => 1357,
                 'id_member' => 12,
@@ -16034,12 +15189,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            343 => 
-            array (
+            ],
+            343 => [
                 'id' => 844,
                 'id_bonus' => 1358,
                 'id_member' => 10,
@@ -16053,12 +15207,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            344 => 
-            array (
+            ],
+            344 => [
                 'id' => 845,
                 'id_bonus' => 1359,
                 'id_member' => 9,
@@ -16072,12 +15225,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            345 => 
-            array (
+            ],
+            345 => [
                 'id' => 846,
                 'id_bonus' => 1360,
                 'id_member' => 5,
@@ -16091,12 +15243,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            346 => 
-            array (
+            ],
+            346 => [
                 'id' => 847,
                 'id_bonus' => 1361,
                 'id_member' => 3,
@@ -16110,12 +15261,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            347 => 
-            array (
+            ],
+            347 => [
                 'id' => 848,
                 'id_bonus' => 1362,
                 'id_member' => 2,
@@ -16129,12 +15279,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-13',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member euismulyani (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member euismulyani (2.500 BV)',
                 'dateomzet' => '2025-06-13 16:07:35',
                 'datecreated' => '2025-06-13 16:07:35',
-            ),
-            348 => 
-            array (
+            ],
+            348 => [
                 'id' => 849,
                 'id_bonus' => 1369,
                 'id_member' => 244,
@@ -16148,12 +15297,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            349 => 
-            array (
+            ],
+            349 => [
                 'id' => 850,
                 'id_bonus' => 1370,
                 'id_member' => 240,
@@ -16167,12 +15315,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            350 => 
-            array (
+            ],
+            350 => [
                 'id' => 851,
                 'id_bonus' => 1371,
                 'id_member' => 56,
@@ -16186,12 +15333,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            351 => 
-            array (
+            ],
+            351 => [
                 'id' => 852,
                 'id_bonus' => 1372,
                 'id_member' => 41,
@@ -16205,12 +15351,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            352 => 
-            array (
+            ],
+            352 => [
                 'id' => 853,
                 'id_bonus' => 1373,
                 'id_member' => 40,
@@ -16224,12 +15369,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            353 => 
-            array (
+            ],
+            353 => [
                 'id' => 854,
                 'id_bonus' => 1374,
                 'id_member' => 38,
@@ -16243,12 +15387,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            354 => 
-            array (
+            ],
+            354 => [
                 'id' => 855,
                 'id_bonus' => 1375,
                 'id_member' => 23,
@@ -16262,12 +15405,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            355 => 
-            array (
+            ],
+            355 => [
                 'id' => 856,
                 'id_bonus' => 1376,
                 'id_member' => 22,
@@ -16281,12 +15423,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            356 => 
-            array (
+            ],
+            356 => [
                 'id' => 857,
                 'id_bonus' => 1377,
                 'id_member' => 21,
@@ -16300,12 +15441,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            357 => 
-            array (
+            ],
+            357 => [
                 'id' => 858,
                 'id_bonus' => 1378,
                 'id_member' => 20,
@@ -16319,12 +15459,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            358 => 
-            array (
+            ],
+            358 => [
                 'id' => 859,
                 'id_bonus' => 1379,
                 'id_member' => 18,
@@ -16338,12 +15477,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            359 => 
-            array (
+            ],
+            359 => [
                 'id' => 860,
                 'id_bonus' => 1380,
                 'id_member' => 17,
@@ -16357,12 +15495,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            360 => 
-            array (
+            ],
+            360 => [
                 'id' => 861,
                 'id_bonus' => 1381,
                 'id_member' => 16,
@@ -16376,12 +15513,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            361 => 
-            array (
+            ],
+            361 => [
                 'id' => 862,
                 'id_bonus' => 1382,
                 'id_member' => 12,
@@ -16395,12 +15531,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            362 => 
-            array (
+            ],
+            362 => [
                 'id' => 863,
                 'id_bonus' => 1383,
                 'id_member' => 10,
@@ -16414,12 +15549,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            363 => 
-            array (
+            ],
+            363 => [
                 'id' => 864,
                 'id_bonus' => 1384,
                 'id_member' => 9,
@@ -16433,12 +15567,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            364 => 
-            array (
+            ],
+            364 => [
                 'id' => 865,
                 'id_bonus' => 1385,
                 'id_member' => 5,
@@ -16452,12 +15585,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            365 => 
-            array (
+            ],
+            365 => [
                 'id' => 866,
                 'id_bonus' => 1386,
                 'id_member' => 3,
@@ -16471,12 +15603,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            366 => 
-            array (
+            ],
+            366 => [
                 'id' => 867,
                 'id_bonus' => 1387,
                 'id_member' => 2,
@@ -16490,12 +15621,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-18',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-19 dari pendaftaran member purwanti (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-19 dari pendaftaran member purwanti (2.500 BV)',
                 'dateomzet' => '2025-06-18 23:42:14',
                 'datecreated' => '2025-06-18 23:42:14',
-            ),
-            367 => 
-            array (
+            ],
+            367 => [
                 'id' => 868,
                 'id_bonus' => 1398,
                 'id_member' => 262,
@@ -16509,12 +15639,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            368 => 
-            array (
+            ],
+            368 => [
                 'id' => 869,
                 'id_bonus' => 1399,
                 'id_member' => 229,
@@ -16528,12 +15657,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            369 => 
-            array (
+            ],
+            369 => [
                 'id' => 870,
                 'id_bonus' => 1400,
                 'id_member' => 39,
@@ -16547,12 +15675,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            370 => 
-            array (
+            ],
+            370 => [
                 'id' => 871,
                 'id_bonus' => 1401,
                 'id_member' => 38,
@@ -16566,12 +15693,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            371 => 
-            array (
+            ],
+            371 => [
                 'id' => 872,
                 'id_bonus' => 1402,
                 'id_member' => 23,
@@ -16585,12 +15711,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            372 => 
-            array (
+            ],
+            372 => [
                 'id' => 873,
                 'id_bonus' => 1403,
                 'id_member' => 22,
@@ -16604,12 +15729,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            373 => 
-            array (
+            ],
+            373 => [
                 'id' => 874,
                 'id_bonus' => 1404,
                 'id_member' => 21,
@@ -16623,12 +15747,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            374 => 
-            array (
+            ],
+            374 => [
                 'id' => 875,
                 'id_bonus' => 1405,
                 'id_member' => 20,
@@ -16642,12 +15765,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            375 => 
-            array (
+            ],
+            375 => [
                 'id' => 876,
                 'id_bonus' => 1406,
                 'id_member' => 18,
@@ -16661,12 +15783,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            376 => 
-            array (
+            ],
+            376 => [
                 'id' => 877,
                 'id_bonus' => 1407,
                 'id_member' => 17,
@@ -16680,12 +15801,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            377 => 
-            array (
+            ],
+            377 => [
                 'id' => 878,
                 'id_bonus' => 1408,
                 'id_member' => 16,
@@ -16699,12 +15819,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            378 => 
-            array (
+            ],
+            378 => [
                 'id' => 879,
                 'id_bonus' => 1409,
                 'id_member' => 12,
@@ -16718,12 +15837,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            379 => 
-            array (
+            ],
+            379 => [
                 'id' => 880,
                 'id_bonus' => 1410,
                 'id_member' => 10,
@@ -16737,12 +15855,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            380 => 
-            array (
+            ],
+            380 => [
                 'id' => 881,
                 'id_bonus' => 1411,
                 'id_member' => 9,
@@ -16756,12 +15873,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            381 => 
-            array (
+            ],
+            381 => [
                 'id' => 882,
                 'id_bonus' => 1412,
                 'id_member' => 5,
@@ -16775,12 +15891,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            382 => 
-            array (
+            ],
+            382 => [
                 'id' => 883,
                 'id_bonus' => 1413,
                 'id_member' => 3,
@@ -16794,12 +15909,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            383 => 
-            array (
+            ],
+            383 => [
                 'id' => 884,
                 'id_bonus' => 1414,
                 'id_member' => 2,
@@ -16813,12 +15927,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-20',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member multyrezeki (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member multyrezeki (2.500 BV)',
                 'dateomzet' => '2025-06-20 22:15:29',
                 'datecreated' => '2025-06-20 22:15:29',
-            ),
-            384 => 
-            array (
+            ],
+            384 => [
                 'id' => 885,
                 'id_bonus' => 1426,
                 'id_member' => 243,
@@ -16832,12 +15945,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            385 => 
-            array (
+            ],
+            385 => [
                 'id' => 886,
                 'id_bonus' => 1427,
                 'id_member' => 182,
@@ -16851,12 +15963,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            386 => 
-            array (
+            ],
+            386 => [
                 'id' => 887,
                 'id_bonus' => 1428,
                 'id_member' => 181,
@@ -16870,12 +15981,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            387 => 
-            array (
+            ],
+            387 => [
                 'id' => 888,
                 'id_bonus' => 1429,
                 'id_member' => 90,
@@ -16889,12 +15999,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            388 => 
-            array (
+            ],
+            388 => [
                 'id' => 889,
                 'id_bonus' => 1430,
                 'id_member' => 55,
@@ -16908,12 +16017,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            389 => 
-            array (
+            ],
+            389 => [
                 'id' => 890,
                 'id_bonus' => 1431,
                 'id_member' => 54,
@@ -16927,12 +16035,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            390 => 
-            array (
+            ],
+            390 => [
                 'id' => 891,
                 'id_bonus' => 1432,
                 'id_member' => 53,
@@ -16946,12 +16053,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            391 => 
-            array (
+            ],
+            391 => [
                 'id' => 892,
                 'id_bonus' => 1433,
                 'id_member' => 21,
@@ -16965,12 +16071,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            392 => 
-            array (
+            ],
+            392 => [
                 'id' => 893,
                 'id_bonus' => 1434,
                 'id_member' => 20,
@@ -16984,12 +16089,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            393 => 
-            array (
+            ],
+            393 => [
                 'id' => 894,
                 'id_bonus' => 1435,
                 'id_member' => 18,
@@ -17003,12 +16107,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            394 => 
-            array (
+            ],
+            394 => [
                 'id' => 895,
                 'id_bonus' => 1436,
                 'id_member' => 17,
@@ -17022,12 +16125,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            395 => 
-            array (
+            ],
+            395 => [
                 'id' => 896,
                 'id_bonus' => 1437,
                 'id_member' => 16,
@@ -17041,12 +16143,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            396 => 
-            array (
+            ],
+            396 => [
                 'id' => 897,
                 'id_bonus' => 1438,
                 'id_member' => 12,
@@ -17060,12 +16161,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            397 => 
-            array (
+            ],
+            397 => [
                 'id' => 898,
                 'id_bonus' => 1439,
                 'id_member' => 10,
@@ -17079,12 +16179,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            398 => 
-            array (
+            ],
+            398 => [
                 'id' => 899,
                 'id_bonus' => 1440,
                 'id_member' => 9,
@@ -17098,12 +16197,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            399 => 
-            array (
+            ],
+            399 => [
                 'id' => 900,
                 'id_bonus' => 1441,
                 'id_member' => 5,
@@ -17117,12 +16215,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            400 => 
-            array (
+            ],
+            400 => [
                 'id' => 901,
                 'id_bonus' => 1442,
                 'id_member' => 3,
@@ -17136,12 +16233,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            401 => 
-            array (
+            ],
+            401 => [
                 'id' => 902,
                 'id_bonus' => 1443,
                 'id_member' => 2,
@@ -17155,12 +16251,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member sehatberlimpah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member sehatberlimpah (2.500 BV)',
                 'dateomzet' => '2025-06-22 15:21:07',
                 'datecreated' => '2025-06-22 15:21:07',
-            ),
-            402 => 
-            array (
+            ],
+            402 => [
                 'id' => 903,
                 'id_bonus' => 1453,
                 'id_member' => 261,
@@ -17174,12 +16269,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            403 => 
-            array (
+            ],
+            403 => [
                 'id' => 904,
                 'id_bonus' => 1454,
                 'id_member' => 258,
@@ -17193,12 +16287,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            404 => 
-            array (
+            ],
+            404 => [
                 'id' => 905,
                 'id_bonus' => 1455,
                 'id_member' => 257,
@@ -17212,12 +16305,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            405 => 
-            array (
+            ],
+            405 => [
                 'id' => 906,
                 'id_bonus' => 1456,
                 'id_member' => 108,
@@ -17231,12 +16323,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            406 => 
-            array (
+            ],
+            406 => [
                 'id' => 907,
                 'id_bonus' => 1457,
                 'id_member' => 106,
@@ -17250,12 +16341,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            407 => 
-            array (
+            ],
+            407 => [
                 'id' => 908,
                 'id_bonus' => 1458,
                 'id_member' => 15,
@@ -17269,12 +16359,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            408 => 
-            array (
+            ],
+            408 => [
                 'id' => 909,
                 'id_bonus' => 1459,
                 'id_member' => 11,
@@ -17288,12 +16377,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            409 => 
-            array (
+            ],
+            409 => [
                 'id' => 910,
                 'id_bonus' => 1460,
                 'id_member' => 9,
@@ -17307,12 +16395,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            410 => 
-            array (
+            ],
+            410 => [
                 'id' => 911,
                 'id_bonus' => 1461,
                 'id_member' => 5,
@@ -17326,12 +16413,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            411 => 
-            array (
+            ],
+            411 => [
                 'id' => 912,
                 'id_bonus' => 1462,
                 'id_member' => 3,
@@ -17345,12 +16431,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            412 => 
-            array (
+            ],
+            412 => [
                 'id' => 913,
                 'id_bonus' => 1463,
                 'id_member' => 2,
@@ -17364,12 +16449,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member krisnanov (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member krisnanov (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:56:22',
                 'datecreated' => '2025-06-26 12:56:22',
-            ),
-            413 => 
-            array (
+            ],
+            413 => [
                 'id' => 914,
                 'id_bonus' => 1471,
                 'id_member' => 269,
@@ -17383,12 +16467,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            414 => 
-            array (
+            ],
+            414 => [
                 'id' => 915,
                 'id_bonus' => 1472,
                 'id_member' => 261,
@@ -17402,12 +16485,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            415 => 
-            array (
+            ],
+            415 => [
                 'id' => 916,
                 'id_bonus' => 1473,
                 'id_member' => 258,
@@ -17421,12 +16503,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            416 => 
-            array (
+            ],
+            416 => [
                 'id' => 917,
                 'id_bonus' => 1474,
                 'id_member' => 257,
@@ -17440,12 +16521,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            417 => 
-            array (
+            ],
+            417 => [
                 'id' => 918,
                 'id_bonus' => 1475,
                 'id_member' => 108,
@@ -17459,12 +16539,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            418 => 
-            array (
+            ],
+            418 => [
                 'id' => 919,
                 'id_bonus' => 1476,
                 'id_member' => 106,
@@ -17478,12 +16557,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            419 => 
-            array (
+            ],
+            419 => [
                 'id' => 920,
                 'id_bonus' => 1477,
                 'id_member' => 15,
@@ -17497,12 +16575,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            420 => 
-            array (
+            ],
+            420 => [
                 'id' => 921,
                 'id_bonus' => 1478,
                 'id_member' => 11,
@@ -17516,12 +16593,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            421 => 
-            array (
+            ],
+            421 => [
                 'id' => 922,
                 'id_bonus' => 1479,
                 'id_member' => 9,
@@ -17535,12 +16611,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            422 => 
-            array (
+            ],
+            422 => [
                 'id' => 923,
                 'id_bonus' => 1480,
                 'id_member' => 5,
@@ -17554,12 +16629,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            423 => 
-            array (
+            ],
+            423 => [
                 'id' => 924,
                 'id_bonus' => 1481,
                 'id_member' => 3,
@@ -17573,12 +16647,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            424 => 
-            array (
+            ],
+            424 => [
                 'id' => 925,
                 'id_bonus' => 1482,
                 'id_member' => 2,
@@ -17592,12 +16665,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member novitsetya (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member novitsetya (2.500 BV)',
                 'dateomzet' => '2025-06-26 12:58:02',
                 'datecreated' => '2025-06-26 12:58:02',
-            ),
-            425 => 
-            array (
+            ],
+            425 => [
                 'id' => 926,
                 'id_bonus' => 1489,
                 'id_member' => 262,
@@ -17611,12 +16683,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            426 => 
-            array (
+            ],
+            426 => [
                 'id' => 927,
                 'id_bonus' => 1490,
                 'id_member' => 229,
@@ -17630,12 +16701,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            427 => 
-            array (
+            ],
+            427 => [
                 'id' => 928,
                 'id_bonus' => 1491,
                 'id_member' => 39,
@@ -17649,12 +16719,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            428 => 
-            array (
+            ],
+            428 => [
                 'id' => 929,
                 'id_bonus' => 1492,
                 'id_member' => 38,
@@ -17668,12 +16737,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            429 => 
-            array (
+            ],
+            429 => [
                 'id' => 930,
                 'id_bonus' => 1493,
                 'id_member' => 23,
@@ -17687,12 +16755,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            430 => 
-            array (
+            ],
+            430 => [
                 'id' => 931,
                 'id_bonus' => 1494,
                 'id_member' => 22,
@@ -17706,12 +16773,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            431 => 
-            array (
+            ],
+            431 => [
                 'id' => 932,
                 'id_bonus' => 1495,
                 'id_member' => 21,
@@ -17725,12 +16791,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            432 => 
-            array (
+            ],
+            432 => [
                 'id' => 933,
                 'id_bonus' => 1496,
                 'id_member' => 20,
@@ -17744,12 +16809,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            433 => 
-            array (
+            ],
+            433 => [
                 'id' => 934,
                 'id_bonus' => 1497,
                 'id_member' => 18,
@@ -17763,12 +16827,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            434 => 
-            array (
+            ],
+            434 => [
                 'id' => 935,
                 'id_bonus' => 1498,
                 'id_member' => 17,
@@ -17782,12 +16845,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            435 => 
-            array (
+            ],
+            435 => [
                 'id' => 936,
                 'id_bonus' => 1499,
                 'id_member' => 16,
@@ -17801,12 +16863,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            436 => 
-            array (
+            ],
+            436 => [
                 'id' => 937,
                 'id_bonus' => 1500,
                 'id_member' => 12,
@@ -17820,12 +16881,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            437 => 
-            array (
+            ],
+            437 => [
                 'id' => 938,
                 'id_bonus' => 1501,
                 'id_member' => 10,
@@ -17839,12 +16899,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            438 => 
-            array (
+            ],
+            438 => [
                 'id' => 939,
                 'id_bonus' => 1502,
                 'id_member' => 9,
@@ -17858,12 +16917,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            439 => 
-            array (
+            ],
+            439 => [
                 'id' => 940,
                 'id_bonus' => 1503,
                 'id_member' => 5,
@@ -17877,12 +16935,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            440 => 
-            array (
+            ],
+            440 => [
                 'id' => 941,
                 'id_bonus' => 1504,
                 'id_member' => 3,
@@ -17896,12 +16953,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            441 => 
-            array (
+            ],
+            441 => [
                 'id' => 942,
                 'id_bonus' => 1505,
                 'id_member' => 2,
@@ -17915,12 +16971,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 6,
                 'date' => '2025-06-26',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member starom1 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member starom1 (2.500 BV)',
                 'dateomzet' => '2025-06-26 21:01:06',
                 'datecreated' => '2025-06-26 21:01:06',
-            ),
-            442 => 
-            array (
+            ],
+            442 => [
                 'id' => 943,
                 'id_bonus' => 1518,
                 'id_member' => 166,
@@ -17934,12 +16989,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            443 => 
-            array (
+            ],
+            443 => [
                 'id' => 944,
                 'id_bonus' => 1519,
                 'id_member' => 60,
@@ -17953,12 +17007,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            444 => 
-            array (
+            ],
+            444 => [
                 'id' => 945,
                 'id_bonus' => 1520,
                 'id_member' => 24,
@@ -17972,12 +17025,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            445 => 
-            array (
+            ],
+            445 => [
                 'id' => 946,
                 'id_bonus' => 1521,
                 'id_member' => 23,
@@ -17991,12 +17043,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            446 => 
-            array (
+            ],
+            446 => [
                 'id' => 947,
                 'id_bonus' => 1522,
                 'id_member' => 22,
@@ -18010,12 +17061,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            447 => 
-            array (
+            ],
+            447 => [
                 'id' => 948,
                 'id_bonus' => 1523,
                 'id_member' => 21,
@@ -18029,12 +17079,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            448 => 
-            array (
+            ],
+            448 => [
                 'id' => 949,
                 'id_bonus' => 1524,
                 'id_member' => 20,
@@ -18048,12 +17097,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            449 => 
-            array (
+            ],
+            449 => [
                 'id' => 950,
                 'id_bonus' => 1525,
                 'id_member' => 18,
@@ -18067,12 +17115,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            450 => 
-            array (
+            ],
+            450 => [
                 'id' => 951,
                 'id_bonus' => 1526,
                 'id_member' => 17,
@@ -18086,12 +17133,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            451 => 
-            array (
+            ],
+            451 => [
                 'id' => 952,
                 'id_bonus' => 1527,
                 'id_member' => 16,
@@ -18105,12 +17151,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            452 => 
-            array (
+            ],
+            452 => [
                 'id' => 953,
                 'id_bonus' => 1528,
                 'id_member' => 12,
@@ -18124,12 +17169,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            453 => 
-            array (
+            ],
+            453 => [
                 'id' => 954,
                 'id_bonus' => 1529,
                 'id_member' => 10,
@@ -18143,12 +17187,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            454 => 
-            array (
+            ],
+            454 => [
                 'id' => 955,
                 'id_bonus' => 1530,
                 'id_member' => 9,
@@ -18162,12 +17205,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            455 => 
-            array (
+            ],
+            455 => [
                 'id' => 956,
                 'id_bonus' => 1531,
                 'id_member' => 5,
@@ -18181,12 +17223,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            456 => 
-            array (
+            ],
+            456 => [
                 'id' => 957,
                 'id_bonus' => 1532,
                 'id_member' => 3,
@@ -18200,12 +17241,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            457 => 
-            array (
+            ],
+            457 => [
                 'id' => 958,
                 'id_bonus' => 1533,
                 'id_member' => 2,
@@ -18219,12 +17259,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-10',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member monique (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member monique (2.500 BV)',
                 'dateomzet' => '2025-07-10 21:04:06',
                 'datecreated' => '2025-07-10 21:04:06',
-            ),
-            458 => 
-            array (
+            ],
+            458 => [
                 'id' => 959,
                 'id_bonus' => 1544,
                 'id_member' => 254,
@@ -18238,12 +17277,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            459 => 
-            array (
+            ],
+            459 => [
                 'id' => 960,
                 'id_bonus' => 1545,
                 'id_member' => 253,
@@ -18257,12 +17295,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            460 => 
-            array (
+            ],
+            460 => [
                 'id' => 961,
                 'id_bonus' => 1546,
                 'id_member' => 237,
@@ -18276,12 +17313,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            461 => 
-            array (
+            ],
+            461 => [
                 'id' => 962,
                 'id_bonus' => 1547,
                 'id_member' => 176,
@@ -18295,12 +17331,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            462 => 
-            array (
+            ],
+            462 => [
                 'id' => 963,
                 'id_bonus' => 1548,
                 'id_member' => 19,
@@ -18314,12 +17349,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            463 => 
-            array (
+            ],
+            463 => [
                 'id' => 964,
                 'id_bonus' => 1549,
                 'id_member' => 17,
@@ -18333,12 +17367,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            464 => 
-            array (
+            ],
+            464 => [
                 'id' => 965,
                 'id_bonus' => 1550,
                 'id_member' => 16,
@@ -18352,12 +17385,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            465 => 
-            array (
+            ],
+            465 => [
                 'id' => 966,
                 'id_bonus' => 1551,
                 'id_member' => 12,
@@ -18371,12 +17403,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            466 => 
-            array (
+            ],
+            466 => [
                 'id' => 967,
                 'id_bonus' => 1552,
                 'id_member' => 10,
@@ -18390,12 +17421,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            467 => 
-            array (
+            ],
+            467 => [
                 'id' => 968,
                 'id_bonus' => 1553,
                 'id_member' => 9,
@@ -18409,12 +17439,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            468 => 
-            array (
+            ],
+            468 => [
                 'id' => 969,
                 'id_bonus' => 1554,
                 'id_member' => 5,
@@ -18428,12 +17457,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            469 => 
-            array (
+            ],
+            469 => [
                 'id' => 970,
                 'id_bonus' => 1555,
                 'id_member' => 3,
@@ -18447,12 +17475,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            470 => 
-            array (
+            ],
+            470 => [
                 'id' => 971,
                 'id_bonus' => 1556,
                 'id_member' => 2,
@@ -18466,12 +17493,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member diahnurul (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member diahnurul (2.500 BV)',
                 'dateomzet' => '2025-07-15 10:26:03',
                 'datecreated' => '2025-07-15 10:26:03',
-            ),
-            471 => 
-            array (
+            ],
+            471 => [
                 'id' => 972,
                 'id_bonus' => 1564,
                 'id_member' => 274,
@@ -18485,12 +17511,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member demoaccount02 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member demoaccount02 (2.500 BV)',
                 'dateomzet' => '2025-07-21 23:25:09',
                 'datecreated' => '2025-07-21 23:25:09',
-            ),
-            472 => 
-            array (
+            ],
+            472 => [
                 'id' => 973,
                 'id_bonus' => 1567,
                 'id_member' => 274,
@@ -18504,12 +17529,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 7,
                 'date' => '2025-07-21',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member demoaccount03 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member demoaccount03 (2.500 BV)',
                 'dateomzet' => '2025-07-21 23:25:18',
                 'datecreated' => '2025-07-21 23:25:18',
-            ),
-            473 => 
-            array (
+            ],
+            473 => [
                 'id' => 974,
                 'id_bonus' => 1571,
                 'id_member' => 264,
@@ -18523,12 +17547,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            474 => 
-            array (
+            ],
+            474 => [
                 'id' => 975,
                 'id_bonus' => 1572,
                 'id_member' => 252,
@@ -18542,12 +17565,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            475 => 
-            array (
+            ],
+            475 => [
                 'id' => 976,
                 'id_bonus' => 1573,
                 'id_member' => 251,
@@ -18561,12 +17583,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            476 => 
-            array (
+            ],
+            476 => [
                 'id' => 977,
                 'id_bonus' => 1574,
                 'id_member' => 237,
@@ -18580,12 +17601,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            477 => 
-            array (
+            ],
+            477 => [
                 'id' => 978,
                 'id_bonus' => 1575,
                 'id_member' => 176,
@@ -18599,12 +17619,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            478 => 
-            array (
+            ],
+            478 => [
                 'id' => 979,
                 'id_bonus' => 1576,
                 'id_member' => 19,
@@ -18618,12 +17637,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            479 => 
-            array (
+            ],
+            479 => [
                 'id' => 980,
                 'id_bonus' => 1577,
                 'id_member' => 17,
@@ -18637,12 +17655,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            480 => 
-            array (
+            ],
+            480 => [
                 'id' => 981,
                 'id_bonus' => 1578,
                 'id_member' => 16,
@@ -18656,12 +17673,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            481 => 
-            array (
+            ],
+            481 => [
                 'id' => 982,
                 'id_bonus' => 1579,
                 'id_member' => 12,
@@ -18675,12 +17691,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            482 => 
-            array (
+            ],
+            482 => [
                 'id' => 983,
                 'id_bonus' => 1580,
                 'id_member' => 10,
@@ -18694,12 +17709,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            483 => 
-            array (
+            ],
+            483 => [
                 'id' => 984,
                 'id_bonus' => 1581,
                 'id_member' => 9,
@@ -18713,12 +17727,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            484 => 
-            array (
+            ],
+            484 => [
                 'id' => 985,
                 'id_bonus' => 1582,
                 'id_member' => 5,
@@ -18732,12 +17745,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            485 => 
-            array (
+            ],
+            485 => [
                 'id' => 986,
                 'id_bonus' => 1583,
                 'id_member' => 3,
@@ -18751,12 +17763,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            486 => 
-            array (
+            ],
+            486 => [
                 'id' => 987,
                 'id_bonus' => 1584,
                 'id_member' => 2,
@@ -18770,12 +17781,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member ranifathciah (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member ranifathciah (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:55:31',
                 'datecreated' => '2025-08-15 11:55:31',
-            ),
-            487 => 
-            array (
+            ],
+            487 => [
                 'id' => 988,
                 'id_bonus' => 1591,
                 'id_member' => 273,
@@ -18789,12 +17799,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            488 => 
-            array (
+            ],
+            488 => [
                 'id' => 989,
                 'id_bonus' => 1592,
                 'id_member' => 254,
@@ -18808,12 +17817,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            489 => 
-            array (
+            ],
+            489 => [
                 'id' => 990,
                 'id_bonus' => 1593,
                 'id_member' => 253,
@@ -18827,12 +17835,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            490 => 
-            array (
+            ],
+            490 => [
                 'id' => 991,
                 'id_bonus' => 1594,
                 'id_member' => 237,
@@ -18846,12 +17853,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            491 => 
-            array (
+            ],
+            491 => [
                 'id' => 992,
                 'id_bonus' => 1595,
                 'id_member' => 176,
@@ -18865,12 +17871,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            492 => 
-            array (
+            ],
+            492 => [
                 'id' => 993,
                 'id_bonus' => 1596,
                 'id_member' => 19,
@@ -18884,12 +17889,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            493 => 
-            array (
+            ],
+            493 => [
                 'id' => 994,
                 'id_bonus' => 1597,
                 'id_member' => 17,
@@ -18903,12 +17907,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            494 => 
-            array (
+            ],
+            494 => [
                 'id' => 995,
                 'id_bonus' => 1598,
                 'id_member' => 16,
@@ -18922,12 +17925,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            495 => 
-            array (
+            ],
+            495 => [
                 'id' => 996,
                 'id_bonus' => 1599,
                 'id_member' => 12,
@@ -18941,12 +17943,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            496 => 
-            array (
+            ],
+            496 => [
                 'id' => 997,
                 'id_bonus' => 1600,
                 'id_member' => 10,
@@ -18960,12 +17961,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            497 => 
-            array (
+            ],
+            497 => [
                 'id' => 998,
                 'id_bonus' => 1601,
                 'id_member' => 9,
@@ -18979,12 +17979,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            498 => 
-            array (
+            ],
+            498 => [
                 'id' => 999,
                 'id_bonus' => 1602,
                 'id_member' => 5,
@@ -18998,12 +17997,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            499 => 
-            array (
+            ],
+            499 => [
                 'id' => 1000,
                 'id_bonus' => 1603,
                 'id_member' => 3,
@@ -19017,14 +18015,13 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-        ));
-        \DB::table('bonus_level_refs')->insert(array (
-            0 => 
-            array (
+            ],
+        ]);
+        \DB::table('bonus_level_refs')->insert([
+            0 => [
                 'id' => 1001,
                 'id_bonus' => 1604,
                 'id_member' => 2,
@@ -19038,12 +18035,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-15',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member nikenlarasati (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member nikenlarasati (2.500 BV)',
                 'dateomzet' => '2025-08-15 11:58:56',
                 'datecreated' => '2025-08-15 11:58:56',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 1002,
                 'id_bonus' => 1612,
                 'id_member' => 57,
@@ -19057,12 +18053,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 1003,
                 'id_bonus' => 1613,
                 'id_member' => 56,
@@ -19076,12 +18071,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 1004,
                 'id_bonus' => 1614,
                 'id_member' => 41,
@@ -19095,12 +18089,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 1005,
                 'id_bonus' => 1615,
                 'id_member' => 40,
@@ -19114,12 +18107,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 1006,
                 'id_bonus' => 1616,
                 'id_member' => 38,
@@ -19133,12 +18125,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 1007,
                 'id_bonus' => 1617,
                 'id_member' => 23,
@@ -19152,12 +18143,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 1008,
                 'id_bonus' => 1618,
                 'id_member' => 22,
@@ -19171,12 +18161,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 1009,
                 'id_bonus' => 1619,
                 'id_member' => 21,
@@ -19190,12 +18179,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 1010,
                 'id_bonus' => 1620,
                 'id_member' => 20,
@@ -19209,12 +18197,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 1011,
                 'id_bonus' => 1621,
                 'id_member' => 18,
@@ -19228,12 +18215,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 1012,
                 'id_bonus' => 1622,
                 'id_member' => 17,
@@ -19247,12 +18233,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 1013,
                 'id_bonus' => 1623,
                 'id_member' => 16,
@@ -19266,12 +18251,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 1014,
                 'id_bonus' => 1624,
                 'id_member' => 12,
@@ -19285,12 +18269,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 1015,
                 'id_bonus' => 1625,
                 'id_member' => 10,
@@ -19304,12 +18287,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 1016,
                 'id_bonus' => 1626,
                 'id_member' => 9,
@@ -19323,12 +18305,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 1017,
                 'id_bonus' => 1627,
                 'id_member' => 5,
@@ -19342,12 +18323,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 1018,
                 'id_bonus' => 1628,
                 'id_member' => 3,
@@ -19361,12 +18341,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 1019,
                 'id_bonus' => 1629,
                 'id_member' => 2,
@@ -19380,12 +18359,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 8,
                 'date' => '2025-08-22',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member jhonkho88 (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member jhonkho88 (2.500 BV)',
                 'dateomzet' => '2025-08-22 14:41:54',
                 'datecreated' => '2025-08-22 14:41:54',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 1020,
                 'id_bonus' => 1641,
                 'id_member' => 48,
@@ -19399,12 +18377,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 1021,
                 'id_bonus' => 1642,
                 'id_member' => 47,
@@ -19418,12 +18395,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 1022,
                 'id_bonus' => 1643,
                 'id_member' => 46,
@@ -19437,12 +18413,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 1023,
                 'id_bonus' => 1644,
                 'id_member' => 45,
@@ -19456,12 +18431,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 1024,
                 'id_bonus' => 1645,
                 'id_member' => 44,
@@ -19475,12 +18449,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 1025,
                 'id_bonus' => 1646,
                 'id_member' => 42,
@@ -19494,12 +18467,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 1026,
                 'id_bonus' => 1647,
                 'id_member' => 22,
@@ -19513,12 +18485,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 1027,
                 'id_bonus' => 1648,
                 'id_member' => 21,
@@ -19532,12 +18503,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 1028,
                 'id_bonus' => 1649,
                 'id_member' => 20,
@@ -19551,12 +18521,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 1029,
                 'id_bonus' => 1650,
                 'id_member' => 18,
@@ -19570,12 +18539,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 1030,
                 'id_bonus' => 1651,
                 'id_member' => 17,
@@ -19589,12 +18557,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 1031,
                 'id_bonus' => 1652,
                 'id_member' => 16,
@@ -19608,12 +18575,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 1032,
                 'id_bonus' => 1653,
                 'id_member' => 12,
@@ -19627,12 +18593,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 1033,
                 'id_bonus' => 1654,
                 'id_member' => 10,
@@ -19646,12 +18611,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 1034,
                 'id_bonus' => 1655,
                 'id_member' => 9,
@@ -19665,12 +18629,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 1035,
                 'id_bonus' => 1656,
                 'id_member' => 5,
@@ -19684,12 +18647,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 1036,
                 'id_bonus' => 1657,
                 'id_member' => 3,
@@ -19703,12 +18665,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 1037,
                 'id_bonus' => 1658,
                 'id_member' => 2,
@@ -19722,12 +18683,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-18 dari pendaftaran member kaptensar (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-18 dari pendaftaran member kaptensar (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:25:38',
                 'datecreated' => '2025-09-01 14:25:38',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 1038,
                 'id_bonus' => 1669,
                 'id_member' => 94,
@@ -19741,12 +18701,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-1 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-1 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 1039,
                 'id_bonus' => 1670,
                 'id_member' => 93,
@@ -19760,12 +18719,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-2 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-2 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 1040,
                 'id_bonus' => 1671,
                 'id_member' => 49,
@@ -19779,12 +18737,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-3 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-3 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 1041,
                 'id_bonus' => 1672,
                 'id_member' => 44,
@@ -19798,12 +18755,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-4 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-4 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 1042,
                 'id_bonus' => 1673,
                 'id_member' => 42,
@@ -19817,12 +18773,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-5 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-5 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 1043,
                 'id_bonus' => 1674,
                 'id_member' => 22,
@@ -19836,12 +18791,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-6 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-6 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 1044,
                 'id_bonus' => 1675,
                 'id_member' => 21,
@@ -19855,12 +18809,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-7 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-7 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 1045,
                 'id_bonus' => 1676,
                 'id_member' => 20,
@@ -19874,12 +18827,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-8 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-8 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 1046,
                 'id_bonus' => 1677,
                 'id_member' => 18,
@@ -19893,12 +18845,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-9 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-9 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 1047,
                 'id_bonus' => 1678,
                 'id_member' => 17,
@@ -19912,12 +18863,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-10 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-10 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 1048,
                 'id_bonus' => 1679,
                 'id_member' => 16,
@@ -19931,12 +18881,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-11 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-11 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 1049,
                 'id_bonus' => 1680,
                 'id_member' => 12,
@@ -19950,12 +18899,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-12 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-12 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 1050,
                 'id_bonus' => 1681,
                 'id_member' => 10,
@@ -19969,12 +18917,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-13 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-13 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 1051,
                 'id_bonus' => 1682,
                 'id_member' => 9,
@@ -19988,12 +18935,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-14 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-14 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 1052,
                 'id_bonus' => 1683,
                 'id_member' => 5,
@@ -20007,12 +18953,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-15 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-15 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 1053,
                 'id_bonus' => 1684,
                 'id_member' => 3,
@@ -20026,12 +18971,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-16 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-16 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 1054,
                 'id_bonus' => 1685,
                 'id_member' => 2,
@@ -20045,12 +18989,11 @@ class JpbBonusLevelRefsTableSeeder extends Seeder
                 'month' => 9,
                 'date' => '2025-09-01',
                 'status' => 1,
-            'description' => 'Bonus Unilevel Level-17 dari pendaftaran member brighton (2.500 BV)',
+                'description' => 'Bonus Unilevel Level-17 dari pendaftaran member brighton (2.500 BV)',
                 'dateomzet' => '2025-09-01 14:41:05',
                 'datecreated' => '2025-09-01 14:41:05',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

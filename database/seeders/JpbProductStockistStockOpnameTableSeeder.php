@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductStockistStockOpnameTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbProductStockistStockOpnameTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('stockist_product_stock_opnames')->delete();
-        
-        
-        
+
     }
 }

@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbProductAreaFeeTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbProductAreaFeeTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('product_area_fees')->delete();
-        
-        
-        
+
     }
 }

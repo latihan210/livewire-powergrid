@@ -12,7 +12,7 @@ test('administrator can impersonate a member and return without logout', functio
 
     $memberId = DB::table('members')->insertGetId([
         'user_id' => $memberUser->id,
-        'username' => 'member-' . Str::lower(Str::random(8)),
+        'username' => 'member-'.Str::lower(Str::random(8)),
         'name' => 'Member Impersonation',
         'package' => 'basic',
         'sponsor' => 1,

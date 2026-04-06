@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbPairingQualifiedTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbPairingQualifiedTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_pairing_qualified')->delete();
-        
-        \DB::table('jpb_pairing_qualified')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_pairing_qualified')->insert([
+            0 => [
                 'id' => 1,
                 'id_member' => 22,
                 'left' => 2500.0,
@@ -33,9 +30,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-21 19:44:34',
                 'datemodified' => '2025-04-21 19:44:34',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_member' => 70,
                 'left' => 2500.0,
@@ -48,9 +44,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-21 19:57:53',
                 'datemodified' => '2025-04-21 19:57:53',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_member' => 22,
                 'left' => 2500.0,
@@ -63,9 +58,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-21 19:57:53',
                 'datemodified' => '2025-04-21 19:57:53',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_member' => 22,
                 'left' => 2500.0,
@@ -78,9 +72,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-21 20:12:53',
                 'datemodified' => '2025-04-21 20:12:53',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_member' => 21,
                 'left' => 15000.0,
@@ -93,9 +86,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:41:37',
                 'datemodified' => '2025-04-22 20:41:37',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_member' => 21,
                 'left' => 12500.0,
@@ -108,9 +100,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:43:42',
                 'datemodified' => '2025-04-22 20:43:42',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_member' => 21,
                 'left' => 10000.0,
@@ -123,9 +114,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:47:11',
                 'datemodified' => '2025-04-22 20:47:11',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_member' => 90,
                 'left' => 2500.0,
@@ -138,9 +128,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:52:28',
                 'datemodified' => '2025-04-22 20:52:28',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_member' => 21,
                 'left' => 7500.0,
@@ -153,9 +142,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:52:28',
                 'datemodified' => '2025-04-22 20:52:28',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_member' => 90,
                 'left' => 2500.0,
@@ -168,9 +156,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:55:29',
                 'datemodified' => '2025-04-22 20:55:29',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_member' => 21,
                 'left' => 5000.0,
@@ -183,9 +170,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-22 20:55:29',
                 'datemodified' => '2025-04-22 20:55:29',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -198,9 +184,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-23 21:00:21',
                 'datemodified' => '2025-04-23 21:00:21',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_member' => 167,
                 'left' => 5000.0,
@@ -213,9 +198,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-24 20:41:42',
                 'datemodified' => '2025-04-24 20:41:42',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_member' => 38,
                 'left' => 10000.0,
@@ -228,9 +212,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 15:15:05',
                 'datemodified' => '2025-04-25 15:15:05',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_member' => 178,
                 'left' => 2500.0,
@@ -243,9 +226,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 19:35:38',
                 'datemodified' => '2025-04-25 19:35:38',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_member' => 21,
                 'left' => 10000.0,
@@ -258,9 +240,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 19:35:38',
                 'datemodified' => '2025-04-25 19:35:38',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_member' => 10,
                 'left' => 37500.0,
@@ -273,9 +254,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 19:44:52',
                 'datemodified' => '2025-04-25 19:44:52',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_member' => 10,
                 'left' => 35000.0,
@@ -288,9 +268,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 19:46:44',
                 'datemodified' => '2025-04-25 19:46:44',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_member' => 10,
                 'left' => 32500.0,
@@ -303,9 +282,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 19:48:10',
                 'datemodified' => '2025-04-25 19:48:10',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_member' => 13,
                 'left' => 7500.0,
@@ -318,9 +296,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 20:19:24',
                 'datemodified' => '2025-04-25 20:19:24',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_member' => 10,
                 'left' => 30000.0,
@@ -333,9 +310,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-25 20:19:24',
                 'datemodified' => '2025-04-25 20:19:24',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_member' => 9,
                 'left' => 47500.0,
@@ -348,9 +324,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-27 12:27:29',
                 'datemodified' => '2025-04-27 12:27:29',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_member' => 21,
                 'left' => 7500.0,
@@ -363,9 +338,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-29 16:58:43',
                 'datemodified' => '2025-04-29 16:58:43',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_member' => 21,
                 'left' => 5000.0,
@@ -378,9 +352,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-04-29 17:08:02',
                 'datemodified' => '2025-04-29 17:08:02',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_member' => 28,
                 'left' => 2500.0,
@@ -393,9 +366,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 14:28:55',
                 'datemodified' => '2025-05-01 14:28:55',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -408,9 +380,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 14:28:55',
                 'datemodified' => '2025-05-01 14:28:55',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_member' => 55,
                 'left' => 2500.0,
@@ -423,9 +394,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 20:27:05',
                 'datemodified' => '2025-05-01 20:27:05',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_member' => 21,
                 'left' => 5000.0,
@@ -438,9 +408,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 20:27:05',
                 'datemodified' => '2025-05-01 20:27:05',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_member' => 55,
                 'left' => 2500.0,
@@ -453,9 +422,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 20:30:37',
                 'datemodified' => '2025-05-01 20:30:37',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_member' => 21,
                 'left' => 2500.0,
@@ -468,9 +436,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 20:30:37',
                 'datemodified' => '2025-05-01 20:30:37',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_member' => 55,
                 'left' => 2500.0,
@@ -483,9 +450,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-01 21:40:56',
                 'datemodified' => '2025-05-01 21:40:56',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_member' => 221,
                 'left' => 2500.0,
@@ -498,9 +464,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-02 11:48:45',
                 'datemodified' => '2025-05-02 11:48:45',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_member' => 39,
                 'left' => 10000.0,
@@ -513,9 +478,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-04 20:41:30',
                 'datemodified' => '2025-05-04 20:41:30',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_member' => 21,
                 'left' => 2500.0,
@@ -528,9 +492,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-04 20:41:30',
                 'datemodified' => '2025-05-04 20:41:30',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_member' => 15,
                 'left' => 2500.0,
@@ -543,9 +506,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 17:38:42',
                 'datemodified' => '2025-05-05 17:38:42',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_member' => 9,
                 'left' => 65000.0,
@@ -558,9 +520,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 17:38:42',
                 'datemodified' => '2025-05-05 17:38:42',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_member' => 209,
                 'left' => 2500.0,
@@ -573,9 +534,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 18:09:41',
                 'datemodified' => '2025-05-05 18:09:41',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_member' => 13,
                 'left' => 5000.0,
@@ -588,9 +548,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 18:09:41',
                 'datemodified' => '2025-05-05 18:09:41',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_member' => 10,
                 'left' => 47500.0,
@@ -603,9 +562,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-05 18:09:41',
                 'datemodified' => '2025-05-05 18:09:41',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_member' => 55,
                 'left' => 2500.0,
@@ -618,9 +576,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-06 23:48:16',
                 'datemodified' => '2025-05-06 23:48:16',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_member' => 21,
                 'left' => 2500.0,
@@ -633,9 +590,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-07 21:07:57',
                 'datemodified' => '2025-05-07 21:07:57',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_member' => 26,
                 'left' => 2500.0,
@@ -648,9 +604,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-15 19:08:41',
                 'datemodified' => '2025-05-15 19:08:41',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -663,9 +618,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-15 19:08:41',
                 'datemodified' => '2025-05-15 19:08:41',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_member' => 21,
                 'left' => 2500.0,
@@ -678,9 +632,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-15 19:08:41',
                 'datemodified' => '2025-05-15 19:08:41',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_member' => 56,
                 'left' => 2500.0,
@@ -693,9 +646,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-16 09:59:48',
                 'datemodified' => '2025-05-16 09:59:48',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_member' => 38,
                 'left' => 12500.0,
@@ -708,9 +660,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-16 09:59:48',
                 'datemodified' => '2025-05-16 09:59:48',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_member' => 167,
                 'left' => 5000.0,
@@ -723,9 +674,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-18 13:27:17',
                 'datemodified' => '2025-05-18 13:27:17',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_member' => 41,
                 'left' => 2500.0,
@@ -738,9 +688,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-20 16:03:19',
                 'datemodified' => '2025-05-20 16:03:19',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_member' => 38,
                 'left' => 12500.0,
@@ -753,9 +702,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-20 16:03:19',
                 'datemodified' => '2025-05-20 16:03:19',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_member' => 90,
                 'left' => 2500.0,
@@ -768,9 +716,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-24 21:20:19',
                 'datemodified' => '2025-05-24 21:20:19',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_member' => 21,
                 'left' => 7500.0,
@@ -783,9 +730,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-24 21:20:19',
                 'datemodified' => '2025-05-24 21:20:19',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'id_member' => 38,
                 'left' => 10000.0,
@@ -798,9 +744,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-27 22:05:15',
                 'datemodified' => '2025-05-27 22:05:15',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'id_member' => 36,
                 'left' => 2500.0,
@@ -813,9 +758,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-29 12:57:37',
                 'datemodified' => '2025-05-29 12:57:37',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'id_member' => 26,
                 'left' => 2500.0,
@@ -828,9 +772,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-29 12:57:37',
                 'datemodified' => '2025-05-29 12:57:37',
-            ),
-            54 => 
-            array (
+            ],
+            54 => [
                 'id' => 55,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -843,9 +786,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-29 12:57:37',
                 'datemodified' => '2025-05-29 12:57:37',
-            ),
-            55 => 
-            array (
+            ],
+            55 => [
                 'id' => 56,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -858,9 +800,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-29 19:49:19',
                 'datemodified' => '2025-05-29 19:49:19',
-            ),
-            56 => 
-            array (
+            ],
+            56 => [
                 'id' => 57,
                 'id_member' => 171,
                 'left' => 2500.0,
@@ -873,9 +814,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-30 21:59:43',
                 'datemodified' => '2025-05-30 21:59:43',
-            ),
-            57 => 
-            array (
+            ],
+            57 => [
                 'id' => 58,
                 'id_member' => 21,
                 'left' => 15000.0,
@@ -888,9 +828,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-03 23:12:32',
                 'datemodified' => '2025-06-03 23:12:32',
-            ),
-            58 => 
-            array (
+            ],
+            58 => [
                 'id' => 59,
                 'id_member' => 106,
                 'left' => 2500.0,
@@ -903,9 +842,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 12:36:35',
                 'datemodified' => '2025-06-04 12:36:35',
-            ),
-            59 => 
-            array (
+            ],
+            59 => [
                 'id' => 60,
                 'id_member' => 9,
                 'left' => 95000.0,
@@ -918,9 +856,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 12:36:35',
                 'datemodified' => '2025-06-04 12:36:35',
-            ),
-            60 => 
-            array (
+            ],
+            60 => [
                 'id' => 61,
                 'id_member' => 17,
                 'left' => 87500.0,
@@ -933,9 +870,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 16:55:46',
                 'datemodified' => '2025-06-04 16:55:46',
-            ),
-            61 => 
-            array (
+            ],
+            61 => [
                 'id' => 62,
                 'id_member' => 17,
                 'left' => 85000.0,
@@ -948,9 +884,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 16:57:58',
                 'datemodified' => '2025-06-04 16:57:58',
-            ),
-            62 => 
-            array (
+            ],
+            62 => [
                 'id' => 63,
                 'id_member' => 237,
                 'left' => 5000.0,
@@ -963,9 +898,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 17:00:09',
                 'datemodified' => '2025-06-04 17:00:09',
-            ),
-            63 => 
-            array (
+            ],
+            63 => [
                 'id' => 64,
                 'id_member' => 17,
                 'left' => 82500.0,
@@ -978,9 +912,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 17:00:09',
                 'datemodified' => '2025-06-04 17:00:09',
-            ),
-            64 => 
-            array (
+            ],
+            64 => [
                 'id' => 65,
                 'id_member' => 237,
                 'left' => 2500.0,
@@ -993,9 +926,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 17:04:05',
                 'datemodified' => '2025-06-04 17:04:05',
-            ),
-            65 => 
-            array (
+            ],
+            65 => [
                 'id' => 66,
                 'id_member' => 17,
                 'left' => 80000.0,
@@ -1008,9 +940,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-04 17:04:05',
                 'datemodified' => '2025-06-04 17:04:05',
-            ),
-            66 => 
-            array (
+            ],
+            66 => [
                 'id' => 67,
                 'id_member' => 11,
                 'left' => 2500.0,
@@ -1023,9 +954,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-07 11:54:27',
                 'datemodified' => '2025-06-07 11:54:27',
-            ),
-            67 => 
-            array (
+            ],
+            67 => [
                 'id' => 68,
                 'id_member' => 9,
                 'left' => 102500.0,
@@ -1038,9 +968,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-07 11:54:27',
                 'datemodified' => '2025-06-07 11:54:27',
-            ),
-            68 => 
-            array (
+            ],
+            68 => [
                 'id' => 69,
                 'id_member' => 109,
                 'left' => 2500.0,
@@ -1053,9 +982,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:05:36',
                 'datemodified' => '2025-06-11 14:05:36',
-            ),
-            69 => 
-            array (
+            ],
+            69 => [
                 'id' => 70,
                 'id_member' => 9,
                 'left' => 100000.0,
@@ -1068,9 +996,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:05:36',
                 'datemodified' => '2025-06-11 14:05:36',
-            ),
-            70 => 
-            array (
+            ],
+            70 => [
                 'id' => 71,
                 'id_member' => 108,
                 'left' => 2500.0,
@@ -1083,9 +1010,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:44:44',
                 'datemodified' => '2025-06-11 14:44:44',
-            ),
-            71 => 
-            array (
+            ],
+            71 => [
                 'id' => 72,
                 'id_member' => 106,
                 'left' => 2500.0,
@@ -1098,9 +1024,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:44:44',
                 'datemodified' => '2025-06-11 14:44:44',
-            ),
-            72 => 
-            array (
+            ],
+            72 => [
                 'id' => 73,
                 'id_member' => 9,
                 'left' => 97500.0,
@@ -1113,9 +1038,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:44:44',
                 'datemodified' => '2025-06-11 14:44:44',
-            ),
-            73 => 
-            array (
+            ],
+            73 => [
                 'id' => 74,
                 'id_member' => 9,
                 'left' => 95000.0,
@@ -1128,9 +1052,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:48:06',
                 'datemodified' => '2025-06-11 14:48:06',
-            ),
-            74 => 
-            array (
+            ],
+            74 => [
                 'id' => 75,
                 'id_member' => 9,
                 'left' => 92500.0,
@@ -1143,9 +1066,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 14:57:48',
                 'datemodified' => '2025-06-11 14:57:48',
-            ),
-            75 => 
-            array (
+            ],
+            75 => [
                 'id' => 76,
                 'id_member' => 9,
                 'left' => 90000.0,
@@ -1158,9 +1080,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 16:04:53',
                 'datemodified' => '2025-06-11 16:04:53',
-            ),
-            76 => 
-            array (
+            ],
+            76 => [
                 'id' => 77,
                 'id_member' => 258,
                 'left' => 2500.0,
@@ -1173,9 +1094,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 16:06:56',
                 'datemodified' => '2025-06-11 16:06:56',
-            ),
-            77 => 
-            array (
+            ],
+            77 => [
                 'id' => 78,
                 'id_member' => 9,
                 'left' => 87500.0,
@@ -1188,9 +1108,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 16:06:56',
                 'datemodified' => '2025-06-11 16:06:56',
-            ),
-            78 => 
-            array (
+            ],
+            78 => [
                 'id' => 79,
                 'id_member' => 39,
                 'left' => 15000.0,
@@ -1203,9 +1122,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-11 19:34:21',
                 'datemodified' => '2025-06-11 19:34:21',
-            ),
-            79 => 
-            array (
+            ],
+            79 => [
                 'id' => 80,
                 'id_member' => 42,
                 'left' => 7500.0,
@@ -1218,9 +1136,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-12 20:40:12',
                 'datemodified' => '2025-06-12 20:40:12',
-            ),
-            80 => 
-            array (
+            ],
+            80 => [
                 'id' => 81,
                 'id_member' => 22,
                 'left' => 37500.0,
@@ -1233,9 +1150,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-12 20:40:12',
                 'datemodified' => '2025-06-12 20:40:12',
-            ),
-            81 => 
-            array (
+            ],
+            81 => [
                 'id' => 82,
                 'id_member' => 17,
                 'left' => 82500.0,
@@ -1248,9 +1164,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-13 16:07:35',
                 'datemodified' => '2025-06-13 16:07:35',
-            ),
-            82 => 
-            array (
+            ],
+            82 => [
                 'id' => 83,
                 'id_member' => 38,
                 'left' => 12500.0,
@@ -1263,9 +1178,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-18 23:42:14',
                 'datemodified' => '2025-06-18 23:42:14',
-            ),
-            83 => 
-            array (
+            ],
+            83 => [
                 'id' => 84,
                 'id_member' => 39,
                 'left' => 12500.0,
@@ -1278,9 +1192,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-20 22:15:29',
                 'datemodified' => '2025-06-20 22:15:29',
-            ),
-            84 => 
-            array (
+            ],
+            84 => [
                 'id' => 85,
                 'id_member' => 90,
                 'left' => 2500.0,
@@ -1293,9 +1206,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-22 15:21:07',
                 'datemodified' => '2025-06-22 15:21:07',
-            ),
-            85 => 
-            array (
+            ],
+            85 => [
                 'id' => 86,
                 'id_member' => 21,
                 'left' => 22500.0,
@@ -1308,9 +1220,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-22 15:21:07',
                 'datemodified' => '2025-06-22 15:21:07',
-            ),
-            86 => 
-            array (
+            ],
+            86 => [
                 'id' => 87,
                 'id_member' => 258,
                 'left' => 2500.0,
@@ -1323,9 +1234,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 12:56:22',
                 'datemodified' => '2025-06-26 12:56:22',
-            ),
-            87 => 
-            array (
+            ],
+            87 => [
                 'id' => 88,
                 'id_member' => 9,
                 'left' => 100000.0,
@@ -1338,9 +1248,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 12:56:22',
                 'datemodified' => '2025-06-26 12:56:22',
-            ),
-            88 => 
-            array (
+            ],
+            88 => [
                 'id' => 89,
                 'id_member' => 9,
                 'left' => 97500.0,
@@ -1353,9 +1262,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 12:58:02',
                 'datemodified' => '2025-06-26 12:58:02',
-            ),
-            89 => 
-            array (
+            ],
+            89 => [
                 'id' => 90,
                 'id_member' => 262,
                 'left' => 2500.0,
@@ -1368,9 +1276,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 21:01:06',
                 'datemodified' => '2025-06-26 21:01:06',
-            ),
-            90 => 
-            array (
+            ],
+            90 => [
                 'id' => 91,
                 'id_member' => 39,
                 'left' => 10000.0,
@@ -1383,9 +1290,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-06-26 21:01:06',
                 'datemodified' => '2025-06-26 21:01:06',
-            ),
-            91 => 
-            array (
+            ],
+            91 => [
                 'id' => 92,
                 'id_member' => 24,
                 'left' => 12500.0,
@@ -1398,9 +1304,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-10 21:04:06',
                 'datemodified' => '2025-07-10 21:04:06',
-            ),
-            92 => 
-            array (
+            ],
+            92 => [
                 'id' => 93,
                 'id_member' => 23,
                 'left' => 2500.0,
@@ -1413,9 +1318,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-10 21:04:06',
                 'datemodified' => '2025-07-10 21:04:06',
-            ),
-            93 => 
-            array (
+            ],
+            93 => [
                 'id' => 94,
                 'id_member' => 237,
                 'left' => 2500.0,
@@ -1428,9 +1332,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-15 10:26:03',
                 'datemodified' => '2025-07-15 10:26:03',
-            ),
-            94 => 
-            array (
+            ],
+            94 => [
                 'id' => 95,
                 'id_member' => 17,
                 'left' => 92500.0,
@@ -1443,9 +1346,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-15 10:26:03',
                 'datemodified' => '2025-07-15 10:26:03',
-            ),
-            95 => 
-            array (
+            ],
+            95 => [
                 'id' => 96,
                 'id_member' => 274,
                 'left' => 2500.0,
@@ -1458,9 +1360,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-07-21 23:25:18',
                 'datemodified' => '2025-07-21 23:25:18',
-            ),
-            96 => 
-            array (
+            ],
+            96 => [
                 'id' => 97,
                 'id_member' => 17,
                 'left' => 90000.0,
@@ -1473,9 +1374,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-15 11:55:31',
                 'datemodified' => '2025-08-15 11:55:31',
-            ),
-            97 => 
-            array (
+            ],
+            97 => [
                 'id' => 98,
                 'id_member' => 237,
                 'left' => 2500.0,
@@ -1488,9 +1388,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-15 11:58:56',
                 'datemodified' => '2025-08-15 11:58:56',
-            ),
-            98 => 
-            array (
+            ],
+            98 => [
                 'id' => 99,
                 'id_member' => 17,
                 'left' => 87500.0,
@@ -1503,9 +1402,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-15 11:58:56',
                 'datemodified' => '2025-08-15 11:58:56',
-            ),
-            99 => 
-            array (
+            ],
+            99 => [
                 'id' => 100,
                 'id_member' => 57,
                 'left' => 2500.0,
@@ -1518,9 +1416,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-22 14:41:54',
                 'datemodified' => '2025-08-22 14:41:54',
-            ),
-            100 => 
-            array (
+            ],
+            100 => [
                 'id' => 101,
                 'id_member' => 56,
                 'left' => 5000.0,
@@ -1533,9 +1430,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-22 14:41:54',
                 'datemodified' => '2025-08-22 14:41:54',
-            ),
-            101 => 
-            array (
+            ],
+            101 => [
                 'id' => 102,
                 'id_member' => 38,
                 'left' => 15000.0,
@@ -1548,9 +1444,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-08-22 14:41:54',
                 'datemodified' => '2025-08-22 14:41:54',
-            ),
-            102 => 
-            array (
+            ],
+            102 => [
                 'id' => 103,
                 'id_member' => 46,
                 'left' => 2500.0,
@@ -1563,9 +1458,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:25:38',
                 'datemodified' => '2025-09-01 14:25:38',
-            ),
-            103 => 
-            array (
+            ],
+            103 => [
                 'id' => 104,
                 'id_member' => 42,
                 'left' => 5000.0,
@@ -1578,9 +1472,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:25:38',
                 'datemodified' => '2025-09-01 14:25:38',
-            ),
-            104 => 
-            array (
+            ],
+            104 => [
                 'id' => 105,
                 'id_member' => 22,
                 'left' => 47500.0,
@@ -1593,9 +1486,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:25:38',
                 'datemodified' => '2025-09-01 14:25:38',
-            ),
-            105 => 
-            array (
+            ],
+            105 => [
                 'id' => 106,
                 'id_member' => 44,
                 'left' => 5000.0,
@@ -1608,9 +1500,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:41:05',
                 'datemodified' => '2025-09-01 14:41:05',
-            ),
-            106 => 
-            array (
+            ],
+            106 => [
                 'id' => 107,
                 'id_member' => 42,
                 'left' => 2500.0,
@@ -1623,9 +1514,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:41:05',
                 'datemodified' => '2025-09-01 14:41:05',
-            ),
-            107 => 
-            array (
+            ],
+            107 => [
                 'id' => 108,
                 'id_member' => 22,
                 'left' => 45000.0,
@@ -1638,9 +1528,8 @@ class JpbPairingQualifiedTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-09-01 14:41:05',
                 'datemodified' => '2025-09-01 14:41:05',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

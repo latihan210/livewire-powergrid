@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbShopOrderDetailTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbShopOrderDetailTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('shop_order_items')->delete();
-        
-        \DB::table('shop_order_items')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('shop_order_items')->insert([
+            0 => [
                 'id' => 1,
                 'id_shop_order' => 1,
                 'id_member' => 2,
@@ -44,9 +41,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-21 13:40:24',
                 'datemodified' => '2025-04-21 13:40:24',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'id_shop_order' => 2,
                 'id_member' => 23,
@@ -70,9 +66,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-21 17:50:58',
                 'datemodified' => '2025-04-21 17:50:58',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'id_shop_order' => 3,
                 'id_member' => 23,
@@ -96,9 +91,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-21 18:40:51',
                 'datemodified' => '2025-04-21 18:40:51',
-            ),
-            3 => 
-            array (
+            ],
+            3 => [
                 'id' => 4,
                 'id_shop_order' => 4,
                 'id_member' => 22,
@@ -122,9 +116,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-21 18:43:02',
                 'datemodified' => '2025-04-21 18:43:02',
-            ),
-            4 => 
-            array (
+            ],
+            4 => [
                 'id' => 5,
                 'id_shop_order' => 5,
                 'id_member' => 17,
@@ -148,9 +141,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-22 19:13:52',
                 'datemodified' => '2025-04-22 19:13:52',
-            ),
-            5 => 
-            array (
+            ],
+            5 => [
                 'id' => 6,
                 'id_shop_order' => 6,
                 'id_member' => 26,
@@ -174,9 +166,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-23 18:54:46',
                 'datemodified' => '2025-04-23 18:54:46',
-            ),
-            6 => 
-            array (
+            ],
+            6 => [
                 'id' => 7,
                 'id_shop_order' => 7,
                 'id_member' => 23,
@@ -200,9 +191,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-24 20:03:06',
                 'datemodified' => '2025-04-24 20:03:06',
-            ),
-            7 => 
-            array (
+            ],
+            7 => [
                 'id' => 8,
                 'id_shop_order' => 8,
                 'id_member' => 35,
@@ -226,9 +216,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-25 10:30:55',
                 'datemodified' => '2025-04-25 10:30:55',
-            ),
-            8 => 
-            array (
+            ],
+            8 => [
                 'id' => 9,
                 'id_shop_order' => 9,
                 'id_member' => 23,
@@ -252,9 +241,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-25 14:18:08',
                 'datemodified' => '2025-04-25 14:18:08',
-            ),
-            9 => 
-            array (
+            ],
+            9 => [
                 'id' => 10,
                 'id_shop_order' => 10,
                 'id_member' => 17,
@@ -278,9 +266,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-25 19:32:42',
                 'datemodified' => '2025-04-25 19:32:42',
-            ),
-            10 => 
-            array (
+            ],
+            10 => [
                 'id' => 11,
                 'id_shop_order' => 11,
                 'id_member' => 13,
@@ -304,9 +291,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-25 19:42:44',
                 'datemodified' => '2025-04-25 19:42:44',
-            ),
-            11 => 
-            array (
+            ],
+            11 => [
                 'id' => 12,
                 'id_shop_order' => 12,
                 'id_member' => 15,
@@ -330,9 +316,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-27 12:22:12',
                 'datemodified' => '2025-04-27 12:22:12',
-            ),
-            12 => 
-            array (
+            ],
+            12 => [
                 'id' => 13,
                 'id_shop_order' => 13,
                 'id_member' => 21,
@@ -356,9 +341,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-29 16:20:17',
                 'datemodified' => '2025-04-29 16:20:17',
-            ),
-            13 => 
-            array (
+            ],
+            13 => [
                 'id' => 14,
                 'id_shop_order' => 14,
                 'id_member' => 21,
@@ -382,9 +366,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-04-30 12:08:18',
                 'datemodified' => '2025-04-30 12:08:18',
-            ),
-            14 => 
-            array (
+            ],
+            14 => [
                 'id' => 15,
                 'id_shop_order' => 15,
                 'id_member' => 26,
@@ -408,9 +391,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-01 13:51:38',
                 'datemodified' => '2025-05-01 13:51:38',
-            ),
-            15 => 
-            array (
+            ],
+            15 => [
                 'id' => 16,
                 'id_shop_order' => 16,
                 'id_member' => 21,
@@ -434,9 +416,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-01 21:27:06',
                 'datemodified' => '2025-05-01 21:27:06',
-            ),
-            16 => 
-            array (
+            ],
+            16 => [
                 'id' => 17,
                 'id_shop_order' => 17,
                 'id_member' => 21,
@@ -460,9 +441,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-02 11:33:28',
                 'datemodified' => '2025-05-02 11:33:28',
-            ),
-            17 => 
-            array (
+            ],
+            17 => [
                 'id' => 18,
                 'id_shop_order' => 18,
                 'id_member' => 23,
@@ -486,9 +466,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-04 09:10:24',
                 'datemodified' => '2025-05-04 09:10:24',
-            ),
-            18 => 
-            array (
+            ],
+            18 => [
                 'id' => 19,
                 'id_shop_order' => 19,
                 'id_member' => 15,
@@ -512,9 +491,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-05 17:26:30',
                 'datemodified' => '2025-05-05 17:26:30',
-            ),
-            19 => 
-            array (
+            ],
+            19 => [
                 'id' => 20,
                 'id_shop_order' => 20,
                 'id_member' => 13,
@@ -538,9 +516,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-05 18:07:33',
                 'datemodified' => '2025-05-05 18:07:33',
-            ),
-            20 => 
-            array (
+            ],
+            20 => [
                 'id' => 21,
                 'id_shop_order' => 21,
                 'id_member' => 21,
@@ -564,9 +541,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-06 15:20:40',
                 'datemodified' => '2025-05-06 15:20:40',
-            ),
-            21 => 
-            array (
+            ],
+            21 => [
                 'id' => 22,
                 'id_shop_order' => 22,
                 'id_member' => 23,
@@ -590,9 +566,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-07 19:09:59',
                 'datemodified' => '2025-05-07 19:09:59',
-            ),
-            22 => 
-            array (
+            ],
+            22 => [
                 'id' => 23,
                 'id_shop_order' => 23,
                 'id_member' => 35,
@@ -616,9 +591,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-14 11:04:13',
                 'datemodified' => '2025-05-14 11:04:13',
-            ),
-            23 => 
-            array (
+            ],
+            23 => [
                 'id' => 24,
                 'id_shop_order' => 24,
                 'id_member' => 23,
@@ -642,9 +616,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-16 06:41:16',
                 'datemodified' => '2025-05-16 06:41:16',
-            ),
-            24 => 
-            array (
+            ],
+            24 => [
                 'id' => 25,
                 'id_shop_order' => 25,
                 'id_member' => 23,
@@ -668,9 +641,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-18 12:56:57',
                 'datemodified' => '2025-05-18 12:56:57',
-            ),
-            25 => 
-            array (
+            ],
+            25 => [
                 'id' => 26,
                 'id_shop_order' => 26,
                 'id_member' => 23,
@@ -694,9 +666,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-20 14:33:23',
                 'datemodified' => '2025-05-20 14:33:23',
-            ),
-            26 => 
-            array (
+            ],
+            26 => [
                 'id' => 27,
                 'id_shop_order' => 27,
                 'id_member' => 21,
@@ -720,9 +691,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-22 13:39:02',
                 'datemodified' => '2025-05-22 13:39:02',
-            ),
-            27 => 
-            array (
+            ],
+            27 => [
                 'id' => 28,
                 'id_shop_order' => 28,
                 'id_member' => 23,
@@ -746,9 +716,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-27 20:37:39',
                 'datemodified' => '2025-05-27 20:37:39',
-            ),
-            28 => 
-            array (
+            ],
+            28 => [
                 'id' => 29,
                 'id_shop_order' => 29,
                 'id_member' => 35,
@@ -772,9 +741,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-29 14:45:27',
                 'datemodified' => '2025-05-29 14:45:27',
-            ),
-            29 => 
-            array (
+            ],
+            29 => [
                 'id' => 30,
                 'id_shop_order' => 30,
                 'id_member' => 23,
@@ -798,9 +766,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-29 19:25:04',
                 'datemodified' => '2025-05-29 19:25:04',
-            ),
-            30 => 
-            array (
+            ],
+            30 => [
                 'id' => 31,
                 'id_shop_order' => 31,
                 'id_member' => 22,
@@ -824,9 +791,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-30 13:14:59',
                 'datemodified' => '2025-05-30 13:14:59',
-            ),
-            31 => 
-            array (
+            ],
+            31 => [
                 'id' => 32,
                 'id_shop_order' => 32,
                 'id_member' => 23,
@@ -850,9 +816,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-30 17:02:39',
                 'datemodified' => '2025-05-30 17:02:39',
-            ),
-            32 => 
-            array (
+            ],
+            32 => [
                 'id' => 33,
                 'id_shop_order' => 33,
                 'id_member' => 15,
@@ -876,9 +841,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-05-31 15:10:41',
                 'datemodified' => '2025-05-31 15:10:41',
-            ),
-            33 => 
-            array (
+            ],
+            33 => [
                 'id' => 34,
                 'id_shop_order' => 34,
                 'id_member' => 21,
@@ -902,9 +866,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-03 21:21:24',
                 'datemodified' => '2025-06-03 21:21:24',
-            ),
-            34 => 
-            array (
+            ],
+            34 => [
                 'id' => 35,
                 'id_shop_order' => 35,
                 'id_member' => 17,
@@ -928,9 +891,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-04 16:45:38',
                 'datemodified' => '2025-06-04 16:45:38',
-            ),
-            35 => 
-            array (
+            ],
+            35 => [
                 'id' => 36,
                 'id_shop_order' => 36,
                 'id_member' => 15,
@@ -954,9 +916,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-11 14:01:13',
                 'datemodified' => '2025-06-11 14:01:13',
-            ),
-            36 => 
-            array (
+            ],
+            36 => [
                 'id' => 37,
                 'id_shop_order' => 37,
                 'id_member' => 15,
@@ -980,9 +941,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-11 14:18:43',
                 'datemodified' => '2025-06-11 14:18:43',
-            ),
-            37 => 
-            array (
+            ],
+            37 => [
                 'id' => 38,
                 'id_shop_order' => 38,
                 'id_member' => 23,
@@ -1006,9 +966,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-11 18:22:22',
                 'datemodified' => '2025-06-11 18:22:22',
-            ),
-            38 => 
-            array (
+            ],
+            38 => [
                 'id' => 39,
                 'id_shop_order' => 39,
                 'id_member' => 17,
@@ -1032,9 +991,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-13 16:02:13',
                 'datemodified' => '2025-06-13 16:02:13',
-            ),
-            39 => 
-            array (
+            ],
+            39 => [
                 'id' => 40,
                 'id_shop_order' => 40,
                 'id_member' => 23,
@@ -1058,9 +1016,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-18 21:06:32',
                 'datemodified' => '2025-06-18 21:06:32',
-            ),
-            40 => 
-            array (
+            ],
+            40 => [
                 'id' => 41,
                 'id_shop_order' => 41,
                 'id_member' => 21,
@@ -1084,9 +1041,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-20 09:25:41',
                 'datemodified' => '2025-06-20 09:25:41',
-            ),
-            41 => 
-            array (
+            ],
+            41 => [
                 'id' => 42,
                 'id_shop_order' => 42,
                 'id_member' => 23,
@@ -1110,9 +1066,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-20 20:06:01',
                 'datemodified' => '2025-06-20 20:06:01',
-            ),
-            42 => 
-            array (
+            ],
+            42 => [
                 'id' => 43,
                 'id_shop_order' => 43,
                 'id_member' => 15,
@@ -1136,9 +1091,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-26 12:53:16',
                 'datemodified' => '2025-06-26 12:53:16',
-            ),
-            43 => 
-            array (
+            ],
+            43 => [
                 'id' => 44,
                 'id_shop_order' => 44,
                 'id_member' => 23,
@@ -1162,9 +1116,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-06-26 20:07:11',
                 'datemodified' => '2025-06-26 20:07:11',
-            ),
-            44 => 
-            array (
+            ],
+            44 => [
                 'id' => 45,
                 'id_shop_order' => 45,
                 'id_member' => 23,
@@ -1188,9 +1141,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-10 20:49:23',
                 'datemodified' => '2025-07-10 20:49:23',
-            ),
-            45 => 
-            array (
+            ],
+            45 => [
                 'id' => 46,
                 'id_shop_order' => 46,
                 'id_member' => 17,
@@ -1214,9 +1166,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-14 16:03:27',
                 'datemodified' => '2025-07-14 16:03:27',
-            ),
-            46 => 
-            array (
+            ],
+            46 => [
                 'id' => 47,
                 'id_shop_order' => 47,
                 'id_member' => 8,
@@ -1240,9 +1191,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-21 18:01:29',
                 'datemodified' => '2025-07-21 18:01:29',
-            ),
-            47 => 
-            array (
+            ],
+            47 => [
                 'id' => 48,
                 'id_shop_order' => 48,
                 'id_member' => 8,
@@ -1266,9 +1216,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-21 18:02:34',
                 'datemodified' => '2025-07-21 18:02:34',
-            ),
-            48 => 
-            array (
+            ],
+            48 => [
                 'id' => 49,
                 'id_shop_order' => 49,
                 'id_member' => 275,
@@ -1292,9 +1241,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-21 23:23:13',
                 'datemodified' => '2025-07-21 23:23:13',
-            ),
-            49 => 
-            array (
+            ],
+            49 => [
                 'id' => 50,
                 'id_shop_order' => 50,
                 'id_member' => 276,
@@ -1318,9 +1266,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-07-21 23:24:01',
                 'datemodified' => '2025-07-21 23:24:01',
-            ),
-            50 => 
-            array (
+            ],
+            50 => [
                 'id' => 51,
                 'id_shop_order' => 51,
                 'id_member' => 23,
@@ -1344,9 +1291,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-08-01 12:01:45',
                 'datemodified' => '2025-08-01 12:01:45',
-            ),
-            51 => 
-            array (
+            ],
+            51 => [
                 'id' => 52,
                 'id_shop_order' => 52,
                 'id_member' => 274,
@@ -1370,9 +1316,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-08-13 21:06:39',
                 'datemodified' => '2025-08-13 21:06:39',
-            ),
-            52 => 
-            array (
+            ],
+            52 => [
                 'id' => 53,
                 'id_shop_order' => 53,
                 'id_member' => 17,
@@ -1396,9 +1341,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-08-15 11:35:48',
                 'datemodified' => '2025-08-15 11:35:48',
-            ),
-            53 => 
-            array (
+            ],
+            53 => [
                 'id' => 54,
                 'id_shop_order' => 54,
                 'id_member' => 22,
@@ -1422,9 +1366,8 @@ class JpbShopOrderDetailTableSeeder extends Seeder
                 'subtotal_cost' => 0.0,
                 'datecreated' => '2025-08-28 15:42:37',
                 'datemodified' => '2025-08-28 15:42:37',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

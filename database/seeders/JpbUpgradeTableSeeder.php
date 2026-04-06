@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbUpgradeTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbUpgradeTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_upgrade')->delete();
-        
-        
-        
+
     }
 }

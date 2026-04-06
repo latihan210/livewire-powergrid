@@ -20,7 +20,7 @@ test('linked member users see the member sidebar', function () {
 
     DB::table('members')->insert([
         'user_id' => $user->id,
-        'username' => 'member-' . Str::lower(Str::random(8)),
+        'username' => 'member-'.Str::lower(Str::random(8)),
         'name' => 'Member Test',
         'package' => 'basic',
         'sponsor' => 1,

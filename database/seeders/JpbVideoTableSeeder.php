@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbVideoTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,13 +13,11 @@ class JpbVideoTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_video')->delete();
-        
-        \DB::table('jpb_video')->insert(array (
-            0 => 
-            array (
+
+        \DB::table('jpb_video')->insert([
+            0 => [
                 'id' => 1,
                 'title' => 'Hidup dalam kisah yang rata-rata',
                 'url' => 'https://jpbuana.s3.us-west-004.backblazeb2.com/video_files/1750056033.mp4',
@@ -29,9 +26,8 @@ class JpbVideoTableSeeder extends Seeder
                 'status' => 1,
                 'datecreated' => '2025-05-28 15:50:34',
                 'datemodified' => '2025-06-16 13:40:38',
-            ),
-            1 => 
-            array (
+            ],
+            1 => [
                 'id' => 2,
                 'title' => 'test 2',
                 'url' => 'https://jpbuana.s3.us-west-004.backblazeb2.com/video_files/1748499706.mp4',
@@ -40,9 +36,8 @@ class JpbVideoTableSeeder extends Seeder
                 'status' => 2,
                 'datecreated' => '2025-05-28 16:55:36',
                 'datemodified' => '2025-06-16 13:49:57',
-            ),
-            2 => 
-            array (
+            ],
+            2 => [
                 'id' => 3,
                 'title' => 'test 3',
                 'url' => 'https://jpbuana.s3.us-west-004.backblazeb2.com/video_files/1748426237.mp4',
@@ -51,9 +46,8 @@ class JpbVideoTableSeeder extends Seeder
                 'status' => 2,
                 'datecreated' => '2025-05-28 16:57:22',
                 'datemodified' => '2025-06-12 19:41:56',
-            ),
-        ));
-        
-        
+            ],
+        ]);
+
     }
 }

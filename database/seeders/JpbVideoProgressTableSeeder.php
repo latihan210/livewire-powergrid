@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbVideoProgressTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbVideoProgressTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('jpb_video_progress')->delete();
-        
-        
-        
+
     }
 }

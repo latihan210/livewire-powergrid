@@ -6,7 +6,6 @@ use Illuminate\Database\Seeder;
 
 class JpbRewardConfigTableSeeder extends Seeder
 {
-
     /**
      * Auto generated seed file
      *
@@ -14,11 +13,8 @@ class JpbRewardConfigTableSeeder extends Seeder
      */
     public function run()
     {
-        
 
         \DB::table('reward_configs')->delete();
-        
-        
-        
+
     }
 }
